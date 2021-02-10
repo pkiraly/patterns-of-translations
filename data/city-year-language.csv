@@ -1,9 +1,9 @@
-city,year,nyelv,n
+normalized_city,year,nyelv,n
 ,1952,örmény,2
 ,1957,örmény,119
 : Új Delhi :,1974,hindi,13
 ?,1952,örmény,2
-Åbo,1879,svéd,60
+Åbo,1879,svéd,61
 Amsterdam,1925,holland,2
 Amsterdam,1934,holland,2
 Amsterdam,1937,holland,3
@@ -19,7 +19,7 @@ Amsterdam,1969,holland,8
 Amsterdam,1977,holland,74
 Amsterdam,"NA",holland,41
 Amsterdam−Antwerpen,1952,holland,2
-Amsterdam−Bruxelless,"NA",holland,3
+Amsterdam−Brussels,"NA",holland,3
 Angoulème,1939,francia,15
 Ankara,1945,török,2
 Ankara,1946,török,17
@@ -31,7 +31,7 @@ Ankara,1952,török,17
 Ankara,1967,török,3
 "Ankara, Millî Eğitim Basimevi","Ankara, Millî Eğitim Basimevi",török,2
 Ankara−Istanbul,1968,török,3
-Ann Arbor,1977,angol,54
+Ann Arbor,1977,angol,55
 Antwerpen,1943,holland,2
 Antwerpen,1950,holland,3
 Antwerpen,1964,flamand,11
@@ -77,6 +77,7 @@ Barcelona,1976,spanyol,2
 Barcelona,"NA",spanyol,30
 Basel,1933,német,3
 Basel,1961,német,9
+Békéscsaba,1890,szlovák,2
 Beograd,1951,szerb,2
 Beograd,1964,horvát,83
 Beograd,1966,horvát,2
@@ -132,7 +133,7 @@ Berlin,1927,német,23
 Berlin,1928,német,2
 Berlin,1929,eszperantó,2
 Berlin,1929,német,3
-Berlin,1930,német,2
+Berlin,1930,német,3
 Berlin,1931,német,2
 Berlin,1941,német,2
 Berlin,1946,német,6
@@ -168,19 +169,18 @@ Berlin,1975,német,29
 Berlin,1976,német,102
 Berlin,1977,német,95
 Berlin,"NA",német,112
-Berlin und Leipzig,1926,német,3
-Berlin und Weimar,1977,német,34
 Berlin−Eisenach−Leipzig,1901,német,9
 Berlin−Eisenach−Leipzig,1903,német,2
 Berlin−Köln−Leipzig,1895,német,2
 Berlin−Leipzig,1900,német,5
 Berlin−Leipzig,1911,német,3
-Berlin−Leipzig,1926,német,38
+Berlin−Leipzig,1926,német,41
 Berlin−Leipzig,"NA",német,4
-Berlin−Potsdam,192?,német,7
+Berlin−Potsdam,192?,német,8
 Berlin−Stuttgart,1959,német,2
+Berlin−Weimar,1977,német,34
 Berlin−Wien,1929,német,2
-Bern,1868,német,91
+Bern,1868,német,92
 Bern,1968,német,9
 Bern,"NA",német,2
 Bilthoven,1939,holland,17
@@ -194,6 +194,7 @@ Bologna,1948,olasz,5
 Bologna,1959,olasz,2
 Boston,1901,angol,2
 Boudry,1948,francia,18
+Braşov,1863,német,15
 Braşov,1929,román,4
 Braşov,1930,román,3
 Braşov,1931,román,6
@@ -201,11 +202,13 @@ Braşov,1933,román,2
 Braşov,1934,román,2
 Braşov,1935,román,2
 Braşov,1936,román,3
+Braşov,1938,román,2
 Braşov,1945,román,2
 Braşov,1949,román,3
 Bratislava,1854,német,2
-Bratislava,1859,német,10
+Bratislava,1859,német,11
 Bratislava,1904,francia,274
+Bratislava,1909,szlovák,2
 Bratislava,1910,szlovák,3
 Bratislava,1932,cseh,15
 Bratislava,1934,szlovák,2
@@ -252,7 +255,7 @@ Bratislava,1976,szlovák,265
 Bratislava,1978,szlovák,35
 "Bratislava, Druhé vyd",1943,szlovák,19
 "Bratislava, Treti vyd","Bratislava, Treti vyd.",szlovák,18
-Bratislava−Leipzig,1854,német,14
+Bratislava−Leipzig,1854,német,15
 Bratislava−Leipzig,1879,német,2
 Braunschweig,1852,német,45
 Bregenz,1948,német,2
@@ -263,6 +266,7 @@ Brno,1949,cseh,3
 Brno,1950,cseh,44
 Bruxelles,1928,flamand,2
 Bruxelles,1946,francia,4
+Bruxelles,1947,francia,2
 Bruxelles,1949,francia,2
 Bruxelles,1963,francia,70
 Bruxelles,1964,francia,16
@@ -270,8 +274,8 @@ Bruxelles,1969,francia,62
 Bruxelles,1971,francia,11
 Bruxelles,1974,francia,8
 Bruxelles,1977,francia,51
-Bruxelles−Den Haag,1969,holland,110
-Bruxelles−Paris,1860,francia,103
+Bruxelles−Den Haag,1969,holland,111
+Bruxelles−Paris,1860,francia,104
 Bucureşti,1897,román,8
 Bucureşti,1907,román,10
 Bucureşti,1909,román,16
@@ -304,7 +308,7 @@ Bucureşti,1950,román,5
 Bucureşti,1951,román,3
 Bucureşti,1952,román,7
 Bucureşti,1953,román,15
-Bucureşti,1954,román,217
+Bucureşti,1954,román,218
 Bucureşti,1955,francia,2
 Bucureşti,1955,német,7
 Bucureşti,1955,román,98
@@ -333,18 +337,49 @@ Bucureşti,1973,román,133
 Bucureşti,1974,román,24
 Bucureşti,1975,román,22
 Bucureşti,1976,román,64
+Bucureşti,"NA",román,15
+Budapest,1829,német,41
+Budapest,1839,német,4
+Budapest,1841,német,8
+Budapest,1842,német,2
+Budapest,1843,német,5
+Budapest,1844,német,2
+Budapest,1850,német,4
+Budapest,1852,német,2
+Budapest,1853,német,10
+Budapest,1854,német,61
+Budapest,1855,német,58
+Budapest,1856,német,3
+Budapest,1858,német,20
+Budapest,1860,szlovák,3
+Budapest,1861,francia,2
+Budapest,1861,német,6
+Budapest,1861,olasz,2
+Budapest,1861,török,2
+Budapest,1863,német,10
+Budapest,1864,német,655
+Budapest,1865,szlovák,2
 Budapest,1866,német,8
-Budapest,1872,német,198
-Budapest,1873,német,13
-Budapest,1874,német,2
+Budapest,1867,francia,2
+Budapest,1867,német,662
+Budapest,1868,héber,20
+Budapest,1868,német,4
+Budapest,1869,német,2
+Budapest,1871,német,2
+Budapest,1872,német,200
+Budapest,1872,román,2
+Budapest,1873,héber,3
+Budapest,1873,német,15
+Budapest,1874,német,3
 Budapest,1874,török,2
 Budapest,1875,német,2
+Budapest,1876,német,7
 Budapest,1877,német,28
-Budapest,1877,román,2
-Budapest,1878,német,2
+Budapest,1877,román,4
+Budapest,1878,német,3
 Budapest,1879,német,3
-Budapest,1880,latin,19
-Budapest,1880,német,435
+Budapest,1880,latin,20
+Budapest,1880,német,436
 Budapest,1881,francia,2
 Budapest,1882,francia,10
 Budapest,1883,francia,4
@@ -353,7 +388,7 @@ Budapest,1885,francia,7
 Budapest,1886,német,71
 Budapest,1886,szlovák,6
 Budapest,1887,francia,2
-Budapest,1887,német,91
+Budapest,1887,német,92
 Budapest,1887,szlovák,4
 Budapest,1888,francia,2
 Budapest,1888,német,2
@@ -364,15 +399,16 @@ Budapest,1890,francia,7
 Budapest,1890,német,56
 Budapest,1890,volapük,75
 Budapest,1890,Volapük,2
-Budapest,1891,német,2
-Budapest,1892,német,2
+Budapest,1891,német,13
+Budapest,1892,német,4
+Budapest,1893,német,2
 Budapest,1894,német,38
 Budapest,1894,német (szász − gründler),10
 Budapest,1894,szlovák,5
-Budapest,1895,német,106
+Budapest,1895,német,107
 Budapest,1895,szlovák,4
-Budapest,1896,német,101
-Budapest,1897,német,2
+Budapest,1896,német,102
+Budapest,1897,német,3
 Budapest,1897,szlovák,2
 Budapest,1898,német,10
 Budapest,1898,szlovák,3
@@ -477,7 +513,7 @@ Budapest,1937,francia,32
 Budapest,1937,német,3
 Budapest,1938,angol,6
 Budapest,1938,francia,39
-Budapest,1938,német,778
+Budapest,1938,német,780
 Budapest,1939,angol,14
 Budapest,1939,francia,10
 Budapest,1939,német,15
@@ -545,7 +581,7 @@ Budapest,1963,orosz,585
 Budapest,1964,angol,97
 Budapest,1964,eszperantó,18
 Budapest,1964,francia,2
-Budapest,1964,német,67
+Budapest,1964,német,68
 Budapest,1965,angol,62
 Budapest,1965,eszperantó,23
 Budapest,1965,francia,201
@@ -578,7 +614,7 @@ Budapest,1970,angol,11
 Budapest,1970,eszperantó,143
 Budapest,1970,francia,33
 Budapest,1970,lengyel,6
-Budapest,1970,német,408
+Budapest,1970,német,409
 Budapest,1970,spanyol,3
 Budapest,1971,angol,14
 Budapest,1971,eszperantó,11
@@ -651,29 +687,38 @@ Budapest,1978,német,79
 Budapest,1979,angol,22
 Budapest,1985,német,2
 Budapest,"NA",francia,60
-Budapest,"NA",német,53
+Budapest,"NA",német,62
 Budapest,"NA",szlovák,16
-"Budapest, Datum fehlt ""Pester Lloyd""","Budapest, (Datum fehlt) ""Pester Lloyd""",német,4
-"Budapest, Datum unbek. ""Pester Lloyd""","Budapest, (Datum unbek.) ""Pester Lloyd""",német,2
 Budapest−Berlin,1965,német,62
+Budapest−Leipzig,1857,német,24
+Budapest−Leipzig,1874,német,4
+Budapest−Leipzig,1875,német,5
 Budapest−Leipzig,1882,német,2
 Budapest−Leipzig,1886,német,4
 Budapest−Leipzig,1942,német,47
+Budapest−Leipzig,"NA",német,2
+Budapest−Wien,1828,német,94
+Budapest−Wien−Leipzig,1828,német,11
 Buenos Aires,1945,spanyol,2
 Buenos Aires,1950,spanyol,3
 Buenos Aires,1955,spanyol,2
 Buenos Aires,1956,spanyol,4
 Buenos Aires,1959,spanyol,2
 Buenos Aires,1963,spanyol,39
-Buffalo,1969,angol,353
-Buffalo,1973,angol,207
+Buffalo,1969,angol,354
+Buffalo,1973,angol,208
 Bydgoszcz,1949,lengyel,4
 Cagliari,1948,olasz,2
 Cairo,1952,francia,2
+Cairo,1955,arab,39
+Cairo,1958,arab,5
+Cairo,1960,arab,2
 Caracas,1972,spanyol,2
 Catania,1948,olasz,3
 Cheadle,1973,angol,60
 Chicago,1968,angol,18
+Chisinau,1960,moldva,2
+Cleveland,1936,angol,2
 Cluj-Napoca,1880,német,3
 Cluj-Napoca,1892,román,3
 Cluj-Napoca,1893,román,22
@@ -682,6 +727,7 @@ Cluj-Napoca,1895,román,16
 Cluj-Napoca,1896,román,12
 Cluj-Napoca,1897,román,16
 Cluj-Napoca,1898,román,9
+Cluj-Napoca,1905,német,2
 Cluj-Napoca,1921,román,7
 Cluj-Napoca,1922,román,6
 Cluj-Napoca,1924,román,3
@@ -695,10 +741,27 @@ Cluj-Napoca,1947,román,10
 Cluj-Napoca,1948,román,49
 Cluj-Napoca,1949,román,8
 Cluj-Napoca,1974,román,5
+Cluj-Napoca−London,"NA",német,45
 Coira,1879,rhetoromán,3
-Colombo,1973,tamil,2
-Como,1880,olasz,3
-"Como, Aprile",1880,olasz,4
+Colombo,1973,tamil,3
+Como,1880,olasz,7
+Copenhagen,1867,dán,39
+Copenhagen,1874,dán,2
+Copenhagen,1875,dán,2
+Copenhagen,1885,dán,9
+Copenhagen,1893,dán,6
+Copenhagen,1894,dán,2
+Copenhagen,1896,dán,34
+Copenhagen,1936,dán,2
+Copenhagen,1946,dán,2
+Copenhagen,1949,dán,2
+Copenhagen,1950,dán,2
+Copenhagen,1952,dán,3
+Copenhagen,1966,dán,3
+Copenhagen,1967,dán,4
+Copenhagen,1968,dán,68
+Copenhagen,1969,dán,9
+Copenhagen,1975,dán,4
 Craiova,1922,román,2
 Craiova,1937,román,7
 Craiova,1938,román,2
@@ -713,65 +776,48 @@ Dasselbe in Budapest,1962,német,3
 Den Haag,1953,holland,3
 Den Haag,1958,holland,2
 Den Haag,"NA",holland,2
-Dorpat,1904,észt,9
 Draguignan,1967,angol,8
 Dresden,1854,német,59
 Dresden,1887,német,2
 Dresden,1898,német,6
 Dresden,1915,német,30
+Dresden−Budapest,1854,német,81
+Dresden−Budapest−Praha,"NA",német,2
 Dresden−Leipzig,1854,német,3
-Dresden−Pest,1854,német,80
-"Dresden−Pest, Prag","NA",német,2
 Dublin,1972,angol,3
 Düsseldorf−Köln,1966,német,59
-Elberfeld−Leipzig,1866,német,148
+Elberfeld−Leipzig,1866,német,149
 Engels,1938,német,2
-Englewood Cliffs N.Y,1968,angol,2
-Eperjes,1880,német,17
-Eperjes,1909,szlovák,3
-Eperjes,1911,szlovák,3
-Eperjes,1912,szlovák,3
-Eperjes,1913,szlovák,3
-Eperjes,1914,szlovák,3
-Erevan,1968,örmény,52
-Filey E. Yorks,1973,angol,2
+Englewood Cliffs,1968,angol,3
+Filey,1973,angol,2
 Firenze,1931,olasz,2
 Firenze,1932,olasz,76
 Firenze,1943,olasz,53
 Firenze,1944,olasz,2
 Firenze,1949,olasz,4
-Firenze,1951,olasz,175
+Firenze,1951,olasz,176
 Firenze,1952,olasz,28
-Firenze,1953,olasz,8
+Firenze,1953,olasz,9
 Firenze,1955,olasz,7
 Firenze,1956,olasz,2
 Firenze,1958,olasz,22
-Firenze,1967,olasz,82
+Firenze,1967,olasz,83
 Firenze,1973,olasz,2
-Fiume,1872,olasz,7
-Fiume,1882,olasz,3
-Fiume,1903,olasz,32
-Fiume,1904,olasz,2
-Fiume,1908,olasz,2
-Fiume,1910,olasz,28
-Fiume,1911,olasz,16
-Fiume,1914,olasz,27
 Fönjan,1957,koreai,92
 Frankfurt,1926,német,6
-Frankfurt,1928,német,2
-Frankfurt am Main,1849,német,294
+Frankfurt,1928,német,3
+Frankfurt am Main,1849,német,301
 Frankfurt am Main,1891,német,3
 Frankfurt am Main,1959,német,21
 Frankfurt am Main,1960,német,2
-Frankfurt am Main,1961,német,3
+Frankfurt am Main,1961,német,4
 Frankfurt am Main,1963,német,2
 Frankfurt am Main,1964,német,2
 Frankfurt am Main,1966,német,20
-Frankfurt am Main,1967,német,25
+Frankfurt am Main,1967,német,26
 Frankfurt am Main,1968,német,3
 Frankfurt am Main,1969,német,107
-Gaurahati,1973,asszami,2
-Gaurhati,1973,asszami,5
+Gaurhati,1973,asszami,7
 Gdańsk,1949,lengyel,2
 Gdańsk,1970,lengyel,2
 Genf,1861,német,19
@@ -780,29 +826,23 @@ Genf,1946,francia,10
 Genova,1957,olasz,38
 Göteborg,1973,svéd,9
 Graz−Wien,1963,német,17
-Grodek,1886,lengyel,2
+Gródek Jagielloński,1886,lengyel,3
+Gródek Jagielloński,1907,lengyel,2
+Gródek Jagielloński,1908,lengyel,2
+Gródek Jagielloński,1909,lengyel,2
 Győr,1825,német,246
 Győr,1902,német,2
 Győr,1905,német,3
 Győr,1909,német,2
 Győr,1914,horvát,3
 Győr,"NA",német,12
-Hà-Nội,1961,vietnami,34
-Hà-Nội,1962,vietnami,30
-Hà-Nội,1963,vietnami,32
-Hā-Nội,1955,vietnami,2
-Hā-Nội,1957,vietnami,7
-Hā-Nội,1962,vietnami,34
 Haarlem,1924,holland,49
-Habana,1928,spanyol,16
-Habana,1963,spanyol,9
-Habana,1966,spanyol,24
 Halle,1850,német,35
 Halle am Saale,1886,német,2
 Halle am Saale,1887,német,2
-Halle am Saale,1888,német,21
-Halle am Saale,1966,német,5
-Halle am Saale,"NA",német,14
+Halle am Saale,1888,német,23
+Halle am Saale,1966,német,6
+Halle am Saale,"NA",német,15
 Hamburg,1851,német,2
 Hamburg,1940,német,4
 Hamburg,1942,német,2
@@ -817,9 +857,16 @@ Hamburg,1967,német,9
 Hamburg,1970,német,3
 Hämeenlinna,1909,finn,3
 Hämeenlinna,1915,finn,2
+Hämeenlinna,1970,finn,2
 Hannover,1962,német,35
+Hanoi,1955,vietnami,3
+Hanoi,1957,vietnami,7
+Hanoi,1961,vietnami,34
+Hanoi,1962,vietnami,65
+Hanoi,1963,vietnami,32
 Harmondsworth,1970,angol,62
-Heidelberg,1913,német,12
+Heidelberg,1913,német,13
+Heidelberg,1928,német,2
 Helsinki,1845,svéd,2
 Helsinki,1861,finn,2
 Helsinki,1872,finn,5
@@ -856,65 +903,56 @@ Helsinki,1971,finn,40
 Helsinki,1974,finn,9
 Iaşi,1949,román,4
 Imphal,1971,manibuli,5
+Indianapolis,1926,angol,2
 Innsbruck,1949,német,3
 Iowa,1970,angol,25
 Istanbul,1952,török,17
 Istanbul,1957,török,2
 Istanbul,1969,török,11
 Istanbul,1973,török,43
+Jerevan,1968,örmény,52
 Jerevan,1973,örmény,102
 Jyväskylä,1889,finn,4
 Jyväskylä,1944,finn,2
 Jyväskylä,1951,finn,3
-Kairo,1955,arab,39
-Kairo,1958,arab,5
-Kairo,1960,arab,2
+Jyväskylä,1953,finn,2
 Kampen,1952,holland,2
 Kansas City,1973,angol,4
-Kassel,1850,német,51
+Kassel,1850,német,53
 Katowice,1948,lengyel,2
 Katowice,1949,lengyel,5
 Kaunas,1948,litván,5
-Kioto,1976,eszperantó,3
-København,1867,dán,36
-København,1874,dán,2
-København,1875,dán,2
-København,1885,dán,9
-København,1893,dán,5
-København,1894,dán,2
-København,1896,dán,34
-København,1936,dán,2
-København,1946,dán,2
-København,1949,dán,2
-København,1950,dán,2
-København,1952,dán,3
-København,1966,dán,3
-København,1967,dán,4
-København,1968,dán,68
-København,1969,dán,9
-København,1975,dán,3
-"København, 1867",1896,dán,3
+Kikinda,1907,szerb,3
+Kikinda,1908,szerb,3
+Kikinda,1909,szerb,6
+Kikinda,1910,szerb,6
+Kikinda,1911,szerb,4
+Kikinda,1912,szerb,3
 Köln,1932,német,4
 Köln,1962,német,2
 Köln,1969,német,2
 Köln−Wien,1970,német,20
-Kolozsvár−London,"NA",német,45
-Konstanz am Bodensee,1916,német,5
-Konstanz am Bodensee,1917,német,5
+Konstanz,1916,német,5
+Konstanz,1917,német,5
 Košice,1907,német,2
-Košice,1908,német,54
+Košice,1908,német,55
 Košice,1977,szlovák,3
 Kraków,1903,lengyel,2
 Kraków,1930,lengyel,18
 Kraków,1931,lengyel,2
-Kraków,1948,lengyel,23
+Kraków,1948,lengyel,24
 Kraków,1949,lengyel,5
 Kraków,1951,lengyel,11
-Kraków,1971,lengyel,94
+Kraków,1971,lengyel,96
 Kraków,1977,lengyel,111
-Kronstadt,1863,német,15
-L. Mikuláš,1960,szlovák,16
-La Habana,1973,spanyol,52
+Kyiv,1962,ukrán,2
+Kyiv,1965,ukrán,3
+Kyiv,1977,ukrán,31
+Kyoto,1976,eszperantó,3
+La Habana,1928,spanyol,16
+La Habana,1963,spanyol,9
+La Habana,1966,spanyol,24
+La Habana,1973,spanyol,53
 Lanciano,1931,olasz,3
 Laren,196?,holland,12
 Lausanne,1946,francia,6
@@ -928,13 +966,13 @@ Leipzig,1851,német,7
 Leipzig,1852,német,3
 Leipzig,1854,német,30
 Leipzig,1858,német,225
-Leipzig,1871,német,70
+Leipzig,1871,német,71
 Leipzig,1874,német,5
 Leipzig,1875,német,2
 Leipzig,1878,német,112
 Leipzig,1879,német,2
 Leipzig,1880,német,46
-Leipzig,1885,német,92
+Leipzig,1885,német,110
 Leipzig,1887,német,35
 Leipzig,1888,német,2
 Leipzig,1889,német,207
@@ -943,7 +981,7 @@ Leipzig,1891,német,2
 Leipzig,1894,német,176
 Leipzig,1895,német,261
 Leipzig,1896,német,6
-Leipzig,1897,német,23
+Leipzig,1897,német,24
 Leipzig,1898,német,2
 Leipzig,1899,német,22
 Leipzig,1900,német,3
@@ -952,7 +990,7 @@ Leipzig,1902,német,2
 Leipzig,1906,német,8
 Leipzig,1908,német,8
 Leipzig,1909,német,40
-Leipzig,1910,német,94
+Leipzig,1910,német,112
 Leipzig,1918,német,25
 Leipzig,1919,német,3
 Leipzig,1920,német,5
@@ -978,28 +1016,27 @@ Leipzig,1970,német,31
 Leipzig,1972,német,13
 Leipzig,1973,német,97
 Leipzig,1974,német,38
-Leipzig,"NA",német,298
-"Leipzig, 2. Auflage",1885,német,9
-"Leipzig, 2. Ausgabe",1885,német,9
-"Leipzig, 3. Auflage",1910,német,7
-"Leipzig, 3. Ausgabe",1910,német,11
+Leipzig,"NA",német,300
+Leipzig−Budapest,1874,német,85
+Leipzig−Budapest,1875,német,135
 Leipzig−Budapest,1878,német,2
-Leipzig−Budapest,1886,német,7
-Leipzig−Pest,1874,német,85
-Leipzig−Pest,1875,német,133
+Leipzig−Budapest,1886,német,8
 Leipzig−Wien,1887,német,11
-Leipzig−Wien,1897,német,270
+Leipzig−Wien,1897,német,271
 Leipzig−Wien−Zürich,1921,német,74
 Liège−Paris,1944,francia,2
-Liptovský Sv. Mikuláš,1911,szlovák,50
-Liptovský Sv. Mikuláš,1944,szlovák,16
-Liptovský Sv. Mikuláš,1948,szlovák,8
+Liptovský Sv. Mikuláš,1911,szlovák,55
+Liptovský Sv. Mikuláš,1914,szlovák,5
+Liptovský Sv. Mikuláš,1944,szlovák,19
+Liptovský Sv. Mikuláš,1948,szlovák,10
+Liptovský Sv. Mikuláš,1960,szlovák,17
 Liptovský Sv. Mikuláš,"NA",szlovák,2
 Lisboa,196?,portugál,3
 Lisboa,1960,portugál,3
 Lisboa,"NA",portugál,46
 Ljubljana,1960,szlovén,37
 Ljubljana,1967,szlovén,4
+Lochem,1953,holland,2
 Lochem,1963,holland,3
 Łódź,1886,lengyel,2
 Łódź,1949,lengyel,8
@@ -1016,7 +1053,7 @@ London,1889,angol,54
 London,1890,angol,17
 London,1892,angol,7
 London,1893,angol,2
-London,1894,angol,19
+London,1894,angol,20
 London,1895,angol,3
 London,1896,angol,4
 London,1897,angol,8
@@ -1059,6 +1096,7 @@ London,1949,angol,6
 London,1954,angol,3
 London,1958,angol,2
 London,1961,angol,2
+London,1961,spanyol,2
 London,1963,angol,34
 London,1964,angol,3
 London,1965,angol,2
@@ -1068,7 +1106,8 @@ London,1970,angol,15
 London,1971,angol,34
 London,1972,angol,2
 London,London.,angol,4
-London−New York,1852,angol,4
+London,"NA",angol,8
+London−New-York,1852,angol,4
 Louvain,1895,francia,48
 Lübeck,"NA",német,6
 Lučenec,1902,szlovák,7
@@ -1078,7 +1117,7 @@ Lviv,1886,lengyel,2
 Lviv,1907,lengyel,2
 Lviv,1908,lengyel,2
 Lviv,"NA",lengyel,4
-Madras,1967,angol,18
+Madras,1967,angol,19
 Madras,1974,angol,12
 Madrid,192?,spanyol,4
 Madrid,1920,spanyol,2
@@ -1087,7 +1126,7 @@ Madrid,1923,spanyol,9
 Madrid,1952,spanyol,2
 Madrid,1962,spanyol,3
 Madrid,1965,spanyol,2
-Madrid,1969,spanyol,6
+Madrid,1969,spanyol,7
 Madrid,1975,spanyol,61
 Madrid,"NA",spanyol,16
 Manila,1935,spanyol,6
@@ -1095,7 +1134,7 @@ Manila,1935,tagalog,6
 Mantova,1906,olasz,2
 Maribor,1966,szlovén,2
 Marseille,1948,francia,9
-Martin,1904,szlovák,4
+Martin,1904,szlovák,5
 Martin,1911,szlovák,2
 Martin,1935,szlovák,2
 Martin,1942,szlovák,73
@@ -1109,7 +1148,7 @@ Michigan,1974,angol,3
 Midlothian,1976,angol,28
 Milano,1863,olasz,2
 Milano,1880,olasz,64
-Milano,1904,olasz,94
+Milano,1904,olasz,95
 Milano,191?,olasz,360
 Milano,1913,olasz,3
 Milano,1926,olasz,2
@@ -1117,20 +1156,20 @@ Milano,1928,olasz,14
 Milano,1929,olasz,78
 Milano,1930,olasz,5
 Milano,1931,olasz,74
-Milano,1932,olasz,7
-Milano,1933,olasz,30
-Milano,1934,olasz,42
-Milano,1935,olasz,10
-Milano,1936,olasz,10
-Milano,1937,olasz,15
-Milano,1938,olasz,111
-Milano,1939,olasz,16
-Milano,1940,olasz,242
-Milano,1941,olasz,26
-Milano,1942,olasz,38
-Milano,1943,olasz,44
+Milano,1932,olasz,10
+Milano,1933,olasz,31
+Milano,1934,olasz,43
+Milano,1935,olasz,11
+Milano,1936,olasz,11
+Milano,1937,olasz,17
+Milano,1938,olasz,112
+Milano,1939,olasz,17
+Milano,1940,olasz,243
+Milano,1941,olasz,28
+Milano,1942,olasz,45
+Milano,1943,olasz,45
 Milano,1944,olasz,7
-Milano,1945,olasz,11
+Milano,1945,olasz,13
 Milano,1946,olasz,8
 Milano,1947,olasz,7
 Milano,1948,olasz,55
@@ -1140,7 +1179,7 @@ Milano,1951,olasz,7
 Milano,1952,olasz,2
 Milano,1954,olasz,3
 Milano,1957,olasz,81
-Milano,1958,olasz,14
+Milano,1958,olasz,15
 Milano,1959,olasz,96
 Milano,1960,olasz,113
 Milano,1961,olasz,2
@@ -1153,18 +1192,16 @@ Milano,1969,olasz,2
 Milano,1972,olasz,128
 Milano,1978,olasz,37
 Milano,"NA",olasz,20
-Milano-Palermo-Napoli,1911,olasz,3
-"Milano, VIIª ed. ivi",1942,olasz,3
-Milano−Palermo−Napoli,1911,olasz,704
+Milano−Palermo−Napoli,1911,olasz,709
 Milano−Palermo−Napoli,1912,olasz,2
 Milano−Palermo−Napoli,1913,olasz,115
 Milano−Roma,1940,olasz,3
 "Milford, Conn",1947,angol,7
-Minden in Westfalien,1886,német,89
-Minden in Westfalien,1891,német,27
+Minden,1886,német,93
+Minden,1891,német,27
 Miskolc,1887,héber,9
-Moskau,1936,német,4
-Moskau,1939,német,3
+Moscow,1936,német,4
+Moscow,1939,német,3
 München,1860,német,5
 München,1867,német,73
 München,1913,német,3
@@ -1197,14 +1234,10 @@ Murska Sobota,1969,szlovén,26
 Murska Sobota,1969,vend,2
 Murska Sobota,1973,vend,2
 Murska Sobota,1977,szlovén,50
-Nagybecskerek,1898,szerb,3
-Nagybecskerek,1914,német,3
 Nagykanizsa,1882,német,56
-Nagykikinda,1907,szerb,3
-Nagykikinda,1908,szerb,3
-Nagykikinda,1909,szerb,6
-Nagykikinda,1911,szerb,4
 Nayarit,1967,spanyol,3
+New Delhi,1954,angol,2
+New Delhi,1955,angol,2
 New York,1852,angol,23
 New York,1877,angol,2
 New York,1881,angol,82
@@ -1213,7 +1246,7 @@ New York,1889,angol,2
 New York,1892,angol,2
 New York,1897,angol,3
 New York,1898,angol,3
-New York,1899,angol,241
+New York,1899,angol,242
 New York,190?,angol,2
 New York,1900,angol,4
 New York,1908,angol,236
@@ -1222,7 +1255,7 @@ New York,1914,angol,28
 New York,1927,angol,2
 New York,1928,angol,35
 New York,1929,angol,4
-New York,1930,angol,25
+New York,1930,angol,26
 New York,1931,angol,3
 New York,1945,angol,3
 New York,1946,francia,2
@@ -1238,32 +1271,45 @@ New York,1968,angol,3
 New York,1972,angol,81
 New York,1974,angol,2
 New York,1977,angol,196
-New York−Cleveland,1920,angol,5
+New York,w.y.,angol,3
+New York−Cleveland,1920,angol,6
 New York−London,1968,angol,2
-New-Delhi,1955,angol,2
-Noto di Sicilia,1881,olasz,2
-Noto di Sicilia,1891,olasz,2
-Noto in Sicilia,1904,olasz,2
-Novi Sad,1963,horvát,3
-Novi Sad,1964,horvát,19
-Novi Sad,1965,horvát,37
+New-York−London,w.y.,angol,2
+Noto,1881,olasz,2
+Noto,1891,olasz,3
+Noto,1904,olasz,3
+Novi Sad,1857,szerb,2
+Novi Sad,1860,szerb,2
+Novi Sad,1871,szerb,3
+Novi Sad,1882,szerb,29
+Novi Sad,1907,szerb,59
+Novi Sad,1910,szerb,2
+Novi Sad,1946,szerb,28
+Novi Sad,1951,szerb,2
+Novi Sad,1953,szerb,105
+Novi Sad,1955,horvát,2
+Novi Sad,1961,horvát,107
+Novi Sad,1963,horvát,4
+Novi Sad,1964,horvát,20
+Novi Sad,1965,horvát,38
 Novi Sad,1976,horvát,11
-Novi-Sad,1955,horvát,2
-Novi-Sad,1961,horvát,107
-Ofen,1852,német,2
+Novi Sad,1976,szerb,40
+Oradea,1882,román,3
+Oradea,1883,román,4
+Oradea,1884,román,2
+Oradea,1921,román,4
+Oradea,1922,román,105
+Oradea,1926,román,3
 Oradea,1927,román,3
-Oradea,1930,román,72
+Oradea,1930,román,73
 Oradea,1934,román,3
 Oradea,1935,román,3
 Oradea,1938,román,3
 Oradea,1949,román,2
-Oradea-Mare,1882,román,3
-Oradea-Mare,1883,román,4
-Oradea-Mare,1884,román,2
-Oradea-Mare,1921,román,4
-Oradea-Mare,1922,román,104
-Oraştie,1912,román,2
 Orăştie,1911,román,2
+Orăştie,1912,román,2
+Orăştie,1913,román,2
+Orăştie,1914,román,2
 Oslo,1933,norvég,2
 Oslo,1952,norvég,2
 Oslo,1973,norvég,31
@@ -1274,8 +1320,8 @@ Oslo,1975,norvég,81
 Oxford,1966,angol,6
 Palermo,1922,olasz,5
 Palermo−Milano−Napoli,1912,olasz,2
-Pancsova,1900,német,2
-Pancsova,"NA",német,4
+Pančevo,1900,német,2
+Pančevo,"NA",német,4
 Paris,1813,francia,6
 Paris,1856,francia,21
 Paris,1860,francia,14
@@ -1293,7 +1339,7 @@ Paris,1890,francia,15
 Paris,1891,francia,78
 Paris,1894,francia,2
 Paris,1895,francia,4
-Paris,1896,francia,231
+Paris,1896,francia,232
 Paris,1897,francia,6
 Paris,1898,francia,88
 Paris,1900,francia,21
@@ -1336,13 +1382,14 @@ Paris,1957,francia,42
 Paris,1958,eszperantó,2
 Paris,1958,francia,44
 Paris,1959,francia,3
+Paris,1959,lengyel,2
 Paris,1960,francia,4
 Paris,1961,francia,128
 Paris,1962,francia,534
 Paris,1963,francia,119
 Paris,1964,francia,40
 Paris,1965,francia,38
-Paris,1966,francia,89
+Paris,1966,francia,90
 Paris,1967,francia,95
 Paris,1968,francia,2
 Paris,1969,francia,15
@@ -1355,77 +1402,34 @@ Paris,1975,francia,75
 Paris,1976,francia,3
 Paris,1977,francia,37
 Paris,1978,francia,21
-Paris,"NA",francia,17
+Paris,"NA",francia,19
 Parma,1962,olasz,147
 Parma,1963,olasz,36
 Parma,1970,olasz,40
 Peking,1930,kínai,2
 Peking,1953,kínai,9
 Peking,1954,kínai,104
-Peking,1955,kínai,24
+Peking,1955,kínai,25
 Peking,1956,kínai,7
 Peking,1957,kínai,36
 Peking,1958,kínai,4
 Peking,1959,kínai,42
 Peking,1960,kínai,3
-Perjámos,1913,német,2
-Pest,1829,német,41
-Pest,1839,német,4
-Pest,1841,német,8
-Pest,1842,német,2
-Pest,1843,német,5
-Pest,1844,német,2
-Pest,1850,német,4
-Pest,1853,német,9
-Pest,1854,német,60
-Pest,1855,német,56
-Pest,1856,német,3
-Pest,1858,német,20
-Pest,1860,szlovák,3
-Pest,1861,német,6
-Pest,1861,olasz,2
-Pest,1861,török,2
-Pest,1863,német,10
-Pest,1864,német,653
-Pest,1865,szlovák,2
-Pest,1867,francia,2
-Pest,1867,német,657
-Pest,1868,héber,20
-Pest,1868,német,4
-Pest,1869,német,2
-Pest,1872,német,2
-Pest,1873,héber,3
-Pest,1873,német,2
-Pest,1876,német,7
-Pest,1891,német,11
-Pest,1892,német,2
-Pest-Wien−Leipzig,1828,német,3
-"Pest, Pest",1867,német,5
-Pest−Leipzig,1857,német,24
-Pest−Leipzig,1874,német,4
-Pest−Leipzig,1875,német,5
-Pest−Wien,1828,német,92
-Pest−Wien−Leipzig,1828,német,8
-Pesta,1872,román,2
-Pesta,1877,román,2
+Periam,1913,német,2
 Philadelphia,1850,angol,2
 Philadelphia,1885,angol,42
 Pittsburgh,1973,angol,3
 Plzen,1914,cseh,11
-Porvoo,1926,finn,212
+Porvoo,1891,finn,7
+Porvoo,1892,finn,26
+Porvoo,1904,finn,16
+Porvoo,1922,finn,41
+Porvoo,1926,finn,214
 Porvoo,1927,finn,2
 Porvoo,1930,finn,3
 Porvoo,1973,finn,23
-Porvoossa,1891,finn,5
-Porvoossa,1892,finn,25
-Porvoossa,1904,finn,15
-Porvoossa,1922,finn,40
-Porvoossa,1926,finn,2
-Poznan,1928,lengyel,2
-Prag,1933,német,2
-Prag,"NA",német,34
-Prag−Leipzig,1866,német,16
-Praga,"NA",német,2
+Poznań,1879,lengyel,2
+Poznań,1928,lengyel,2
 Praha,1870,cseh,123
 Praha,1878,cseh,2
 Praha,1881,cseh,2
@@ -1453,23 +1457,25 @@ Praha,1923,cseh,3
 Praha,1924,cseh,3
 Praha,1925,cseh,7
 Praha,1926,cseh,7
-Praha,1926,német,5
+Praha,1926,német,6
 Praha,1927,cseh,2
 Praha,1928,cseh,12
-Praha,1933,német,2
+Praha,1933,német,4
 Praha,1935,szlovák,3
 Praha,1936,cseh,2
+Praha,1938,német,2
 Praha,1939,cseh,2
 Praha,1941,cseh,2
 Praha,1942,cseh,6
 Praha,1943,cseh,2
 Praha,1948,cseh,2
 Praha,1949,cseh,7
-Praha,1950,cseh,73
+Praha,1950,cseh,74
+Praha,1950,szlovák,2
 Praha,1951,cseh,46
 Praha,1952,cseh,24
 Praha,1953,cseh,198
-Praha,1954,cseh,9
+Praha,1954,cseh,11
 Praha,1955,cseh,5
 Praha,1956,cseh,7
 Praha,1956,szlovák,3
@@ -1493,24 +1499,42 @@ Praha,1973,cseh,40
 Praha,1974,cseh,8
 Praha,1976,cseh,44
 Praha,"NA",cseh,23
+Praha,"NA",német,37
 "Praha, ?",1934,német,2
+Praha−Leipzig,1866,német,17
+Prešov,1880,német,17
+Prešov,1909,szlovák,3
+Prešov,1911,szlovák,3
+Prešov,1912,szlovák,3
+Prešov,1913,szlovák,3
+Prešov,1914,szlovák,3
+Pristina,1967,albán,2
 Putignano,1970,olasz,81
-Quezon City Philippines,1966,spanyol,2
-Ragusa,1901,olasz,32
+Quezon City,1966,spanyol,2
+Ragusa,1901,olasz,33
 Rangun,1972,burmai,4
 Regensburg−Leipzig,1923,német,3
-Resicza,1890,német,4
+Reinbek,1973,német,2
+Reşiţa,1890,német,4
 Riga,1911,lett,2
 Riga,1956,liv,2
 Riga,1959,lett,2
 Riga,1965,lett,3
-Riga,1966,lett,20
+Riga,1966,lett,21
 Riga,1967,lett,2
-Riga,1971,lett,2
+Riga,1970,lett,48
+Riga,1971,lett,3
 Riga,1973,lett,103
 Riga,1976,lett,83
 Riga,1977,lett,4
-Rigā,1970,lett,47
+Rijeka,1872,olasz,7
+Rijeka,1882,olasz,3
+Rijeka,1903,olasz,32
+Rijeka,1904,olasz,2
+Rijeka,1908,olasz,2
+Rijeka,1910,olasz,28
+Rijeka,1911,olasz,16
+Rijeka,1914,olasz,27
 Rijeka,1959,horvát,2
 Rio de Janeiro,1954,portugál,13
 Rio de Janeiro,1958,portugál,30
@@ -1542,24 +1566,25 @@ Roma,1971,olasz,70
 Roma,"NA",olasz,6
 Rotterdam,1937,eszperantó,104
 Rotterdam,"NA",holland,2
-Salzburg,1971,német,115
+Rzeszów,1887,lengyel,2
+Salzburg,1971,német,116
 Salzburg,1974,német,55
-Sanghaj,1951,kínai,19
-Sangháj,1951,kínai,19
-Sangháj,1953,kínai,20
-Sangháj,1954,kínai,3
-Sangháj,1955,kínai,2
-Sangháj,1956,kínai,7
-Sangháj,1957,kínai,13
 Santalcangelo,1897,olasz,37
 Santalcangelo−Romagna,1897,olasz,2
 Sarajevo,1958,horvát,2
 Sarajevo,1964,horvát,2
 Sarajevo,1972,horvát,61
-Sarajevo-Zagreb,1955,horvát,2
+Sarajevo−Zagreb,1955,horvát,2
 Satu-Mare,1949,román,2
+Shanghai,1951,kínai,39
+Shanghai,1953,kínai,20
+Shanghai,1954,kínai,4
+Shanghai,1955,kínai,2
+Shanghai,1956,kínai,7
+Shanghai,1957,kínai,14
+Shanghai−Peking,1951,kínai,2
 Sibiu,1879,német,3
-Sibiu,1891,német,587
+Sibiu,1891,német,588
 Sibiu,1907,román,5
 Sibiu,1908,román,2
 Sibiu,1909,román,3
@@ -1569,7 +1594,9 @@ Sibiu,1921,román,3
 Sibiu,1922,román,6
 Sibiu,1923,román,4
 Sibiu,1928,román,2
+Sibiu,1949,román,2
 Siena,1948,olasz,2
+Skalica,1909,szlovák,2
 Sopron,1894,német,2
 Sopron,1901,német,24
 St. Gallen,1963,német,41
@@ -1579,7 +1606,7 @@ St. Louis,1972,francia,23
 "St. Louis, Mo",1972,angol,2
 Stockholm,1881,svéd,2
 Stockholm,1882,svéd,10
-Stockholm,1888,svéd,48
+Stockholm,1888,svéd,49
 Stockholm,1889,svéd,3
 Stockholm,1897,svéd,2
 Stockholm,1913,svéd,2
@@ -1595,7 +1622,7 @@ Stockholm,1944,svéd,59
 Stockholm,1947,svéd,3
 Stockholm,1952,svéd,8
 Stockholm,1960,svéd,2
-Stockholm,1966,svéd,20
+Stockholm,1966,svéd,21
 Stockholm,1967,svéd,3
 Stockholm,1968,svéd,67
 Stockholm,1969,svéd,2
@@ -1616,75 +1643,80 @@ Stuttgart,1966,német,4
 Stuttgart,1969,német,7
 Stuttgart,1971,német,2
 Stuttgart,"NA",német,2
-Stuttgart und Tübingen,1825,német,3
-Stuttgart-Tübingen,1825,német,12
 Stuttgart−Berlin,1951,német,2
 Stuttgart−Berlin,1952,német,2
-Stuttgart−Leipzig,1897,német,99
+Stuttgart−Leipzig,1897,német,100
 Stuttgart−Leipzig,1899,német,7
-Stuttgart−Tübingen,1825,német,108
+Stuttgart−Tübingen,1825,német,123
 Stuttgart−Tübingen,1837,német,12
-Subotica,1914,horvát,266
+Subotica,1914,horvát,296
 Subotica,1963,horvát,19
-"Subotica, II. izdanje",1914,horvát,23
-"Subotica, II. Izdanje",1914,horvát,5
 Sydney,1955,angol,113
-Szakolca,1909,szlovák,2
 Szerenin,1949,lengyel,2
 Szombathely,1940,angol,5
 T.C. 8:o 2 siden,T.C. 8:o 2 siden,svéd,2
+Tallinn,1902,észt,2
 Tallinn,1911,észt,2
 Tallinn,1924,észt,2
 Tallinn,1954,észt,9
 Tallinn,1955,észt,68
 Tallinn,1957,észt,2
 Tallinn,1958,észt,10
-Tallinn,1960,észt,30
+Tallinn,1960,észt,31
 Tallinn,1961,észt,2
 Tallinn,1963,észt,2
 Tallinn,1964,észt,114
 Tallinn,1973,észt,126
-Tampere,1970,finn,192
+Tampere,1970,finn,193
+Târgu-Mureş,1949,román,2
 Tarnav,1949,román,2
 Tartu,1884,észt,2
 Tartu,1887,észt,5
 Tartu,1888,észt,21
 Tartu,1891,észt,2
+Tartu,1899,észt,2
+Tartu,1900,észt,2
+Tartu,1903,észt,2
+Tartu,1904,észt,10
 Tartu,1914,észt,4
 Tartu,1922,észt,3
-Tartu,1925,észt,4
+Tartu,1925,észt,11
 Tartu,1929,észt,4
 Tartu,1930,észt,4
 Tartu,1959,észt,50
-Tartus,1925,észt,7
-Tbiliszi,1949,grúz,47
-Teaneck,1966,angol,34
-Teheran,1952,perzsa,3
-Teherán,1952,perzsa,42
-Teherán,1954,perzsa,4
-Tel-Aviv,1948,héber,9
-Tel-Aviv,1952,héber,84
-Tel-Aviv,1954,héber,84
-Tel-Aviv,1955,héber,6
-Tel-Aviv,1958,héber,2
-Tel-Aviv,1960,héber,40
+Tbilisi,1949,grúz,48
+Teaneck,1966,angol,35
+Teheran,1952,perzsa,45
+Teheran,1954,perzsa,4
+Tel Aviv,1930,héber,2
+Tel Aviv,1940,héber,2
+Tel Aviv,1942,héber,2
+Tel Aviv,1948,héber,18
+Tel Aviv,1952,héber,169
+Tel Aviv,1953,héber,2
+Tel Aviv,1954,héber,168
+Tel Aviv,1955,héber,12
+Tel Aviv,1956,héber,2
+Tel Aviv,1957,héber,2
+Tel Aviv,1958,héber,2
+Tel Aviv,1959,héber,2
+Tel Aviv,1960,héber,72
+Tel-Aviv,1960,héber,4
 Tepic,1966,spanyol,2
 Thuin,1971,francia,3
-Timişoara,1936,román,2
-Timişoara,1949,román,3
-Tiranë,1956,albán,18
-Tiranë,1960,albán,114
-Tokio,1927,japán,4
-Tokio,1936,japán,27
-Tokio,1938,japán,6
-Tokio,1941,japán,43
-Tokio,1955,japán,162
-Tokio,1966,japán,12
-Tokió,1941,japán,2
-Tokyo,1938,japán,16
-Tokyo,1941,japán,9
+Timișoara,1936,román,2
+Timișoara,1949,román,3
+Tirana,1956,albán,18
+Tirana,1960,albán,114
+Tokyo,1927,japán,4
+Tokyo,1936,japán,28
+Tokyo,1938,japán,22
+Tokyo,1940,japán,2
+Tokyo,1941,japán,54
+Tokyo,1951,japán,2
+Tokyo,1955,japán,162
 Tokyo,1958,japán,3
-Tokyo,1966,japán,6
+Tokyo,1966,japán,18
 Tokyo,1969,japán,7
 Tokyo,1973,japán,62
 Torino,1913,olasz,2
@@ -1695,12 +1727,11 @@ Torino,1939,francia,11
 Torino,1939,olasz,18
 Torino,1941,olasz,2
 Torino,1942,olasz,23
-Torino,195?,olasz,22
+Torino,195?,olasz,23
 Torino,1957,olasz,2
 Torino,1958,olasz,4
 Torino,1960,olasz,96
-Torino-Milano-Padova,1937,olasz,2
-Torino−Milano−Padova,1937,olasz,6
+Torino−Milano−Padova,1937,olasz,8
 Toronto,1966,angol,301
 Toronto,1968,angol,68
 Toronto−New York−London,1970,angol,21
@@ -1858,7 +1889,13 @@ Wien-Berlin,1921,német,8
 Wien-Gran,1868,német,3
 Wien?,189?,német,8
 Wien−Berlin−Stuttgart,1962,német,2
-Wien−Bratislava,1884,német,5
+Wien−Budapest,189?,német,2
+Wien−Budapest,1895,német,9
+Wien−Budapest,"NA",német,7
+Wien−Budapest−Leipzig,1872,német,2
+Wien−Budapest−Leipzig,189?,német,4
+Wien−Budapest−Leipzig,1895,német,20
+Wien−Budapest−Leipzig,"NA",német,49
 Wien−Gran,1868,német,4
 Wien−Graz,1868,német,5
 Wien−Hamburg,1966,német,3
@@ -1877,13 +1914,7 @@ Wien−Leipzig,"NA",német,2
 "Wien−Leipzig, 2. ausgabe",1919,német,2
 "Wien−Leipzig, 2. Ausgabe",1919,német,35
 Wien−Leipzig−Zürich,1921,német,3
-Wien−Pest,189?,német,2
-Wien−Pest,1895,német,9
-Wien−Pest,"NA",német,7
-Wien−Pest−Leipzig,1872,német,2
-Wien−Pest−Leipzig,189?,német,4
-Wien−Pest−Leipzig,1895,német,20
-Wien−Pest−Leipzig,"NA",német,50
+Wien−Pressburg,1884,német,5
 Wien−Stuttgart−Berlin,1957,német,2
 Wiesbaden,1960,német,2
 Winnipeg,1933,angol,125
@@ -1891,12 +1922,11 @@ Wrocław,1886,német,5
 Wrocław,1895,német,2
 Wrocław,1901,német,5
 Wrocław,1902,német,715
-Wrocław,1905,német,696
+Wrocław,1905,német,704
 Wrocław,1909,német,2
 Wrocław,1949,lengyel,2
-Wrocław,"NA",német,47
-"Wrocław, Breslau",1905,német,5
-Wrocław−Leipzig−New York,1902,német,2
+Wrocław,"NA",német,48
+Wrocław−Leipzig−New-York,1902,német,2
 Zagreb,1914,horvát,2
 Zagreb,1924,horvát,3
 Zagreb,1931,horvát,2
@@ -1909,6 +1939,8 @@ Zagreb,1963,horvát,4
 Zagreb,1967,horvát,3
 Zagreb,1971,horvát,32
 Zagreb,"NA",horvát,4
+Zrenjanin,1898,szerb,3
+Zrenjanin,1914,német,3
 Zürich,1919,német,5
 Zürich,1933,német,3
 Zürich,1942,német,2
@@ -1956,9 +1988,6 @@ Zutphen,1929,holland,101
 Ижевск,1975,orosz,15
 Ижевск,1975,udmurt,16
 Казан,1955,tatár,11
-Киïв,1962,ukrán,2
-Киïв,1965,ukrán,3
-Киïв,1977,ukrán,31
 Київ,1949,ukrán,98
 Київ,1954,ukrán,9
 Київ,1955,ukrán,3
@@ -2047,19 +2076,7 @@ Zutphen,1929,holland,101
 Москва−Ленинград,1949,orosz,65
 Москва−Ленинград,1951,orosz,2
 Москва−Ленинград,1952,orosz,9
-Н. Саду,1882,szerb,2
-Нови Сад,1882,szerb,2
-Нови Сад,1907,szerb,6
-Нови Сад,1953,szerb,76
 Нови Сад−Београд,1973,szerb,42
-Нови-Сад,1860,szerb,2
-Нови-Сад,1871,szerb,3
-Нови-Сад,1882,szerb,21
-Нови-Сад,1907,szerb,53
-Нови-Сад,1946,szerb,28
-Нови-Сад,1951,szerb,2
-Нови-Сад,1953,szerb,29
-Нови-Сад,1976,szerb,40
 Ростов,1910,orosz,2
 С. Петербург,1875,orosz,4
 Санкт Петербург,1897,orosz,4
@@ -2121,7 +2138,6 @@ Zutphen,1929,holland,101
 Сынтывкар,1958,komi,26
 Ташкент,1942,orosz,2
 Ташкент,1958,üzbég,39
-У Н. Саду,1882,szerb,4
 У Н.-Саду,1882,szerb,10
 Ужгород,1949,ukrán,78
 Ужгород,1950,ukrán,2

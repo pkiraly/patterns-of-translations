@@ -1,0 +1,8 @@
+data_raw/demeter.csv
+scripts/secret.sh
+
+# RStudio files
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata

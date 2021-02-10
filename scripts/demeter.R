@@ -1,10 +1,9 @@
 library(tidyverse)
 library(ggplot2)
 library("stringdist")
+source("scripts/functions.R")
 
 df <- read_csv('data_raw/demeter.csv')
-
-View(df)
 
 df %>% 
   select(nyelv) %>%
@@ -14,198 +13,78 @@ df %>%
   view()
 
 df %>% 
-  filter(grepl('Raab', megjelenes)) %>% 
-  view()
+  filter(grepl('Toinen ed', megjelenes)) %>% 
+  select(megjelenes, nyelv) 
+  #view()
 
-  
+cities <- read_csv('data_raw/normalized-cities.csv')
 df %>% 
   filter(!grepl('^"', megjelenes)) %>% 
   filter(!grepl('^\\d', megjelenes)) %>% 
   mutate(megjelenes = gsub('Frankfurt am Main,1849', 'Frankfurt am Main, 1849', megjelenes)) %>% 
   mutate(megjelenes = gsub('Budapest,1961', 'Budapest, 1961', megjelenes)) %>% 
+  mutate(megjelenes = gsub('Budapest,1880', 'Budapest, 1880', megjelenes)) %>% 
+  mutate(megjelenes = gsub('Budapest,1938', 'Budapest, 1938', megjelenes)) %>% 
+  mutate(megjelenes = gsub('Budapest,1970', 'Budapest, 1970', megjelenes)) %>% 
+  mutate(megjelenes = gsub('Bern,1868', 'Bern, 1868', megjelenes)) %>% 
+  mutate(megjelenes = gsub('Breslau, 905', 'Breslau, 1905', megjelenes)) %>% 
+  mutate(megjelenes = gsub('Breslau, 1 905', 'Breslau, 1905', megjelenes)) %>% 
+  mutate(megjelenes = gsub('Bucureşti, 954', 'Bucureşti, 1954', megjelenes)) %>% 
+  mutate(megjelenes = gsub('Buffalo, 969', 'Buffalo, 1969', megjelenes)) %>% 
+  mutate(megjelenes = gsub('Franckfurt, am Main,1849', 'Franckfurt, am Main, 1849', megjelenes)) %>% 
+  mutate(megjelenes = gsub('Hermannstadt,1891', 'Hermannstadt, 1891', megjelenes)) %>% 
+  mutate(megjelenes = gsub('Indianapolis, 926', 'Indianapolis, 1926', megjelenes)) %>% 
+  mutate(megjelenes = gsub('^ilano', 'Milano', megjelenes)) %>% 
+  mutate(megjelenes = gsub('Kasa, 1908', 'Kassa, 1908', megjelenes)) %>% 
+  mutate(megjelenes = gsub('København, 1867 ', 'København, 1867.', megjelenes)) %>% 
+  mutate(megjelenes = gsub('Konstanz am Bodensee, 196 ', 'Konstanz am Bodensee, 1916', megjelenes)) %>% 
+  mutate(megjelenes = gsub('Kraków, 971', 'Kraków, 1971', megjelenes)) %>% 
+  mutate(megjelenes = gsub('Leipzig, oJ.', 'Leipzig, o. J.', megjelenes)) %>% 
+  mutate(megjelenes = gsub('Leipzig,1897', 'Leipzig, 1897', megjelenes)) %>% 
+  mutate(megjelenes = gsub('Lochena, 1953', 'Lochem, 1953', megjelenes)) %>% 
+  mutate(megjelenes = gsub('Liptivsky Sv. Mikuláš , 1944', 'Liptivsky Sv. Mikuláš, 1944', megjelenes)) %>% 
+  mutate(megjelenes = gsub('London,1894', 'London, 1894', megjelenes)) %>% 
+  mutate(megjelenes = gsub('Londonk, 1968', 'London, 1968', megjelenes)) %>% 
+  mutate(megjelenes = gsub('Madris, 1969', 'Madrid, 1969', megjelenes)) %>% 
+  mutate(megjelenes = gsub('Milano,1937', 'Milano, 1937', megjelenes)) %>% 
+  mutate(megjelenes = gsub('Minden in Westfalien,1886', 'Minden in Westfalien, 1886', megjelenes)) %>% 
+  mutate(megjelenes = gsub('Orades, 1926', 'Oradea, 1926', megjelenes)) %>% 
+  mutate(megjelenes = gsub('Pest,1864', 'Pest, 1864', megjelenes)) %>% 
+  mutate(megjelenes = gsub('Prag, O. J.', 'Prag, o. J.', megjelenes)) %>% 
+  mutate(megjelenes = gsub('Prais, 1896', 'Paris, 1896', megjelenes)) %>% 
+  mutate(megjelenes = gsub('Paris, 1930', 'Paris, 1930', megjelenes)) %>% 
+  mutate(megjelenes = gsub('Rigā, 970', 'Rigā, 1970', megjelenes)) %>% 
+
+  mutate(megjelenes = gsub('Datum unkbek\\.', 'Datum unbek.', megjelenes)) %>% 
   
   mutate(
     city = gsub(
-      '^(.*?) \\(?(\\d\\d\\d(\\d|\\?)|o\\. ?J\\.?|s\\. ?a\\.?|b\\. ?r\\.?|Jahr unbek\\.|é\\. n\\.|s\\. ?d\\.|b\\. ?g\\.).*',
+      '^(.*?) \\(?(\\d\\d\\d(\\d|\\?)|o\\. ?[jJ]\\.?|s\\. ?a\\.?|b\\. ?r\\.?|Jahr unbek\\.|é\\. n\\.|s\\. ?d\\.|b\\. ?g\\.|Datum fehlt|Datum unbek\\.|Ohne Jahresang\\.|f\\. ?a\\.|w\\. ?y\\.|without year|bez\\. god\\.|sans date).*',
       '\\1', megjelenes),
     year = gsub(
-      '^(.*?) \\(?(\\d\\d\\d(\\d|\\?)|o\\. ?J\\.?|s\\. ?a\\.?|b\\. ?r\\.?|Jahr unbek\\.|é\\. n\\.|s\\. ?d\\.|b\\. ?g\\.).*',
+      '^(.*?) \\(?(\\d\\d\\d(\\d|\\?)|o\\. ?[jJ]\\.?|s\\. ?a\\.?|b\\. ?r\\.?|Jahr unbek\\.|é\\. n\\.|s\\. ?d\\.|b\\. ?g\\.|Datum fehlt|Datum unbek\\.|Ohne Jahresang\\.|f\\. ?a\\.|w\\. ?y\\.|without year|bez\\. god\\.|sans date).*',
       '\\2', megjelenes)) %>% 
 
-  mutate(year = gsub(
-    '^(o\\. ?J\\.?|s\\. ?a\\.?|b\\. ?r\\.?|Jahr unbek\\.|é\\. n\\.|s\\. ?d\\.|b\\. ?g\\.)$',
-    'NA', year)) %>% 
+  mutate(year = clean_year(year)) %>% 
+  mutate(city = clean_city(city)) %>% 
+  mutate(city = gsub('Postsdam', 'Potsdam', city)) %>% 
+  mutate(city = gsub('Potsdamm', 'Potsdam', city)) %>% 
+  mutate(city = gsub('Postdam', 'Potsdam', city)) %>% 
 
-  # mutate(year = gsub('^(.*?) \\(?(\\d\\d\\d\\d).*', '\\2', megjelenes)) %>%
-  mutate(city = gsub(', [aA]nno', '', city)) %>% 
-  mutate(city = gsub('[\\.,]$', '', city)) %>% 
-  mutate(city = gsub('(\\(|\\)|\\[|\\])', '', city)) %>% 
-  mutate(city = gsub('[\\.,]$', '', city)) %>% 
-  
-  mutate(city = str_replace(city, 'Gross-kanizsa', 'Gross-Kanizsa')) %>% 
-  mutate(city = str_replace(city, 'Budapeszt', 'Budapest')) %>% 
-  mutate(city = str_replace(city, 'W Budapeszcie', 'Budapest')) %>% 
-  mutate(city = str_replace(city, 'Budapestini', 'Budapest')) %>% 
-  mutate(city = str_replace(city, 'Budapešť', 'Budapest')) %>% 
-  mutate(city = str_replace(city, 'Budapeszcie', 'Budapest')) %>% 
-  #mutate(city = str_replace(megjelenes, '(Budapest)', 'Budapest', city)) %>% 
-  mutate(city = str_replace(city, 'Budapesta', 'Budapest')) %>% 
-  mutate(city = str_replace(city, 'Budapet', 'Budapest')) %>% 
-  mutate(city = str_replace(city, 'Budapesst', 'Budapest')) %>% 
-  mutate(city = str_replace(city, 'Budapesť', 'Budapest')) %>% 
-  mutate(city = str_replace(city, 'Budapešt', 'Budapest')) %>% 
-  mutate(city = str_replace(city, 'Будапешт', 'Budapest')) %>% 
-  mutate(city = str_replace(city, 'Budapset', 'Budapest')) %>% 
-  mutate(city = str_replace(city, 'Budimpešta', 'Budapest')) %>% 
-  
-  mutate(city = str_replace(city, 'New-York', 'New York')) %>% 
-  mutate(city = str_replace(city, 'Bukarest', 'Bucureşti')) %>% 
-  mutate(city = str_replace(city, 'Bucarest', 'Bucureşti')) %>% 
-  mutate(city = str_replace(city, 'Bucareşti', 'Bucureşti')) %>% 
-  mutate(city = str_replace(city, 'Bucuresti', 'Bucureşti')) %>% 
-  mutate(city = str_replace(city, 'Bukurest', 'Bucureşti')) %>% 
-  
-  mutate(city = str_replace(city, '^Budae$', 'Buda')) %>% 
-  mutate(city = str_replace(city, 'Pesth', 'Pest')) %>% 
-  mutate(city = str_replace(city, 'Pesten', 'Pest')) %>% 
+  left_join(cities, by = c("city" = "source")) %>% 
+  mutate(normalized_city = ifelse(is.na(normalized_city), city, normalized_city)) %>% 
 
-  mutate(city = str_replace(city, '^Franckfurt am Main$', 'Frankfurt am Main')) %>% 
-  mutate(city = str_replace(city, '^Franckfurt a/M$', 'Frankfurt am Main')) %>% 
-  mutate(city = str_replace(city, '^Franckfurt, a/M$', 'Frankfurt am Main')) %>% 
-  mutate(city = str_replace(city, '^Franckfurt, am Main$', 'Frankfurt am Main')) %>% 
-  mutate(city = str_replace(city, '^Frankfurt, a. M$', 'Frankfurt am Main')) %>% 
-  mutate(city = str_replace(city, '^Frankfurt, a. Main$', 'Frankfurt am Main')) %>% 
-  mutate(city = str_replace(city, '^Frankfurt, a.M$', 'Frankfurt am Main')) %>% 
-  mutate(city = str_replace(city, '^Frankfurt, a/M$', 'Frankfurt am Main')) %>% 
-  mutate(city = str_replace(city, '^Frankfurt, am Main$', 'Frankfurt am Main')) %>% 
+  # group_by(normalized_city) %>% 
+  # count() %>% 
+  # arrange(normalized_city) %>%
+  # view()
   
-  mutate(city = str_replace(city, '^Kolozsvár(−|-)Cluj$', 'Cluj-Napoca')) %>% 
-  mutate(city = str_replace(city, '^Cluj$', 'Cluj-Napoca')) %>% 
-  mutate(city = str_replace(city, '^Clus$', 'Cluj-Napoca')) %>% 
-  mutate(city = str_replace(city, '^Cluş$', 'Cluj-Napoca')) %>% 
-  mutate(city = str_replace(city, '^Klausenburg$', 'Cluj-Napoca')) %>% 
-  mutate(city = str_replace(city, '^Kolozsvár$', 'Cluj-Napoca')) %>% 
-  
-  mutate(city = str_replace(city, 'Pozsony Presbourg', 'Bratislava')) %>% 
-  mutate(city = str_replace(city, 'Pozsony, Presbourg', 'Bratislava')) %>% 
-  mutate(city = str_replace(city, '^Pozsony$', 'Bratislava')) %>% 
-  mutate(city = str_replace(city, 'Pozsona Presbourg', 'Bratislava')) %>% 
-  mutate(city = str_replace(city, 'Pozsony Prebourg', 'Bratislava')) %>% 
-  mutate(city = str_replace(city, 'Pozsony Pressbourg', 'Bratislava')) %>% 
-  mutate(city = str_replace(city, 'Bartislava', 'Bratislava')) %>% 
-  mutate(city = str_replace(city, 'Pressburg', 'Bratislava')) %>% 
-
-  mutate(city = str_replace(city, 'B-Bystrica', 'Banská Bystrica')) %>% 
-  mutate(city = str_replace(city, 'B. − Bystrica', 'Banská Bystrica')) %>% 
-  mutate(city = str_replace(city, 'B. Bystrica', 'Banská Bystrica')) %>% 
-  mutate(city = str_replace(city, 'B.-Bystrica', 'Banská Bystrica')) %>% 
-  mutate(city = str_replace(city, 'B.-Bytrica', 'Banská Bystrica')) %>% 
-  mutate(city = str_replace(city, 'B.−Bystrica', 'Banská Bystrica')) %>% 
-  mutate(city = str_replace(city, 'Besztercebánya', 'Banská Bystrica')) %>% 
-  mutate(city = str_replace(city, 'Brasso', 'Braşov')) %>% 
-
-  mutate(city = str_replace(city, 'Breslau', 'Wrocław')) %>% 
-  mutate(city = str_replace(city, 'Breslau, Breslau', 'Wrocław')) %>% 
-  mutate(city = str_replace(city, 'Bresslau', 'Wrocław')) %>% 
-  mutate(city = str_replace(city, 'Brslau', 'Wrocław')) %>%
-  
-  mutate(city = str_replace(city, 'Brünn', 'Brno')) %>% 
-  mutate(city = str_replace(city, 'Brussel', 'Bruxelles')) %>% 
-
-  mutate(city = str_replace(city, 'Buenos-Aires', 'Buenos Aires')) %>% 
-  mutate(city = str_replace(city, 'Bydgeszcz', 'Bydgoszcz')) %>% 
-  
-  mutate(city = str_replace(city, 'Darmstad', 'Darmstadt')) %>% 
-  mutate(city = str_replace(city, 'Darmstadtt', 'Darmstadt')) %>% 
-  
-  mutate(city = str_replace(city, '\'s Gravenhage', 'Den Haag')) %>% 
-  mutate(city = str_replace(city, '\'S Gravenhage', 'Den Haag')) %>% 
-  mutate(city = str_replace(city, '\'s Gravenhagen', 'Den Haag')) %>% 
-  mutate(city = str_replace(city, '\'S Gravenhagen', 'Den Haag')) %>% 
-  mutate(city = str_replace(city, 's-Gravenhage', 'Den Haag')) %>% 
-  mutate(city = str_replace(city, 'Den Haagn', 'Den Haag')) %>%
-  mutate(city = str_replace(city, 'Elberfeld und Leipzig', 'Elberfeld−Leipzig')) %>%
-
-  mutate(city = str_replace(city, 'Firenza', 'Firenze')) %>%
-  mutate(city = str_replace(city, 'Fiuma', 'Fiume')) %>%
-  mutate(city = str_replace(city, 'Genève', 'Genf')) %>%
-  mutate(city = str_replace(city, 'Gross-Kanizsa', 'Nagykanizsa')) %>%
-  mutate(city = str_replace(city, '^Halle a. S$', 'Halle am Saale')) %>%
-  mutate(city = str_replace(city, '^Halle, a. S$', 'Halle am Saale')) %>%
-  mutate(city = str_replace(city, '^Halle, a/S$', 'Halle am Saale')) %>%
-  mutate(city = str_replace(city, '^Halle, am Saale$', 'Halle am Saale')) %>%
-  mutate(city = str_replace(city, '^Halle, am. Saale$', 'Halle am Saale')) %>%
-  
-  mutate(city = str_replace(city, 'Harlem', 'Haarlem')) %>%
-  mutate(city = str_replace(city, 'Helsingfors', 'Helsinki')) %>%
-  mutate(city = str_replace(city, 'Helsingissä', 'Helsinki')) %>%
-  
-  mutate(city = str_replace(city, 'hermannstadt', 'Sibiu')) %>%
-  mutate(city = str_replace(city, 'Hermannstadt', 'Sibiu')) %>%
-  mutate(city = str_replace(city, 'Hermanstadt', 'Sibiu')) %>%
-  mutate(city = str_replace(city, 'Nagyszeben', 'Sibiu')) %>%
-  mutate(city = str_replace(city, 'Sibiiu', 'Sibiu')) %>%
-  
-  mutate(city = str_replace(city, 'Páris', 'Paris')) %>%
-  mutate(city = str_replace(city, 'Róma', 'Roma')) %>%
-  mutate(city = str_replace(city, 'Tel-Áviv', 'Tel-Aviv')) %>%
-  mutate(city = str_replace(city, 'V Trnava', 'Trnava')) %>%
-  mutate(city = str_replace(city, 'V Trnave', 'Trnava')) %>%
-  mutate(city = str_replace(city, 'Warszava', 'Warszawa')) %>%
-  mutate(city = str_replace(city, 'Winipeg', 'Winnipeg')) %>%
-  mutate(city = str_replace(city, 'Raab', 'Győr')) %>%
-  
-  mutate(city = str_replace(city, 'Kairó', 'Kairo')) %>%
-  mutate(city = str_replace(city, 'Kassa', 'Košice')) %>%
-  mutate(city = str_replace(city, 'Konstanz am Bodensee', 'Konstanz am Bodensee')) %>%
-  mutate(city = str_replace(city, 'Konstanz, a. Bodensee', 'Konstanz am Bodensee')) %>%
-  mutate(city = str_replace(city, 'Konstanz, am Bodensee', 'Konstanz am Bodensee')) %>%
-  mutate(city = str_replace(city, 'Krakow', 'Kraków')) %>%
-  
-  mutate(city = str_replace(city, 'Liptsymikuláš', 'Liptovský Sv. Mikuláš')) %>%
-  mutate(city = str_replace(city, 'Lipt. Sv. Mikuláš', 'Liptovský Sv. Mikuláš')) %>%
-  mutate(city = str_replace(city, 'Liptovsky Sv. Mikuláš', 'Liptovský Sv. Mikuláš')) %>%
-
-  mutate(city = str_replace(city, 'Lodz', 'Łódź')) %>%
-  mutate(city = str_replace(city, 'Lódz', 'Łódź')) %>%
-  mutate(city = str_replace(city, 'Łodz', 'Łódź')) %>%
-  mutate(city = str_replace(city, 'Łódz', 'Łódź')) %>%
-  
-  mutate(city = str_replace(city, '^Losonc$', 'Lučenec')) %>%
-  mutate(city = str_replace(city, '^Losoncon$', 'Lučenec')) %>%
-  mutate(city = str_replace(city, '^Losoncz$', 'Lučenec')) %>%
-  mutate(city = str_replace(city, '^Losonczon$', 'Lučenec')) %>%
-  
-  mutate(city = str_replace(city, 'Lwow', 'Lviv')) %>%
-  mutate(city = str_replace(city, 'Lwów', 'Lviv')) %>%
-
-  mutate(city = str_replace(city, 'Minden i/Westfalien', 'Minden in Westfalien')) %>%
-  mutate(city = str_replace(city, 'Minden in Westfailen', 'Minden in Westfalien')) %>%
-  mutate(city = str_replace(city, 'Minden, in Westfalien', 'Minden in Westfalien')) %>%
-
-  mutate(city = str_replace(city, 'Miskolcz', 'Miskolc')) %>%
-  mutate(city = str_replace(city, 'Munich', 'München')) %>%
-  mutate(city = str_replace(city, 'Murska−Sobota', 'Murska Sobota')) %>%
-  
-  mutate(city = str_replace(city, 'haarlem', 'Haarlem')) %>% 
-  mutate(city = str_replace(city, 'Angouleme', 'Angoulème')) %>% 
-  mutate(city = str_replace(city, 'Postdam', 'Potsdam')) %>% 
-  mutate(city = str_replace(city, 'Potsdamm', 'Potsdam')) %>% 
-
-  mutate(city = str_replace(city, 'Torčiansky Sv. Martin', 'Martin')) %>% 
-  mutate(city = str_replace(city, 'Turčiansky Sv. Martin', 'Martin')) %>% 
-  mutate(city = str_replace(city, 'Turčiánsky Sv. Martin', 'Martin')) %>% 
-  mutate(city = str_replace(city, 'Sv. Martin', 'Martin')) %>% 
-  mutate(city = str_replace(city, 'Turoczszentmárton', 'Martin')) %>% 
-  
-  mutate(city = str_replace(city, 'Temesvár', 'Timișoara')) %>% 
-  
-  group_by(city, year, nyelv) %>% 
+  group_by(normalized_city, year, nyelv) %>% 
   count() %>%
   filter(n > 1) %>% 
-  arrange(city, year, nyelv) %>% 
+  arrange(normalized_city, year, nyelv) %>% 
   write_csv('data/city-year-language.csv')
-  view()
+  # view()
 
 df %>% 
   filter(grepl('Josef Steinbach', fordito)) %>% 
