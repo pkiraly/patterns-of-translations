@@ -81,7 +81,7 @@ df %>%
   
   group_by(normalized_city, year, nyelv) %>% 
   count() %>%
-  # filter(n > 1) %>% 
+  filter(n > 1) %>% 
   arrange(normalized_city, year, nyelv) %>% 
   write_csv('data/city-year-language.csv')
   # view()
