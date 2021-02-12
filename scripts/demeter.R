@@ -4,6 +4,7 @@ library("stringdist")
 source("scripts/functions.R")
 
 df <- read_csv('data_raw/demeter.csv')
+names(df)
 
 df %>% 
   select(nyelv) %>%
@@ -13,9 +14,9 @@ df %>%
   view()
 
 df %>% 
-  filter(grepl('Toinen ed', megjelenes)) %>% 
-  select(megjelenes, nyelv) 
-  #view()
+  filter(grepl('Anfora', megjelenes)) %>% 
+  select(szerzo, magyar_cim, megjelenes, nyelv) %>% 
+  view()
 
 cities <- read_csv('data_raw/normalized-cities.csv')
 df %>% 
@@ -54,6 +55,15 @@ df %>%
   mutate(megjelenes = gsub('Prais, 1896', 'Paris, 1896', megjelenes)) %>% 
   mutate(megjelenes = gsub('Paris, 1930', 'Paris, 1930', megjelenes)) %>% 
   mutate(megjelenes = gsub('Rigā, 970', 'Rigā, 1970', megjelenes)) %>% 
+  mutate(megjelenes = gsub('^\\(1880) Ludwig Aigner Verlag', 'Budapest, (1880) Ludwig Aigner Verlag', megjelenes)) %>% 
+  mutate(megjelenes = gsub('\\(: Új Delhi :)', 'Új Delhi', megjelenes)) %>% 
+  mutate(megjelenes = gsub('Ankara, Millî Eğitim', 'Ankara, s. a. Millî Eğitim', megjelenes)) %>% 
+  mutate(megjelenes = gsub('^Adolf Bonniers', 'Strockholm, s. a. Adolf Bonniers', megjelenes)) %>% 
+  mutate(megjelenes = gsub('^Amsterdam, L. J.', 'Amsterdam, s. a. L. J.', megjelenes)) %>% 
+  mutate(megjelenes = gsub('^Barcelona, Distribuciones', 'Barcelona, s. a. Distribuciones', megjelenes)) %>% 
+  mutate(megjelenes = gsub('^Anfora en-8°', 'Barcelona, s. a. Anfora en-8°', megjelenes)) %>% 
+  
+
 
   mutate(megjelenes = gsub('Datum unkbek\\.', 'Datum unbek.', megjelenes)) %>% 
   
@@ -74,10 +84,10 @@ df %>%
   left_join(cities, by = c("city" = "source")) %>% 
   mutate(normalized_city = ifelse(is.na(normalized_city), city, normalized_city)) %>% 
 
-  # group_by(normalized_city) %>% 
-  # count() %>% 
-  # arrange(normalized_city) %>%
-  # view()
+  group_by(normalized_city) %>%
+  count() %>%
+  arrange(normalized_city) %>%
+  view()
   
   group_by(normalized_city, year, nyelv) %>% 
   count() %>%
