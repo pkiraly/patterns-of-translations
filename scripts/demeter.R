@@ -20,6 +20,16 @@ df %>%
   count() %>%
   arrange(desc(n)) %>%
   view()
+
+df %>%
+  filter(magyar_cim != 'Források:') %>% 
+  select(szerzo, magyar_cim) %>%
+  group_by(szerzo, magyar_cim) %>%
+  count() %>%
+  group_by(szerzo) %>%
+  count() %>%
+  arrange(desc(n)) %>%
+  view()
 # 
 # df %>% 
 #   #filter(id > 11390 & id < 11410) %>% 
