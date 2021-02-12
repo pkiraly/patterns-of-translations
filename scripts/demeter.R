@@ -5,74 +5,39 @@ source("scripts/functions.R")
 
 df <- read_csv('data_raw/demeter.csv')
 names(df)
-
-df %>% 
+# 
+df %>%
   select(nyelv) %>%
-  group_by(nyelv) %>% 
-  count() %>% 
-  arrange(desc(n)) %>% 
+  group_by(nyelv) %>%
+  count() %>%
+  arrange(desc(n)) %>%
   view()
 
-df %>% 
-  filter(grepl('Anfora', megjelenes)) %>% 
-  select(szerzo, magyar_cim, megjelenes, nyelv) %>% 
+df %>%
+  filter(magyar_cim != 'Források:') %>% 
+  select(szerzo, magyar_cim) %>%
+  group_by(szerzo, magyar_cim) %>%
+  count() %>%
+  arrange(desc(n)) %>%
   view()
+# 
+# df %>% 
+#   #filter(id > 11390 & id < 11410) %>% 
+#   filter(grepl('Dichtungen von A. Petöfi', megjelenes)) %>% 
+#   #select(id, szerzo, magyar_cim, megjelenes, nyelv) %>% 
+#   view()
 
 cities <- read_csv('data_raw/normalized-cities.csv')
 df %>% 
   filter(!grepl('^"', megjelenes)) %>% 
   filter(!grepl('^\\d', megjelenes)) %>% 
-  mutate(megjelenes = gsub('Frankfurt am Main,1849', 'Frankfurt am Main, 1849', megjelenes)) %>% 
-  mutate(megjelenes = gsub('Budapest,1961', 'Budapest, 1961', megjelenes)) %>% 
-  mutate(megjelenes = gsub('Budapest,1880', 'Budapest, 1880', megjelenes)) %>% 
-  mutate(megjelenes = gsub('Budapest,1938', 'Budapest, 1938', megjelenes)) %>% 
-  mutate(megjelenes = gsub('Budapest,1970', 'Budapest, 1970', megjelenes)) %>% 
-  mutate(megjelenes = gsub('Bern,1868', 'Bern, 1868', megjelenes)) %>% 
-  mutate(megjelenes = gsub('Breslau, 905', 'Breslau, 1905', megjelenes)) %>% 
-  mutate(megjelenes = gsub('Breslau, 1 905', 'Breslau, 1905', megjelenes)) %>% 
-  mutate(megjelenes = gsub('Bucureşti, 954', 'Bucureşti, 1954', megjelenes)) %>% 
-  mutate(megjelenes = gsub('Buffalo, 969', 'Buffalo, 1969', megjelenes)) %>% 
-  mutate(megjelenes = gsub('Franckfurt, am Main,1849', 'Franckfurt, am Main, 1849', megjelenes)) %>% 
-  mutate(megjelenes = gsub('Hermannstadt,1891', 'Hermannstadt, 1891', megjelenes)) %>% 
-  mutate(megjelenes = gsub('Indianapolis, 926', 'Indianapolis, 1926', megjelenes)) %>% 
-  mutate(megjelenes = gsub('^ilano', 'Milano', megjelenes)) %>% 
-  mutate(megjelenes = gsub('Kasa, 1908', 'Kassa, 1908', megjelenes)) %>% 
-  mutate(megjelenes = gsub('København, 1867 ', 'København, 1867.', megjelenes)) %>% 
-  mutate(megjelenes = gsub('Konstanz am Bodensee, 196 ', 'Konstanz am Bodensee, 1916', megjelenes)) %>% 
-  mutate(megjelenes = gsub('Kraków, 971', 'Kraków, 1971', megjelenes)) %>% 
-  mutate(megjelenes = gsub('Leipzig, oJ.', 'Leipzig, o. J.', megjelenes)) %>% 
-  mutate(megjelenes = gsub('Leipzig,1897', 'Leipzig, 1897', megjelenes)) %>% 
-  mutate(megjelenes = gsub('Lochena, 1953', 'Lochem, 1953', megjelenes)) %>% 
-  mutate(megjelenes = gsub('Liptivsky Sv. Mikuláš , 1944', 'Liptivsky Sv. Mikuláš, 1944', megjelenes)) %>% 
-  mutate(megjelenes = gsub('London,1894', 'London, 1894', megjelenes)) %>% 
-  mutate(megjelenes = gsub('Londonk, 1968', 'London, 1968', megjelenes)) %>% 
-  mutate(megjelenes = gsub('Madris, 1969', 'Madrid, 1969', megjelenes)) %>% 
-  mutate(megjelenes = gsub('Milano,1937', 'Milano, 1937', megjelenes)) %>% 
-  mutate(megjelenes = gsub('Minden in Westfalien,1886', 'Minden in Westfalien, 1886', megjelenes)) %>% 
-  mutate(megjelenes = gsub('Orades, 1926', 'Oradea, 1926', megjelenes)) %>% 
-  mutate(megjelenes = gsub('Pest,1864', 'Pest, 1864', megjelenes)) %>% 
-  mutate(megjelenes = gsub('Prag, O. J.', 'Prag, o. J.', megjelenes)) %>% 
-  mutate(megjelenes = gsub('Prais, 1896', 'Paris, 1896', megjelenes)) %>% 
-  mutate(megjelenes = gsub('Paris, 1930', 'Paris, 1930', megjelenes)) %>% 
-  mutate(megjelenes = gsub('Rigā, 970', 'Rigā, 1970', megjelenes)) %>% 
-  mutate(megjelenes = gsub('^\\(1880) Ludwig Aigner Verlag', 'Budapest, (1880) Ludwig Aigner Verlag', megjelenes)) %>% 
-  mutate(megjelenes = gsub('\\(: Új Delhi :)', 'Új Delhi', megjelenes)) %>% 
-  mutate(megjelenes = gsub('Ankara, Millî Eğitim', 'Ankara, s. a. Millî Eğitim', megjelenes)) %>% 
-  mutate(megjelenes = gsub('^Adolf Bonniers', 'Strockholm, s. a. Adolf Bonniers', megjelenes)) %>% 
-  mutate(megjelenes = gsub('^Amsterdam, L. J.', 'Amsterdam, s. a. L. J.', megjelenes)) %>% 
-  mutate(megjelenes = gsub('^Barcelona, Distribuciones', 'Barcelona, s. a. Distribuciones', megjelenes)) %>% 
-  mutate(megjelenes = gsub('^Anfora en-8°', 'Barcelona, s. a. Anfora en-8°', megjelenes)) %>% 
-  
 
-
-  mutate(megjelenes = gsub('Datum unkbek\\.', 'Datum unbek.', megjelenes)) %>% 
-  
   mutate(
     city = gsub(
-      '^(.*?) \\(?(\\d\\d\\d(\\d|\\?)|o\\. ?[jJ]\\.?|s\\. ?a\\.?|b\\. ?r\\.?|Jahr unbek\\.|é\\. n\\.|s\\. ?d\\.|b\\. ?g\\.|Datum fehlt|Datum unbek\\.|Ohne Jahresang\\.|f\\. ?a\\.|w\\. ?y\\.|without year|bez\\. god\\.|sans date).*',
+      '^(.*?) \\(?(\\d\\d\\d(\\d|\\?)(-\\d\\d\\d(\\d|\\?))?|19\\?\\?|o\\. ?[jJ]\\.?|s\\. ?a\\.?|b\\. ?r\\.?|Jahr unbek\\.|é\\. n\\.|s\\. ?d\\.|b\\. ?g\\.|Datum fehlt|Datum unbek\\.|Ohne Jahresang\\.|w\\. ?y\\.|without year|bez\\. god\\.|sans date|[fF]\\. ?a\\.).*',
       '\\1', megjelenes),
     year = gsub(
-      '^(.*?) \\(?(\\d\\d\\d(\\d|\\?)|o\\. ?[jJ]\\.?|s\\. ?a\\.?|b\\. ?r\\.?|Jahr unbek\\.|é\\. n\\.|s\\. ?d\\.|b\\. ?g\\.|Datum fehlt|Datum unbek\\.|Ohne Jahresang\\.|f\\. ?a\\.|w\\. ?y\\.|without year|bez\\. god\\.|sans date).*',
+      '^(.*?) \\(?(\\d\\d\\d(\\d|\\?)(-\\d\\d\\d(\\d|\\?))?|19\\?\\?|o\\. ?[jJ]\\.?|s\\. ?a\\.?|b\\. ?r\\.?|Jahr unbek\\.|é\\. n\\.|s\\. ?d\\.|b\\. ?g\\.|Datum fehlt|Datum unbek\\.|Ohne Jahresang\\.|w\\. ?y\\.|without year|bez\\. god\\.|sans date|[fF]\\. ?a\\.).*',
       '\\2', megjelenes)) %>% 
 
   mutate(year = clean_year(year)) %>% 
@@ -80,21 +45,36 @@ df %>%
   mutate(city = gsub('Postsdam', 'Potsdam', city)) %>% 
   mutate(city = gsub('Potsdamm', 'Potsdam', city)) %>% 
   mutate(city = gsub('Postdam', 'Potsdam', city)) %>% 
+  mutate(city = gsub('A többi adat hiányzik', 'n.a.', city)) %>% 
+  mutate(city = gsub('Adatai ismeretlenek előttem', 'n.a.', city)) %>% 
+  mutate(city = gsub('Közelebbi adatok még hiányoznak', 'n.a.', city)) %>% 
+  mutate(city = gsub('Közelebbi adatok nélkül', 'n.a.', city)) %>% 
+  mutate(city = gsub('További adatok még hiányoznak', 'n.a.', city)) %>% 
 
   left_join(cities, by = c("city" = "source")) %>% 
   mutate(normalized_city = ifelse(is.na(normalized_city), city, normalized_city)) %>% 
 
-  group_by(normalized_city) %>%
-  count() %>%
-  arrange(normalized_city) %>%
-  view()
+  # filter('Neuausgabe' == normalized_city |
+  #        'Övergedrukt uit de "Gids"' == normalized_city) %>%
+  # view()
+
+  # group_by(normalized_city) %>%
+  # count() %>%
+  # # filter(n == 1) %>% 
+  # arrange(normalized_city) %>%
+  # view()
   
   group_by(normalized_city, year, nyelv) %>% 
   count() %>%
-  filter(n > 1) %>% 
+  # filter(n > 1) %>% 
   arrange(normalized_city, year, nyelv) %>% 
-  write_csv('data/city-year-language.csv')
+  # write_csv('data/city-year-language.csv')
   # view()
+  
+  group_by(normalized_city, nyelv) %>% 
+  count() %>%
+  arrange(desc(n), normalized_city, nyelv) %>% 
+  view()
 
 df %>% 
   filter(grepl('Josef Steinbach', fordito)) %>% 

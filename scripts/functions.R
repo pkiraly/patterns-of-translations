@@ -4,7 +4,7 @@ library("stringdist")
 
 clean_year <- function(year) {
   year <- gsub(
-    '^(o\\. ?[jJ]\\.?|s\\. ?a\\.?|b\\. ?r\\.?|Jahr unbek\\.|é\\. n\\.|s\\. ?d\\.|b\\. ?g\\.|Datum fehlt|Datum unbek\\.|Ohne Jahresang\\.|f\\. ?a\\.|w\\. y\\.|without year|bez\\. god\\.|sans date)$',
+    '^(o\\. ?[jJ]\\.?|s\\. ?a\\.?|b\\. ?r\\.?|Jahr unbek\\.|é\\. n\\.|s\\. ?d\\.|b\\. ?g\\.|Datum fehlt|Datum unbek\\.|Ohne Jahresang\\.|w\\. y\\.|without year|bez\\. god\\.|sans date|[fF]\\. ?a\\.)$',
     'NA', year)
 }
 

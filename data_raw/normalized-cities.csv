@@ -85,6 +85,10 @@ Krakow,Kraków
 Torčiansky Sv. Martin,Martin
 Turčiansky Sv. Martin,Martin
 Turčiánsky Sv. Martin,Martin
+Turciansky Sv. Martin,Martin
+Turčiansky Sv. Matin,Martin
+Turčinsky Sv. Martin,Martin
+Tručiánsky Sv. Martin,Martin
 Sv. Martin,Martin
 Sv. Mártin,Martin
 Sv.-Martin,Martin
@@ -104,9 +108,11 @@ Nagyszeben,Sibiu
 Sibiiu,Sibiu
 Páris,Paris
 Róma,Roma
-Tel-Áviv,Tel-Aviv
+Tel-Áviv,Tel Aviv
 V Trnava,Trnava
 V Trnave,Trnava
+V. Trnava,Trnava
+V. Trnave,Trnava
 Warszava,Warszawa
 Winipeg,Winnipeg
 Raab,Győr
@@ -123,6 +129,9 @@ Halle Saale,Halle am Saale
 "Halle, a. Saale",Halle am Saale
 "Halle, a.s",Halle am Saale
 Malle a/S,Halle am Saale
+"Halle, a. d. S",Halle am Saale
+"Halle, a. d. Saale",Halle am Saale
+"Halle, a.S",Halle am Saale
 Breslau,Wrocław
 "Breslau, Breslau",Wrocław
 Bresslau,Wrocław
@@ -198,6 +207,7 @@ Bucuresti,Bucureşti
 Bukurest,Bucureşti
 Bucurest,Bucureşti
 New-Delhi,New Delhi
+: Új Delhi :,New Delhi
 Berlin und Leipzig,Berlin−Leipzig
 Berlin und Weimar,Berlin−Weimar
 Stuttgart und Tübingen,Stuttgart−Tübingen
@@ -222,6 +232,7 @@ Perjámos,Periam
 Athinae,Athén
 Békés-Čaba,Békéscsaba
 Békéš-čaba,Békéscsaba
+V Békés-Čabe,Békéscsaba
 "Boston, USA",Boston
 Brelin,Berlin
 Breslau−Leipzig−New-York,Wrocław−Leipzig−New-York
@@ -274,15 +285,25 @@ Kasseln,Kassel
 Késmárk,Kežmarok
 Kiew,Kyiv
 Киïв,Kyiv
+Київ,Kyiv
+Киев,Kyiv
+Кнїв,Kyiv
+Мiнск,Minsk
+Минск,Minsk
+Мінск,Minsk
+Мовква,Moscow
+Москва,Moscow
 Helsinki-Porvoo,Helsinki−Porvoo
 Kişinău,Chisinau
 Kišinev,Chisinau
 Kişinev,Chisinau
+Кишинэу,Chisinau
 Kjobenhavn,Copenhagen
 Kjøbenhavn,Copenhagen
 Københaven,Copenhagen
 København,Copenhagen
 København−Kristiania,Copenhagen−Kristiania
+"København, 1867",Copenhagen
 Kioto,Kyoto
 Kolozsvár-London,Cluj-Napoca−London
 Kolozsvár−London,Cluj-Napoca−London
@@ -291,6 +312,7 @@ Krak'w,Kraków
 Krakków,Kraków
 Habana,La Habana
 "La Habana, Cuba",La Habana
+Habana ?,La Habana
 Leipzig und Budapest,Leipzig−Budapest
 Leipzig und Wien,Leipzig−Wien
 Leipzig-Buda-Pest,Leipzig−Budapest
@@ -305,7 +327,8 @@ London-Toronto-New York,London−Toronto−New York
 London−Kolozsvár,London−Cluj-Napoca
 London−Wien−Róma,London−Wien−Roma
 Londres,London
-Louven,Leuven
+Louven,Louvain
+Leuven,Louvain
 madras,Madras
 Manilla,Manila
 Messina-Firenze,Messina−Firenze
@@ -314,38 +337,16 @@ Miláno,Milano
 Milan−Palermo−Napoli,Milano−Palermo−Napoli
 Milano-Palermo,Milano−Palermo
 Milano-palermo-Napoli,Milano−Palermo−Napoli
-"Milano, IIª ed",Milano
-"Milano, IIª ed. ivi",Milano
-"Milano, IIIª ed",Milano
-"Milano, IIIª ed. ivi",Milano
-"Milano, IV, V, VI. ed",Milano
-"Milano, IX. ed",Milano
-"Milano, IXª ed. ivi",Milano
-"Milano, VIª ed. ivi",Milano
-"Milano, VII. VIII. ed",Milano
-"Milano, VIIª ed. ivi",Milano
-"Milano, VIIIᵉ ed. ivi",Milano
-"Milano, X. ed",Milano
-"Milano, XI. ed",Milano
-"Milano, XII. ed",Milano
-"Milano, XIII. ed",Milano
-"Milano, XIV. ed",Milano
-"Milano, XV. ed",Milano
-"Milano, XVI. ed",Milano
-"Milano, XVII, XVIII. ed",Milano
 Milano−Róma,Milano−Roma
 Moscau,Moscow
 Moskau,Moscow
 Moskau−Leningrad,Moscow−Saint Petersburg
+Москва-Ленинград,Moscow−Saint Petersburg
+Москва−Ленинград,Moscow−Saint Petersburg
+Нови Сад−Београд,Novi Sad−Beograd
 Nagybecskerek,Zrenjanin
 Nagykikinda,Kikinda
-"Nagykikinda, ""Босанац илустр. Календар за год",Kikinda
-"Nagykikinda, ""Воjвоҕанин илустр. срписки нар. Календар за год",Kikinda
-"Nagykikinda, ""Воjвоҕанин илустр. српски нар. Календар за годину",Kikinda
-"Nagykikinda, ""Гуслав срписки народни илустр. Календар за год",Kikinda
-"Nagykikinda, ""Далматинац српски нар. илустр. Календар за годину",Kikinda
-"Nagykikinda, ""Родољуб списки народни илустр. Календар за годину",Kikinda
-"Nagykikinda, ""Чика Jова срписки нар. илустр. Календар за год",Kikinda
+Velika−Kikinda,Kikinda
 Neidelberg,Heidelberg
 New-Delphi,New Delhi
 new-York,New York
@@ -359,6 +360,10 @@ Novi-Sad,Novi Sad
 Н. Саду,Novi Sad
 Нови Сад,Novi Sad
 Нови-Сад,Novi Sad
+У Новом-Саду,Novi Sad
+У. Н. Саду,Novi Sad
+У Н.-Саду,Novi Sad
+УН. Саду,Novi Sad
 Pressbourg,Bratislava
 Pressburg-Leipzig,Bratislava−Leipzig
 Pressburg−Leipzig,Bratislava−Leipzig
@@ -380,7 +385,7 @@ Oraştie,Orăştie
 Osló,Oslo
 Ostravam,Ostrava
 Pancsova,Pančevo
-"Pancsova, ""Pancsovaer Kalendar für das Jahr",Pančevo
+Панчево,Pančevo
 paris,Paris
 Paryz,Paris
 Paryż,Paris
@@ -390,7 +395,6 @@ Peiping,Peking
 pest,Budapest
 Pesth -Wien,Budapest−Wien
 Pesth − Weien,Budapest−Wien
-Petőfi Múzeum,Budapest
 "Pittsburgh, PA",Pittsburgh
 Poori,Pori
 Portland Oregon,"Portland, OR"
@@ -425,20 +429,22 @@ Sao-Paolo,Sao Paulo
 Sao-Paulo,Sao Paulo
 Sarajevo-Zagreb,Sarajevo−Zagreb
 Scockholm,Stockholm
+Strockholm,Stockholm
+Stokcholm,Stockholm
 Segedin,Szeged
 Segesvár Schaessburg,Sighișoara
 Sibii,Sibiu
 Seste S. Giovanni − Milano,Milano
+"Milano−Seste, s. Giovanni",Milano
 Skoplje,Skopje
+Скопjе,Skopje
 Ssalzburg,Salzburg
-Stokcholm,Stockholm
 Stuttgart-Leipzig,Stuttgart−Leipzig
 Stuttgart-Tübingen,Stuttgart−Tübingen
 Stüttgart-Tühingen,Stuttgart−Tübingen
 Subotia,Subotica
-"Subotica, II. izdanje",Subotica
-"Subotica, II. Izdanje",Subotica
-"Subotica, III. izdanje",Subotica
+"Суботица, Jугословенско",Subotica
+Суботица,Subotica
 Szabadka,Subotica
 Szakolca,Skalica
 Szamosujvár,Gherla
@@ -464,3 +470,124 @@ Tirane,Tirana
 Tiranë,Tirana
 torino,Torino
 Torino-Milano-Padova,Torino−Milano−Padova
+"Brooklyn, USA",New York
+Brooklyn,New York
+"Bratislava, Praha",Bratislava−Praha
+Bruxelles-Paris,Bruxelles−Paris
+"Bruxelles, Non vérifiée",Bruxelles
+"Bucureşti, f. a",Bucureşti
+"Bucureşti, f.a",Bucureşti
+"Chicago, w. y",Chicago
+Bratislava ?,Bratislava
+Milano ?,Milano
+Warszawa ?,Warszawa
+Porvoo ?,Porvoo
+Helsinki ?,Helsinki
+Cleveland ?,Cleveland
+Sicilia ?,Sicilia
+Praha ?,Praha
+Wien ?,Wien
+London ?,London
+Paris ?,Paris
+Prešov ?,Prešov
+Frankfurt ?,Frankfurt am Main
+Roma ?,Roma
+Zagreb ?,Zagreb
+Budapest ?,Budapest
+Kraków ?,Kraków
+...?,s. l.
+Bad-Kissingen,Bad Kissingen
+"London, w. y",London
+London Tel-Aviv,London−Tel Aviv
+Helsingissae,Helsinki
+Subotica-Beograd,Subotica−Beograd
+Суботица−Београд,Subotica−Beograd
+Београд,Beograd
+Tübingen und Basel,Tübingen−Basel
+Uj-Delhi,New Delhi
+Warszawa-Kraków,Warszawa−Kraków
+Warszawa−Krakow,Warszawa−Kraków
+Weszprimii,Veszprém
+Wien − Stuttgart,Wien−Stuttgart
+Wien und Leipzig,Wien−Leipzig
+Weissensee und Leipzig,Weissensee−Leipzig
+Wien-Budapest,Wien−Budapest
+Wien-Budapest−Leipzig,Wien−Budapest−Leipzig
+Wien-Hamburg,Wien−Hamburg
+Wien-leipzig,Wien−Leipzig
+Wien-Leipzig,Wien−Leipzig
+Wien-Pressburg,Wien−Bratislava
+Wien-Raab,Wien−Győr
+Wien-Zürich,Wien−Zürich
+"Zagreb, b. g",Zagreb
+Wien−Leipzig−Pest,Wien−Leipzig−Budapest
+Wien−Pesth−Leipzig,Wien−Budapest−Leipzig
+Wien-Berlin,Wien−Berlin
+Будалешт,Budapest
+Будапешта,Budapest
+Бударешт,Budapest
+Загреб,Zagreb
+Кикинде,Kikinda
+Лондон,London
+Москва-−Ленинград,Moscow−Saint Petersburg
+Москвa,Moscow
+москва,Moscow
+Saint-Petersbourg,Saint Petersburg
+Ленинград,Saint Petersburg
+Санкт-Ретербург,Saint Petersburg
+Санкт−Петербург,Saint Petersburg
+Санкт-Петербушт,Saint Petersburg
+С.-Петербург,Saint Petersburg
+Саикт-Петербург,Saint Petersburg
+Санкт-Нетербург,Saint Petersburg
+Санкт-Петербург ?,Saint Petersburg
+Санкт-Петербург,Saint Petersburg
+С. Петербург,Saint Petersburg
+Санкт Петербург,Saint Petersburg
+Leningrad,Saint Petersburg
+Санкт-Петербург−Москва,Saint Petersburg−Moscow
+Софиа,Sofija
+СофИя,Sofija
+София,Sofija
+ТАШКЕНТ,Taskent
+Тaшкент,Taskent
+Ташкент,Taskent
+Удгород,Užgorod
+Ungvár,Užgorod
+Ужгород,Užgorod
+Унгвар,Užgorod
+Унгваръ,Užgorod
+Фрұнзе,Frunze
+Фрунзе,Frunze
+Фрунѕе,Frunze
+Wien−Liepzig,Wien−Leipzig
+Wien−Pressburg,Wien−Bratislava
+Ашхабад,Ашгабат
+БАКЫ,Бакы
+ВАКЫ,Бакы
+Барна,Varna
+Варна,Varna
+Беoград,Beograd
+Веоград,Beograd
+Вершец,Versec
+Versecz,Versec
+Будапеща,Budapest
+Вудапеща,Budapest
+Вудапешт,Budapest
+Новосибирск,Novosibirsk
+Одесса,Odessa
+Оренбург,Orenburg
+Пешт,Budapest
+Пловдив,Plovdiv
+Ростов,Rostov
+Улаанватар,Ulanbator
+Улаанбаатар,Ulanbator
+Харкiв,Harkov
+Харків,Harkov
+Цетине,Цетиңе
+Сыктывкар,Сынтывкар
+Душанбе,Dusanbe
+Екатеринбург,Ekaterinburg
+Казан,Kazan
+"St. Louis, Mo",St. Louis
+Dresden−Pest,Dresden−Budapest
