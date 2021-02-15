@@ -5,7 +5,7 @@ source("scripts/functions.R")
 
 df <- read_csv('data_raw/demeter.csv')
 names(df)
-# 
+# frequency of languages
 df %>%
   select(nyelv) %>%
   group_by(nyelv) %>%
@@ -13,6 +13,7 @@ df %>%
   arrange(desc(n)) %>%
   view()
 
+# művek - kiadások
 df %>%
   filter(magyar_cim != 'Források:') %>% 
   select(szerzo, magyar_cim) %>%
@@ -30,6 +31,31 @@ df %>%
   count() %>%
   arrange(desc(n)) %>%
   view()
+
+df %>%
+  filter(magyar_cim != 'Források:') %>% 
+  select(szerzo, nyelv) %>%
+  group_by(szerzo, nyelv) %>%
+  count() %>%
+  select(szerzo, nyelv) %>%
+  group_by(szerzo) %>%
+  count() %>%
+  arrange(desc(n)) %>%
+  view()
+
+# works translated to the most languages 
+df %>%
+  filter(magyar_cim != 'Források:') %>% 
+  select(szerzo, magyar_cim, nyelv) %>%
+  group_by(szerzo, magyar_cim, nyelv) %>%
+  count() %>%
+  select(szerzo, magyar_cim, nyelv) %>%
+  group_by(szerzo, magyar_cim) %>%
+  count() %>%
+  arrange(desc(n)) %>%
+  filter(szerzo != 'PETŐFI Sándor' & szerzo != 'JÓZSEF Attila' & szerzo != 'ADY Endre') %>% 
+  view()
+
 # 
 # df %>% 
 #   #filter(id > 11390 & id < 11410) %>% 
@@ -61,6 +87,12 @@ df %>%
   mutate(city = gsub('Közelebbi adatok nélkül', 'n.a.', city)) %>% 
   mutate(city = gsub('További adatok még hiányoznak', 'n.a.', city)) %>% 
 
+  mutate(year = gsub('A többi adat hiányzik', 'n.a.', year)) %>% 
+  mutate(year = gsub('Adatai ismeretlenek előttem', 'n.a.', year)) %>% 
+  mutate(year = gsub('Közelebbi adatok még hiányoznak', 'n.a.', year)) %>% 
+  mutate(year = gsub('Közelebbi adatok nélkül', 'n.a.', year)) %>% 
+  mutate(year = gsub('További adatok még hiányoznak', 'n.a.', year)) %>% 
+  
   left_join(cities, by = c("city" = "source")) %>% 
   mutate(normalized_city = ifelse(is.na(normalized_city), city, normalized_city)) %>% 
 
@@ -73,6 +105,26 @@ df %>%
   # # filter(n == 1) %>% 
   # arrange(normalized_city) %>%
   # view()
+
+  mutate(magyar_cim = gsub('A Pál-utcai fiúk', 'A Pál utcai fiúk', magyar_cim)) %>% 
+  mutate(year_n = as.integer(year)) %>% 
+
+  filter(szerzo != '---') %>% 
+  select(id, szerzo, magyar_cim, year_n, nyelv, normalized_city) %>% 
+  arrange(szerzo, magyar_cim, year_n, nyelv, normalized_city) %>% 
+  group_by(szerzo, magyar_cim, nyelv) %>% 
+  mutate(
+    editions = n(),
+    min_year = min(year_n, na.rm = TRUE),
+    max_year = max(year_n, na.rm = TRUE),
+    duration = max_year - min_year,
+  ) %>% 
+  group_by(szerzo, magyar_cim, nyelv) %>% 
+  select(szerzo, magyar_cim, nyelv, editions, min_year, max_year, duration) %>% 
+  filter(editions > 1) %>% 
+  view()
+  
+
   
   group_by(normalized_city, year, nyelv) %>% 
   count() %>%
