@@ -3,7 +3,7 @@ library(ggplot2)
 library("stringdist")
 source("scripts/functions.R")
 
-df <- read_csv('data_raw/demeter.csv')
+df <- read_csv('data/demeter.csv', col_types = 'dccccccccccccd')
 
 df %>%
   filter(magyar_cim != 'Források:' & szerzo != '---') %>% 
@@ -31,7 +31,7 @@ df %>%
   group_by(szerzo, magyar_cim, nyelv) %>%
   count() %>%
   rename(count = n) %>% 
-  filter(szerzo != 'PETŐFI Sándor') %>% 
+  # filter(szerzo != 'PETŐFI Sándor') %>% 
   arrange(magyar_cim, desc(count)) %>%
   write_csv('data/languages-by-works.csv') %>% 
   view()
