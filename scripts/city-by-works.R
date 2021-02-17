@@ -58,7 +58,11 @@ df %>%
   select(-year_n) %>% 
   distinct() %>% 
   # rename(publications = n) %>% 
-  # write_csv('data/city-publications.csv') %>% 
+  write_csv('data/city-publications.csv') %>% 
+  view()
+
+df <- read_csv('data/city-publications.csv')
+df %>% 
   filter(!is.na(city) & city != 'Budapest' & city != 's. l'
          & count > 20) %>% 
   ggplot(aes(count, span, label = city)) +
@@ -75,9 +79,24 @@ ggsave("images/publications-by-timespan.png",
 # group_by(city, year_n, nyelv) %>% 
 # count() %>% 
 
-  
-  select(count, city) %>% 
-  group_by(city) %>% 
-  summarise(works = sum(count)) %>%
-  write_csv('data/city-by-works.csv') %>% 
-  view()
+cities <- read_csv('data/city-publications.csv')
+top_cities <- cities %>%
+  select(city, span, count) %>% 
+  filter(count >= 20 & !is.na(city) & city != 'Budapest' & city != 's. l')
+
+df <- read_csv('data/city-year-language-works.csv')
+df %>%
+  filter(city %in% top_cities$city) %>% 
+  select(city, year_n) %>% 
+  left_join(top_cities) %>% 
+  ggplot(aes(year_n, reorder(city, span))) +
+    geom_point(colour = 'cornflowerblue') +
+    ggtitle(
+      'Publication years by cities',
+      subtitle = 'ordered by time span') +
+    xlab('publication year') +
+    ylab('city')
+
+ggsave("images/years-by-cities.png", 
+       width = 4, height = 6, units = 'in', dpi = 300)
+

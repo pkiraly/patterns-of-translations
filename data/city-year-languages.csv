@@ -1,0 +1,3356 @@
+city,year_n,languages
+Aalborg,1894,1
+Aalborg,1897,1
+Aarhus,1959,1
+Aarschot,1926,1
+Åbo,1879,1
+Acqui,1861,1
+Akron,1902,1
+Almaty,1954,2
+Almaty,1955,1
+Almaty,1956,1
+Almaty,1957,1
+Almaty,1966,1
+Almaty,1969,1
+Amsterdam,1887,1
+Amsterdam,1922,1
+Amsterdam,1925,1
+Amsterdam,1927,1
+Amsterdam,1934,1
+Amsterdam,1937,2
+Amsterdam,1938,2
+Amsterdam,1939,1
+Amsterdam,1942,1
+Amsterdam,1943,1
+Amsterdam,1944,1
+Amsterdam,1946,1
+Amsterdam,1947,1
+Amsterdam,1951,1
+Amsterdam,1952,1
+Amsterdam,1953,1
+Amsterdam,1956,1
+Amsterdam,1958,1
+Amsterdam,1959,1
+Amsterdam,1960,1
+Amsterdam,1962,1
+Amsterdam,1964,1
+Amsterdam,1965,1
+Amsterdam,1969,1
+Amsterdam,1972,1
+Amsterdam,1976,1
+Amsterdam,1977,1
+Amsterdam,NA,2
+Angoulème,1939,1
+Ankara,1944,1
+Ankara,1945,1
+Ankara,1946,1
+Ankara,1947,1
+Ankara,1948,1
+Ankara,1949,1
+Ankara,1950,1
+Ankara,1951,1
+Ankara,1952,1
+Ankara,1967,1
+Ankara,1968,1
+Ankara,NA,1
+Ann Arbor,1977,1
+Antwerpen,1933,1
+Antwerpen,1935,1
+Antwerpen,1942,1
+Antwerpen,1943,1
+Antwerpen,1944,1
+Antwerpen,1946,1
+Antwerpen,1947,1
+Antwerpen,1949,1
+Antwerpen,1950,1
+Antwerpen,1952,1
+Antwerpen,1956,2
+Antwerpen,1957,1
+Antwerpen,1958,1
+Antwerpen,1959,1
+Antwerpen,1960,1
+Antwerpen,1962,1
+Antwerpen,1964,2
+Antwerpen,1967,1
+Antwerpen,1972,1
+Antwerpen,1976,1
+Antwerpen,NA,2
+Arad,1916,1
+Arad,1925,1
+Arad,1936,1
+Arad,1939,1
+Arad,1949,1
+Arhus,NA,1
+Arnhem,1874,1
+Ashgabat,1955,1
+Ashgabat,1959,1
+Ashgabat,1961,1
+Assisi,1874,1
+Athén,1861,1
+Athén,NA,1
+Bacău,1949,1
+Bad Kissingen,1948,1
+Bad Wörishofen,1953,1
+Baden-Baden,1929,1
+Bahia,1958,1
+Baia Mare,1957,1
+Baja,1926,1
+Baja,1931,1
+Baku,1948,1
+Baku,1953,1
+Baku,1956,1
+Baku,1961,1
+Baku,1964,1
+Banská Bystrica,1891,1
+Banská Bystrica,1909,1
+Banská Bystrica,1910,1
+Banská Bystrica,1912,1
+Banská Bystrica,1913,1
+Banská Bystrica,1914,1
+Banská Bystrica,1916,1
+Barcelona,1921,1
+Barcelona,1923,1
+Barcelona,1924,1
+Barcelona,1930,2
+Barcelona,1931,1
+Barcelona,1942,1
+Barcelona,1943,1
+Barcelona,1944,1
+Barcelona,1945,1
+Barcelona,1946,1
+Barcelona,1947,1
+Barcelona,1948,1
+Barcelona,1949,1
+Barcelona,1950,1
+Barcelona,1951,1
+Barcelona,1952,1
+Barcelona,1958,1
+Barcelona,1959,1
+Barcelona,1960,1
+Barcelona,1962,1
+Barcelona,1963,1
+Barcelona,1964,1
+Barcelona,1965,1
+Barcelona,1966,1
+Barcelona,1968,1
+Barcelona,1969,1
+Barcelona,1970,1
+Barcelona,1975,1
+Barcelona,1976,1
+Barcelona,NA,1
+Bari,1947,1
+Basel,1932,1
+Basel,1933,1
+Basel,1941,1
+Basel,1946,1
+Basel,1948,1
+Basel,1961,1
+Basel,1964,1
+Basel,1975,1
+Basel,NA,1
+Békéscsaba,1890,1
+Belo Horizonte,1963,1
+Beograd,1880,1
+Beograd,1881,1
+Beograd,1890,1
+Beograd,1893,1
+Beograd,1894,1
+Beograd,1895,1
+Beograd,1898,1
+Beograd,1927,1
+Beograd,1930,1
+Beograd,1940,1
+Beograd,1948,1
+Beograd,1951,2
+Beograd,1952,1
+Beograd,1953,1
+Beograd,1956,1
+Beograd,1957,1
+Beograd,1960,1
+Beograd,1962,1
+Beograd,1963,2
+Beograd,1964,2
+Beograd,1965,2
+Beograd,1966,2
+Beograd,1967,1
+Beograd,1969,2
+Beograd,1970,1
+Beograd,1972,1
+Beograd,1973,1
+Berlin,1838,1
+Berlin,1850,1
+Berlin,1851,1
+Berlin,1859,1
+Berlin,1860,1
+Berlin,1864,1
+Berlin,1868,1
+Berlin,1869,1
+Berlin,1872,1
+Berlin,1873,1
+Berlin,1874,1
+Berlin,1875,1
+Berlin,1876,1
+Berlin,1877,1
+Berlin,1878,1
+Berlin,1879,1
+Berlin,1880,1
+Berlin,1881,1
+Berlin,1882,1
+Berlin,1883,1
+Berlin,1884,1
+Berlin,1885,1
+Berlin,1886,1
+Berlin,1887,1
+Berlin,1888,1
+Berlin,1889,1
+Berlin,1890,1
+Berlin,1891,1
+Berlin,1892,1
+Berlin,1893,1
+Berlin,1894,1
+Berlin,1895,1
+Berlin,1896,1
+Berlin,1897,1
+Berlin,1898,1
+Berlin,1899,1
+Berlin,1900,1
+Berlin,1901,1
+Berlin,1902,1
+Berlin,1903,1
+Berlin,1905,1
+Berlin,1908,1
+Berlin,1909,1
+Berlin,1910,1
+Berlin,1911,1
+Berlin,1912,2
+Berlin,1913,1
+Berlin,1914,1
+Berlin,1916,1
+Berlin,1917,1
+Berlin,1918,1
+Berlin,1919,1
+Berlin,1920,1
+Berlin,1921,2
+Berlin,1922,1
+Berlin,1923,1
+Berlin,1924,1
+Berlin,1926,1
+Berlin,1927,1
+Berlin,1928,1
+Berlin,1929,2
+Berlin,1930,1
+Berlin,1931,1
+Berlin,1936,1
+Berlin,1937,1
+Berlin,1938,1
+Berlin,1940,1
+Berlin,1941,1
+Berlin,1942,1
+Berlin,1943,1
+Berlin,1944,1
+Berlin,1946,1
+Berlin,1947,1
+Berlin,1948,1
+Berlin,1949,1
+Berlin,1950,1
+Berlin,1951,1
+Berlin,1952,1
+Berlin,1953,1
+Berlin,1954,1
+Berlin,1955,1
+Berlin,1956,1
+Berlin,1957,1
+Berlin,1958,1
+Berlin,1959,1
+Berlin,1960,1
+Berlin,1961,1
+Berlin,1962,1
+Berlin,1963,1
+Berlin,1964,1
+Berlin,1965,1
+Berlin,1966,1
+Berlin,1967,1
+Berlin,1968,1
+Berlin,1969,1
+Berlin,1970,1
+Berlin,1971,1
+Berlin,1972,1
+Berlin,1973,1
+Berlin,1974,1
+Berlin,1975,1
+Berlin,1976,1
+Berlin,1977,1
+Berlin,NA,1
+Bern,1858,1
+Bern,1864,1
+Bern,1868,1
+Bern,1944,1
+Bern,1946,1
+Bern,1947,1
+Bern,1951,2
+Bern,1968,1
+Bern,NA,1
+Bilthoven,1929,1
+Bilthoven,1939,1
+Bilthoven,1952,1
+Bilthoven,1962,1
+Bistriţa,1904,1
+Bistriţa,1905,1
+Bistriţa,1912,1
+Boca Raton,1972,1
+Bologna,1863,1
+Bologna,1928,1
+Bologna,1929,1
+Bologna,1931,1
+Bologna,1938,1
+Bologna,1948,1
+Bologna,1956,1
+Bologna,1959,1
+Bologna,NA,1
+Boston,1895,1
+Boston,1898,1
+Boston,1901,1
+Boston,1930,1
+Boston,1932,1
+Boston,1946,1
+Boudry,1948,1
+Braşov,1859,1
+Braşov,1863,1
+Braşov,1894,1
+Braşov,1897,1
+Braşov,1909,1
+Braşov,1911,1
+Braşov,1929,1
+Braşov,1930,1
+Braşov,1931,1
+Braşov,1932,1
+Braşov,1933,1
+Braşov,1934,1
+Braşov,1935,1
+Braşov,1936,1
+Braşov,1938,1
+Braşov,1945,1
+Braşov,1949,1
+Bratislava,1846,1
+Bratislava,1854,1
+Bratislava,1859,1
+Bratislava,1860,1
+Bratislava,1861,1
+Bratislava,1867,1
+Bratislava,1879,1
+Bratislava,1880,2
+Bratislava,1881,1
+Bratislava,1883,1
+Bratislava,1884,1
+Bratislava,1886,1
+Bratislava,1904,2
+Bratislava,1905,1
+Bratislava,1908,1
+Bratislava,1909,1
+Bratislava,1910,1
+Bratislava,1923,1
+Bratislava,1926,1
+Bratislava,1932,1
+Bratislava,1933,1
+Bratislava,1934,1
+Bratislava,1935,1
+Bratislava,1936,1
+Bratislava,1937,1
+Bratislava,1938,2
+Bratislava,1939,1
+Bratislava,1940,1
+Bratislava,1941,1
+Bratislava,1942,1
+Bratislava,1943,1
+Bratislava,1946,1
+Bratislava,1947,1
+Bratislava,1948,1
+Bratislava,1949,1
+Bratislava,1950,1
+Bratislava,1951,1
+Bratislava,1952,1
+Bratislava,1953,1
+Bratislava,1954,1
+Bratislava,1955,1
+Bratislava,1956,1
+Bratislava,1957,1
+Bratislava,1958,1
+Bratislava,1959,1
+Bratislava,1960,1
+Bratislava,1961,1
+Bratislava,1962,1
+Bratislava,1963,1
+Bratislava,1964,1
+Bratislava,1965,1
+Bratislava,1966,1
+Bratislava,1967,1
+Bratislava,1968,1
+Bratislava,1969,1
+Bratislava,1970,1
+Bratislava,1971,1
+Bratislava,1972,1
+Bratislava,1973,1
+Bratislava,1974,1
+Bratislava,1975,1
+Bratislava,1976,1
+Bratislava,1978,1
+Bratislava,NA,2
+Braunschweig,1852,1
+Braunschweig,1948,1
+Bregenz,1948,1
+Bremen,1872,1
+Bremen,1950,1
+Bremen,NA,1
+Brescia,1937,1
+Brno,1820,1
+Brno,1865,1
+Brno,1898,1
+Brno,1899,1
+Brno,1949,1
+Brno,1950,1
+Brno,NA,1
+Bruxelles,1860,1
+Bruxelles,1863,1
+Bruxelles,1866,1
+Bruxelles,1874,1
+Bruxelles,1903,1
+Bruxelles,1928,1
+Bruxelles,1933,1
+Bruxelles,1946,1
+Bruxelles,1947,2
+Bruxelles,1948,1
+Bruxelles,1949,1
+Bruxelles,1950,1
+Bruxelles,1960,1
+Bruxelles,1963,1
+Bruxelles,1964,2
+Bruxelles,1965,1
+Bruxelles,1969,3
+Bruxelles,1971,1
+Bruxelles,1974,1
+Bruxelles,1977,1
+Bruxelles,NA,3
+Bucureşti,1896,1
+Bucureşti,1897,1
+Bucureşti,1907,1
+Bucureşti,1908,1
+Bucureşti,1909,1
+Bucureşti,1910,1
+Bucureşti,1911,1
+Bucureşti,1913,1
+Bucureşti,1916,1
+Bucureşti,1921,1
+Bucureşti,1922,1
+Bucureşti,1923,1
+Bucureşti,1924,1
+Bucureşti,1925,1
+Bucureşti,1926,1
+Bucureşti,1927,1
+Bucureşti,1928,1
+Bucureşti,1929,1
+Bucureşti,1930,1
+Bucureşti,1931,1
+Bucureşti,1932,1
+Bucureşti,1933,1
+Bucureşti,1934,1
+Bucureşti,1935,1
+Bucureşti,1936,1
+Bucureşti,1937,1
+Bucureşti,1938,1
+Bucureşti,1939,1
+Bucureşti,1945,1
+Bucureşti,1946,1
+Bucureşti,1947,1
+Bucureşti,1948,1
+Bucureşti,1949,2
+Bucureşti,1950,1
+Bucureşti,1951,1
+Bucureşti,1952,1
+Bucureşti,1953,2
+Bucureşti,1954,1
+Bucureşti,1955,3
+Bucureşti,1956,1
+Bucureşti,1957,2
+Bucureşti,1958,1
+Bucureşti,1959,2
+Bucureşti,1960,1
+Bucureşti,1961,1
+Bucureşti,1962,2
+Bucureşti,1963,2
+Bucureşti,1964,1
+Bucureşti,1965,1
+Bucureşti,1966,1
+Bucureşti,1967,1
+Bucureşti,1968,2
+Bucureşti,1969,1
+Bucureşti,1970,2
+Bucureşti,1971,1
+Bucureşti,1972,1
+Bucureşti,1973,1
+Bucureşti,1974,1
+Bucureşti,1975,1
+Bucureşti,1976,1
+Bucureşti,NA,1
+Budapest,1792,1
+Budapest,1807,1
+Budapest,1810,1
+Budapest,1814,1
+Budapest,1821,1
+Budapest,1823,1
+Budapest,1826,1
+Budapest,1828,3
+Budapest,1829,1
+Budapest,1830,1
+Budapest,1831,1
+Budapest,1836,1
+Budapest,1838,1
+Budapest,1839,1
+Budapest,1840,1
+Budapest,1841,1
+Budapest,1842,1
+Budapest,1843,1
+Budapest,1844,1
+Budapest,1845,1
+Budapest,1846,1
+Budapest,1848,1
+Budapest,1850,1
+Budapest,1851,1
+Budapest,1852,1
+Budapest,1853,1
+Budapest,1854,2
+Budapest,1855,1
+Budapest,1856,1
+Budapest,1857,1
+Budapest,1858,1
+Budapest,1860,3
+Budapest,1861,10
+Budapest,1862,2
+Budapest,1863,1
+Budapest,1864,1
+Budapest,1865,3
+Budapest,1866,1
+Budapest,1867,2
+Budapest,1868,3
+Budapest,1869,2
+Budapest,1871,1
+Budapest,1872,2
+Budapest,1873,2
+Budapest,1874,2
+Budapest,1875,1
+Budapest,1876,2
+Budapest,1877,3
+Budapest,1878,1
+Budapest,1879,2
+Budapest,1880,4
+Budapest,1881,2
+Budapest,1882,2
+Budapest,1883,2
+Budapest,1884,1
+Budapest,1885,2
+Budapest,1886,2
+Budapest,1887,3
+Budapest,1888,2
+Budapest,1889,3
+Budapest,1890,4
+Budapest,1891,2
+Budapest,1892,2
+Budapest,1893,1
+Budapest,1894,3
+Budapest,1895,2
+Budapest,1896,2
+Budapest,1897,3
+Budapest,1898,2
+Budapest,1899,3
+Budapest,1900,2
+Budapest,1901,2
+Budapest,1902,3
+Budapest,1903,4
+Budapest,1904,3
+Budapest,1905,3
+Budapest,1906,6
+Budapest,1907,4
+Budapest,1908,5
+Budapest,1909,23
+Budapest,1910,4
+Budapest,1911,4
+Budapest,1912,5
+Budapest,1913,2
+Budapest,1914,4
+Budapest,1915,2
+Budapest,1916,3
+Budapest,1917,4
+Budapest,1919,1
+Budapest,1920,4
+Budapest,1921,4
+Budapest,1922,2
+Budapest,1923,6
+Budapest,1924,3
+Budapest,1925,3
+Budapest,1926,7
+Budapest,1927,1
+Budapest,1928,2
+Budapest,1929,3
+Budapest,1930,2
+Budapest,1931,4
+Budapest,1932,2
+Budapest,1933,4
+Budapest,1934,3
+Budapest,1935,3
+Budapest,1936,3
+Budapest,1937,3
+Budapest,1938,5
+Budapest,1939,5
+Budapest,1940,20
+Budapest,1941,4
+Budapest,1942,3
+Budapest,1943,4
+Budapest,1944,2
+Budapest,1945,1
+Budapest,1946,1
+Budapest,1947,2
+Budapest,1948,9
+Budapest,1949,1
+Budapest,1952,4
+Budapest,1953,3
+Budapest,1954,5
+Budapest,1955,5
+Budapest,1956,4
+Budapest,1957,2
+Budapest,1958,1
+Budapest,1959,1
+Budapest,1960,2
+Budapest,1961,6
+Budapest,1962,4
+Budapest,1963,5
+Budapest,1964,4
+Budapest,1965,6
+Budapest,1966,7
+Budapest,1967,5
+Budapest,1968,9
+Budapest,1969,4
+Budapest,1970,13
+Budapest,1971,7
+Budapest,1972,6
+Budapest,1973,14
+Budapest,1974,10
+Budapest,1975,9
+Budapest,1976,15
+Budapest,1977,17
+Budapest,1978,3
+Budapest,1979,1
+Budapest,NA,6
+Buenos Aires,1908,1
+Buenos Aires,1924,1
+Buenos Aires,1945,1
+Buenos Aires,1948,1
+Buenos Aires,1949,1
+Buenos Aires,1950,1
+Buenos Aires,1951,1
+Buenos Aires,1952,1
+Buenos Aires,1955,1
+Buenos Aires,1956,1
+Buenos Aires,1959,1
+Buenos Aires,1961,1
+Buenos Aires,1963,1
+Buffalo,1969,1
+Buffalo,1973,1
+Bussum,1959,1
+Bydgoszcz,1949,1
+Cagliari,1947,1
+Cagliari,1948,1
+Cagliari,1949,1
+Cairo,1952,1
+Cairo,1955,1
+Cairo,1956,1
+Cairo,1957,1
+Cairo,1958,1
+Cairo,1960,1
+Caracas,1972,1
+Catania,1948,1
+Cetinje,1955,1
+Charlottenburg,1928,1
+Cheadle,1973,1
+Cheboksary,1953,1
+Cheboksary,1970,1
+Chicago,1896,1
+Chicago,1898,1
+Chicago,1901,1
+Chicago,1902,1
+Chicago,1968,1
+Chicago,NA,1
+Chisinau,1953,1
+Chisinau,1954,1
+Chisinau,1959,1
+Chisinau,1960,1
+Chisinau,1967,1
+Cieszyn,1884,1
+Cleveland,1910,1
+Cleveland,1920,1
+Cleveland,1926,1
+Cleveland,1936,1
+Cleveland,1947,1
+Cluj-Napoca,1816,1
+Cluj-Napoca,1876,1
+Cluj-Napoca,1877,2
+Cluj-Napoca,1880,1
+Cluj-Napoca,1884,2
+Cluj-Napoca,1891,1
+Cluj-Napoca,1892,1
+Cluj-Napoca,1893,1
+Cluj-Napoca,1894,1
+Cluj-Napoca,1895,1
+Cluj-Napoca,1896,1
+Cluj-Napoca,1897,1
+Cluj-Napoca,1898,1
+Cluj-Napoca,1905,2
+Cluj-Napoca,1921,1
+Cluj-Napoca,1922,1
+Cluj-Napoca,1924,1
+Cluj-Napoca,1925,1
+Cluj-Napoca,1926,1
+Cluj-Napoca,1927,1
+Cluj-Napoca,1928,1
+Cluj-Napoca,1930,1
+Cluj-Napoca,1931,1
+Cluj-Napoca,1932,1
+Cluj-Napoca,1937,1
+Cluj-Napoca,1942,1
+Cluj-Napoca,1944,1
+Cluj-Napoca,1947,1
+Cluj-Napoca,1948,1
+Cluj-Napoca,1949,1
+Cluj-Napoca,1972,1
+Cluj-Napoca,1974,1
+Cluj-Napoca,NA,1
+Coira,1879,1
+Colombo,1973,1
+Como,1880,1
+Copenhagen,1867,1
+Copenhagen,1869,1
+Copenhagen,1874,1
+Copenhagen,1875,1
+Copenhagen,1877,1
+Copenhagen,1879,1
+Copenhagen,1880,1
+Copenhagen,1883,1
+Copenhagen,1885,1
+Copenhagen,1892,1
+Copenhagen,1893,1
+Copenhagen,1894,1
+Copenhagen,1895,1
+Copenhagen,1896,1
+Copenhagen,1902,1
+Copenhagen,1903,1
+Copenhagen,1904,1
+Copenhagen,1905,1
+Copenhagen,1907,1
+Copenhagen,1912,1
+Copenhagen,1919,1
+Copenhagen,1936,1
+Copenhagen,1937,1
+Copenhagen,1939,1
+Copenhagen,1941,1
+Copenhagen,1946,1
+Copenhagen,1947,1
+Copenhagen,1949,1
+Copenhagen,1950,1
+Copenhagen,1951,1
+Copenhagen,1952,1
+Copenhagen,1953,1
+Copenhagen,1954,1
+Copenhagen,1958,1
+Copenhagen,1960,1
+Copenhagen,1966,1
+Copenhagen,1967,1
+Copenhagen,1968,2
+Copenhagen,1969,1
+Copenhagen,1975,1
+Copenhagen,NA,1
+Craiova,1922,1
+Craiova,1937,1
+Craiova,1938,1
+Craiova,1949,1
+Cremona,1944,1
+Cuautla,1965,1
+Damaskus,1954,1
+Darmstadt,1851,1
+Darmstadt,1856,1
+Darmstadt,1917,1
+Darmstadt,1940,1
+Darmstadt,1959,1
+Darmstadt,1963,1
+Darmstadt,1969,1
+Debrecen,1958,1
+Dej,1934,1
+Den Haag,1915,1
+Den Haag,1916,1
+Den Haag,1930,1
+Den Haag,1937,1
+Den Haag,1947,1
+Den Haag,1953,1
+Den Haag,1958,1
+Den Haag,1969,1
+Den Haag,NA,2
+Detroit,1970,1
+Draguignan,1967,1
+Draguignan,1968,1
+Dresden,1853,1
+Dresden,1854,2
+Dresden,1874,1
+Dresden,1875,1
+Dresden,1876,1
+Dresden,1881,1
+Dresden,1883,1
+Dresden,1885,1
+Dresden,1887,1
+Dresden,1892,1
+Dresden,1894,1
+Dresden,1898,1
+Dresden,1901,1
+Dresden,1908,1
+Dresden,1909,1
+Dresden,1911,1
+Dresden,1912,1
+Dresden,1915,1
+Dresden,1952,1
+Dresden,1954,1
+Dresden,NA,1
+Dublin,1948,1
+Dublin,1951,1
+Dublin,1972,1
+Dusanbe,1964,1
+Dusanbe,1969,1
+Dushanbe,1955,1
+Dushanbe,1956,1
+Dushanbe,1961,1
+Düsseldorf,1951,1
+Düsseldorf,1966,1
+Düsseldorf,1970,1
+Düsseldorf,1972,1
+Edinborough,1854,1
+Edinborough,1865,1
+Edinborough,1888,1
+Edinborough,1894,1
+Edinborough,1930,1
+Edinborough,1937,1
+Einsiedeln,1960,1
+Eisenach,1901,1
+Eisenach,1903,1
+Eisenach,NA,1
+Eisenstadt,1975,1
+Eisenstadt,1977,1
+Elberfeld,1866,1
+Engels,1935,1
+Engels,1938,1
+Englewood Cliffs,1968,1
+Erlangen,1871,1
+Erlangen,1950,1
+Evanston,1972,1
+Filey,1973,1
+Firenze,1875,1
+Firenze,1878,1
+Firenze,1931,1
+Firenze,1932,1
+Firenze,1933,1
+Firenze,1934,1
+Firenze,1935,1
+Firenze,1938,1
+Firenze,1943,1
+Firenze,1944,1
+Firenze,1949,1
+Firenze,1951,1
+Firenze,1952,1
+Firenze,1953,1
+Firenze,1955,1
+Firenze,1956,1
+Firenze,1958,1
+Firenze,1961,1
+Firenze,1967,1
+Firenze,1973,1
+Fogărăs,1925,1
+Foligni,1930,1
+Fönjan,1956,1
+Fönjan,1957,1
+Frankfurt,1848,1
+Frankfurt,1903,1
+Frankfurt,1922,1
+Frankfurt,1924,1
+Frankfurt,1925,1
+Frankfurt,1926,1
+Frankfurt,1928,1
+Frankfurt,1929,1
+Frankfurt,1930,1
+Frankfurt,1931,1
+Frankfurt,1934,1
+Frankfurt,NA,1
+Frankfurt am Main,1849,1
+Frankfurt am Main,1891,1
+Frankfurt am Main,1912,1
+Frankfurt am Main,1926,1
+Frankfurt am Main,1927,1
+Frankfurt am Main,1932,1
+Frankfurt am Main,1953,1
+Frankfurt am Main,1959,1
+Frankfurt am Main,1960,1
+Frankfurt am Main,1961,1
+Frankfurt am Main,1962,1
+Frankfurt am Main,1963,1
+Frankfurt am Main,1964,1
+Frankfurt am Main,1965,1
+Frankfurt am Main,1966,1
+Frankfurt am Main,1967,1
+Frankfurt am Main,1968,1
+Frankfurt am Main,1969,1
+Frankfurt am Main,1971,1
+Frankfurt am Main,1972,1
+Frankfurt am Main,1976,1
+Frankfurt am Main,NA,1
+Frederiksborg,1877,1
+Frunze,1957,1
+Frunze,1960,1
+Frunze,1961,1
+Frunze,1966,1
+Gand,1947,1
+Gaurhati,1973,1
+Gdańsk,1949,1
+Gdańsk,1970,1
+Genf,1857,1
+Genf,1861,1
+Genf,1917,1
+Genf,1928,1
+Genf,1937,1
+Genf,1945,1
+Genf,1946,1
+Genf,1953,1
+Genf,1954,1
+Genova,1957,1
+Gherla,1910,1
+Gherla,1911,1
+Glasgow,1937,1
+God,NA,1
+Gorno-Altajsk,1959,1
+Göteborg,1878,1
+Göteborg,1973,1
+Gran,1868,1
+Graz,1868,1
+Graz,1910,1
+Graz,1950,1
+Graz,1963,1
+Gródek Jagielloński,1886,1
+Gródek Jagielloński,1902,1
+Gródek Jagielloński,1904,1
+Gródek Jagielloński,1905,1
+Gródek Jagielloński,1907,1
+Gródek Jagielloński,1908,1
+Gródek Jagielloński,1909,1
+Groningen,1873,1
+Grossenhain,1896,1
+Guildford,1977,1
+Gütersloh,1956,1
+Gütersloh,1958,1
+Gütersloh,1960,1
+Gütersloh,1968,1
+Gyoma,NA,1
+Győr,1825,1
+Győr,1897,1
+Győr,1900,1
+Győr,1901,1
+Győr,1902,1
+Győr,1904,1
+Győr,1905,1
+Győr,1906,1
+Győr,1907,1
+Győr,1909,1
+Győr,1910,1
+Győr,1911,1
+Győr,1912,1
+Győr,1913,1
+Győr,1914,1
+Győr,1915,1
+Győr,NA,1
+Haarlem,1894,1
+Haarlem,1924,1
+Haarlem,NA,1
+Halle,1850,1
+Halle,1851,1
+Halle,1854,1
+Halle,1923,1
+Halle am Saale,1850,1
+Halle am Saale,1880,1
+Halle am Saale,1886,1
+Halle am Saale,1887,1
+Halle am Saale,1888,1
+Halle am Saale,1889,1
+Halle am Saale,1890,1
+Halle am Saale,1952,1
+Halle am Saale,1961,1
+Halle am Saale,1966,1
+Halle am Saale,NA,1
+Hamburg,1851,1
+Hamburg,1937,1
+Hamburg,1940,1
+Hamburg,1941,1
+Hamburg,1942,1
+Hamburg,1943,1
+Hamburg,1944,1
+Hamburg,1947,1
+Hamburg,1948,1
+Hamburg,1949,1
+Hamburg,1951,1
+Hamburg,1952,1
+Hamburg,1953,1
+Hamburg,1956,1
+Hamburg,1958,1
+Hamburg,1959,1
+Hamburg,1961,1
+Hamburg,1962,1
+Hamburg,1964,1
+Hamburg,1966,1
+Hamburg,1967,1
+Hamburg,1969,1
+Hamburg,1970,1
+Hamburg,1972,1
+Hamburg,NA,1
+Hämeenlinna,1909,1
+Hämeenlinna,1915,1
+Hämeenlinna,1917,1
+Hämeenlinna,1929,1
+Hämeenlinna,1939,1
+Hämeenlinna,1947,1
+Hämeenlinna,1970,1
+Hannover,1857,1
+Hannover,1962,1
+Hanoi,1955,1
+Hanoi,1957,1
+Hanoi,1961,1
+Hanoi,1962,1
+Hanoi,1963,1
+Hanoi,1965,1
+Harkov,1930,1
+Harkov,1936,1
+Harkov,1960,1
+Harmondsworth,1959,1
+Harmondsworth,1970,1
+Harmondsworth,1973,1
+Harmondsworth,1976,1
+Heidelberg,1913,1
+Heidelberg,1914,1
+Heidelberg,1928,1
+Heidelberg,1967,1
+Heidelberg,NA,1
+Heilbronn,1904,1
+Heilbronn,1906,1
+Heilbronn,1909,1
+Helsinki,1845,1
+Helsinki,1857,1
+Helsinki,1861,1
+Helsinki,1866,1
+Helsinki,1871,1
+Helsinki,1872,1
+Helsinki,1873,1
+Helsinki,1874,1
+Helsinki,1875,1
+Helsinki,1877,1
+Helsinki,1878,1
+Helsinki,1879,1
+Helsinki,1881,1
+Helsinki,1887,1
+Helsinki,1888,1
+Helsinki,1889,1
+Helsinki,1890,1
+Helsinki,1891,1
+Helsinki,1892,1
+Helsinki,1894,1
+Helsinki,1895,1
+Helsinki,1896,1
+Helsinki,1900,1
+Helsinki,1902,1
+Helsinki,1904,2
+Helsinki,1907,1
+Helsinki,1908,1
+Helsinki,1909,1
+Helsinki,1910,1
+Helsinki,1911,1
+Helsinki,1912,1
+Helsinki,1913,1
+Helsinki,1916,1
+Helsinki,1917,1
+Helsinki,1918,1
+Helsinki,1919,1
+Helsinki,1921,1
+Helsinki,1922,1
+Helsinki,1923,1
+Helsinki,1924,1
+Helsinki,1925,1
+Helsinki,1927,1
+Helsinki,1929,1
+Helsinki,1935,1
+Helsinki,1937,1
+Helsinki,1938,1
+Helsinki,1943,1
+Helsinki,1949,1
+Helsinki,1951,1
+Helsinki,1952,1
+Helsinki,1953,1
+Helsinki,1954,1
+Helsinki,1955,1
+Helsinki,1956,1
+Helsinki,1958,1
+Helsinki,1960,1
+Helsinki,1961,1
+Helsinki,1962,2
+Helsinki,1965,1
+Helsinki,1966,1
+Helsinki,1967,1
+Helsinki,1969,1
+Helsinki,1970,1
+Helsinki,1971,1
+Helsinki,1973,1
+Helsinki,1974,1
+Helsinki,1976,1
+Helsinki,NA,1
+Iaşi,1909,1
+Iaşi,1949,1
+Iaşi,1971,1
+Imphal,1971,1
+Indianapolis,1926,1
+Indianapolis,1951,1
+Innsbruck,1949,1
+Iowa,1970,1
+Istanbul,1940,1
+Istanbul,1944,1
+Istanbul,1952,1
+Istanbul,1957,1
+Istanbul,1968,1
+Istanbul,1969,1
+Istanbul,1970,1
+Istanbul,1973,1
+Istanbul,1976,1
+Izhevsk,1954,1
+Izhevsk,1975,2
+Jena,1849,1
+Jena,1874,1
+Jena,1896,1
+Jerevan,1968,1
+Jerevan,1973,1
+Jerusalem,1946,1
+Jerusalem,1954,1
+Jerusalem,NA,1
+Jyväskylä,1881,1
+Jyväskylä,1889,1
+Jyväskylä,1913,1
+Jyväskylä,1915,1
+Jyväskylä,1921,1
+Jyväskylä,1935,1
+Jyväskylä,1944,1
+Jyväskylä,1950,1
+Jyväskylä,1951,1
+Jyväskylä,1952,1
+Jyväskylä,1953,1
+"Kaleva, MI",1907,1
+Kampen,1952,1
+Kansas City,1973,1
+Karlsruhe,1915,1
+Karlsruhe,1965,1
+Kassel,1850,1
+Kassel,1853,1
+Katowice,1948,1
+Katowice,1949,1
+Kaunas,1911,1
+Kaunas,1948,1
+Kazan,1955,1
+Kežmarok,1887,1
+Kiel,1883,1
+Kikinda,1881,1
+Kikinda,1882,1
+Kikinda,1889,1
+Kikinda,1907,1
+Kikinda,1908,1
+Kikinda,1909,1
+Kikinda,1910,1
+Kikinda,1911,1
+Kikinda,1912,1
+Kikinda,1913,1
+Klagenfurt,1950,1
+Köln,1895,1
+Köln,1900,1
+Köln,1923,1
+Köln,1932,1
+Köln,1933,1
+Köln,1962,1
+Köln,1966,1
+Köln,1969,1
+Köln,1970,1
+Konstanz,1916,1
+Konstanz,1917,1
+Konstanz,1924,1
+Konstanz,1926,1
+Köping,1877,1
+Köping,1878,1
+Köping,1879,1
+Köping,1881,1
+Köping,1882,1
+Košice,1827,1
+Košice,1900,1
+Košice,1902,1
+Košice,1906,1
+Košice,1907,1
+Košice,1908,1
+Košice,1977,1
+Kraków,1883,1
+Kraków,1887,1
+Kraków,1898,1
+Kraków,1903,1
+Kraków,1914,1
+Kraków,1930,1
+Kraków,1931,1
+Kraków,1948,1
+Kraków,1949,1
+Kraków,1950,1
+Kraków,1951,1
+Kraków,1952,1
+Kraków,1971,1
+Kraków,1977,1
+Krasnoyarsk,1942,1
+Kristiania,1919,1
+Kuopio,1913,1
+Kyiv,1930,1
+Kyiv,1937,1
+Kyiv,1939,1
+Kyiv,1949,1
+Kyiv,1954,1
+Kyiv,1955,1
+Kyiv,1956,1
+Kyiv,1959,1
+Kyiv,1960,1
+Kyiv,1961,1
+Kyiv,1962,1
+Kyiv,1963,1
+Kyiv,1964,1
+Kyiv,1965,1
+Kyiv,1966,1
+Kyiv,1967,1
+Kyiv,1969,1
+Kyiv,1971,1
+Kyiv,1972,1
+Kyiv,1973,1
+Kyiv,1974,1
+Kyiv,1977,1
+Kyoto,1976,1
+La Habana,1928,1
+La Habana,1963,1
+La Habana,1966,1
+La Habana,1973,1
+La Habana,1977,1
+La Habana,NA,1
+Lahti,1951,1
+Lanciano,1911,1
+Lanciano,1923,1
+Lanciano,1931,1
+Laren,1958,1
+Laren,NA,1
+Lausanne,1945,1
+Lausanne,1946,1
+Leiden,1952,1
+Leiden,1953,1
+Leiden,1955,1
+Leiden,1957,1
+Leiden,1959,1
+Leipzig,1827,1
+Leipzig,1828,1
+Leipzig,1830,1
+Leipzig,1840,1
+Leipzig,1841,1
+Leipzig,1845,1
+Leipzig,1846,1
+Leipzig,1848,1
+Leipzig,1850,1
+Leipzig,1851,1
+Leipzig,1852,1
+Leipzig,1854,1
+Leipzig,1857,1
+Leipzig,1858,1
+Leipzig,1861,1
+Leipzig,1862,1
+Leipzig,1866,1
+Leipzig,1871,1
+Leipzig,1872,1
+Leipzig,1873,1
+Leipzig,1874,1
+Leipzig,1875,1
+Leipzig,1878,1
+Leipzig,1879,1
+Leipzig,1880,1
+Leipzig,1882,1
+Leipzig,1884,1
+Leipzig,1885,1
+Leipzig,1886,1
+Leipzig,1887,1
+Leipzig,1888,1
+Leipzig,1889,1
+Leipzig,1890,1
+Leipzig,1891,1
+Leipzig,1892,2
+Leipzig,1893,1
+Leipzig,1894,1
+Leipzig,1895,1
+Leipzig,1896,1
+Leipzig,1897,1
+Leipzig,1898,1
+Leipzig,1899,1
+Leipzig,1900,1
+Leipzig,1901,1
+Leipzig,1902,1
+Leipzig,1903,1
+Leipzig,1904,1
+Leipzig,1905,1
+Leipzig,1906,1
+Leipzig,1908,1
+Leipzig,1909,1
+Leipzig,1910,1
+Leipzig,1911,1
+Leipzig,1912,1
+Leipzig,1913,1
+Leipzig,1916,1
+Leipzig,1918,1
+Leipzig,1919,1
+Leipzig,1920,1
+Leipzig,1921,1
+Leipzig,1922,1
+Leipzig,1923,1
+Leipzig,1925,1
+Leipzig,1926,1
+Leipzig,1927,1
+Leipzig,1928,1
+Leipzig,1930,1
+Leipzig,1931,1
+Leipzig,1934,1
+Leipzig,1936,1
+Leipzig,1937,1
+Leipzig,1938,1
+Leipzig,1939,1
+Leipzig,1940,1
+Leipzig,1941,1
+Leipzig,1942,1
+Leipzig,1943,1
+Leipzig,1944,1
+Leipzig,1952,1
+Leipzig,1953,1
+Leipzig,1954,1
+Leipzig,1955,1
+Leipzig,1957,1
+Leipzig,1958,1
+Leipzig,1959,1
+Leipzig,1961,1
+Leipzig,1963,1
+Leipzig,1965,1
+Leipzig,1966,1
+Leipzig,1967,1
+Leipzig,1968,1
+Leipzig,1969,1
+Leipzig,1970,1
+Leipzig,1972,1
+Leipzig,1973,1
+Leipzig,1974,1
+Leipzig,NA,1
+Levoča,1860,1
+Liège,1860,1
+Liège,1944,1
+Liège,1945,1
+Linz,1946,1
+Linz,1948,1
+Liptovský Sv. Mikuláš,1911,1
+Liptovský Sv. Mikuláš,1914,1
+Liptovský Sv. Mikuláš,1938,1
+Liptovský Sv. Mikuláš,1940,1
+Liptovský Sv. Mikuláš,1941,1
+Liptovský Sv. Mikuláš,1944,1
+Liptovský Sv. Mikuláš,1947,1
+Liptovský Sv. Mikuláš,1948,1
+Liptovský Sv. Mikuláš,1960,1
+Liptovský Sv. Mikuláš,NA,1
+Lisboa,1959,1
+Lisboa,1960,1
+Lisboa,NA,1
+Livorno,1948,1
+Ljubljana,1940,1
+Ljubljana,1952,1
+Ljubljana,1960,1
+Ljubljana,1961,1
+Ljubljana,1967,1
+Ljubljana,1972,1
+Lochem,1953,1
+Lochem,1963,1
+Łódź,1886,1
+Łódź,1949,1
+Łódź,NA,1
+London,1828,1
+London,1830,1
+London,1849,1
+London,1850,1
+London,1851,1
+London,1852,1
+London,1853,1
+London,1854,1
+London,1858,1
+London,1859,1
+London,1865,1
+London,1868,1
+London,1875,1
+London,1877,2
+London,1880,1
+London,1881,1
+London,1884,2
+London,1885,1
+London,1886,1
+London,1888,1
+London,1889,1
+London,1890,1
+London,1891,1
+London,1892,1
+London,1893,1
+London,1894,1
+London,1895,1
+London,1896,1
+London,1897,1
+London,1898,1
+London,1899,1
+London,1900,2
+London,1901,1
+London,1902,1
+London,1903,2
+London,1904,1
+London,1906,1
+London,1908,1
+London,1909,1
+London,1910,1
+London,1911,1
+London,1913,1
+London,1916,1
+London,1917,1
+London,1918,1
+London,1921,1
+London,1922,1
+London,1923,1
+London,1925,1
+London,1926,1
+London,1927,1
+London,1928,1
+London,1929,1
+London,1930,1
+London,1931,1
+London,1932,1
+London,1933,1
+London,1934,11
+London,1935,2
+London,1936,1
+London,1937,1
+London,1938,1
+London,1939,1
+London,1941,1
+London,1942,1
+London,1943,2
+London,1944,1
+London,1945,1
+London,1946,1
+London,1947,1
+London,1948,1
+London,1949,1
+London,1951,1
+London,1952,1
+London,1954,1
+London,1958,2
+London,1959,1
+London,1960,1
+London,1961,2
+London,1962,1
+London,1963,1
+London,1964,1
+London,1965,1
+London,1966,1
+London,1967,1
+London,1968,1
+London,1969,1
+London,1970,1
+London,1971,1
+London,1972,1
+London,1975,1
+London,NA,2
+Louvain,1895,1
+Louvain,1927,1
+Louvain,1930,1
+Lpt. Martin,1952,1
+Lübeck,NA,1
+Lučenec,1902,1
+Lučenec,1914,1
+Luzern,1936,1
+Luzern,1948,1
+Luzern,1950,1
+Luzern,1951,1
+Lviv,1872,1
+Lviv,1874,1
+Lviv,1875,1
+Lviv,1876,1
+Lviv,1877,1
+Lviv,1879,1
+Lviv,1881,1
+Lviv,1882,1
+Lviv,1884,1
+Lviv,1886,1
+Lviv,1887,1
+Lviv,1888,1
+Lviv,1889,1
+Lviv,1890,1
+Lviv,1902,1
+Lviv,1904,1
+Lviv,1905,1
+Lviv,1907,1
+Lviv,1908,1
+Lviv,1922,1
+Lviv,NA,1
+Maaston,1959,1
+Madras,1967,1
+Madras,1974,1
+Madrid,1920,1
+Madrid,1921,1
+Madrid,1922,1
+Madrid,1923,1
+Madrid,1941,1
+Madrid,1943,1
+Madrid,1952,1
+Madrid,1953,1
+Madrid,1955,1
+Madrid,1958,1
+Madrid,1960,1
+Madrid,1962,1
+Madrid,1963,1
+Madrid,1965,1
+Madrid,1969,1
+Madrid,1974,1
+Madrid,1975,1
+Madrid,NA,1
+Mainz,1920,1
+Mallorca,1931,1
+Manila,1931,1
+Manila,1935,2
+Mannheim,1893,1
+Mantova,1906,1
+Maribor,1960,1
+Maribor,1966,1
+Maribor,1972,2
+Marseille,1948,1
+Martin,1883,1
+Martin,1887,1
+Martin,1904,1
+Martin,1906,1
+Martin,1911,1
+Martin,1914,1
+Martin,1915,1
+Martin,1935,1
+Martin,1937,1
+Martin,1942,1
+Martin,1946,1
+Martin,1948,1
+Martin,1950,1
+Martin,1952,1
+Martin,1954,1
+Martin,1957,1
+Martin,NA,1
+Melbourne,1891,1
+Melbourne,1946,1
+Messina,1953,1
+Mexico,1951,1
+Mexico,1964,1
+Mexico,1968,1
+Mexico,1975,1
+Michigan,1974,1
+Midlothian,1976,1
+Milano,1859,1
+Milano,1862,1
+Milano,1863,1
+Milano,1865,1
+Milano,1880,1
+Milano,1881,1
+Milano,1888,1
+Milano,1890,1
+Milano,1894,1
+Milano,1899,1
+Milano,1904,1
+Milano,1907,1
+Milano,1908,1
+Milano,1911,1
+Milano,1912,1
+Milano,1913,1
+Milano,1914,1
+Milano,1921,1
+Milano,1925,1
+Milano,1926,1
+Milano,1928,1
+Milano,1929,1
+Milano,1930,1
+Milano,1931,2
+Milano,1932,1
+Milano,1933,1
+Milano,1934,1
+Milano,1935,1
+Milano,1936,1
+Milano,1937,1
+Milano,1938,1
+Milano,1939,1
+Milano,1940,1
+Milano,1941,1
+Milano,1942,1
+Milano,1943,1
+Milano,1944,1
+Milano,1945,1
+Milano,1946,1
+Milano,1947,1
+Milano,1948,1
+Milano,1949,1
+Milano,1951,1
+Milano,1952,1
+Milano,1953,1
+Milano,1954,1
+Milano,1955,1
+Milano,1956,1
+Milano,1957,1
+Milano,1958,1
+Milano,1959,1
+Milano,1960,1
+Milano,1961,1
+Milano,1962,1
+Milano,1963,1
+Milano,1964,1
+Milano,1965,1
+Milano,1966,1
+Milano,1967,1
+Milano,1969,1
+Milano,1970,1
+Milano,1972,1
+Milano,1975,1
+Milano,1976,1
+Milano,1978,1
+Milano,NA,1
+"Milford, Conn",1947,1
+Minden,1886,1
+Minden,1891,1
+Minsk,1932,1
+Minsk,1957,1
+Minsk,1962,1
+Minsk,1970,1
+Miskolc,1887,1
+Montpellier,1971,1
+Moscow,1851,1
+Moscow,1852,1
+Moscow,1855,1
+Moscow,1881,1
+Moscow,1882,1
+Moscow,1889,1
+Moscow,1893,1
+Moscow,1895,1
+Moscow,1896,1
+Moscow,1899,1
+Moscow,1902,1
+Moscow,1906,1
+Moscow,1907,1
+Moscow,1908,1
+Moscow,1910,1
+Moscow,1911,1
+Moscow,1913,1
+Moscow,1915,1
+Moscow,1923,1
+Moscow,1925,1
+Moscow,1926,1
+Moscow,1927,1
+Moscow,1928,1
+Moscow,1929,1
+Moscow,1930,1
+Moscow,1931,1
+Moscow,1932,1
+Moscow,1933,1
+Moscow,1934,2
+Moscow,1935,2
+Moscow,1936,2
+Moscow,1937,2
+Moscow,1938,2
+Moscow,1939,2
+Moscow,1940,2
+Moscow,1941,1
+Moscow,1942,1
+Moscow,1943,1
+Moscow,1944,1
+Moscow,1945,1
+Moscow,1946,1
+Moscow,1947,1
+Moscow,1948,1
+Moscow,1949,1
+Moscow,1950,1
+Moscow,1951,1
+Moscow,1952,1
+Moscow,1953,1
+Moscow,1954,1
+Moscow,1955,1
+Moscow,1956,1
+Moscow,1957,1
+Moscow,1958,1
+Moscow,1959,1
+Moscow,1960,1
+Moscow,1961,1
+Moscow,1962,1
+Moscow,1963,1
+Moscow,1964,1
+Moscow,1965,1
+Moscow,1966,1
+Moscow,1967,1
+Moscow,1968,1
+Moscow,1969,1
+Moscow,1970,1
+Moscow,1971,1
+Moscow,1972,1
+Moscow,1973,1
+Moscow,1974,1
+Moscow,1975,1
+Moscow,1976,1
+Moscow,1977,1
+Moscow,1978,1
+Moscow,NA,1
+München,1851,1
+München,1853,1
+München,1860,1
+München,1867,1
+München,1909,1
+München,1913,1
+München,1914,1
+München,1916,1
+München,1917,1
+München,1918,1
+München,1920,1
+München,1922,1
+München,1923,1
+München,1924,1
+München,1925,1
+München,1928,1
+München,1929,1
+München,1946,1
+München,1948,1
+München,1952,1
+München,1954,1
+München,1956,1
+München,1957,1
+München,1959,1
+München,1961,1
+München,1962,1
+München,1963,2
+München,1964,1
+München,1965,1
+München,1966,2
+München,1967,1
+München,1970,1
+München,1971,1
+München,1972,1
+München,1974,1
+München,NA,1
+Murska Sobota,1962,2
+Murska Sobota,1964,1
+Murska Sobota,1966,2
+Murska Sobota,1967,1
+Murska Sobota,1968,1
+Murska Sobota,1969,2
+Murska Sobota,1970,1
+Murska Sobota,1971,1
+Murska Sobota,1973,1
+Murska Sobota,1975,1
+Murska Sobota,1976,1
+Murska Sobota,1977,2
+Nagykanizsa,1882,1
+Napoli,1868,1
+Napoli,1888,1
+Napoli,1892,1
+Napoli,1911,1
+Napoli,1912,1
+Napoli,1913,1
+Napoli,1952,1
+Napoli,1968,1
+Nayarit,1967,1
+Nedvidek-Tabor,1896,1
+New Delhi,1954,1
+New Delhi,1955,1
+New Delhi,1968,1
+New Delhi,1974,1
+New York,1831,1
+New York,1852,1
+New York,1874,1
+New York,1877,1
+New York,1881,1
+New York,1884,1
+New York,1885,1
+New York,1886,1
+New York,1887,1
+New York,1889,2
+New York,1890,1
+New York,1891,1
+New York,1892,1
+New York,1894,1
+New York,1895,1
+New York,1896,1
+New York,1897,1
+New York,1898,2
+New York,1899,2
+New York,1900,1
+New York,1901,1
+New York,1902,2
+New York,1903,1
+New York,1905,2
+New York,1908,2
+New York,1910,1
+New York,1912,1
+New York,1913,1
+New York,1914,1
+New York,1920,1
+New York,1921,1
+New York,1922,1
+New York,1923,1
+New York,1924,1
+New York,1925,1
+New York,1927,1
+New York,1928,1
+New York,1929,1
+New York,1930,1
+New York,1931,1
+New York,1932,1
+New York,1933,1
+New York,1935,1
+New York,1936,1
+New York,1937,1
+New York,1940,1
+New York,1941,1
+New York,1945,1
+New York,1946,1
+New York,1947,2
+New York,1948,1
+New York,1949,1
+New York,1950,1
+New York,1952,1
+New York,1953,1
+New York,1955,1
+New York,1956,1
+New York,1957,1
+New York,1958,1
+New York,1963,1
+New York,1964,1
+New York,1965,1
+New York,1966,1
+New York,1967,1
+New York,1968,2
+New York,1969,1
+New York,1970,1
+New York,1972,1
+New York,1974,1
+New York,1975,1
+New York,1977,1
+New York,NA,2
+Noto,1879,1
+Noto,1881,1
+Noto,1885,1
+Noto,1891,1
+Noto,1904,1
+Noto,1937,1
+Novi Sad,1857,1
+Novi Sad,1860,1
+Novi Sad,1871,1
+Novi Sad,1878,1
+Novi Sad,1882,1
+Novi Sad,1885,1
+Novi Sad,1887,1
+Novi Sad,1890,1
+Novi Sad,1895,1
+Novi Sad,1901,1
+Novi Sad,1906,1
+Novi Sad,1907,1
+Novi Sad,1910,1
+Novi Sad,1917,1
+Novi Sad,1946,1
+Novi Sad,1948,1
+Novi Sad,1951,1
+Novi Sad,1952,1
+Novi Sad,1953,1
+Novi Sad,1954,1
+Novi Sad,1955,1
+Novi Sad,1958,2
+Novi Sad,1959,1
+Novi Sad,1960,2
+Novi Sad,1961,3
+Novi Sad,1963,1
+Novi Sad,1964,1
+Novi Sad,1965,1
+Novi Sad,1971,1
+Novi Sad,1972,1
+Novi Sad,1973,1
+Novi Sad,1976,2
+Novosibirsk,1941,1
+Nürnberg,1852,1
+Nürnberg,1855,1
+Nürnberg,1950,1
+Odessa,1839,1
+Odessa,1890,1
+Olten,1944,1
+Oradea,1882,1
+Oradea,1883,1
+Oradea,1884,1
+Oradea,1887,1
+Oradea,1902,1
+Oradea,1903,1
+Oradea,1905,1
+Oradea,1906,1
+Oradea,1921,1
+Oradea,1922,1
+Oradea,1924,1
+Oradea,1926,1
+Oradea,1927,1
+Oradea,1929,1
+Oradea,1930,1
+Oradea,1934,1
+Oradea,1935,1
+Oradea,1937,1
+Oradea,1938,1
+Oradea,1949,1
+Oran,1949,1
+Orăştie,1911,1
+Orăştie,1912,1
+Orăştie,1913,1
+Orăştie,1914,1
+Orenburg,1959,1
+Osijek,NA,1
+Oslo,1899,1
+Oslo,1933,1
+Oslo,1951,1
+Oslo,1952,1
+Oslo,1959,1
+Oslo,1961,1
+Oslo,1962,1
+Oslo,1973,1
+Oslo,1974,1
+Oslo,1975,1
+Ostrava,1924,1
+Ostrava,1937,1
+Ostrava,1950,1
+Ostrava,NA,1
+Oude,NA,1
+Oudenbosch,1953,1
+Oxford,1966,1
+Oxford,NA,1
+Padova,1896,1
+Padova,1908,1
+Padova,1929,1
+Padova,1937,1
+Padova,NA,1
+Palermo,1911,1
+Palermo,1912,1
+Palermo,1913,1
+Palermo,1922,1
+Pančevo,1873,1
+Pančevo,1878,1
+Pančevo,1900,1
+Pančevo,1905,1
+Pančevo,1908,1
+Pančevo,NA,2
+Paris,1808,1
+Paris,1813,1
+Paris,1850,1
+Paris,1856,1
+Paris,1857,1
+Paris,1860,1
+Paris,1862,1
+Paris,1863,1
+Paris,1866,1
+Paris,1870,1
+Paris,1871,1
+Paris,1872,1
+Paris,1873,1
+Paris,1874,1
+Paris,1875,1
+Paris,1876,1
+Paris,1877,1
+Paris,1880,1
+Paris,1881,1
+Paris,1884,1
+Paris,1885,1
+Paris,1886,1
+Paris,1887,1
+Paris,1889,1
+Paris,1890,1
+Paris,1891,2
+Paris,1892,1
+Paris,1893,1
+Paris,1894,1
+Paris,1895,1
+Paris,1896,1
+Paris,1897,1
+Paris,1898,1
+Paris,1900,1
+Paris,1902,1
+Paris,1903,1
+Paris,1904,1
+Paris,1905,1
+Paris,1906,2
+Paris,1908,1
+Paris,1909,1
+Paris,1910,1
+Paris,1911,1
+Paris,1912,1
+Paris,1914,1
+Paris,1922,1
+Paris,1923,1
+Paris,1925,3
+Paris,1926,1
+Paris,1927,1
+Paris,1928,1
+Paris,1929,1
+Paris,1930,1
+Paris,1931,1
+Paris,1933,1
+Paris,1935,2
+Paris,1936,2
+Paris,1937,1
+Paris,1938,2
+Paris,1939,1
+Paris,1940,1
+Paris,1941,1
+Paris,1942,1
+Paris,1943,1
+Paris,1944,1
+Paris,1945,1
+Paris,1946,1
+Paris,1947,1
+Paris,1948,1
+Paris,1949,1
+Paris,1950,1
+Paris,1951,1
+Paris,1952,1
+Paris,1953,1
+Paris,1954,1
+Paris,1955,1
+Paris,1956,1
+Paris,1957,1
+Paris,1958,2
+Paris,1959,2
+Paris,1960,1
+Paris,1961,1
+Paris,1962,1
+Paris,1963,1
+Paris,1964,1
+Paris,1965,1
+Paris,1966,1
+Paris,1967,1
+Paris,1968,1
+Paris,1969,1
+Paris,1970,1
+Paris,1971,1
+Paris,1972,1
+Paris,1973,1
+Paris,1974,1
+Paris,1975,1
+Paris,1976,1
+Paris,1977,1
+Paris,1978,1
+Paris,NA,2
+Parma,1962,1
+Parma,1963,1
+Parma,1970,1
+Pécs,1928,1
+Peking,1930,1
+Peking,1951,1
+Peking,1952,1
+Peking,1953,1
+Peking,1954,1
+Peking,1955,1
+Peking,1956,1
+Peking,1957,1
+Peking,1958,1
+Peking,1959,1
+Peking,1960,1
+Peking,NA,1
+Periam,1901,1
+Periam,1913,1
+Periam,1915,1
+Petroskoi,1954,1
+Petrovec,1961,1
+Peznan,1885,1
+Philadelphia,1850,1
+Philadelphia,1885,1
+Philadelphia,1934,1
+Philadelphia,NA,1
+Piacenza,1881,1
+Pittsburgh,1973,1
+Pituc Cluş,1895,1
+Place unknown U.S.A,1926,1
+Plovdiv,1962,1
+Plovdiv,1972,1
+Plzen,1914,1
+Pola,NA,1
+Pori,1889,1
+Pori,1898,1
+Pori,1902,1
+Pori,1916,1
+"Portland, OR",1965,1
+Porvoo,1884,1
+Porvoo,1887,1
+Porvoo,1888,1
+Porvoo,1890,1
+Porvoo,1891,1
+Porvoo,1892,1
+Porvoo,1901,1
+Porvoo,1904,1
+Porvoo,1913,1
+Porvoo,1916,1
+Porvoo,1922,1
+Porvoo,1926,1
+Porvoo,1927,1
+Porvoo,1930,1
+Porvoo,1935,1
+Porvoo,1937,1
+Porvoo,1938,1
+Porvoo,1943,1
+Porvoo,1958,1
+Porvoo,1961,1
+Porvoo,1962,1
+Porvoo,1967,1
+Porvoo,1973,1
+Potsdam,1948,1
+Potsdam,1949,1
+Potsdam,NA,1
+Poznań,1879,1
+Poznań,1883,1
+Poznań,1925,1
+Poznań,1928,1
+Praha,1861,1
+Praha,1866,1
+Praha,1870,1
+Praha,1873,1
+Praha,1876,1
+Praha,1878,1
+Praha,1879,1
+Praha,1881,1
+Praha,1882,1
+Praha,1884,1
+Praha,1885,1
+Praha,1886,1
+Praha,1887,1
+Praha,1888,1
+Praha,1889,1
+Praha,1890,1
+Praha,1891,1
+Praha,1892,1
+Praha,1893,1
+Praha,1894,1
+Praha,1895,1
+Praha,1896,1
+Praha,1897,1
+Praha,1898,1
+Praha,1900,1
+Praha,1901,1
+Praha,1902,1
+Praha,1903,1
+Praha,1904,1
+Praha,1905,1
+Praha,1907,1
+Praha,1910,1
+Praha,1912,1
+Praha,1913,1
+Praha,1914,1
+Praha,1917,1
+Praha,1918,1
+Praha,1921,1
+Praha,1922,2
+Praha,1923,1
+Praha,1924,1
+Praha,1925,2
+Praha,1926,2
+Praha,1927,1
+Praha,1928,1
+Praha,1931,1
+Praha,1933,1
+Praha,1934,1
+Praha,1935,1
+Praha,1936,2
+Praha,1937,1
+Praha,1938,3
+Praha,1939,1
+Praha,1941,1
+Praha,1942,1
+Praha,1943,1
+Praha,1946,1
+Praha,1947,1
+Praha,1948,1
+Praha,1949,1
+Praha,1950,2
+Praha,1951,1
+Praha,1952,1
+Praha,1953,1
+Praha,1954,1
+Praha,1955,2
+Praha,1956,2
+Praha,1957,1
+Praha,1958,1
+Praha,1959,2
+Praha,1960,1
+Praha,1961,1
+Praha,1962,1
+Praha,1963,1
+Praha,1964,1
+Praha,1965,1
+Praha,1966,1
+Praha,1967,1
+Praha,1968,1
+Praha,1969,1
+Praha,1970,1
+Praha,1971,1
+Praha,1972,1
+Praha,1973,2
+Praha,1974,1
+Praha,1976,1
+Praha,NA,3
+Prešov,1880,1
+Prešov,1907,1
+Prešov,1909,1
+Prešov,1910,1
+Prešov,1911,1
+Prešov,1912,1
+Prešov,1913,1
+Prešov,1914,1
+Prešov,1915,1
+Prešov,1916,1
+Prešov,NA,1
+Pris,1930,1
+Pristina,1967,1
+Purmerend,1937,1
+Putignano,1970,1
+Quezon City,1966,2
+Ragusa,1901,1
+"Ragusa, Sicilia",1901,1
+Rangun,1960,1
+Rangun,1972,1
+Regensburg,1916,1
+Regensburg,1923,1
+Reinbek,1960,1
+Reinbek,1961,1
+Reinbek,1973,1
+Reşiţa,1890,1
+Reşiţa,1896,1
+Reşiţa,NA,1
+Reudnitz,1887,1
+Reudnitz,NA,1
+Reutlingen,1906,1
+Rickmansworth,NA,1
+Riga,1908,1
+Riga,1911,1
+Riga,1954,1
+Riga,1956,1
+Riga,1959,1
+Riga,1965,1
+Riga,1966,1
+Riga,1967,1
+Riga,1970,1
+Riga,1971,1
+Riga,1973,1
+Riga,1974,1
+Riga,1976,1
+Riga,1977,1
+Rijeka,1842,1
+Rijeka,1872,1
+Rijeka,1882,1
+Rijeka,1883,1
+Rijeka,1884,1
+Rijeka,1890,1
+Rijeka,1891,1
+Rijeka,1901,1
+Rijeka,1903,1
+Rijeka,1904,1
+Rijeka,1907,1
+Rijeka,1908,1
+Rijeka,1910,1
+Rijeka,1911,1
+Rijeka,1914,1
+Rijeka,1938,1
+Rijeka,1955,1
+Rijeka,1958,1
+Rijeka,1959,1
+Rijeka,1961,1
+Rio de Janeiro,1934,1
+Rio de Janeiro,1954,1
+Rio de Janeiro,1957,1
+Rio de Janeiro,1958,1
+Rio de Janeiro,1965,1
+Roma,1883,1
+Roma,1886,1
+Roma,1908,1
+Roma,1913,1
+Roma,1921,1
+Roma,1922,1
+Roma,1923,1
+Roma,1924,1
+Roma,1925,1
+Roma,1926,1
+Roma,1927,1
+Roma,1928,1
+Roma,1929,1
+Roma,1933,1
+Roma,1934,1
+Roma,1935,1
+Roma,1936,1
+Roma,1937,1
+Roma,1938,1
+Roma,1939,1
+Roma,1940,1
+Roma,1941,1
+Roma,1942,1
+Roma,1943,1
+Roma,1944,1
+Roma,1945,1
+Roma,1946,1
+Roma,1947,1
+Roma,1948,1
+Roma,1951,1
+Roma,1952,1
+Roma,1953,1
+Roma,1954,1
+Roma,1955,1
+Roma,1956,1
+Roma,1964,1
+Roma,1967,1
+Roma,1971,1
+Roma,1973,1
+Roma,1976,1
+Roma,NA,1
+Romagna,1897,1
+Rostov,1910,1
+Rotterdam,1929,1
+Rotterdam,1937,1
+Rotterdam,1947,1
+Rotterdam,NA,1
+Ružomberok,1911,1
+Ružomberok,1912,1
+Ružomberok,1913,1
+Ružomberok,1947,1
+Rzeszów,1887,1
+s. l,1794,1
+s. l,1828,1
+s. l,1883,1
+s. l,1884,1
+s. l,1889,1
+s. l,1891,1
+s. l,1893,1
+s. l,1907,1
+s. l,1908,1
+s. l,1915,1
+s. l,1919,1
+s. l,1926,1
+s. l,1935,1
+s. l,1941,1
+s. l,1942,1
+s. l,1943,1
+s. l,1946,1
+s. l,1952,3
+s. l,1953,1
+s. l,1954,3
+s. l,1955,2
+s. l,1960,1
+s. l,1961,3
+s. l,1963,2
+s. l,1964,2
+s. l,1965,2
+s. l,1966,2
+s. l,1968,1
+s. l,1971,1
+s. l,1972,2
+s. l,1973,1
+s. l,1977,1
+s. l,NA,9
+s. l.,1872,1
+s. l.,1910,1
+s. l.,1923,1
+s. l.,1940,1
+Saarlouis,1920,1
+Saint Petersburg,1851,1
+Saint Petersburg,1869,1
+Saint Petersburg,1872,1
+Saint Petersburg,1873,1
+Saint Petersburg,1875,1
+Saint Petersburg,1876,1
+Saint Petersburg,1881,1
+Saint Petersburg,1882,1
+Saint Petersburg,1883,1
+Saint Petersburg,1885,1
+Saint Petersburg,1888,1
+Saint Petersburg,1889,1
+Saint Petersburg,1892,1
+Saint Petersburg,1893,1
+Saint Petersburg,1894,1
+Saint Petersburg,1895,1
+Saint Petersburg,1896,1
+Saint Petersburg,1897,1
+Saint Petersburg,1898,1
+Saint Petersburg,1899,1
+Saint Petersburg,1901,1
+Saint Petersburg,1903,1
+Saint Petersburg,1905,1
+Saint Petersburg,1910,1
+Saint Petersburg,1911,1
+Saint Petersburg,1913,1
+Saint Petersburg,1914,1
+Saint Petersburg,1925,1
+Saint Petersburg,1926,1
+Saint Petersburg,1928,1
+Saint Petersburg,1929,1
+Saint Petersburg,1930,1
+Saint Petersburg,1931,1
+Saint Petersburg,1932,2
+Saint Petersburg,1933,1
+Saint Petersburg,1934,2
+Saint Petersburg,1935,1
+Saint Petersburg,1938,1
+Saint Petersburg,1940,1
+Saint Petersburg,1941,1
+Saint Petersburg,1942,1
+Saint Petersburg,1945,1
+Saint Petersburg,1949,1
+Saint Petersburg,1950,1
+Saint Petersburg,1951,1
+Saint Petersburg,1952,1
+Saint Petersburg,1953,1
+Saint Petersburg,NA,1
+Salzburg,1948,1
+Salzburg,1971,1
+Salzburg,1973,1
+Salzburg,1974,1
+San Francisco,1972,1
+Santalcangelo,1897,1
+Santiago,1954,1
+Santiago de Chile,1942,1
+Santiago de Chile,1954,1
+Sao Paulo,1945,1
+Sao Paulo,1952,2
+Sao Paulo,1953,1
+São Paulo,1958,1
+Sarajevo,1955,1
+Sarajevo,1957,1
+Sarajevo,1958,2
+Sarajevo,1964,1
+Sarajevo,1972,1
+Satu-Mare,1949,1
+Seoul,1960,1
+Shanghai,1932,1
+Shanghai,1951,1
+Shanghai,1953,1
+Shanghai,1954,1
+Shanghai,1955,1
+Shanghai,1956,1
+Shanghai,1957,1
+Sibiu,1879,1
+Sibiu,1890,1
+Sibiu,1891,1
+Sibiu,1907,1
+Sibiu,1908,1
+Sibiu,1909,1
+Sibiu,1911,1
+Sibiu,1912,1
+Sibiu,1917,1
+Sibiu,1918,1
+Sibiu,1921,1
+Sibiu,1922,1
+Sibiu,1923,1
+Sibiu,1928,1
+Sibiu,1949,1
+Sicilia,1948,1
+Siena,1948,1
+Sighișoara,1916,1
+Skalica,1909,1
+Skopje,1955,1
+Skopje,1957,2
+Skopje,1965,1
+Skopje,1966,1
+Skopje,1972,1
+Skopje,1977,1
+Sofija,1823,1
+Sofija,1918,1
+Sofija,1919,1
+Sofija,1922,1
+Sofija,1923,1
+Sofija,1927,1
+Sofija,1929,1
+Sofija,1930,1
+Sofija,1933,1
+Sofija,1934,1
+Sofija,1935,1
+Sofija,1936,1
+Sofija,1938,1
+Sofija,1940,1
+Sofija,1941,1
+Sofija,1942,1
+Sofija,1943,1
+Sofija,1944,1
+Sofija,1945,1
+Sofija,1946,1
+Sofija,1947,1
+Sofija,1948,1
+Sofija,1949,1
+Sofija,1950,1
+Sofija,1951,1
+Sofija,1952,2
+Sofija,1953,1
+Sofija,1954,1
+Sofija,1955,2
+Sofija,1956,1
+Sofija,1957,1
+Sofija,1958,1
+Sofija,1959,1
+Sofija,1960,1
+Sofija,1961,1
+Sofija,1962,1
+Sofija,1963,1
+Sofija,1964,1
+Sofija,1965,1
+Sofija,1966,1
+Sofija,1967,1
+Sofija,1968,1
+Sofija,1969,1
+Sofija,1970,1
+Sofija,1971,1
+Sofija,1972,1
+Sofija,1973,1
+Sofija,1974,1
+Sofija,1977,1
+Sofija,NA,1
+Sonderhausen,1857,1
+Sopron,1894,1
+Sopron,1895,1
+Sopron,1901,1
+Spišská Nová ves,NA,1
+St. Gallen,1963,1
+St. Louis,1967,1
+St. Louis,1968,1
+St. Louis,1971,1
+St. Louis,1972,2
+Stavanger,1951,2
+Stockholm,1875,1
+Stockholm,1876,1
+Stockholm,1877,1
+Stockholm,1879,1
+Stockholm,1881,1
+Stockholm,1882,1
+Stockholm,1887,1
+Stockholm,1888,1
+Stockholm,1889,1
+Stockholm,1897,1
+Stockholm,1898,1
+Stockholm,1899,1
+Stockholm,1900,1
+Stockholm,1901,1
+Stockholm,1903,1
+Stockholm,1908,1
+Stockholm,1912,1
+Stockholm,1913,1
+Stockholm,1918,1
+Stockholm,1920,1
+Stockholm,1922,1
+Stockholm,1928,1
+Stockholm,1930,1
+Stockholm,1932,1
+Stockholm,1936,1
+Stockholm,1937,1
+Stockholm,1938,2
+Stockholm,1939,1
+Stockholm,1940,1
+Stockholm,1941,1
+Stockholm,1942,1
+Stockholm,1943,1
+Stockholm,1944,1
+Stockholm,1945,1
+Stockholm,1946,1
+Stockholm,1947,1
+Stockholm,1952,1
+Stockholm,1958,1
+Stockholm,1960,1
+Stockholm,1964,1
+Stockholm,1966,1
+Stockholm,1967,1
+Stockholm,1968,1
+Stockholm,1969,1
+Stockholm,1970,1
+Stockholm,1971,1
+Stockholm,1973,5
+Stockholm,1974,1
+Stockholm,NA,1
+Strassburg,1904,1
+Strassburg,1905,1
+Strassburg,1910,1
+Stuttgart,1825,1
+Stuttgart,1826,1
+Stuttgart,1837,1
+Stuttgart,1847,1
+Stuttgart,1850,1
+Stuttgart,1879,1
+Stuttgart,1890,1
+Stuttgart,1891,1
+Stuttgart,1892,1
+Stuttgart,1893,1
+Stuttgart,1894,1
+Stuttgart,1895,1
+Stuttgart,1897,1
+Stuttgart,1898,1
+Stuttgart,1899,1
+Stuttgart,1900,1
+Stuttgart,1902,1
+Stuttgart,1925,1
+Stuttgart,1947,1
+Stuttgart,1951,1
+Stuttgart,1952,1
+Stuttgart,1953,1
+Stuttgart,1955,1
+Stuttgart,1957,1
+Stuttgart,1959,1
+Stuttgart,1960,1
+Stuttgart,1961,1
+Stuttgart,1962,1
+Stuttgart,1963,1
+Stuttgart,1964,1
+Stuttgart,1965,1
+Stuttgart,1966,1
+Stuttgart,1967,1
+Stuttgart,1968,1
+Stuttgart,1969,1
+Stuttgart,1970,1
+Stuttgart,1971,1
+Stuttgart,1974,1
+Stuttgart,1975,1
+Stuttgart,NA,1
+Subotica,1914,1
+Subotica,1940,1
+Subotica,1958,1
+Subotica,1960,1
+Subotica,1963,1
+Subotica,1965,2
+Subotica,1966,1
+Subotica,1972,1
+Subotica,NA,2
+Suceava,1949,1
+Šumperk,1948,1
+Sydney,1953,1
+Sydney,1955,1
+Sydney,NA,1
+Syktyvkar,1958,1
+Szakartvelo,1964,1
+Szeged,1808,1
+Szeged,1921,1
+Szeged,1922,1
+Szeged,NA,2
+Szerenin,1949,1
+Szombathely,1940,1
+Tallinn,1886,1
+Tallinn,1894,1
+Tallinn,1898,1
+Tallinn,1902,1
+Tallinn,1907,1
+Tallinn,1911,1
+Tallinn,1913,1
+Tallinn,1921,1
+Tallinn,1922,1
+Tallinn,1924,1
+Tallinn,1926,1
+Tallinn,1927,1
+Tallinn,1939,1
+Tallinn,1954,1
+Tallinn,1955,1
+Tallinn,1957,1
+Tallinn,1958,1
+Tallinn,1959,1
+Tallinn,1960,1
+Tallinn,1961,1
+Tallinn,1963,1
+Tallinn,1964,1
+Tallinn,1965,1
+Tallinn,1966,1
+Tallinn,1968,1
+Tallinn,1971,1
+Tallinn,1973,1
+Tampere,1879,1
+Tampere,1892,1
+Tampere,1970,1
+Târgu-Mureş,1949,1
+Tarnav,1949,1
+Tarnopol,NA,1
+Tartu,1884,1
+Tartu,1886,1
+Tartu,1887,1
+Tartu,1888,1
+Tartu,1890,1
+Tartu,1891,1
+Tartu,1892,1
+Tartu,1893,1
+Tartu,1899,1
+Tartu,1900,1
+Tartu,1903,1
+Tartu,1904,1
+Tartu,1905,1
+Tartu,1907,1
+Tartu,1909,1
+Tartu,1914,1
+Tartu,1922,1
+Tartu,1924,1
+Tartu,1925,1
+Tartu,1928,1
+Tartu,1929,1
+Tartu,1930,1
+Tartu,1931,1
+Tartu,1936,1
+Tartu,1938,1
+Tartu,1939,1
+Tartu,1959,1
+Taskent,1942,1
+Taskent,1943,1
+Taskent,1958,1
+Taskent,1964,1
+Taskent,1965,1
+Tbilisi,1949,1
+Tbilisi,1961,1
+Tbilisi,1975,1
+Teaneck,1966,1
+Teheran,1952,1
+Teheran,1954,1
+Tel Aviv,1930,1
+Tel Aviv,1940,1
+Tel Aviv,1942,1
+Tel Aviv,1948,1
+Tel Aviv,1952,1
+Tel Aviv,1953,1
+Tel Aviv,1954,1
+Tel Aviv,1955,1
+Tel Aviv,1956,1
+Tel Aviv,1957,1
+Tel Aviv,1958,1
+Tel Aviv,1959,2
+Tel Aviv,1960,1
+Tel Aviv,1968,1
+Tel Aviv,NA,2
+Tenerife,1958,1
+Tepic,1966,1
+Thuin,1971,1
+Thusis,1960,1
+Tielt,1951,1
+Tilsit,1892,1
+Tilsit,1893,1
+Timișoara,1897,1
+Timișoara,1901,1
+Timișoara,1911,1
+Timișoara,1936,1
+Timișoara,1949,1
+Tipsia,1904,1
+Tirana,1956,1
+Tirana,1960,1
+Tirana,1961,1
+Tokyo,1914,1
+Tokyo,1927,1
+Tokyo,1935,1
+Tokyo,1936,1
+Tokyo,1938,1
+Tokyo,1940,1
+Tokyo,1941,1
+Tokyo,1951,1
+Tokyo,1955,1
+Tokyo,1958,1
+Tokyo,1960,1
+Tokyo,1965,1
+Tokyo,1966,1
+Tokyo,1967,1
+Tokyo,1969,1
+Tokyo,1971,1
+Tokyo,1972,1
+Tokyo,1973,1
+Tokyo,1974,1
+Tokyo,NA,1
+Tolmezzo,1901,1
+Torino,1859,1
+Torino,1908,1
+Torino,1912,1
+Torino,1913,1
+Torino,1929,1
+Torino,1931,2
+Torino,1932,1
+Torino,1936,1
+Torino,1937,1
+Torino,1939,2
+Torino,1941,1
+Torino,1942,2
+Torino,1952,1
+Torino,1953,1
+Torino,1954,1
+Torino,1957,1
+Torino,1958,1
+Torino,1959,1
+Torino,1960,1
+Torino,1961,1
+Torino,1962,1
+Torino,1964,1
+Torino,1965,1
+Torino,NA,1
+Toronto,1937,1
+Toronto,1938,1
+Toronto,1946,1
+Toronto,1965,1
+Toronto,1966,1
+Toronto,1968,1
+Toronto,1969,1
+Toronto,1970,1
+Tours,1953,1
+Třebice,1896,1
+Trieste,1928,1
+Trnava,1893,1
+Trnava,1939,1
+Trnava,1940,1
+Trnava,1944,1
+Trnava,1945,1
+Trnava,1947,1
+Trnava,1948,1
+Trnava,1950,1
+Trnava,NA,1
+Tübingen,1825,1
+Tübingen,1826,1
+Tübingen,1837,1
+Tübingen,1847,1
+Tübingen,1897,1
+Tübingen,1925,1
+Tübingen,1975,1
+Tunis,1974,1
+Turda,1934,1
+Turda,1936,1
+Turda,1937,1
+Turda,1938,1
+Turda,1939,1
+Turku,1885,1
+Turnu-Măgurele,1936,1
+Tweede,NA,1
+Udine,1909,1
+Udine,1948,1
+Ufa,1961,1
+Ulanbator,1950,1
+Ulanbator,1953,1
+Ulanbator,1958,1
+Ulanbator,1961,1
+Uppsala,1976,1
+USA,1926,1
+Utrecht,1928,1
+Utrecht,1951,1
+Utrecht,1953,1
+Utrecht,1958,1
+Utrecht,1964,1
+Utrecht,1976,1
+Užgorod,1906,1
+Užgorod,1942,1
+Užgorod,1943,1
+Užgorod,1949,1
+Užgorod,1950,1
+Užgorod,1953,1
+Užgorod,1954,1
+Užgorod,1956,1
+Užgorod,1957,1
+Užgorod,1958,1
+Užgorod,1960,1
+Užgorod,1968,1
+Užgorod,1970,1
+Vác,1930,1
+Vaduz,1965,1
+Varna,1895,1
+Varna,1969,1
+Varna,NA,1
+Velké Meziříčí,1893,1
+Venezia,1885,1
+Venezia,1889,1
+Verona,1856,1
+Verona,1909,1
+Verona,1953,1
+Verona,1961,1
+Versec,1902,1
+Versec,1918,1
+Veszprém,1809,1
+Viljandi,1899,1
+Vilnius,1951,1
+Vilnius,1953,1
+Vilnius,1954,1
+Vilnius,1956,1
+Vilnius,1957,1
+Vilnius,1958,1
+Vilnius,1959,2
+Vilnius,1960,1
+Vilnius,1961,1
+Vilnius,1962,1
+Vilnius,1965,1
+Vilnius,1966,1
+Vilnius,1967,1
+Vilnius,1973,1
+Visby,1884,1
+Vladimir,1957,1
+Voronezh,1938,1
+Warberg,1876,1
+Warborg,1877,1
+Warszawa,1858,1
+Warszawa,1859,1
+Warszawa,1862,1
+Warszawa,1868,1
+Warszawa,1870,1
+Warszawa,1871,1
+Warszawa,1879,1
+Warszawa,1880,1
+Warszawa,1881,1
+Warszawa,1882,1
+Warszawa,1883,1
+Warszawa,1884,1
+Warszawa,1885,1
+Warszawa,1886,1
+Warszawa,1887,1
+Warszawa,1888,1
+Warszawa,1889,1
+Warszawa,1890,1
+Warszawa,1892,1
+Warszawa,1894,1
+Warszawa,1895,1
+Warszawa,1896,1
+Warszawa,1899,1
+Warszawa,1901,1
+Warszawa,1903,1
+Warszawa,1904,1
+Warszawa,1909,1
+Warszawa,1911,1
+Warszawa,1917,1
+Warszawa,1920,1
+Warszawa,1921,1
+Warszawa,1924,1
+Warszawa,1925,1
+Warszawa,1926,1
+Warszawa,1927,1
+Warszawa,1930,1
+Warszawa,1932,1
+Warszawa,1934,1
+Warszawa,1935,1
+Warszawa,1936,1
+Warszawa,1937,1
+Warszawa,1938,1
+Warszawa,1947,1
+Warszawa,1948,1
+Warszawa,1949,1
+Warszawa,1950,1
+Warszawa,1951,1
+Warszawa,1952,1
+Warszawa,1953,1
+Warszawa,1954,1
+Warszawa,1955,1
+Warszawa,1956,1
+Warszawa,1957,1
+Warszawa,1958,1
+Warszawa,1959,1
+Warszawa,1960,1
+Warszawa,1961,1
+Warszawa,1962,1
+Warszawa,1963,1
+Warszawa,1964,1
+Warszawa,1965,1
+Warszawa,1966,1
+Warszawa,1967,1
+Warszawa,1968,1
+Warszawa,1969,1
+Warszawa,1970,1
+Warszawa,1971,1
+Warszawa,1972,1
+Warszawa,1973,1
+Warszawa,1974,1
+Warszawa,1975,1
+Warszawa,1976,1
+Warszawa,1977,1
+Warszawa,1978,1
+Warszawa,1979,1
+Warszawa,NA,1
+Washington,1933,1
+Washington,1946,1
+Washington,1947,1
+Washington,1954,1
+Washington,1968,1
+Weenen,1960,1
+Weimar,1916,1
+Weimar,1918,1
+Weimar,1919,1
+Weimar,1953,1
+Weimar,1954,1
+Weimar,1955,1
+Weimar,1956,1
+Weimar,1965,1
+Weimar,1968,1
+Weimar,1970,1
+Weimar,1973,1
+Weimar,1977,1
+Weimar,NA,1
+Weissensee,NA,1
+Weissenstein,1930,1
+Wien,1800,1
+Wien,1810,1
+Wien,1814,1
+Wien,1819,1
+Wien,1820,1
+Wien,1821,1
+Wien,1825,1
+Wien,1828,3
+Wien,1846,1
+Wien,1848,1
+Wien,1851,1
+Wien,1854,1
+Wien,1855,1
+Wien,1856,1
+Wien,1858,1
+Wien,1860,1
+Wien,1861,1
+Wien,1862,1
+Wien,1866,1
+Wien,1868,1
+Wien,1869,1
+Wien,1870,1
+Wien,1872,1
+Wien,1873,1
+Wien,1874,1
+Wien,1877,1
+Wien,1878,1
+Wien,1879,1
+Wien,1881,1
+Wien,1882,1
+Wien,1884,1
+Wien,1885,1
+Wien,1886,1
+Wien,1887,1
+Wien,1888,1
+Wien,1889,1
+Wien,1890,1
+Wien,1892,2
+Wien,1894,1
+Wien,1895,1
+Wien,1896,1
+Wien,1897,1
+Wien,1898,1
+Wien,1899,1
+Wien,1900,1
+Wien,1902,1
+Wien,1903,1
+Wien,1904,1
+Wien,1905,1
+Wien,1907,1
+Wien,1910,1
+Wien,1912,1
+Wien,1913,1
+Wien,1916,1
+Wien,1918,1
+Wien,1919,1
+Wien,1921,1
+Wien,1922,1
+Wien,1923,1
+Wien,1924,1
+Wien,1925,1
+Wien,1926,1
+Wien,1927,1
+Wien,1928,1
+Wien,1929,1
+Wien,1931,1
+Wien,1932,1
+Wien,1933,1
+Wien,1934,1
+Wien,1935,1
+Wien,1936,1
+Wien,1937,1
+Wien,1938,1
+Wien,1939,1
+Wien,1940,1
+Wien,1941,1
+Wien,1942,1
+Wien,1943,1
+Wien,1944,1
+Wien,1946,1
+Wien,1947,1
+Wien,1948,1
+Wien,1949,1
+Wien,1950,1
+Wien,1951,1
+Wien,1952,1
+Wien,1953,1
+Wien,1954,1
+Wien,1955,1
+Wien,1956,1
+Wien,1957,1
+Wien,1958,1
+Wien,1959,1
+Wien,1960,1
+Wien,1961,1
+Wien,1962,1
+Wien,1963,1
+Wien,1964,1
+Wien,1965,1
+Wien,1966,1
+Wien,1967,1
+Wien,1969,1
+Wien,1970,1
+Wien,1971,1
+Wien,1972,1
+Wien,1974,1
+Wien,NA,1
+Wiesbaden,1910,1
+Wiesbaden,1960,1
+Wiipuri,1892,1
+Winnipeg,1933,1
+Wrocław,1885,1
+Wrocław,1886,1
+Wrocław,1894,1
+Wrocław,1895,1
+Wrocław,1896,1
+Wrocław,1898,1
+Wrocław,1901,1
+Wrocław,1902,1
+Wrocław,1905,1
+Wrocław,1906,1
+Wrocław,1909,1
+Wrocław,1936,1
+Wrocław,1949,1
+Wrocław,NA,2
+Würzburg,1953,1
+Wurzen,1863,1
+Yekaterinburg,1893,1
+Yekaterinburg,1930,1
+Yekaterinburg,1942,1
+Zagreb,1880,1
+Zagreb,1895,1
+Zagreb,1910,1
+Zagreb,1914,1
+Zagreb,1918,1
+Zagreb,1924,1
+Zagreb,1931,1
+Zagreb,1932,1
+Zagreb,1940,1
+Zagreb,1943,1
+Zagreb,1947,1
+Zagreb,1948,1
+Zagreb,1950,1
+Zagreb,1951,1
+Zagreb,1954,1
+Zagreb,1955,1
+Zagreb,1958,1
+Zagreb,1960,1
+Zagreb,1961,1
+Zagreb,1962,1
+Zagreb,1963,1
+Zagreb,1967,1
+Zagreb,1969,1
+Zagreb,1971,1
+Zagreb,NA,2
+Zandijk,1951,1
+Zobor,1860,1
+Zolochiv,1895,1
+Zolochiv,1910,1
+Zolochiv,NA,1
+Zrenjanin,1898,1
+Zrenjanin,1914,1
+Zürich,1867,1
+Zürich,1870,1
+Zürich,1919,1
+Zürich,1921,1
+Zürich,1923,1
+Zürich,1927,1
+Zürich,1929,1
+Zürich,1933,1
+Zürich,1934,1
+Zürich,1935,1
+Zürich,1936,1
+Zürich,1937,1
+Zürich,1942,1
+Zürich,1943,1
+Zürich,1948,1
+Zürich,1949,1
+Zürich,1950,1
+Zürich,1952,1
+Zürich,1953,1
+Zürich,1956,1
+Zürich,1957,1
+Zürich,1958,1
+Zürich,1962,1
+Zürich,1967,1
+Zürich,1968,1
+Zürich,1973,1
+Zürich,1974,1
+Zürich,NA,1
+Zutphen,1869,1
+Zutphen,1875,1
+Zutphen,1929,1
+Zwolle,1953,1
+Zyryanovsk,1954,1
+Өzdәbmәşr,1934,1
+Свистуновои,1880,1
+NA,1792,1
+NA,1794,1
+NA,1800,1
+NA,1807,1
+NA,1808,3
+NA,1809,1
+NA,1810,1
+NA,1813,1
+NA,1814,2
+NA,1816,1
+NA,1819,1
+NA,1820,1
+NA,1821,1
+NA,1823,2
+NA,1825,1
+NA,1826,2
+NA,1827,1
+NA,1828,3
+NA,1829,1
+NA,1830,2
+NA,1831,2
+NA,1836,1
+NA,1837,1
+NA,1838,1
+NA,1839,2
+NA,1840,1
+NA,1841,1
+NA,1842,2
+NA,1843,1
+NA,1844,1
+NA,1845,2
+NA,1846,1
+NA,1847,1
+NA,1848,1
+NA,1849,2
+NA,1850,3
+NA,1851,3
+NA,1852,3
+NA,1853,2
+NA,1854,3
+NA,1855,2
+NA,1856,3
+NA,1857,4
+NA,1858,3
+NA,1859,3
+NA,1860,5
+NA,1861,13
+NA,1862,5
+NA,1863,4
+NA,1864,1
+NA,1865,6
+NA,1866,5
+NA,1867,3
+NA,1868,6
+NA,1869,6
+NA,1870,6
+NA,1871,7
+NA,1872,8
+NA,1873,9
+NA,1874,10
+NA,1875,11
+NA,1876,7
+NA,1877,10
+NA,1878,7
+NA,1879,10
+NA,1880,11
+NA,1881,10
+NA,1882,11
+NA,1883,9
+NA,1884,12
+NA,1885,10
+NA,1886,10
+NA,1887,14
+NA,1888,11
+NA,1889,14
+NA,1890,14
+NA,1891,12
+NA,1892,12
+NA,1893,12
+NA,1894,16
+NA,1895,15
+NA,1896,11
+NA,1897,12
+NA,1898,13
+NA,1899,12
+NA,1900,10
+NA,1901,11
+NA,1902,13
+NA,1903,12
+NA,1904,13
+NA,1905,10
+NA,1906,11
+NA,1907,13
+NA,1908,14
+NA,1909,25
+NA,1910,12
+NA,1911,14
+NA,1912,13
+NA,1913,11
+NA,1914,12
+NA,1915,6
+NA,1916,7
+NA,1917,10
+NA,1918,9
+NA,1919,6
+NA,1920,7
+NA,1921,13
+NA,1922,15
+NA,1923,14
+NA,1924,15
+NA,1925,13
+NA,1926,14
+NA,1927,14
+NA,1928,13
+NA,1929,12
+NA,1930,19
+NA,1931,13
+NA,1932,13
+NA,1933,11
+NA,1934,17
+NA,1935,15
+NA,1936,14
+NA,1937,14
+NA,1938,16
+NA,1939,14
+NA,1940,24
+NA,1941,14
+NA,1942,15
+NA,1943,16
+NA,1944,14
+NA,1945,11
+NA,1946,17
+NA,1947,18
+NA,1948,18
+NA,1949,17
+NA,1950,17
+NA,1951,21
+NA,1952,24
+NA,1953,24
+NA,1954,27
+NA,1955,29
+NA,1956,26
+NA,1957,29
+NA,1958,31
+NA,1959,27
+NA,1960,32
+NA,1961,31
+NA,1962,24
+NA,1963,21
+NA,1964,26
+NA,1965,28
+NA,1966,29
+NA,1967,27
+NA,1968,21
+NA,1969,25
+NA,1970,22
+NA,1971,22
+NA,1972,21
+NA,1973,29
+NA,1974,19
+NA,1975,16
+NA,1976,22
+NA,1977,22
+NA,1978,7
+NA,1979,2
+NA,1982,1
+NA,1989,1
+NA,NA,38
