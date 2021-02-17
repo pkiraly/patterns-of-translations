@@ -1,0 +1,411 @@
+city,works
+Aalborg,2
+Aarhus,1
+Aarschot,1
+Åbo,61
+Acqui,1
+Akron,0.3333333333333333
+Almaty,431
+Amsterdam,218.5
+Angoulème,15
+Ankara,74.5
+Ann Arbor,55
+Antwerpen,34.333333333333336
+Arad,7
+Arhus,1
+Arnhem,1
+Ashgabat,91
+Assisi,2
+Athén,2
+Bacău,3
+Bad Kissingen,1
+Bad Wörishofen,2
+Baden-Baden,3
+Bahia,0.3333333333333333
+Baia Mare,9
+Baja,36
+Baku,104
+Banská Bystrica,134
+Barcelona,257
+Bari,1
+Basel,17.666666666666668
+Békéscsaba,3
+Belo Horizonte,1
+Beograd,549
+Berlin,1915.3333333333333
+Bern,110
+Bilthoven,20.5
+Bistriţa,3
+Boca Raton,850
+Bologna,34
+Boston,7.5
+Boudry,18
+Braşov,50
+Bratislava,2692
+Braunschweig,46
+Bregenz,2
+Bremen,4
+Brescia,1
+Brno,61
+Bruxelles,351.75
+Bucureşti,3982
+Budapest,13122.666666666666
+Buenos Aires,59
+Buffalo,562
+Bussum,1
+Bydgoszcz,4
+Cagliari,4
+Cairo,50
+Caracas,2
+Catania,3
+Cetinje,30
+Charlottenburg,1
+Cheadle,60
+Cheboksary,15
+Chicago,22.333333333333332
+Chisinau,108
+Cieszyn,0.5
+Cleveland,10
+Cluj-Napoca,270
+Coira,3
+Colombo,3
+Como,7
+Copenhagen,217.5
+Craiova,13
+Cremona,0.5
+Cuautla,3
+Damaskus,4
+Darmstadt,133
+Debrecen,1
+Dej,1
+Den Haag,69
+Detroit,0.3333333333333333
+Draguignan,9
+Dresden,158.16666666666666
+Dublin,5
+Dusanbe,61
+Dushanbe,4
+Düsseldorf,32
+Edinborough,4.333333333333333
+Einsiedeln,1
+Eisenach,5
+Eisenstadt,3
+Elberfeld,74.5
+Engels,3
+Englewood Cliffs,3
+Erlangen,2
+Evanston,0.25
+Filey,2
+Firenze,473.5
+Fogărăs,1
+Foligni,1
+Fönjan,93
+Frankfurt,18.5
+Frankfurt am Main,503
+Frederiksborg,1
+Frunze,166
+Gand,1
+Gaurhati,8
+Gdańsk,4
+Genf,41
+Genova,38
+Gherla,2
+Glasgow,0.3333333333333333
+God,0.3333333333333333
+Gorno-Altajsk,1
+Göteborg,10
+Gran,3.5
+Graz,13.5
+Gródek Jagielloński,12
+Groningen,1
+Grossenhain,1
+Guildford,0.5
+Gütersloh,4
+Gyoma,1
+Győr,280.5
+Haarlem,51
+Halle,38
+Halle am Saale,61
+Hamburg,78
+Hämeenlinna,11
+Hannover,36
+Hanoi,142
+Harkov,8.5
+Harmondsworth,65
+Heidelberg,17.5
+Heilbronn,3
+Helsinki,469
+Iaşi,6
+Imphal,5
+Indianapolis,3
+Innsbruck,3
+Iowa,25
+Istanbul,78.5
+Izhevsk,32
+Jena,3
+Jerevan,154
+Jerusalem,3
+Jyväskylä,17.5
+"Kaleva, MI",1
+Kampen,2
+Kansas City,4
+Karlsruhe,2
+Kassel,54
+Katowice,7
+Kaunas,6
+Kazan,11
+Kežmarok,1
+Kiel,1
+Kikinda,29
+Klagenfurt,1
+Köln,51.5
+Konstanz,14
+Köping,5
+Košice,64
+Kraków,275
+Krasnoyarsk,1
+Kristiania,0.5
+Kuopio,1
+Kyiv,584.5
+Kyoto,3
+La Habana,104
+Lahti,1
+Lanciano,5
+Laren,12.5
+Lausanne,7
+Leiden,6
+Leipzig,3645.3333333333335
+Levoča,1
+Liège,2.5
+Linz,2
+Liptovský Sv. Mikuláš,108
+Lisboa,53
+Livorno,1
+Ljubljana,45
+Lochem,5
+Łódź,11
+London,1070.25
+Louvain,50
+Lpt. Martin,1
+Lübeck,6
+Lučenec,13
+Luzern,4
+Lviv,30
+Maaston,1
+Madras,31
+Madrid,144.5
+Mainz,1
+Mallorca,1
+Manila,13
+Mannheim,1
+Mantova,2
+Maribor,5
+Marseille,9
+Martin,104
+Melbourne,0.6666666666666666
+Messina,0.5
+Mexico,29.5
+Michigan,3
+Midlothian,28
+Milano,2524.3333333333335
+"Milford, Conn",8
+Minden,120
+Minsk,135
+Miskolc,9
+Montpellier,1
+Moscow,7227
+München,643.8333333333334
+Murska Sobota,99
+Nagykanizsa,56
+Napoli,281.16666666666663
+Nayarit,3
+Nedvidek-Tabor,1
+New Delhi,18
+New York,1414.5
+Noto,11
+Novi Sad,508
+Novosibirsk,1
+Nürnberg,3
+Odessa,2
+Olten,1
+Oradea,216
+Oran,1
+Orăştie,8
+Orenburg,1
+Osijek,1
+Oslo,162
+Ostrava,3.3333333333333335
+Oude,0.3333333333333333
+Oudenbosch,1
+Oxford,7
+Padova,6.666666666666666
+Palermo,282.16666666666663
+Pančevo,11
+Paris,3779.5833333333335
+Parma,223
+Pécs,1
+Peking,235
+Periam,4
+Petroskoi,1
+Petrovec,1
+Peznan,1
+Philadelphia,46
+Piacenza,1
+Pittsburgh,4
+Pituc Cluş,1
+Place unknown U.S.A,1
+Plovdiv,2
+Plzen,11
+Pola,1
+Pori,4
+"Portland, OR",1
+Porvoo,347.5
+Potsdam,5.5
+Poznań,6
+Praha,1953.1666666666667
+Prešov,38
+Pris,1
+Pristina,2
+Purmerend,1
+Putignano,81
+Quezon City,3
+Ragusa,33
+"Ragusa, Sicilia",1
+Rangun,5
+Regensburg,2.5
+Reinbek,4
+Reşiţa,6
+Reudnitz,1
+Reutlingen,1
+Rickmansworth,1
+Riga,276
+Rijeka,130
+Rio de Janeiro,48.333333333333336
+Roma,449.6666666666667
+Romagna,1
+Rostov,2
+Rotterdam,108
+Ružomberok,4
+Rzeszów,2
+s. l,197
+s. l.,5
+Saarlouis,1
+Saint Petersburg,263
+Salzburg,174
+San Francisco,0.25
+Santalcangelo,39
+Santiago,1
+Santiago de Chile,2
+Sao Paulo,4
+São Paulo,0.3333333333333333
+Sarajevo,69
+Satu-Mare,2
+Seoul,1
+Shanghai,88
+Sibiu,626
+Sicilia,2
+Siena,2
+Sighișoara,1
+Skalica,2
+Skopje,234
+Sofija,1218
+Sonderhausen,1
+Sopron,27
+Spišská Nová ves,1
+St. Gallen,41
+St. Louis,38
+Stavanger,2
+Stockholm,448
+Strassburg,17
+Stuttgart,287.3333333333333
+Subotica,359
+Suceava,1
+Šumperk,1
+Sydney,115
+Syktyvkar,36
+Szakartvelo,1
+Szeged,5
+Szerenin,2
+Szombathely,5
+Tallinn,385
+Tampere,195
+Târgu-Mureş,2
+Tarnav,2
+Tarnopol,2
+Tartu,136
+Taskent,46
+Tbilisi,50
+Teaneck,35
+Teheran,49
+Tel Aviv,237
+Tenerife,1
+Tepic,2
+Thuin,3
+Thusis,1
+Tielt,1
+Tilsit,2
+Timișoara,8
+Tipsia,1
+Tirana,133
+Tokyo,374
+Tolmezzo,1
+Torino,333.8333333333333
+Toronto,378
+Tours,1
+Třebice,2
+Trieste,1
+Trnava,106
+Tübingen,93.5
+Tunis,27
+Turda,34
+Turku,1
+Turnu-Măgurele,2
+Tweede,1
+Udine,4
+Ufa,56
+Ulanbator,57
+Uppsala,1
+USA,1
+Utrecht,6.5
+Užgorod,289
+Vác,1
+Vaduz,11
+Varna,25
+Velké Meziříčí,17
+Venezia,17
+Verona,4
+Versec,2
+Veszprém,1
+Viljandi,2
+Vilnius,96
+Visby,1
+Vladimir,1
+Voronezh,1
+Warberg,1
+Warborg,1
+Warszawa,1574
+Washington,131
+Weenen,1
+Weimar,381
+Weissensee,0.5
+Weissenstein,1
+Wien,1614.4166666666667
+Wiesbaden,3
+Wiipuri,1
+Winnipeg,126
+Wrocław,1493
+Würzburg,1
+Wurzen,1
+Yekaterinburg,4
+Zagreb,335
+Zandijk,1
+Zobor,1
+Zolochiv,3
+Zrenjanin,7
+Zürich,99
+Zutphen,103
+Zwolle,1
+Zyryanovsk,1
+Өzdәbmәşr,1
+Свистуновои,1
+NA,NA
