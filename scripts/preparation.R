@@ -65,4 +65,4 @@ df %>%
   
   mutate(year_n = ifelse(is.na(year), year, as.integer(year))) %>%
   select(-is_series) %>% 
-  write_csv('data/demeter.tsv')
+  write_csv('data/demeter.csv')

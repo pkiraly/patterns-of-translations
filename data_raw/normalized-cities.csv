@@ -42,6 +42,7 @@ haarlem,Haarlem
 Konstanz am Bodensee,Konstanz
 "Konstanz, a. Bodensee",Konstanz
 "Konstanz, am Bodensee",Konstanz
+"Konstanz, Bodensee",Konstanz
 Liptsymikuláš,Liptovský Sv. Mikuláš
 Lipt. Sv. Mikuláš,Liptovský Sv. Mikuláš
 Liptovsky Sv. Mikuláš,Liptovský Sv. Mikuláš
@@ -233,7 +234,7 @@ Békéš-čaba,Békéscsaba
 V Békés-Čabe,Békéscsaba
 "Boston, USA",Boston
 Brelin,Berlin
-Breslau−Leipzig−New-York,Wrocław−Leipzig−New-York
+Breslau−Leipzig−New-York,Wrocław−Leipzig−New York
 Bruselles−Paris,Bruxelles−Paris
 Brussel−Den Haag,Bruxelles−Den Haag
 Brussel−Den Haang,Bruxelles−Den Haag
@@ -248,6 +249,8 @@ Dorpat,Tartu
 Drezden−Pest,Dresden−Budapest
 Edinbourgh,Edinborough
 Edinburgh,Edinborough
+London−Edinbourgh,London−Edinborough
+London−Edinburgh−Glasgow,London−Edinborough−Glasgow
 Elderfeld−Leipzig,Elberfeld−Leipzig
 Englewood Cliffs N.Y,Englewood Cliffs
 "Englewood Cliffs, NY",Englewood Cliffs
@@ -559,9 +562,9 @@ Ungvár,Užgorod
 Фрунѕе,Frunze
 Wien−Liepzig,Wien−Leipzig
 Wien−Pressburg,Wien−Bratislava
-Ашхабад,Ашгабат
-БАКЫ,Бакы
-ВАКЫ,Бакы
+БАКЫ,Baku
+ВАКЫ,Baku
+Бакы,Baku
 Барна,Varna
 Варна,Varna
 Беoград,Beograd
@@ -581,9 +584,46 @@ Versecz,Versec
 Улаанбаатар,Ulanbator
 Харкiв,Harkov
 Харків,Harkov
-Цетине,Цетиңе
-Сыктывкар,Сынтывкар
+Charkow,Harkov
+Сыктывкар,Syktyvkar
+Сынтывкар,Syktyvkar
 Душанбе,Dusanbe
-Екатеринбург,Ekaterinburg
+Екатеринбург,Yekaterinburg
 Казан,Kazan
 "St. Louis, Mo",St. Louis
+Leipzig−Brüssel−London−New-York,Leipzig−Bruxelles−London−New York
+Amsterdam−Brussels,Amsterdam−Bruxelles
+Beszterce,Bistriţa
+Bistritz,Bistriţa
+Basel−Wien−Maehrisch-Ostrau,Basel−Wien−Ostrava
+Maerisch-Ostrau,Ostrava
+Moravska-Ostrava,Ostrava
+Teschen−Wien,Cieszyn−Wien
+"Kolozsvár, Klausenburg und Beszterce",Cluj-Napoca−Bistriţa
+London−New-York,London−New York
+Chicago−Akron−New-York,Chicago−Akron−New York
+New-York−London,New York−London
+Rio de Janeiro−São Paulo−Bahia,Rio de Janeiro−Sao Paulo−Bahia
+Velky-Meziric,Velké Meziříčí
+Velký-Meziric,Velké Meziříčí
+Wolký-Meziric,Velké Meziříčí
+Zleczow,Zolochiv
+Zloczow,Zolochiv
+Алматы,Almaty
+Алмута,Almaty
+Ашгабат,Ashgabat
+Ашхабад,Ashgabat
+ӘФӘ,Ufa
+Владимир,Vladimir
+Воронеж,Voronezh
+Ижевск,Izhevsk
+Харкiв−Киïв,Harkov−Kyiv
+Красно-Ярск,Krasnoyarsk
+Красноярск,Krasnoyarsk
+Свердловск,Yekaterinburg
+Сталинобод,Dushanbe
+Цетиңе,Cetinje
+Цетиње,Cetinje
+Цетине,Cetinje
+Шупашкар,Cheboksary
+Алтаы,Zyryanovsk
