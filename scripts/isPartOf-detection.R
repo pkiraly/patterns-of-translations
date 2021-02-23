@@ -1,7 +1,6 @@
 library(tidyverse)
 library(ggplot2)
 library(stringdist)
-source("scripts/functions.R")
 
 df <- read_csv('data/demeter.csv', col_types = 'dcccccccccccccd')
 df.isPartOf <- read_csv('data/isPartOf.csv')
@@ -11,7 +10,10 @@ df %>%
   count()
 
 df %>% 
-  filter(is.na(isPartOf)) %>% 
+  filter(
+    is.na(isPartOf)
+    & szerzo == 'PETŐFI Sándor'
+  ) %>% 
   group_by(nyelv, normalized_city, year_n) %>% 
   count() %>% 
   arrange(desc(n)) %>% 
@@ -19,24 +21,26 @@ df %>%
 
 df %>%
   filter(
-    magyar_cim == 'Források:' & id > 80
-    & grepl('Budapest', normalized_city)
-    & year == '1963'
-    # id == 15079
+    !is.na(id)
+    & magyar_cim == 'Források:' & id > 80
+    & grepl('Milano', normalized_city)
+    & is.na(year_n)
+    # & id == 56908
     # grepl('FOOT PRINTS', idegen_cim)
   ) %>%
   select(id, szerzo, nyelv, idegen_cim, fordito, megjelenes) %>% 
   view()
 
-# 85
 df.filtered <- df %>% 
   filter(
     is.na(isPartOf)
-    & grepl('Budapest', normalized_city)
-    & year_n == 1963
-    # & !grepl('Cобрание', megjelenes, ignore.case = TRUE)
-    & id != 35021
-    & nyelv == 'orosz'
+    & grepl('Milano', normalized_city)
+    & year == '191?'
+    # & grepl('Poètes Hongrois', idegen_cim, ignore.case = TRUE)
+    & grepl('P. Canti', megjelenes, ignore.case = TRUE)
+    & id != 15080
+    # & id != 71387  
+    # & nyelv == 'francia'
     & szerzo == 'PETŐFI Sándor'
     # & grepl('Pongrácz', fordito)
   ) %>% 
@@ -55,11 +59,10 @@ df.filtered <- df %>%
 
 df.filtered %>% 
   select(id) %>%
-  mutate(isPartOf2 = 35021) %>%
+  mutate(isPartOf2 = 15080) %>%
   union(df.isPartOf) %>%
   distinct() %>%
-  write_csv('data/isPartOf.csv') %>%
-  view()
+  write_csv('data/isPartOf.csv')
 
 df.isPartOf <- read_csv('data/isPartOf.csv')
 count(df.isPartOf)
