@@ -2,8 +2,8 @@ city,year_n,languages
 Aalborg,1894,1
 Aalborg,1897,1
 Aarhus,1959,1
+Aarhus,NA,1
 Aarschot,1926,1
-Åbo,1879,1
 Acqui,1861,1
 Akron,1902,1
 Almaty,1954,2
@@ -80,7 +80,6 @@ Arad,1925,1
 Arad,1936,1
 Arad,1939,1
 Arad,1949,1
-Arhus,NA,1
 Arnhem,1874,1
 Ashgabat,1955,1
 Ashgabat,1959,1
@@ -818,11 +817,11 @@ Dresden,NA,1
 Dublin,1948,1
 Dublin,1951,1
 Dublin,1972,1
-Dusanbe,1964,1
-Dusanbe,1969,1
 Dushanbe,1955,1
 Dushanbe,1956,1
 Dushanbe,1961,1
+Dushanbe,1964,1
+Dushanbe,1969,1
 Düsseldorf,1951,1
 Düsseldorf,1966,1
 Düsseldorf,1970,1
@@ -871,24 +870,22 @@ Fogărăs,1925,1
 Foligni,1930,1
 Fönjan,1956,1
 Fönjan,1957,1
-Frankfurt,1848,1
-Frankfurt,1903,1
-Frankfurt,1922,1
-Frankfurt,1924,1
-Frankfurt,1925,1
-Frankfurt,1926,1
-Frankfurt,1928,1
-Frankfurt,1929,1
-Frankfurt,1930,1
-Frankfurt,1931,1
-Frankfurt,1934,1
-Frankfurt,NA,1
+Frankfurt am Main,1848,1
 Frankfurt am Main,1849,1
 Frankfurt am Main,1891,1
+Frankfurt am Main,1903,1
 Frankfurt am Main,1912,1
+Frankfurt am Main,1922,1
+Frankfurt am Main,1924,1
+Frankfurt am Main,1925,1
 Frankfurt am Main,1926,1
 Frankfurt am Main,1927,1
+Frankfurt am Main,1928,1
+Frankfurt am Main,1929,1
+Frankfurt am Main,1930,1
+Frankfurt am Main,1931,1
 Frankfurt am Main,1932,1
+Frankfurt am Main,1934,1
 Frankfurt am Main,1953,1
 Frankfurt am Main,1959,1
 Frankfurt am Main,1960,1
@@ -974,18 +971,17 @@ Haarlem,NA,1
 Halle,1850,1
 Halle,1851,1
 Halle,1854,1
+Halle,1880,1
+Halle,1886,1
+Halle,1887,1
+Halle,1888,1
+Halle,1889,1
+Halle,1890,1
 Halle,1923,1
-Halle am Saale,1850,1
-Halle am Saale,1880,1
-Halle am Saale,1886,1
-Halle am Saale,1887,1
-Halle am Saale,1888,1
-Halle am Saale,1889,1
-Halle am Saale,1890,1
-Halle am Saale,1952,1
-Halle am Saale,1961,1
-Halle am Saale,1966,1
-Halle am Saale,NA,1
+Halle,1952,1
+Halle,1961,1
+Halle,1966,1
+Halle,NA,1
 Hamburg,1851,1
 Hamburg,1937,1
 Hamburg,1940,1
@@ -1212,7 +1208,6 @@ Kraków,1952,1
 Kraków,1971,1
 Kraków,1977,1
 Krasnoyarsk,1942,1
-Kristiania,1919,1
 Kuopio,1913,1
 Kyiv,1930,1
 Kyiv,1937,1
@@ -2075,15 +2070,12 @@ Periam,1913,1
 Periam,1915,1
 Petroskoi,1954,1
 Petrovec,1961,1
-Peznan,1885,1
 Philadelphia,1850,1
 Philadelphia,1885,1
 Philadelphia,1934,1
 Philadelphia,NA,1
 Piacenza,1881,1
 Pittsburgh,1973,1
-Pituc Cluş,1895,1
-Place unknown U.S.A,1926,1
 Plovdiv,1962,1
 Plovdiv,1972,1
 Plzen,1914,1
@@ -2121,6 +2113,7 @@ Potsdam,1949,1
 Potsdam,NA,1
 Poznań,1879,1
 Poznań,1883,1
+Poznań,1885,1
 Poznań,1925,1
 Poznań,1928,1
 Praha,1861,1
@@ -2366,10 +2359,6 @@ s. l,1972,2
 s. l,1973,1
 s. l,1977,1
 s. l,NA,9
-s. l.,1872,1
-s. l.,1910,1
-s. l.,1923,1
-s. l.,1940,1
 Saarlouis,1920,1
 Saint Petersburg,1851,1
 Saint Petersburg,1869,1
@@ -2431,7 +2420,7 @@ Santiago de Chile,1954,1
 Sao Paulo,1945,1
 Sao Paulo,1952,2
 Sao Paulo,1953,1
-São Paulo,1958,1
+Sao Paulo,1958,1
 Sarajevo,1955,1
 Sarajevo,1957,1
 Sarajevo,1958,2
@@ -2826,6 +2815,7 @@ Turda,1936,1
 Turda,1937,1
 Turda,1938,1
 Turda,1939,1
+Turku,1879,1
 Turku,1885,1
 Turnu-Măgurele,1936,1
 Tweede,NA,1

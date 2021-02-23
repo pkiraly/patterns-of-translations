@@ -2,8 +2,8 @@ city,year_n,nyelv,works
 Aalborg,1894,dán,1
 Aalborg,1897,dán,1
 Aarhus,1959,eszperantó,1
+Aarhus,NA,eszperantó,1
 Aarschot,1926,flamand,1
-Åbo,1879,svéd,61
 Acqui,1861,olasz,1
 Akron,1902,angol,0.3333333333333333
 Almaty,1954,kazah,2
@@ -87,7 +87,6 @@ Arad,1925,román,1
 Arad,1936,német,1
 Arad,1939,román,2
 Arad,1949,román,2
-Arhus,NA,eszperantó,1
 Arnhem,1874,holland,1
 Ashgabat,1955,türkmén,89
 Ashgabat,1959,türkmén,1
@@ -1093,7 +1092,7 @@ Cluj-Napoca,1891,román,1
 Cluj-Napoca,1892,román,3
 Cluj-Napoca,1893,román,22
 Cluj-Napoca,1894,román,35
-Cluj-Napoca,1895,román,17
+Cluj-Napoca,1895,román,18
 Cluj-Napoca,1896,román,12
 Cluj-Napoca,1897,román,16
 Cluj-Napoca,1898,román,9
@@ -1141,7 +1140,7 @@ Copenhagen,1904,dán,1
 Copenhagen,1905,dán,1
 Copenhagen,1907,dán,1
 Copenhagen,1912,dán,1
-Copenhagen,1919,dán,0.5
+Copenhagen,1919,dán,1
 Copenhagen,1936,dán,2
 Copenhagen,1937,dán,1
 Copenhagen,1939,dán,1
@@ -1217,11 +1216,11 @@ Dresden,NA,német,2.6666666666666665
 Dublin,1948,angol,1
 Dublin,1951,angol,1
 Dublin,1972,angol,3
-Dusanbe,1964,tadzsik,29
-Dusanbe,1969,tadzsik,32
 Dushanbe,1955,tadzsik,1
 Dushanbe,1956,tadzsik,2
 Dushanbe,1961,tadzsik,1
+Dushanbe,1964,tadzsik,29
+Dushanbe,1969,tadzsik,32
 Düsseldorf,1951,német,1
 Düsseldorf,1966,német,29.5
 Düsseldorf,1970,német,0.5
@@ -1270,24 +1269,22 @@ Fogărăs,1925,román,1
 Foligni,1930,olasz,1
 Fönjan,1956,koreai,1
 Fönjan,1957,koreai,92
-Frankfurt,1848,német,1
-Frankfurt,1903,német,0.5
-Frankfurt,1922,német,1
-Frankfurt,1924,német,1
-Frankfurt,1925,német,1
-Frankfurt,1926,német,6
-Frankfurt,1928,német,3
-Frankfurt,1929,német,1
-Frankfurt,1930,német,1
-Frankfurt,1931,német,1
-Frankfurt,1934,német,1
-Frankfurt,NA,német,1
+Frankfurt am Main,1848,német,1
 Frankfurt am Main,1849,német,301
 Frankfurt am Main,1891,német,3
+Frankfurt am Main,1903,német,0.5
 Frankfurt am Main,1912,német,1
-Frankfurt am Main,1926,német,1
+Frankfurt am Main,1922,német,1
+Frankfurt am Main,1924,német,1
+Frankfurt am Main,1925,német,1
+Frankfurt am Main,1926,német,7
 Frankfurt am Main,1927,német,1
+Frankfurt am Main,1928,német,3
+Frankfurt am Main,1929,német,1
+Frankfurt am Main,1930,német,1
+Frankfurt am Main,1931,német,1
 Frankfurt am Main,1932,német,1
+Frankfurt am Main,1934,német,1
 Frankfurt am Main,1953,német,1
 Frankfurt am Main,1959,német,21
 Frankfurt am Main,1960,német,2
@@ -1303,7 +1300,7 @@ Frankfurt am Main,1969,német,107
 Frankfurt am Main,1971,német,1
 Frankfurt am Main,1972,német,1
 Frankfurt am Main,1976,német,1
-Frankfurt am Main,NA,német,1
+Frankfurt am Main,NA,német,2
 Frederiksborg,1877,dán,1
 Frunze,1957,kirgiz,163
 Frunze,1960,kirgiz,1
@@ -1370,21 +1367,20 @@ Győr,NA,német,12
 Haarlem,1894,holland,1
 Haarlem,1924,holland,49
 Haarlem,NA,holland,1
-Halle,1850,német,35
+Halle,1850,német,36
 Halle,1851,német,1
 Halle,1854,német,1
+Halle,1880,német,1
+Halle,1886,német,2
+Halle,1887,német,2
+Halle,1888,német,23
+Halle,1889,német,1
+Halle,1890,német,1
 Halle,1923,német,1
-Halle am Saale,1850,német,1
-Halle am Saale,1880,német,1
-Halle am Saale,1886,német,2
-Halle am Saale,1887,német,2
-Halle am Saale,1888,német,23
-Halle am Saale,1889,német,1
-Halle am Saale,1890,német,1
-Halle am Saale,1952,német,1
-Halle am Saale,1961,német,1
-Halle am Saale,1966,német,6
-Halle am Saale,NA,német,22
+Halle,1952,német,1
+Halle,1961,német,1
+Halle,1966,német,6
+Halle,NA,német,22
 Hamburg,1851,német,2
 Hamburg,1937,angol,1
 Hamburg,1940,német,4
@@ -1614,7 +1610,6 @@ Kraków,1952,lengyel,0.5
 Kraków,1971,lengyel,97
 Kraków,1977,lengyel,111
 Krasnoyarsk,1942,orosz,1
-Kristiania,1919,dán,0.5
 Kuopio,1913,finn,1
 Kyiv,1930,ukrán,0.5
 Kyiv,1937,német,1
@@ -2538,15 +2533,12 @@ Periam,1913,német,2
 Periam,1915,német,1
 Petroskoi,1954,finn,1
 Petrovec,1961,szlovén,1
-Peznan,1885,lengyel,1
 Philadelphia,1850,angol,2
 Philadelphia,1885,angol,42
 Philadelphia,1934,angol,1
 Philadelphia,NA,angol,1
 Piacenza,1881,olasz,1
 Pittsburgh,1973,angol,4
-Pituc Cluş,1895,román,1
-Place unknown U.S.A,1926,angol,1
 Plovdiv,1962,bolgár,1
 Plovdiv,1972,bolgár,1
 Plzen,1914,cseh,11
@@ -2584,6 +2576,7 @@ Potsdam,1949,német,0.5
 Potsdam,NA,német,4
 Poznań,1879,lengyel,2
 Poznań,1883,lengyel,1
+Poznań,1885,lengyel,1
 Poznań,1925,lengyel,1
 Poznań,1928,lengyel,2
 Praha,1861,cseh,1
@@ -2863,10 +2856,6 @@ s. l,NA,koreai,1
 s. l,NA,német,2
 s. l,NA,örmény,4
 s. l,NA,svéd,6
-s. l.,1872,orosz,2
-s. l.,1910,olasz,1
-s. l.,1923,finn,1
-s. l.,1940,orosz,1
 Saarlouis,1920,német,1
 Saint Petersburg,1851,orosz,0.5
 Saint Petersburg,1869,orosz,1
@@ -2931,7 +2920,7 @@ Sao Paulo,1945,spanyol,1
 Sao Paulo,1952,portugál,1
 Sao Paulo,1952,spanyol,1
 Sao Paulo,1953,spanyol,1
-São Paulo,1958,portugál,0.3333333333333333
+Sao Paulo,1958,portugál,0.3333333333333333
 Sarajevo,1955,horvát,2
 Sarajevo,1957,horvát,1
 Sarajevo,1958,horvát,2
@@ -3345,6 +3334,7 @@ Turda,1936,román,6
 Turda,1937,román,15
 Turda,1938,román,6
 Turda,1939,román,5
+Turku,1879,svéd,61
 Turku,1885,finn,1
 Turnu-Măgurele,1936,román,2
 Tweede,NA,holland,1
@@ -3356,7 +3346,7 @@ Ulanbator,1953,mongol,24
 Ulanbator,1958,mongol,1
 Ulanbator,1961,mongol,30
 Uppsala,1976,svéd,1
-USA,1926,angol,1
+USA,1926,angol,2
 Utrecht,1928,holland,1
 Utrecht,1951,holland,1
 Utrecht,1953,holland,1
@@ -4307,7 +4297,7 @@ NA,1910,francia,24
 NA,1910,horvát,3
 NA,1910,lengyel,3
 NA,1910,német,846
-NA,1910,olasz,87
+NA,1910,olasz,NA
 NA,1910,orosz,33
 NA,1910,román,15
 NA,1910,szerb,NA
@@ -4395,7 +4385,7 @@ NA,1918,román,3
 NA,1918,svéd,3
 NA,1918,szerb,3
 NA,1919,bolgár,9
-NA,1919,dán,1
+NA,1919,dán,3
 NA,1919,finn,6
 NA,1919,német,457
 NA,1919,olasz,3
@@ -4439,7 +4429,7 @@ NA,1923,angol,6
 NA,1923,bolgár,114
 NA,1923,cseh,9
 NA,1923,eszperantó,15
-NA,1923,finn,12
+NA,1923,finn,NA
 NA,1923,francia,NA
 NA,1923,ido,150
 NA,1923,lengyel,NA

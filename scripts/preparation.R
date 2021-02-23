@@ -39,6 +39,7 @@ df %>%
   mutate(city = gsub('Postsdam', 'Potsdam', city)) %>% 
   mutate(city = gsub('Potsdamm', 'Potsdam', city)) %>% 
   mutate(city = gsub('Postdam', 'Potsdam', city)) %>% 
+  mutate(city = gsub('s. l.', NA, city)) %>% 
   mutate(city = gsub('A többi adat hiányzik', NA, city)) %>% 
   mutate(city = gsub('Adatai ismeretlenek előttem', NA, city)) %>% 
   mutate(city = gsub('Közelebbi adatok még hiányoznak', NA, city)) %>% 
@@ -58,6 +59,7 @@ df %>%
       city,
       normalized_city)
     ) %>%
+  mutate(normalized_city = gsub('^s. l.$', NA, normalized_city)) %>% 
 
   # filter('Neuausgabe' == normalized_city |
   #        'Övergedrukt uit de "Gids"' == normalized_city) %>%
@@ -66,3 +68,5 @@ df %>%
   mutate(year_n = ifelse(is.na(year), year, as.integer(year))) %>%
   select(-is_series) %>% 
   write_csv('data/demeter.csv')
+
+rm(list = ls())

@@ -1,8 +1,7 @@
 city,works
 Aalborg,2
-Aarhus,1
+Aarhus,2
 Aarschot,1
-Åbo,61
 Acqui,1
 Akron,0.3333333333333333
 Almaty,431
@@ -12,7 +11,6 @@ Ankara,74.5
 Ann Arbor,55
 Antwerpen,34.333333333333336
 Arad,7
-Arhus,1
 Arnhem,1
 Ashgabat,91
 Assisi,2
@@ -66,11 +64,11 @@ Chicago,22.333333333333332
 Chisinau,108
 Cieszyn,0.5
 Cleveland,10
-Cluj-Napoca,270
+Cluj-Napoca,271
 Coira,3
 Colombo,3
 Como,7
-Copenhagen,217.5
+Copenhagen,218
 Craiova,13
 Cremona,0.5
 Cuautla,3
@@ -83,8 +81,7 @@ Detroit,0.3333333333333333
 Draguignan,9
 Dresden,158.16666666666666
 Dublin,5
-Dusanbe,61
-Dushanbe,4
+Dushanbe,65
 Düsseldorf,32
 Edinborough,4.333333333333333
 Einsiedeln,1
@@ -100,8 +97,7 @@ Firenze,473.5
 Fogărăs,1
 Foligni,1
 Fönjan,93
-Frankfurt,18.5
-Frankfurt am Main,503
+Frankfurt am Main,521.5
 Frederiksborg,1
 Frunze,166
 Gand,1
@@ -124,8 +120,7 @@ Gütersloh,4
 Gyoma,1
 Győr,280.5
 Haarlem,51
-Halle,38
-Halle am Saale,61
+Halle,99
 Hamburg,78
 Hämeenlinna,11
 Hannover,36
@@ -164,7 +159,6 @@ Köping,5
 Košice,64
 Kraków,275
 Krasnoyarsk,1
-Kristiania,0.5
 Kuopio,1
 Kyiv,584.5
 Kyoto,3
@@ -248,12 +242,9 @@ Peking,235
 Periam,4
 Petroskoi,1
 Petrovec,1
-Peznan,1
 Philadelphia,46
 Piacenza,1
 Pittsburgh,4
-Pituc Cluş,1
-Place unknown U.S.A,1
 Plovdiv,2
 Plzen,11
 Pola,1
@@ -261,7 +252,7 @@ Pori,4
 "Portland, OR",1
 Porvoo,347.5
 Potsdam,5.5
-Poznań,6
+Poznań,7
 Praha,1953.1666666666667
 Prešov,38
 Pris,1
@@ -288,7 +279,6 @@ Rotterdam,108
 Ružomberok,4
 Rzeszów,2
 s. l,197
-s. l.,5
 Saarlouis,1
 Saint Petersburg,263
 Salzburg,174
@@ -296,8 +286,7 @@ San Francisco,0.25
 Santalcangelo,39
 Santiago,1
 Santiago de Chile,2
-Sao Paulo,4
-São Paulo,0.3333333333333333
+Sao Paulo,4.333333333333333
 Sarajevo,69
 Satu-Mare,2
 Seoul,1
@@ -358,14 +347,14 @@ Trnava,106
 Tübingen,93.5
 Tunis,27
 Turda,34
-Turku,1
+Turku,62
 Turnu-Măgurele,2
 Tweede,1
 Udine,4
 Ufa,56
 Ulanbator,57
 Uppsala,1
-USA,1
+USA,2
 Utrecht,6.5
 Užgorod,289
 Vác,1

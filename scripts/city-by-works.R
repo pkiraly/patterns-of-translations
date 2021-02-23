@@ -1,6 +1,10 @@
 library(tidyverse)
 df <- read_csv('data/demeter.csv', col_types = 'dccccccccccccd')
 
+# df %>% 
+#  filter(grepl('U.S.A', normalized_city)) %>% 
+#  view()
+
 df %>% 
   select(normalized_city) %>% 
   mutate(
@@ -74,10 +78,6 @@ df %>%
 
 ggsave("images/publications-by-timespan.png", 
        width = 12, height = 6, units = 'in', dpi = 300)
-
-# summarise(publications = sum(count)) %>%
-# group_by(city, year_n, nyelv) %>% 
-# count() %>% 
 
 cities <- read_csv('data/city-publications.csv')
 top_cities <- cities %>%

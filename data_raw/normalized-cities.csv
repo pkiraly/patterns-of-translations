@@ -117,20 +117,21 @@ Winipeg,Winnipeg
 Raab,Győr
 Helsingfors,Helsinki
 Helsingissä,Helsinki
-Halle a. S,Halle am Saale
-"Halle, a. S",Halle am Saale
-"Halle, a/S",Halle am Saale
-"Halle, am Saale",Halle am Saale
-"Halle, am. Saale",Halle am Saale
-Halle a/S,Halle am Saale
-Hallé am Saale,Halle am Saale
-Halle Saale,Halle am Saale
-"Halle, a. Saale",Halle am Saale
-"Halle, a.s",Halle am Saale
-Malle a/S,Halle am Saale
-"Halle, a. d. S",Halle am Saale
-"Halle, a. d. Saale",Halle am Saale
-"Halle, a.S",Halle am Saale
+Halle a. S,Halle
+"Halle, a. S",Halle
+"Halle, a/S",Halle
+"Halle, am Saale",Halle
+"Halle, am. Saale",Halle
+Halle a/S,Halle
+Hallé am Saale,Halle
+Halle Saale,Halle
+"Halle, a. Saale",Halle
+"Halle, a.s",Halle
+Malle a/S,Halle
+"Halle, a. d. S",Halle
+"Halle, a. d. Saale",Halle
+"Halle, a.S",Halle
+Halle am Saale,Halle
 Breslau,Wrocław
 "Breslau, Breslau",Wrocław
 Bresslau,Wrocław
@@ -179,9 +180,11 @@ frankfurt am Main,Frankfurt am Main
 "Frankfurt, a./ M",Frankfurt am Main
 Frrankfurt am Main,Frankfurt am Main
 Frankfurt/M,Frankfurt am Main
-Franckfurt,Frankfurt
-Frankfut,Frankfurt
-Frrankfurt,Frankfurt
+Franckfurt,Frankfurt am Main
+Frankfut,Frankfurt am Main
+Frrankfurt,Frankfurt am Main
+Frankfurt,Frankfurt am Main
+Leipzig−Frankfurt,Leipzig−Frankfurt am Main
 Kolozsvár−Cluj,Cluj-Napoca
 Kolozsvár-Cluj,Cluj-Napoca
 Cluj,Cluj-Napoca
@@ -225,7 +228,8 @@ Tokió,Tokyo
 Erevan,Jerevan
 Ofen,Budapest
 Perjámos,Periam
-ÅBo,Åbo
+ÅBo,Turku
+Åbo,Turku
 "Aarschot, Belgie",Aarschot
 "Ann Arbor, Michigan, USA",Ann Arbor
 Athinae,Athén
@@ -303,7 +307,7 @@ Kjobenhavn,Copenhagen
 Kjøbenhavn,Copenhagen
 Københaven,Copenhagen
 København,Copenhagen
-København−Kristiania,Copenhagen−Kristiania
+København−Kristiania,Copenhagen
 "København, 1867",Copenhagen
 Kioto,Kyoto
 Kolozsvár-London,Cluj-Napoca−London
@@ -415,7 +419,7 @@ Vpraze,Praha
 Rickmanswoeth,Rickmansworth
 Rigā,Riga
 Rigà,Riga
-"Rio de Janeiro, São Paulo-Bahia",Rio de Janeiro−São Paulo−Bahia
+"Rio de Janeiro, São Paulo-Bahia",Rio de Janeiro−Sao Paulo−Bahia
 Roga,Riga
 Rózsahegy,Ružomberok
 Rzeszow,Rzeszów
@@ -428,6 +432,7 @@ Santiago de Chila,Santiago de Chile
 Santiago-Chila,Santiago de Chile
 Sao-Paolo,Sao Paulo
 Sao-Paulo,Sao Paulo
+São Paulo,Sao Paulo
 Sarajevo-Zagreb,Sarajevo−Zagreb
 Scockholm,Stockholm
 Strockholm,Stockholm
@@ -587,7 +592,6 @@ Versecz,Versec
 Charkow,Harkov
 Сыктывкар,Syktyvkar
 Сынтывкар,Syktyvkar
-Душанбе,Dusanbe
 Екатеринбург,Yekaterinburg
 Казан,Kazan
 "St. Louis, Mo",St. Louis
@@ -622,8 +626,14 @@ Zloczow,Zolochiv
 Красноярск,Krasnoyarsk
 Свердловск,Yekaterinburg
 Сталинобод,Dushanbe
+Душанбе,Dushanbe
 Цетиңе,Cetinje
 Цетиње,Cetinje
 Цетине,Cetinje
 Шупашкар,Cheboksary
 Алтаы,Zyryanovsk
+Arhus,Aarhus
+Place unknown U.S.A,USA
+Fönjan,Pyongyang
+Zandijk,Zaandijk
+Zobor,Nitra
