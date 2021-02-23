@@ -1,12 +1,12 @@
 library(tidyverse)
 library(ggplot2)
-library("stringdist")
+library(stringdist)
 source("scripts/functions.R")
 
 df <- read_csv('data_raw/demeter.csv')
 cities <- read_csv('data_raw/normalized-cities.csv')
 
-df %>% 
+df.normalized <- df %>% 
   mutate(
     is_series = ifelse(
       grepl('^"[^"]+" (\\d\\d\\d\\d([−/]\\d\\d\\d\\d)?\\.|s\\. a\\.)', megjelenes),
@@ -66,7 +66,28 @@ df %>%
   # view()
   
   mutate(year_n = ifelse(is.na(year), year, as.integer(year))) %>%
-  select(-is_series) %>% 
+  select(-is_series)
+
+df.isPartOf <- read_csv('data/isPartOf.csv')
+
+df.connected <- df.normalized %>% 
+  left_join(df.isPartOf, by='id') %>% 
+  mutate(
+    isPartOf = ifelse(
+      !is.na(isPartOf),
+      isPartOf,
+      ifelse(
+        !is.na(isPartOf2),
+        isPartOf2,
+        NA
+      )
+    )
+  ) %>% 
+  select(-isPartOf2)
+
+# df.connected %>% view()
+  
+df.connected %>% 
   write_csv('data/demeter.csv')
 
 rm(list = ls())
