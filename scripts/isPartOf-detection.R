@@ -28,7 +28,7 @@ df %>%
   filter(
     !is.na(id)
     & magyar_cim == 'Források:' & id > 80
-    & grepl('Budapest', normalized_city) & year_n == 1904
+    & grepl('Moscow', normalized_city) & year_n == 1949
   ) %>%
   select(id, szerzo, nyelv, idegen_cim, fordito, megjelenes) %>% 
   view()
@@ -36,13 +36,12 @@ df %>%
 df.filtered <- df %>% 
   filter(
     is.na(isPartOf)
-    #& grepl('Budapest', normalized_city) & year_n == 1904
-    #& grepl('F. Buschmann', megjelenes, ignore.case = TRUE)
-    #Puszten-Klaenge
-    #& id != 66542
-    #& nyelv == 'finn'
-    #& szerzo == 'LECHNER Gyula'
-    & grepl('Klänge', idegen_cim, ignore.case = TRUE)
+    & grepl('Moscow', normalized_city) & year_n == 1949
+    # & grepl('Gedichte', megjelenes, ignore.case = TRUE)
+    & id != 15132
+    #& nyelv == 'francia'
+    & szerzo == 'PETŐFI Sándor'
+    #& grepl('Klänge', idegen_cim, ignore.case = TRUE)
   ) %>% 
   view()
 
@@ -50,7 +49,7 @@ print(count(df.filtered))
 
 df.filtered %>% 
   select(id) %>%
-  mutate(isPartOf2 = 66542) %>%
+  mutate(isPartOf2 = 15132) %>%
   union(df.isPartOf) %>%
   distinct() %>%
   write_csv('data/isPartOf.csv')
