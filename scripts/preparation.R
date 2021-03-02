@@ -85,9 +85,21 @@ df.connected <- df.normalized %>%
   ) %>% 
   select(-isPartOf2)
 
-# df.connected %>% view()
+df.containers <- df.connected %>% 
+  select(isPartOf) %>% 
+  filter(!is.na(isPartOf)) %>% 
+  distinct() %>% 
+  rename(id = isPartOf) %>% 
+  mutate(is_container = TRUE) %>% 
+  view()
+
+df.with_containers <- df.connected %>%
+  left_join(df.containers, by = 'id') %>% 
+  mutate(is_container = ifelse(is.na(is_container), FALSE, is_container))
   
-df.connected %>% 
+# df.connected %>% view()
+
+df.with_containers %>% 
   write_csv('data/demeter.csv')
 
 rm(list = ls())
