@@ -37,27 +37,30 @@ df %>%
   arrange(desc(n)) %>% 
   view()
 
-forrasok <- c('Források:', 'Források, antológiák', 'Antológiák – Források:', 'Források. Antológiák')
+forrasok <- c('Források:', 'Források, antológiák', 'Antológiák – Források:', 'Források. Antológiák',
+              'FORRÁSOK − ANTOLOGIÁK.')
+.city <- 'Martin'
+.year <- 1942
 df %>%
   filter(
     !is.na(id)
     & magyar_cim %in% forrasok & id > 80
-    & grepl('Berlin', normalized_city) & year_n == 1976
+    & grepl(.city, normalized_city) & year_n == .year
   ) %>%
   select(id, szerzo, nyelv, idegen_cim, fordito, megjelenes) %>% 
   view()
 
-.id <- 70731
+.id <- 15226
 df.filtered <- df %>% 
   filter(
     is.na(isPartOf)
-    & grepl('Berlin', normalized_city) & year_n == 1976
-    #& grepl('Der entschlossene', megjelenes, ignore.case = TRUE)
-    #& !id %in% c(163, 11800, 15159)
+    & grepl(.city, normalized_city) & year_n == .year
+    #& grepl('Hviezdoslalov', megjelenes, ignore.case = TRUE)
+    #& !id %in% c(2473, 15218, 33951)
     & id != .id
-    #& nyelv == 'grúz'
-    & szerzo == 'ÖRKÉNY István'
-    #& grepl('Selbstgespraeche', idegen_cim, ignore.case = TRUE)
+    #& nyelv == 'német'
+    #& szerzo == 'BARTÓK Lajos'
+    #& grepl('Gedichte', idegen_cim, ignore.case = TRUE)
   ) %>% 
   view()
 
