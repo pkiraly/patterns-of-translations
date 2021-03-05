@@ -30,7 +30,7 @@ df %>%
 df %>% 
   filter(
     is.na(isPartOf)
-    #& szerzo == 'JÓZSEF Attila'
+    #& szerzo == 'JÓKAI Mór'
   ) %>% 
   group_by(szerzo, nyelv, normalized_city, year_n) %>% 
   count() %>% 
@@ -39,8 +39,8 @@ df %>%
 
 forrasok <- c('Források:', 'Források, antológiák', 'Antológiák – Források:', 'Források. Antológiák',
               'FORRÁSOK − ANTOLOGIÁK.')
-.city <- 'Martin'
-.year <- 1942
+.city <- 'Budapest'
+.year <- 1923
 df %>%
   filter(
     !is.na(id)
@@ -50,17 +50,17 @@ df %>%
   select(id, szerzo, nyelv, idegen_cim, fordito, megjelenes) %>% 
   view()
 
-.id <- 15226
+.id <- 115
 df.filtered <- df %>% 
   filter(
     is.na(isPartOf)
     & grepl(.city, normalized_city) & year_n == .year
-    #& grepl('Hviezdoslalov', megjelenes, ignore.case = TRUE)
-    #& !id %in% c(2473, 15218, 33951)
+    #& grepl('Hungaria', megjelenes, ignore.case = TRUE)
+    & !id %in% c(11782)
     & id != .id
-    #& nyelv == 'német'
-    #& szerzo == 'BARTÓK Lajos'
-    #& grepl('Gedichte', idegen_cim, ignore.case = TRUE)
+    #& nyelv == 'ido'
+    #& szerzo == 'KISS József'
+    #& grepl('Blüten', idegen_cim, ignore.case = TRUE)
   ) %>% 
   view()
 
