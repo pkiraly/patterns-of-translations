@@ -51,7 +51,7 @@ df %>%
 forrasok <- c('Források:', 'Források, antológiák', 'Antológiák – Források:', 'Források. Antológiák',
               'FORRÁSOK − ANTOLOGIÁK.')
 .city <- 'Budapest'
-.year <- 1963
+.year <- 1976
 df %>%
   filter(
     !is.na(id)
@@ -61,7 +61,7 @@ df %>%
   select(id, szerzo, nyelv, idegen_cim, fordito, megjelenes) %>% 
   view()
 
-.id <- 71380
+.id <- 73179
 df.filtered <- df %>% 
   filter(
     !is.na(id)
