@@ -58,7 +58,7 @@ df %>%
 forrasok <- c('Források:', 'Források, antológiák', 'Antológiák – Források:', 'Források. Antológiák',
               'FORRÁSOK − ANTOLOGIÁK.')
 .city <- 'Roma'
-.year <- 1947
+.year <- 1942
 df %>%
   filter(
     !is.na(id)
@@ -68,14 +68,14 @@ df %>%
   select(id, szerzo, nyelv, idegen_cim, fordito, megjelenes) %>% 
   view()
 
-.id <- 73227
+.id <- 11793
 df.filtered <- df %>% 
   filter(
     !is.na(id)
     & is.na(isPartOf)
     & grepl(.city, normalized_city) & year_n == .year
-    #& grepl('Caravella', megjelenes, ignore.case = TRUE)
-    #& !id %in% c(10624)
+    & grepl('Corvina', megjelenes, ignore.case = TRUE)
+    #& !id %in% c(15028,33934)
     & id != .id
     #& nyelv == 'eszperantó'
     #& szerzo == 'HERCZEG Ferenc'
@@ -112,6 +112,6 @@ df.filtered <- df %>%
   filter(
     !is.na(id)
     #& nyelv == 'olasz'
-    & grepl('Erz.hlungen', idegen_cim, ignore.case = TRUE)
+    & grepl('Roteiro', idegen_cim, ignore.case = TRUE)
   ) %>%
   view()
