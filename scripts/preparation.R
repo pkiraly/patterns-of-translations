@@ -97,9 +97,74 @@ df.with_containers <- df.connected %>%
   left_join(df.containers, by = 'id') %>% 
   mutate(is_container = ifelse(is.na(is_container), FALSE, is_container))
   
-# df.connected %>% view()
+#'
+#' processing data_raw/identical-ids.csv
+#'
+df.identical_raw <- read_csv('data_raw/identical-ids.csv')
+df.identical <- df.identical_raw %>% 
+  select(ids) %>% 
+  separate(ids, c("A","B","C","D","E","F"), sep = ';', fill="right") %>% 
+  gather("source", 'id') %>% 
+  mutate(id = as.integer(id)) %>% 
+  filter(!is.na(id))
+
+false_duplicates <- df.identical %>% 
+  filter(source != 'A') %>% 
+  left_join(df.isPartOf, by = c('id' = 'isPartOf2'), keep = TRUE) %>% 
+  filter(!is.na(isPartOf2)) %>% 
+  select(source, id.x) %>% 
+  distinct() %>% 
+  rename('id' = 'id.x') %>% 
+  select(id) %>% 
+  unlist(use.names = FALSE)
+
+if (length(false_duplicates) > 0) {
+  print('false duplicates in data_raw/identical-ids.csv')
+  print(false_duplicates)
+}
+
+true_duplicates1 <- df.identical %>% 
+  filter(! id %in% false_duplicates) %>% 
+  select(id) %>% 
+  unlist(use.names = FALSE)
+
+#'
+#' processing data/duplications.csv
+#' 
+df.identical_raw <- read_csv('data/duplications.csv')
+df.identical <- df.identical_raw %>% 
+  select(ids) %>% 
+  separate(ids, c("A","B","C","D","E","F"), sep = ';', fill="right") %>% 
+  gather("source", 'id') %>% 
+  mutate(id = as.integer(id)) %>% 
+  filter(!is.na(id))
+
+false_duplicates <- df.identical %>% 
+  filter(source != 'A') %>% 
+  left_join(df.isPartOf, by = c('id' = 'isPartOf2'), keep = TRUE) %>% 
+  filter(!is.na(isPartOf2)) %>% 
+  select(source, id.x) %>% 
+  distinct() %>% 
+  rename('id' = 'id.x') %>% 
+  select(id) %>% 
+  unlist(use.names = FALSE)
+
+if (length(false_duplicates) > 0) {
+  print('false duplicates in data/duplications.csv')
+  print(false_duplicates)
+}
+
+true_duplicates2 <- df.identical %>% 
+  filter(! id %in% false_duplicates) %>% 
+  select(id) %>% 
+  unlist(use.names = FALSE)
+
+true_duplicates = c(true_duplicates1, true_duplicates2)
+
+paste('removing', length(true_duplicates), 'duplicated items')
 
 df.with_containers %>% 
+  filter(!id %in% true_duplicates) %>% 
   write_csv('data/demeter.csv')
 
 rm(list = ls())
