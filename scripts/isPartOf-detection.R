@@ -3,10 +3,35 @@ library(tidyverse)
 df <- read_csv('data/demeter.csv', col_types = 'dcccccccccccccdl')
 df.isPartOf <- read_csv('data/isPartOf.csv')
 
-df %>% 
+total <- df %>% count()
+processed <- df %>% 
   filter(!is.na(isPartOf)) %>% 
   filter(is_container == FALSE) %>% 
   count()
+
+total - processed
+
+to_be_processed <-  filter(
+    is.na(isPartOf)
+    & is_container == FALSE
+    & !is.na(year_n)
+    & !is.na(normalized_city)
+    & grepl('"', megjelenes)
+    & !nyelv %in% c('japán', 'arab', 'héber', 'kínai', 'perzsa')
+  ) %>% 
+  count()
+
+missing_data <- df %>% filter(
+  is.na(isPartOf)
+  & is_container == FALSE
+  ) %>% 
+  filter(
+    (is.na(year_n) | is.na(normalized_city))
+    #& grepl('"', megjelenes)
+    #& !nyelv %in% c('japán', 'arab', 'héber', 'kínai', 'perzsa')
+  ) %>% 
+  count()
+missing_data
 
 df %>% 
   select(isPartOf) %>% 
@@ -57,8 +82,8 @@ df %>%
 
 forrasok <- c('Források:', 'Források, antológiák', 'Antológiák – Források:', 'Források. Antológiák',
               'FORRÁSOK − ANTOLOGIÁK.')
-.city <- 'Roma'
-.year <- 1942
+.city <- 'Moscow'
+.year <- 1948
 df %>%
   filter(
     !is.na(id)
@@ -74,7 +99,7 @@ df.filtered <- df %>%
     !is.na(id)
     & is.na(isPartOf)
     & grepl(.city, normalized_city) & year_n == .year
-    & grepl('Corvina', megjelenes, ignore.case = TRUE)
+    #& grepl('Corvina', megjelenes, ignore.case = TRUE)
     #& !id %in% c(15028,33934)
     & id != .id
     #& nyelv == 'eszperantó'

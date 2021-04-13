@@ -85,13 +85,13 @@ df.connected <- df.normalized %>%
   ) %>% 
   select(-isPartOf2)
 
-df.containers <- df.connected %>% 
-  select(isPartOf) %>% 
-  filter(!is.na(isPartOf)) %>% 
-  distinct() %>% 
-  rename(id = isPartOf) %>% 
-  mutate(is_container = TRUE) %>% 
-  view()
+# df.containers <- df.connected %>% 
+#   select(isPartOf) %>% 
+#   filter(!is.na(isPartOf)) %>% 
+#   distinct() %>% 
+#   rename(id = isPartOf) %>% 
+#   mutate(is_container = TRUE) %>% 
+#   view()
 
 df.with_containers <- df.connected %>%
   left_join(df.containers, by = 'id') %>% 
@@ -107,6 +107,9 @@ df.identical <- df.identical_raw %>%
   gather("source", 'id') %>% 
   mutate(id = as.integer(id)) %>% 
   filter(!is.na(id))
+
+df.identical %>% 
+  filter(id == 56895)
 
 false_duplicates <- df.identical %>% 
   filter(source != 'A') %>% 
@@ -124,7 +127,10 @@ if (length(false_duplicates) > 0) {
 }
 
 true_duplicates1 <- df.identical %>% 
-  filter(! id %in% false_duplicates) %>% 
+  filter(
+    source != 'A'
+    & ! id %in% false_duplicates
+  ) %>% 
   select(id) %>% 
   unlist(use.names = FALSE)
 
@@ -155,11 +161,15 @@ if (length(false_duplicates) > 0) {
 }
 
 true_duplicates2 <- df.identical %>% 
-  filter(! id %in% false_duplicates) %>% 
+  filter(
+    source != 'A'
+    & ! id %in% false_duplicates) %>% 
   select(id) %>% 
   unlist(use.names = FALSE)
 
 true_duplicates = c(true_duplicates1, true_duplicates2)
+
+true_duplicates[true_duplicates == 56895]
 
 paste('removing', length(true_duplicates), 'duplicated items')
 
