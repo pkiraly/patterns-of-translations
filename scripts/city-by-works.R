@@ -84,19 +84,28 @@ top_cities <- cities %>%
   select(city, span, count) %>% 
   filter(count >= 20 & !is.na(city) & city != 'Budapest' & city != 's. l')
 
+view(top_cities)
+
 df <- read_csv('data/city-year-language-works.csv')
-df %>%
+df2 <- df %>%
   filter(city %in% top_cities$city) %>% 
   select(city, year_n) %>% 
   left_join(top_cities) %>% 
+  mutate(span = as.integer(span)) %>% 
+  filter(span >= 100)
+
+df2 %>%
+  #filter(city %in% top_cities$city) %>% 
+  #select(city, year_n) %>% 
+  #left_join(top_cities) %>% 
   ggplot(aes(year_n, reorder(city, span))) +
     geom_point(colour = 'cornflowerblue') +
     ggtitle(
-      'Publication years by cities',
-      subtitle = 'ordered by time span') +
-    xlab('publication year') +
-    ylab('city')
+      'A megjelenések időtartama városonként',
+      subtitle = 'időtartam >= 100 év\nidőtartam szerint rendezve') +
+    xlab('megjelenés éve') +
+    ylab('város')
 
 ggsave("images/years-by-cities.png", 
-       width = 4, height = 6, units = 'in', dpi = 300)
+       width = 6, height = 4, units = 'in', dpi = 300)
 

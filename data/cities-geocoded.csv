@@ -172,7 +172,7 @@ city,geoid,name,country,lat,long
 "Levoča",724294,"Levoča","Slovakia","49.02173","20.59212"
 "Liège",2792413,"Liège","Belgium","50.63373","5.56749"
 "Linz",2772400,"Linz","Austria","48.30639","14.28611"
-"Liptovský Sv. Mikuláš",null,null,null,null,null
+"Liptovský Mikuláš",3059050,"Liptovský Mikuláš","Slovakia","49.08061","19.62218"
 "Lisboa",2267057,"Lisbon","Portugal","38.71667","-9.13333"
 "Livorno",3174659,"Livorno","Italy","43.54427","10.32615"
 "Ljubljana",3196359,"Ljubljana","Slovenia","46.05108","14.50513"
@@ -249,7 +249,7 @@ city,geoid,name,country,lat,long
 "Plzen",3068160,"Pilsen","Czechia","49.74747","13.37759"
 "Pola",3192224,"Pula","Croatia","44.86833","13.84806"
 "Pori",640999,"Pori","Finland","61.48333","21.78333"
-"Portland, OR",null,null,null,null,null
+"Portland",5746545,"Portland","United States","45.52345","-122.67621"
 "Porvoo",660561,"Porvoo","Finland","60.39233","25.66507"
 "Potsdam",2852458,"Potsdam","Germany","52.39886","13.06566"
 "Poznań",3088171,"Poznań","Poland","52.40692","16.92993"
@@ -379,14 +379,14 @@ city,geoid,name,country,lat,long
 "Weissenstein",2761587,"Weissenstein","Austria","46.68583","13.73028"
 "Wien",2761369,"Vienna","Austria","48.20849","16.37208"
 "Wiesbaden",2809346,"Wiesbaden","Germany","50.08258","8.24932"
-"Wiipuri",null,null,null,null,null
+"Vyborg",470546,"Vyborg","Russia","60.70763","28.75283"
 "Winnipeg",6183235,"Winnipeg","Canada","49.8844","-97.14704"
 "Wrocław",3081368,"Wrocław","Poland","51.1","17.03333"
 "Würzburg",2805615,"Würzburg","Germany","49.79391","9.95121"
 "Wurzen",2805597,"Wurzen","Germany","51.3707","12.73939"
 "Yekaterinburg",1486209,"Yekaterinburg","Russia","56.8519","60.6122"
 "Zagreb",3186886,"Zagreb","Croatia","45.81444","15.97798"
-"Zandijk",null,null,null,null,null
+"Zaandijk",2744116,"Zaandijk","Netherlands","52.47494","4.80686"
 "Zobor",null,null,null,null,null
 "Zolochiv",686896,"Zolochiv","Ukraine","49.80597","24.89436"
 "Zrenjanin",783814,"Zrenjanin","Serbia","45.38361","20.38194"
@@ -396,3 +396,7 @@ city,geoid,name,country,lat,long
 "Zyryanovsk",1516438,"Zyryanovsk","Kazakhstan","49.72654","84.27318"
 "Өzdәbmәşr",null,null,null,null,null
 "Свистуновои",null,null,null,null,null
+"Hillerød",2620320,"Hillerød","Denmark","55.92791","12.30081"
+"Maastricht",2751282,"Maastricht","Netherlands","50.85","5.7"
+"Varberg",2664996,"Varberg","Sweden","57.10557","12.25078"
+"Tábor",3064379,"Tábor","Czechia","49.41441","14.6578"
