@@ -94,52 +94,23 @@ city_distance <- city_year %>%
   distinct(normalized_city) %>% 
   mutate(in_abroad = get_category(normalized_city))
 
-# naive approach
-city_year %>% 
-  left_join(city_distance, by = ('normalized_city' = 'normalized_city')) %>% 
-  group_by(year_n) %>% 
-  summarise(
-    avg_in_abroad = mean(in_abroad, na.rm = TRUE) * 100,
-    count = n()
-  ) %>% 
-  mutate(rollavg = rollmean(avg_in_abroad, 5, align = 'center', fill = c(0, 0, 0))) %>%
-  ggplot(aes(x = year_n, y = rollavg)) +
-  geom_point(aes(x = year_n, y = avg_in_abroad, size = count), alpha=0.2) +
-  geom_line(colour = 'darkblue') +
-  labs(
-    title='A külföldön megjelent könyvek aránya',
-    caption = '5 éves mozgóátlag',
-    size = 'éves\nkönyv-\nszám'
-  ) +
-  ylab('külföldi megjelenés aránya (%)') +
-  xlab('megjelenési év') +
-  scale_x_continuous(
-    breaks = seq(1790, 1980, by=10),
-    labels = seq(1790, 1980, by=10),
-  ) +
-  theme_bw() +
-  theme(
-    axis.text.x = element_text(angle = 45, vjust = 1, hjust=1),
-    plot.caption = element_text(color = 'darkblue')
-  )
-
-ggsave("images/publications-in-abroad-naive.png", 
-       width = 6, height = 4, units = 'in', dpi = 300)
-
 # advanced
 publication_abroad <- city_year %>% 
   mutate(in_abroad = get_all_in_abroad(normalized_city, year_n))
 
-publication_abroad %>% 
+data_to_display <- publication_abroad %>% 
   group_by(year_n) %>% 
   summarise(
     avg_in_abroad = mean(in_abroad, na.rm = TRUE) * 100,
     count = n()
   ) %>% 
-  mutate(rollavg = rollmean(avg_in_abroad, 5, align = 'center', fill = c(0, 0, 0))) %>%
+  mutate(rollavg = rollmean(avg_in_abroad, 5, align = 'center', fill = c(0, 0, 0))) %>% 
+  mutate(rollavg = ifelse(year_n < 1978, rollavg, avg_in_abroad))
+
+data_to_display %>% 
   ggplot(aes(x = year_n, y = rollavg)) +
   geom_point(aes(x = year_n, y = avg_in_abroad, size = count), alpha=0.2) +
-  geom_line(colour = 'darkblue') +
+  geom_line(aes(size=count), colour = 'darkblue') +
   labs(
     title='A külföldön megjelent könyvek aránya',
     caption = '5 éves mozgóátlag',
@@ -160,3 +131,133 @@ publication_abroad %>%
 ggsave("images/publications-in-abroad-advanced.png", 
        width = 6, height = 4, units = 'in', dpi = 300)
 
+counted <- publication_abroad %>% 
+  group_by(year_n, in_abroad) %>% 
+  summarise(
+    .groups = "keep",
+    count = n(),
+  ) %>% 
+  ungroup()
+counted
+
+data_to_display <- counted %>% 
+  arrange(year_n) %>% 
+  group_by(in_abroad) %>% 
+  summarise(
+    .groups = "keep",
+    year_n = year_n,
+    count = count,
+    rollavg = rollmean(count, 5, align = 'center', fill = c(0, 0, 0)),
+    rollavg = ifelse(year_n < 1978, rollavg, count)
+  ) %>% 
+  mutate(
+    in_abroad = ifelse(in_abroad, "külföldi", "hazai"),
+  )
+
+data_to_display %>% 
+  ggplot(aes(x = year_n, y = count)) +
+  geom_point(aes(color = in_abroad, size=count), alpha=0.2) +
+  geom_line(aes(y = rollavg, group = in_abroad, size = count), colour = 'darkblue', alpha=.2) +
+  labs(
+    title='A hazai és külföldi megjelenések száma (kötetek)',
+    caption = '5 éves mozgóátlag',
+    color = 'megjelenés',
+    size = 'éves\nkönyv-\nszám'
+  ) +
+  ylab('kötetszám') +
+  xlab('megjelenési év') +
+  scale_x_continuous(
+    breaks = seq(1790, 1980, by=10),
+    labels = seq(1790, 1980, by=10),
+  ) +
+  theme_bw() +
+  theme(
+    axis.text.x = element_text(angle = 45, vjust = 1, hjust=1),
+    plot.caption = element_text(color = 'darkblue')
+  )
+
+ggsave("images/publications-in-abroad-absolute.png", 
+       width = 6, height = 4, units = 'in', dpi = 300)
+
+data_to_display %>% 
+  filter(year_n >= 1945 & year_n <= 1970) %>% 
+  ggplot(aes(x = year_n, y = count)) +
+  geom_point(aes(color = in_abroad, size=count), alpha=0.2) +
+  geom_line(aes(y = rollavg, group = in_abroad, size = count), colour = 'darkblue', alpha=.2) +
+  labs(
+    title='A hazai és külföldi megjelenések száma (kötetek, 1945-1970)',
+    caption = '5 éves mozgóátlag',
+    color = 'megjelenés',
+    size = 'éves\nkönyv-\nszám'
+  ) +
+  ylab('kötetszám') +
+  xlab('megjelenési év') +
+  scale_x_continuous(
+    breaks = seq(1945, 1970, by=1),
+    labels = seq(1945, 1970, by=1),
+  ) +
+  theme_bw() +
+  theme(
+    axis.text.x = element_text(angle = 45, vjust = 1, hjust=1),
+    plot.caption = element_text(color = 'darkblue')
+  )
+
+ggsave("images/publications-in-abroad-absolute-1945-1970.png", 
+       width = 6, height = 4, units = 'in', dpi = 300)
+
+publication_abroad %>% 
+  filter(year_n %in% c(1956, 1957, 1958, 1959, 1960)) %>% 
+  filter(in_abroad == 1) %>% 
+  count(normalized_city, year_n) %>% 
+  arrange(desc(n)) %>% 
+  spread(key = year_n, value =  n, fill = 0) %>% 
+  mutate(total = `1956` + `1957` + `1958` + `1959` + `1960`) %>% 
+  arrange(desc(total)) %>% 
+  view()
+  
+df %>% 
+  filter(isPartOf %in% c(-1, -3)) %>% 
+  filter(year_n == 1958) %>% 
+  filter(normalized_city == 'Moscow') %>% 
+  select(szerzo) %>% 
+  distinct() %>% 
+  arrange(szerzo)
+
+df %>% 
+  filter(magyar_cim == 'János vitéz') %>% 
+  select(idegen_cim) %>% 
+  count(idegen_cim) %>% 
+  arrange(desc(n)) %>% 
+  view()
+  
+# naive approach
+# city_year %>% 
+#   left_join(city_distance, by = ('normalized_city' = 'normalized_city')) %>% 
+#   group_by(year_n) %>% 
+#   summarise(
+#     avg_in_abroad = mean(in_abroad, na.rm = TRUE) * 100,
+#     count = n()
+#   ) %>% 
+#   mutate(rollavg = rollmean(avg_in_abroad, 5, align = 'center', fill = c(0, 0, 0))) %>%
+#   ggplot(aes(x = year_n, y = rollavg)) +
+#   geom_point(aes(x = year_n, y = avg_in_abroad, size = count), alpha=0.2) +
+#   geom_line(colour = 'darkblue') +
+#   labs(
+#     title='A külföldön megjelent könyvek aránya',
+#     caption = '5 éves mozgóátlag',
+#     size = 'éves\nkönyv-\nszám'
+#   ) +
+#   ylab('külföldi megjelenés aránya (%)') +
+#   xlab('megjelenési év') +
+#   scale_x_continuous(
+#     breaks = seq(1790, 1980, by=10),
+#     labels = seq(1790, 1980, by=10),
+#   ) +
+#   theme_bw() +
+#   theme(
+#     axis.text.x = element_text(angle = 45, vjust = 1, hjust=1),
+#     plot.caption = element_text(color = 'darkblue')
+#   )
+# 
+# ggsave("images/publications-in-abroad-naive.png", 
+#        width = 6, height = 4, units = 'in', dpi = 300)

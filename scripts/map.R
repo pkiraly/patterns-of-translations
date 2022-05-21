@@ -48,7 +48,7 @@ ggplot() +
   geom_polygon(
     data = map.europe,
     aes(x = long, y = lat, group = group, fill = region)
-  ) +
+  ) + 
   geom_point(
     data = cities,
     aes(x = long, y = lat, size = works),
