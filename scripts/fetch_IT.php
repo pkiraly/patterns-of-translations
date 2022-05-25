@@ -6,7 +6,7 @@ define('CSV_FILE', 'index-translationum-full.csv');
 $fields = explode('|', 'target_title|target_lang|country|year|place|publisher|pagination|orig_lang|editionstat|orig_title|interm_title|isbn|interm_lang|auth_quality|transl_quality');
 
 $fp = fopen(CSV_FILE, 'w');
-fputcsv($fp, array_merge(['author', 'translator'], $fields));
+fputcsv($fp, array_merge(['id', 'author', 'translator'], $fields));
 fclose($fp);
 
 /*
@@ -25,14 +25,13 @@ foreach ($authors as $author) {
 }
 */
 
+$i = 1;
 $url = 'https://www.unesco.org/xtrans/bsresult.aspx?sl=hun&tie=a';
 processUrl($url, 0);
 
 function processUrl($url, $start) {
-  global $fields;
+  global $fields, $i;
   echo 'start: ', $start, LN;
-
-
 
   $html = file_get_contents($url . '&fr=' . $start);
 
@@ -43,9 +42,7 @@ function processUrl($url, $start) {
 
   $next = '';
   if (preg_match('/<td class="next">(.*?)<\/td>/', $html, $matches)) {
-    // print_r($matches);
     if (preg_match('/<a href="(.*?)">/', $matches[1], $matches)) {
-      // print_r($matches);
       $next = BASE_URL . $matches[1];
     }
   }
@@ -66,14 +63,12 @@ function processUrl($url, $start) {
   	echo 'spans: ';
     print_r($matches);
   }
-  // echo 'html: ' . $html, LN;
-  // echo 'next: ' . $next, LN;
 
   $lines = explode("\n", $html);
   $fp = fopen(CSV_FILE, 'a');
   foreach ($lines as $line) {
     if ($line != '') {
-      $cells = [];
+      $cells = [$i++];
 
       $cells[] = extractNames($line, 'auth_name', 'auth_firstname'); //, 'auth_quality');
       $cells[] = extractNames($line, 'transl_name', 'transl_firstname'); //, 'transl_quality');
