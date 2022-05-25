@@ -1,14 +1,15 @@
 <?php
 define('LN', "\n");
 define('BASE_URL', 'https://www.unesco.org/xtrans/');
-define('CSV_FILE', 'index-translationum.csv');
+define('CSV_FILE', 'index-translationum-full.csv');
 
-$fields = explode('|', 'target_title|target_lang|country|year|place|publisher|pagination|orig_lang|editionstat|orig_title|interm_title|isbn|interm_lang');
+$fields = explode('|', 'target_title|target_lang|country|year|place|publisher|pagination|orig_lang|editionstat|orig_title|interm_title|isbn|interm_lang|auth_quality|transl_quality');
 
 $fp = fopen(CSV_FILE, 'w');
 fputcsv($fp, array_merge(['author', 'translator'], $fields));
 fclose($fp);
 
+/*
 $authors = ['Kertész Imre', 'Márai Sándor', 'Esterházy Péter', 'Molnár Ferenc', 'Konrád György',
   'Nádas Péter', 'Szabó Magda', 'Kosztolányi Dezső', 'Lajos Mari', 'Hemző Károly',
   'Hamvas Béla', 'Jókai Mór', 'Janikovszky Éva', 'Örkény István', 'Déry Tibor', 
@@ -19,8 +20,13 @@ foreach ($authors as $author) {
 	echo $author, LN;
   $author_url = urlencode($author);
   $url = 'https://www.unesco.org/xtrans/bsresult.aspx?a=' . $author_url;
+  $url = 'https://www.unesco.org/xtrans/bsresult.aspx?sl=hun&tie=a'
   processUrl($url, 0);
 }
+*/
+
+$url = 'https://www.unesco.org/xtrans/bsresult.aspx?sl=hun&tie=a';
+processUrl($url, 0);
 
 function processUrl($url, $start) {
   global $fields;
@@ -51,7 +57,7 @@ function processUrl($url, $start) {
   $html = preg_replace('/<\/td><\/tr>/s', "", $html);
 
   $html = preg_replace('/<span class="(place|publisher)">(.*?)<\/span>/s', "<$1>$2</$1>", $html);
-  $html = preg_replace('/<span class="sn_(auth_name|auth_firstname|target_title|target_lang|country|year|pagination|orig_lang|transl_name|transl_firstname|orig_title|editionstat|interm_title|interm_lang|isbn)">(.*?)<\/span>/s', "<$1>$2</$1>", $html);
+  $html = preg_replace('/<span class="sn_(auth_name|auth_firstname|target_title|target_lang|country|year|pagination|orig_lang|transl_name|transl_firstname|orig_title|editionstat|interm_title|interm_lang|isbn|auth_quality|transl_quality)">(.*?)<\/span>/s', "<$1>$2</$1>", $html);
 
   $html = preg_replace('/<span class="sn_pub">/', "", $html);
   $html = preg_replace('/(<\/country>\])<\/span>/', "$1", $html);
@@ -69,8 +75,8 @@ function processUrl($url, $start) {
     if ($line != '') {
       $cells = [];
 
-      $cells[] = extractNames($line, 'auth_name', 'auth_firstname');
-      $cells[] = extractNames($line, 'transl_name', 'transl_firstname');
+      $cells[] = extractNames($line, 'auth_name', 'auth_firstname'); //, 'auth_quality');
+      $cells[] = extractNames($line, 'transl_name', 'transl_firstname'); //, 'transl_quality');
 
       foreach ($fields as $field) {
         if (preg_match_all("/<$field>(.*?)<\/$field>/", $line, $matches)) {
@@ -102,13 +108,19 @@ function str_putcsv(array $input, $delimiter = ',', $enclosure = '"') {
   return $data;
 }
 
-function extractNames($line, $part1, $part2) {
+function extractNames($line, $part1, $part2, $part3 = '') {
 	// echo "$part1, $part2\n";
   if (preg_match_all("/<$part1>(.*?)<\/$part1>/", $line, $matches)) {
     $name = $matches[1];
   }
   if (preg_match_all("/<$part2>(.*?)<\/$part2>/", $line, $matches)) {
     $firstname = $matches[1];
+  }
+  if ($part3 != '') {
+    if (preg_match_all("/<$part3>(.*?)<\/$part3>/", $line, $matches)) {
+      $qual = $matches[1];
+      echo $part3 . ': ' . json_encode($qual), LN;
+    }
   }
   $output = '';
   if (isset($name)) {
