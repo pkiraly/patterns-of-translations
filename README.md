@@ -5,3 +5,8 @@ Investigating the translated Hungarian literature based on Tibor Demeter's [Bibl
 Researchers:
 * András Kiséry
 * Péter Király
+
+encoding of isPartOf field:
+* [positive number]: the current record is part of a publication with that ID. It is a poem, a short story etc. in an anthology, a journal issue etc.
+* -1: monographic works
+* -2: anthology
