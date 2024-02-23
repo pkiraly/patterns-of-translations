@@ -1,5 +1,6 @@
 data_raw/demeter.csv
 scripts/secret.sh
+scripts/extract-data-from-qa/*.txt
 
 # RStudio files
 .Rproj.user

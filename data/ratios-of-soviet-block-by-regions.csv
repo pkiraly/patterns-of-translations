@@ -1,0 +1,3004 @@
+region1,region2,ratio,common_authors
+Albania,Albania,NA,NA
+Albania,Bulgaria,1,6
+Bulgaria,Albania,0.08450704225352113,6
+Albania,China,0.6666666666666666,4
+China,Albania,0.13333333333333333,4
+Albania,Cuba,0.6666666666666666,4
+Cuba,Albania,0.8,4
+Albania,Czechoslovakia-cseh,0.8333333333333334,5
+Czechoslovakia-cseh,Albania,0.03333333333333333,5
+Albania,Czechoslovakia-szlovák,1,6
+Czechoslovakia-szlovák,Albania,0.03636363636363636,6
+Albania,Czechoslovakia-ukrán,0,0
+Czechoslovakia-ukrán,Albania,0,0
+Albania,GDR,1,6
+GDR,Albania,0.03571428571428571,6
+Albania,Hungary,1,6
+Hungary,Albania,0.04081632653061224,6
+Albania,Mongolia,0.3333333333333333,2
+Mongolia,Albania,0.4,2
+Albania,North Korea,0.16666666666666666,1
+North Korea,Albania,1,1
+Albania,Poland,0.8333333333333334,5
+Poland,Albania,0.035211267605633804,5
+Albania,Romania,0.8333333333333334,5
+Romania,Albania,0.03571428571428571,5
+Albania,USSR-altaji,0,0
+USSR-altaji,Albania,0,0
+Albania,USSR-azerbajdzsán,0.5,3
+USSR-azerbajdzsán,Albania,0.25,3
+Albania,USSR-baskir,0.16666666666666666,1
+USSR-baskir,Albania,1,1
+Albania,USSR-csuvas,0.16666666666666666,1
+USSR-csuvas,Albania,0.5,1
+Albania,USSR-fehérorosz,0.3333333333333333,2
+USSR-fehérorosz,Albania,0.2222222222222222,2
+Albania,USSR-finn,0,0
+USSR-finn,Albania,0,0
+Albania,USSR-grúz,0.3333333333333333,2
+USSR-grúz,Albania,0.08333333333333333,2
+Albania,USSR-kazah,0.3333333333333333,2
+USSR-kazah,Albania,0.2,2
+Albania,USSR-kirgiz,0.3333333333333333,2
+USSR-kirgiz,Albania,0.3333333333333333,2
+Albania,USSR-komi,0,0
+USSR-komi,Albania,0,0
+Albania,USSR-lett,0.8333333333333334,5
+USSR-lett,Albania,0.17857142857142858,5
+Albania,USSR-litván,0.5,3
+USSR-litván,Albania,0.0967741935483871,3
+Albania,USSR-liv,0,0
+USSR-liv,Albania,0,0
+Albania,USSR-moldva,0.16666666666666666,1
+USSR-moldva,Albania,0.07692307692307693,1
+Albania,USSR-orosz,1,6
+USSR-orosz,Albania,0.03821656050955414,6
+Albania,USSR-tadzsik,0.3333333333333333,2
+USSR-tadzsik,Albania,0.2857142857142857,2
+Albania,USSR-tatár,0,0
+USSR-tatár,Albania,0,0
+Albania,USSR-türkmén,0.3333333333333333,2
+USSR-türkmén,Albania,0.3333333333333333,2
+Albania,USSR-udmurt,0.16666666666666666,1
+USSR-udmurt,Albania,0.5,1
+Albania,USSR-ujgur,0.16666666666666666,1
+USSR-ujgur,Albania,1,1
+Albania,USSR-ukrán,1,6
+USSR-ukrán,Albania,0.1276595744680851,6
+Albania,"USSR-ukrán, orosz",0.16666666666666666,1
+"USSR-ukrán, orosz",Albania,1,1
+Albania,USSR-észt,0.6666666666666666,4
+USSR-észt,Albania,0.12121212121212122,4
+Albania,USSR-örmény,0.5,3
+USSR-örmény,Albania,0.2,3
+Albania,USSR-üzbég,0.16666666666666666,1
+USSR-üzbég,Albania,0.14285714285714285,1
+Albania,Vietnam,0.5,3
+Vietnam,Albania,0.75,3
+Bulgaria,Albania,0.08450704225352113,6
+Albania,Bulgaria,1,6
+Bulgaria,Bulgaria,NA,NA
+Bulgaria,China,0.18309859154929578,13
+China,Bulgaria,0.43333333333333335,13
+Bulgaria,Cuba,0.07042253521126761,5
+Cuba,Bulgaria,1,5
+Bulgaria,Czechoslovakia-cseh,0.6197183098591549,44
+Czechoslovakia-cseh,Bulgaria,0.29333333333333333,44
+Bulgaria,Czechoslovakia-szlovák,0.6619718309859155,47
+Czechoslovakia-szlovák,Bulgaria,0.28484848484848485,47
+Bulgaria,Czechoslovakia-ukrán,0,0
+Czechoslovakia-ukrán,Bulgaria,0,0
+Bulgaria,GDR,0.6056338028169014,43
+GDR,Bulgaria,0.25595238095238093,43
+Bulgaria,Hungary,0.4084507042253521,29
+Hungary,Bulgaria,0.19727891156462585,29
+Bulgaria,Mongolia,0.028169014084507043,2
+Mongolia,Bulgaria,0.4,2
+Bulgaria,North Korea,0.014084507042253521,1
+North Korea,Bulgaria,1,1
+Bulgaria,Poland,0.5492957746478874,39
+Poland,Bulgaria,0.2746478873239437,39
+Bulgaria,Romania,0.43661971830985913,31
+Romania,Bulgaria,0.22142857142857142,31
+Bulgaria,USSR-altaji,0,0
+USSR-altaji,Bulgaria,0,0
+Bulgaria,USSR-azerbajdzsán,0.08450704225352113,6
+USSR-azerbajdzsán,Bulgaria,0.5,6
+Bulgaria,USSR-baskir,0.014084507042253521,1
+USSR-baskir,Bulgaria,1,1
+Bulgaria,USSR-csuvas,0.014084507042253521,1
+USSR-csuvas,Bulgaria,0.5,1
+Bulgaria,USSR-fehérorosz,0.08450704225352113,6
+USSR-fehérorosz,Bulgaria,0.6666666666666666,6
+Bulgaria,USSR-finn,0,0
+USSR-finn,Bulgaria,0,0
+Bulgaria,USSR-grúz,0.1267605633802817,9
+USSR-grúz,Bulgaria,0.375,9
+Bulgaria,USSR-kazah,0.07042253521126761,5
+USSR-kazah,Bulgaria,0.5,5
+Bulgaria,USSR-kirgiz,0.04225352112676056,3
+USSR-kirgiz,Bulgaria,0.5,3
+Bulgaria,USSR-komi,0.014084507042253521,1
+USSR-komi,Bulgaria,1,1
+Bulgaria,USSR-lett,0.29577464788732394,21
+USSR-lett,Bulgaria,0.75,21
+Bulgaria,USSR-litván,0.19718309859154928,14
+USSR-litván,Bulgaria,0.45161290322580644,14
+Bulgaria,USSR-liv,0.014084507042253521,1
+USSR-liv,Bulgaria,1,1
+Bulgaria,USSR-moldva,0.08450704225352113,6
+USSR-moldva,Bulgaria,0.46153846153846156,6
+Bulgaria,USSR-orosz,0.704225352112676,50
+USSR-orosz,Bulgaria,0.3184713375796178,50
+Bulgaria,USSR-tadzsik,0.04225352112676056,3
+USSR-tadzsik,Bulgaria,0.42857142857142855,3
+Bulgaria,USSR-tatár,0.014084507042253521,1
+USSR-tatár,Bulgaria,1,1
+Bulgaria,USSR-türkmén,0.07042253521126761,5
+USSR-türkmén,Bulgaria,0.8333333333333334,5
+Bulgaria,USSR-udmurt,0.014084507042253521,1
+USSR-udmurt,Bulgaria,0.5,1
+Bulgaria,USSR-ujgur,0.014084507042253521,1
+USSR-ujgur,Bulgaria,1,1
+Bulgaria,USSR-ukrán,0.36619718309859156,26
+USSR-ukrán,Bulgaria,0.5531914893617021,26
+Bulgaria,"USSR-ukrán, orosz",0.014084507042253521,1
+"USSR-ukrán, orosz",Bulgaria,1,1
+Bulgaria,USSR-észt,0.19718309859154928,14
+USSR-észt,Bulgaria,0.42424242424242425,14
+Bulgaria,USSR-örmény,0.1267605633802817,9
+USSR-örmény,Bulgaria,0.6,9
+Bulgaria,USSR-üzbég,0.07042253521126761,5
+USSR-üzbég,Bulgaria,0.7142857142857143,5
+Bulgaria,Vietnam,0.056338028169014086,4
+Vietnam,Bulgaria,1,4
+China,Albania,0.13333333333333333,4
+Albania,China,0.6666666666666666,4
+China,Bulgaria,0.43333333333333335,13
+Bulgaria,China,0.18309859154929578,13
+China,China,NA,NA
+China,Cuba,0.1,3
+Cuba,China,0.6,3
+China,Czechoslovakia-cseh,0.5666666666666667,17
+Czechoslovakia-cseh,China,0.11333333333333333,17
+China,Czechoslovakia-szlovák,0.4666666666666667,14
+Czechoslovakia-szlovák,China,0.08484848484848485,14
+China,Czechoslovakia-ukrán,0,0
+Czechoslovakia-ukrán,China,0,0
+China,GDR,0.5333333333333333,16
+GDR,China,0.09523809523809523,16
+China,Hungary,0.43333333333333335,13
+Hungary,China,0.08843537414965986,13
+China,Mongolia,0.1,3
+Mongolia,China,0.6,3
+China,North Korea,0.03333333333333333,1
+North Korea,China,1,1
+China,Poland,0.3333333333333333,10
+Poland,China,0.07042253521126761,10
+China,Romania,0.4666666666666667,14
+Romania,China,0.1,14
+China,USSR-altaji,0.03333333333333333,1
+USSR-altaji,China,1,1
+China,USSR-azerbajdzsán,0.16666666666666666,5
+USSR-azerbajdzsán,China,0.4166666666666667,5
+China,USSR-baskir,0.03333333333333333,1
+USSR-baskir,China,1,1
+China,USSR-csuvas,0.06666666666666667,2
+USSR-csuvas,China,1,2
+China,USSR-fehérorosz,0.13333333333333333,4
+USSR-fehérorosz,China,0.4444444444444444,4
+China,USSR-finn,0.03333333333333333,1
+USSR-finn,China,1,1
+China,USSR-grúz,0.2,6
+USSR-grúz,China,0.25,6
+China,USSR-kazah,0.2,6
+USSR-kazah,China,0.6,6
+China,USSR-kirgiz,0.06666666666666667,2
+USSR-kirgiz,China,0.3333333333333333,2
+China,USSR-komi,0.03333333333333333,1
+USSR-komi,China,1,1
+China,USSR-lett,0.26666666666666666,8
+USSR-lett,China,0.2857142857142857,8
+China,USSR-litván,0.23333333333333334,7
+USSR-litván,China,0.22580645161290322,7
+China,USSR-liv,0.03333333333333333,1
+USSR-liv,China,1,1
+China,USSR-moldva,0.06666666666666667,2
+USSR-moldva,China,0.15384615384615385,2
+China,USSR-orosz,0.6333333333333333,19
+USSR-orosz,China,0.12101910828025478,19
+China,USSR-tadzsik,0.1,3
+USSR-tadzsik,China,0.42857142857142855,3
+China,USSR-tatár,0.03333333333333333,1
+USSR-tatár,China,1,1
+China,USSR-türkmén,0.1,3
+USSR-türkmén,China,0.5,3
+China,USSR-udmurt,0.06666666666666667,2
+USSR-udmurt,China,1,2
+China,USSR-ujgur,0.03333333333333333,1
+USSR-ujgur,China,1,1
+China,USSR-ukrán,0.36666666666666664,11
+USSR-ukrán,China,0.23404255319148937,11
+China,"USSR-ukrán, orosz",0.03333333333333333,1
+"USSR-ukrán, orosz",China,1,1
+China,USSR-észt,0.23333333333333334,7
+USSR-észt,China,0.21212121212121213,7
+China,USSR-örmény,0.13333333333333333,4
+USSR-örmény,China,0.26666666666666666,4
+China,USSR-üzbég,0.13333333333333333,4
+USSR-üzbég,China,0.5714285714285714,4
+China,Vietnam,0.13333333333333333,4
+Vietnam,China,1,4
+Cuba,Albania,0.8,4
+Albania,Cuba,0.6666666666666666,4
+Cuba,Bulgaria,1,5
+Bulgaria,Cuba,0.07042253521126761,5
+Cuba,China,0.6,3
+China,Cuba,0.1,3
+Cuba,Cuba,NA,NA
+Cuba,Czechoslovakia-cseh,1,5
+Czechoslovakia-cseh,Cuba,0.03333333333333333,5
+Cuba,Czechoslovakia-szlovák,1,5
+Czechoslovakia-szlovák,Cuba,0.030303030303030304,5
+Cuba,Czechoslovakia-ukrán,0,0
+Czechoslovakia-ukrán,Cuba,0,0
+Cuba,GDR,1,5
+GDR,Cuba,0.02976190476190476,5
+Cuba,Hungary,1,5
+Hungary,Cuba,0.034013605442176874,5
+Cuba,Mongolia,0.4,2
+Mongolia,Cuba,0.4,2
+Cuba,North Korea,0.2,1
+North Korea,Cuba,1,1
+Cuba,Poland,1,5
+Poland,Cuba,0.035211267605633804,5
+Cuba,Romania,1,5
+Romania,Cuba,0.03571428571428571,5
+Cuba,USSR-altaji,0,0
+USSR-altaji,Cuba,0,0
+Cuba,USSR-azerbajdzsán,0.4,2
+USSR-azerbajdzsán,Cuba,0.16666666666666666,2
+Cuba,USSR-baskir,0.2,1
+USSR-baskir,Cuba,1,1
+Cuba,USSR-csuvas,0.2,1
+USSR-csuvas,Cuba,0.5,1
+Cuba,USSR-fehérorosz,0.4,2
+USSR-fehérorosz,Cuba,0.2222222222222222,2
+Cuba,USSR-finn,0,0
+USSR-finn,Cuba,0,0
+Cuba,USSR-grúz,0.4,2
+USSR-grúz,Cuba,0.08333333333333333,2
+Cuba,USSR-kazah,0.4,2
+USSR-kazah,Cuba,0.2,2
+Cuba,USSR-kirgiz,0.4,2
+USSR-kirgiz,Cuba,0.3333333333333333,2
+Cuba,USSR-komi,0,0
+USSR-komi,Cuba,0,0
+Cuba,USSR-lett,1,5
+USSR-lett,Cuba,0.17857142857142858,5
+Cuba,USSR-litván,0.6,3
+USSR-litván,Cuba,0.0967741935483871,3
+Cuba,USSR-liv,0,0
+USSR-liv,Cuba,0,0
+Cuba,USSR-moldva,0.2,1
+USSR-moldva,Cuba,0.07692307692307693,1
+Cuba,USSR-orosz,1,5
+USSR-orosz,Cuba,0.03184713375796178,5
+Cuba,USSR-tadzsik,0.4,2
+USSR-tadzsik,Cuba,0.2857142857142857,2
+Cuba,USSR-tatár,0,0
+USSR-tatár,Cuba,0,0
+Cuba,USSR-türkmén,0.4,2
+USSR-türkmén,Cuba,0.3333333333333333,2
+Cuba,USSR-udmurt,0.2,1
+USSR-udmurt,Cuba,0.5,1
+Cuba,USSR-ujgur,0.2,1
+USSR-ujgur,Cuba,1,1
+Cuba,USSR-ukrán,1,5
+USSR-ukrán,Cuba,0.10638297872340426,5
+Cuba,"USSR-ukrán, orosz",0.2,1
+"USSR-ukrán, orosz",Cuba,1,1
+Cuba,USSR-észt,0.6,3
+USSR-észt,Cuba,0.09090909090909091,3
+Cuba,USSR-örmény,0.4,2
+USSR-örmény,Cuba,0.13333333333333333,2
+Cuba,USSR-üzbég,0.2,1
+USSR-üzbég,Cuba,0.14285714285714285,1
+Cuba,Vietnam,0.4,2
+Vietnam,Cuba,0.5,2
+Czechoslovakia-cseh,Albania,0.03333333333333333,5
+Albania,Czechoslovakia-cseh,0.8333333333333334,5
+Czechoslovakia-cseh,Bulgaria,0.29333333333333333,44
+Bulgaria,Czechoslovakia-cseh,0.6197183098591549,44
+Czechoslovakia-cseh,China,0.11333333333333333,17
+China,Czechoslovakia-cseh,0.5666666666666667,17
+Czechoslovakia-cseh,Cuba,0.03333333333333333,5
+Cuba,Czechoslovakia-cseh,1,5
+Czechoslovakia-cseh,Czechoslovakia-cseh,NA,NA
+Czechoslovakia-cseh,Czechoslovakia-szlovák,0.52,78
+Czechoslovakia-szlovák,Czechoslovakia-cseh,0.4727272727272727,78
+Czechoslovakia-cseh,Czechoslovakia-ukrán,0,0
+Czechoslovakia-ukrán,Czechoslovakia-cseh,0,0
+Czechoslovakia-cseh,GDR,0.58,87
+GDR,Czechoslovakia-cseh,0.5178571428571429,87
+Czechoslovakia-cseh,Hungary,0.37333333333333335,56
+Hungary,Czechoslovakia-cseh,0.38095238095238093,56
+Czechoslovakia-cseh,Mongolia,0.02666666666666667,4
+Mongolia,Czechoslovakia-cseh,0.8,4
+Czechoslovakia-cseh,North Korea,0.006666666666666667,1
+North Korea,Czechoslovakia-cseh,1,1
+Czechoslovakia-cseh,Poland,0.52,78
+Poland,Czechoslovakia-cseh,0.5492957746478874,78
+Czechoslovakia-cseh,Romania,0.4,60
+Romania,Czechoslovakia-cseh,0.42857142857142855,60
+Czechoslovakia-cseh,USSR-altaji,0.006666666666666667,1
+USSR-altaji,Czechoslovakia-cseh,1,1
+Czechoslovakia-cseh,USSR-azerbajdzsán,0.05333333333333334,8
+USSR-azerbajdzsán,Czechoslovakia-cseh,0.6666666666666666,8
+Czechoslovakia-cseh,USSR-baskir,0.006666666666666667,1
+USSR-baskir,Czechoslovakia-cseh,1,1
+Czechoslovakia-cseh,USSR-csuvas,0.013333333333333334,2
+USSR-csuvas,Czechoslovakia-cseh,1,2
+Czechoslovakia-cseh,USSR-fehérorosz,0.04,6
+USSR-fehérorosz,Czechoslovakia-cseh,0.6666666666666666,6
+Czechoslovakia-cseh,USSR-finn,0.006666666666666667,1
+USSR-finn,Czechoslovakia-cseh,1,1
+Czechoslovakia-cseh,USSR-grúz,0.10666666666666667,16
+USSR-grúz,Czechoslovakia-cseh,0.6666666666666666,16
+Czechoslovakia-cseh,USSR-kazah,0.05333333333333334,8
+USSR-kazah,Czechoslovakia-cseh,0.8,8
+Czechoslovakia-cseh,USSR-kirgiz,0.04,6
+USSR-kirgiz,Czechoslovakia-cseh,1,6
+Czechoslovakia-cseh,USSR-komi,0,0
+USSR-komi,Czechoslovakia-cseh,0,0
+Czechoslovakia-cseh,USSR-lett,0.14666666666666667,22
+USSR-lett,Czechoslovakia-cseh,0.7857142857142857,22
+Czechoslovakia-cseh,USSR-litván,0.12666666666666668,19
+USSR-litván,Czechoslovakia-cseh,0.6129032258064516,19
+Czechoslovakia-cseh,USSR-liv,0.006666666666666667,1
+USSR-liv,Czechoslovakia-cseh,1,1
+Czechoslovakia-cseh,USSR-moldva,0.06666666666666667,10
+USSR-moldva,Czechoslovakia-cseh,0.7692307692307693,10
+Czechoslovakia-cseh,USSR-orosz,0.5333333333333333,80
+USSR-orosz,Czechoslovakia-cseh,0.5095541401273885,80
+Czechoslovakia-cseh,USSR-tadzsik,0.03333333333333333,5
+USSR-tadzsik,Czechoslovakia-cseh,0.7142857142857143,5
+Czechoslovakia-cseh,USSR-tatár,0,0
+USSR-tatár,Czechoslovakia-cseh,0,0
+Czechoslovakia-cseh,USSR-türkmén,0.03333333333333333,5
+USSR-türkmén,Czechoslovakia-cseh,0.8333333333333334,5
+Czechoslovakia-cseh,USSR-udmurt,0.013333333333333334,2
+USSR-udmurt,Czechoslovakia-cseh,1,2
+Czechoslovakia-cseh,USSR-ujgur,0.006666666666666667,1
+USSR-ujgur,Czechoslovakia-cseh,1,1
+Czechoslovakia-cseh,USSR-ukrán,0.20666666666666667,31
+USSR-ukrán,Czechoslovakia-cseh,0.6595744680851063,31
+Czechoslovakia-cseh,"USSR-ukrán, orosz",0.006666666666666667,1
+"USSR-ukrán, orosz",Czechoslovakia-cseh,1,1
+Czechoslovakia-cseh,USSR-észt,0.15333333333333332,23
+USSR-észt,Czechoslovakia-cseh,0.696969696969697,23
+Czechoslovakia-cseh,USSR-örmény,0.06666666666666667,10
+USSR-örmény,Czechoslovakia-cseh,0.6666666666666666,10
+Czechoslovakia-cseh,USSR-üzbég,0.04,6
+USSR-üzbég,Czechoslovakia-cseh,0.8571428571428571,6
+Czechoslovakia-cseh,Vietnam,0.02,3
+Vietnam,Czechoslovakia-cseh,0.75,3
+Czechoslovakia-szlovák,Albania,0.03636363636363636,6
+Albania,Czechoslovakia-szlovák,1,6
+Czechoslovakia-szlovák,Bulgaria,0.28484848484848485,47
+Bulgaria,Czechoslovakia-szlovák,0.6619718309859155,47
+Czechoslovakia-szlovák,China,0.08484848484848485,14
+China,Czechoslovakia-szlovák,0.4666666666666667,14
+Czechoslovakia-szlovák,Cuba,0.030303030303030304,5
+Cuba,Czechoslovakia-szlovák,1,5
+Czechoslovakia-szlovák,Czechoslovakia-cseh,0.4727272727272727,78
+Czechoslovakia-cseh,Czechoslovakia-szlovák,0.52,78
+Czechoslovakia-szlovák,Czechoslovakia-szlovák,NA,NA
+Czechoslovakia-szlovák,Czechoslovakia-ukrán,0,0
+Czechoslovakia-ukrán,Czechoslovakia-szlovák,0,0
+Czechoslovakia-szlovák,GDR,0.503030303030303,83
+GDR,Czechoslovakia-szlovák,0.49404761904761907,83
+Czechoslovakia-szlovák,Hungary,0.34545454545454546,57
+Hungary,Czechoslovakia-szlovák,0.3877551020408163,57
+Czechoslovakia-szlovák,Mongolia,0.01818181818181818,3
+Mongolia,Czechoslovakia-szlovák,0.6,3
+Czechoslovakia-szlovák,North Korea,0.006060606060606061,1
+North Korea,Czechoslovakia-szlovák,1,1
+Czechoslovakia-szlovák,Poland,0.4303030303030303,71
+Poland,Czechoslovakia-szlovák,0.5,71
+Czechoslovakia-szlovák,Romania,0.30303030303030304,50
+Romania,Czechoslovakia-szlovák,0.35714285714285715,50
+Czechoslovakia-szlovák,USSR-altaji,0,0
+USSR-altaji,Czechoslovakia-szlovák,0,0
+Czechoslovakia-szlovák,USSR-azerbajdzsán,0.048484848484848485,8
+USSR-azerbajdzsán,Czechoslovakia-szlovák,0.6666666666666666,8
+Czechoslovakia-szlovák,USSR-baskir,0.006060606060606061,1
+USSR-baskir,Czechoslovakia-szlovák,1,1
+Czechoslovakia-szlovák,USSR-csuvas,0.006060606060606061,1
+USSR-csuvas,Czechoslovakia-szlovák,0.5,1
+Czechoslovakia-szlovák,USSR-fehérorosz,0.03636363636363636,6
+USSR-fehérorosz,Czechoslovakia-szlovák,0.6666666666666666,6
+Czechoslovakia-szlovák,USSR-finn,0,0
+USSR-finn,Czechoslovakia-szlovák,0,0
+Czechoslovakia-szlovák,USSR-grúz,0.09090909090909091,15
+USSR-grúz,Czechoslovakia-szlovák,0.625,15
+Czechoslovakia-szlovák,USSR-kazah,0.03636363636363636,6
+USSR-kazah,Czechoslovakia-szlovák,0.6,6
+Czechoslovakia-szlovák,USSR-kirgiz,0.030303030303030304,5
+USSR-kirgiz,Czechoslovakia-szlovák,0.8333333333333334,5
+Czechoslovakia-szlovák,USSR-komi,0.006060606060606061,1
+USSR-komi,Czechoslovakia-szlovák,1,1
+Czechoslovakia-szlovák,USSR-lett,0.1393939393939394,23
+USSR-lett,Czechoslovakia-szlovák,0.8214285714285714,23
+Czechoslovakia-szlovák,USSR-litván,0.12121212121212122,20
+USSR-litván,Czechoslovakia-szlovák,0.6451612903225806,20
+Czechoslovakia-szlovák,USSR-liv,0.006060606060606061,1
+USSR-liv,Czechoslovakia-szlovák,1,1
+Czechoslovakia-szlovák,USSR-moldva,0.048484848484848485,8
+USSR-moldva,Czechoslovakia-szlovák,0.6153846153846154,8
+Czechoslovakia-szlovák,USSR-orosz,0.49696969696969695,82
+USSR-orosz,Czechoslovakia-szlovák,0.5222929936305732,82
+Czechoslovakia-szlovák,USSR-tadzsik,0.024242424242424242,4
+USSR-tadzsik,Czechoslovakia-szlovák,0.5714285714285714,4
+Czechoslovakia-szlovák,USSR-tatár,0.006060606060606061,1
+USSR-tatár,Czechoslovakia-szlovák,1,1
+Czechoslovakia-szlovák,USSR-türkmén,0.030303030303030304,5
+USSR-türkmén,Czechoslovakia-szlovák,0.8333333333333334,5
+Czechoslovakia-szlovák,USSR-udmurt,0.006060606060606061,1
+USSR-udmurt,Czechoslovakia-szlovák,0.5,1
+Czechoslovakia-szlovák,USSR-ujgur,0.006060606060606061,1
+USSR-ujgur,Czechoslovakia-szlovák,1,1
+Czechoslovakia-szlovák,USSR-ukrán,0.19393939393939394,32
+USSR-ukrán,Czechoslovakia-szlovák,0.6808510638297872,32
+Czechoslovakia-szlovák,"USSR-ukrán, orosz",0.006060606060606061,1
+"USSR-ukrán, orosz",Czechoslovakia-szlovák,1,1
+Czechoslovakia-szlovák,USSR-észt,0.15757575757575756,26
+USSR-észt,Czechoslovakia-szlovák,0.7878787878787878,26
+Czechoslovakia-szlovák,USSR-örmény,0.06060606060606061,10
+USSR-örmény,Czechoslovakia-szlovák,0.6666666666666666,10
+Czechoslovakia-szlovák,USSR-üzbég,0.03636363636363636,6
+USSR-üzbég,Czechoslovakia-szlovák,0.8571428571428571,6
+Czechoslovakia-szlovák,Vietnam,0.024242424242424242,4
+Vietnam,Czechoslovakia-szlovák,1,4
+Czechoslovakia-ukrán,Albania,0,0
+Albania,Czechoslovakia-ukrán,0,0
+Czechoslovakia-ukrán,Bulgaria,0,0
+Bulgaria,Czechoslovakia-ukrán,0,0
+Czechoslovakia-ukrán,China,0,0
+China,Czechoslovakia-ukrán,0,0
+Czechoslovakia-ukrán,Cuba,0,0
+Cuba,Czechoslovakia-ukrán,0,0
+Czechoslovakia-ukrán,Czechoslovakia-cseh,0,0
+Czechoslovakia-cseh,Czechoslovakia-ukrán,0,0
+Czechoslovakia-ukrán,Czechoslovakia-szlovák,0,0
+Czechoslovakia-szlovák,Czechoslovakia-ukrán,0,0
+Czechoslovakia-ukrán,Czechoslovakia-ukrán,NA,NA
+Czechoslovakia-ukrán,GDR,0,0
+GDR,Czechoslovakia-ukrán,0,0
+Czechoslovakia-ukrán,Hungary,0,0
+Hungary,Czechoslovakia-ukrán,0,0
+Czechoslovakia-ukrán,Mongolia,0,0
+Mongolia,Czechoslovakia-ukrán,0,0
+Czechoslovakia-ukrán,North Korea,0,0
+North Korea,Czechoslovakia-ukrán,0,0
+Czechoslovakia-ukrán,Poland,0,0
+Poland,Czechoslovakia-ukrán,0,0
+Czechoslovakia-ukrán,Romania,0,0
+Romania,Czechoslovakia-ukrán,0,0
+Czechoslovakia-ukrán,USSR-altaji,0,0
+USSR-altaji,Czechoslovakia-ukrán,0,0
+Czechoslovakia-ukrán,USSR-azerbajdzsán,0,0
+USSR-azerbajdzsán,Czechoslovakia-ukrán,0,0
+Czechoslovakia-ukrán,USSR-baskir,0,0
+USSR-baskir,Czechoslovakia-ukrán,0,0
+Czechoslovakia-ukrán,USSR-csuvas,0,0
+USSR-csuvas,Czechoslovakia-ukrán,0,0
+Czechoslovakia-ukrán,USSR-fehérorosz,0,0
+USSR-fehérorosz,Czechoslovakia-ukrán,0,0
+Czechoslovakia-ukrán,USSR-finn,0,0
+USSR-finn,Czechoslovakia-ukrán,0,0
+Czechoslovakia-ukrán,USSR-grúz,0,0
+USSR-grúz,Czechoslovakia-ukrán,0,0
+Czechoslovakia-ukrán,USSR-kazah,0,0
+USSR-kazah,Czechoslovakia-ukrán,0,0
+Czechoslovakia-ukrán,USSR-kirgiz,0,0
+USSR-kirgiz,Czechoslovakia-ukrán,0,0
+Czechoslovakia-ukrán,USSR-komi,0,0
+USSR-komi,Czechoslovakia-ukrán,0,0
+Czechoslovakia-ukrán,USSR-lett,0,0
+USSR-lett,Czechoslovakia-ukrán,0,0
+Czechoslovakia-ukrán,USSR-litván,0,0
+USSR-litván,Czechoslovakia-ukrán,0,0
+Czechoslovakia-ukrán,USSR-liv,0,0
+USSR-liv,Czechoslovakia-ukrán,0,0
+Czechoslovakia-ukrán,USSR-moldva,0,0
+USSR-moldva,Czechoslovakia-ukrán,0,0
+Czechoslovakia-ukrán,USSR-orosz,0,0
+USSR-orosz,Czechoslovakia-ukrán,0,0
+Czechoslovakia-ukrán,USSR-tadzsik,0,0
+USSR-tadzsik,Czechoslovakia-ukrán,0,0
+Czechoslovakia-ukrán,USSR-tatár,0,0
+USSR-tatár,Czechoslovakia-ukrán,0,0
+Czechoslovakia-ukrán,USSR-türkmén,0,0
+USSR-türkmén,Czechoslovakia-ukrán,0,0
+Czechoslovakia-ukrán,USSR-udmurt,0,0
+USSR-udmurt,Czechoslovakia-ukrán,0,0
+Czechoslovakia-ukrán,USSR-ujgur,0,0
+USSR-ujgur,Czechoslovakia-ukrán,0,0
+Czechoslovakia-ukrán,USSR-ukrán,0,0
+USSR-ukrán,Czechoslovakia-ukrán,0,0
+Czechoslovakia-ukrán,"USSR-ukrán, orosz",0,0
+"USSR-ukrán, orosz",Czechoslovakia-ukrán,0,0
+Czechoslovakia-ukrán,USSR-észt,0,0
+USSR-észt,Czechoslovakia-ukrán,0,0
+Czechoslovakia-ukrán,USSR-örmény,0,0
+USSR-örmény,Czechoslovakia-ukrán,0,0
+Czechoslovakia-ukrán,USSR-üzbég,0,0
+USSR-üzbég,Czechoslovakia-ukrán,0,0
+Czechoslovakia-ukrán,Vietnam,0,0
+Vietnam,Czechoslovakia-ukrán,0,0
+GDR,Albania,0.03571428571428571,6
+Albania,GDR,1,6
+GDR,Bulgaria,0.25595238095238093,43
+Bulgaria,GDR,0.6056338028169014,43
+GDR,China,0.09523809523809523,16
+China,GDR,0.5333333333333333,16
+GDR,Cuba,0.02976190476190476,5
+Cuba,GDR,1,5
+GDR,Czechoslovakia-cseh,0.5178571428571429,87
+Czechoslovakia-cseh,GDR,0.58,87
+GDR,Czechoslovakia-szlovák,0.49404761904761907,83
+Czechoslovakia-szlovák,GDR,0.503030303030303,83
+GDR,Czechoslovakia-ukrán,0,0
+Czechoslovakia-ukrán,GDR,0,0
+GDR,GDR,NA,NA
+GDR,Hungary,0.3630952380952381,61
+Hungary,GDR,0.41496598639455784,61
+GDR,Mongolia,0.017857142857142856,3
+Mongolia,GDR,0.6,3
+GDR,North Korea,0.005952380952380952,1
+North Korea,GDR,1,1
+GDR,Poland,0.47619047619047616,80
+Poland,GDR,0.5633802816901409,80
+GDR,Romania,0.32142857142857145,54
+Romania,GDR,0.38571428571428573,54
+GDR,USSR-altaji,0.005952380952380952,1
+USSR-altaji,GDR,1,1
+GDR,USSR-azerbajdzsán,0.05952380952380952,10
+USSR-azerbajdzsán,GDR,0.8333333333333334,10
+GDR,USSR-baskir,0.005952380952380952,1
+USSR-baskir,GDR,1,1
+GDR,USSR-csuvas,0.011904761904761904,2
+USSR-csuvas,GDR,1,2
+GDR,USSR-fehérorosz,0.041666666666666664,7
+USSR-fehérorosz,GDR,0.7777777777777778,7
+GDR,USSR-finn,0.005952380952380952,1
+USSR-finn,GDR,1,1
+GDR,USSR-grúz,0.11904761904761904,20
+USSR-grúz,GDR,0.8333333333333334,20
+GDR,USSR-kazah,0.05357142857142857,9
+USSR-kazah,GDR,0.9,9
+GDR,USSR-kirgiz,0.03571428571428571,6
+USSR-kirgiz,GDR,1,6
+GDR,USSR-komi,0.005952380952380952,1
+USSR-komi,GDR,1,1
+GDR,USSR-lett,0.13095238095238096,22
+USSR-lett,GDR,0.7857142857142857,22
+GDR,USSR-litván,0.11904761904761904,20
+USSR-litván,GDR,0.6451612903225806,20
+GDR,USSR-liv,0,0
+USSR-liv,GDR,0,0
+GDR,USSR-moldva,0.06547619047619048,11
+USSR-moldva,GDR,0.8461538461538461,11
+GDR,USSR-orosz,0.4880952380952381,82
+USSR-orosz,GDR,0.5222929936305732,82
+GDR,USSR-tadzsik,0.03571428571428571,6
+USSR-tadzsik,GDR,0.8571428571428571,6
+GDR,USSR-tatár,0.005952380952380952,1
+USSR-tatár,GDR,1,1
+GDR,USSR-türkmén,0.03571428571428571,6
+USSR-türkmén,GDR,1,6
+GDR,USSR-udmurt,0.011904761904761904,2
+USSR-udmurt,GDR,1,2
+GDR,USSR-ujgur,0.005952380952380952,1
+USSR-ujgur,GDR,1,1
+GDR,USSR-ukrán,0.19047619047619047,32
+USSR-ukrán,GDR,0.6808510638297872,32
+GDR,"USSR-ukrán, orosz",0.005952380952380952,1
+"USSR-ukrán, orosz",GDR,1,1
+GDR,USSR-észt,0.15476190476190477,26
+USSR-észt,GDR,0.7878787878787878,26
+GDR,USSR-örmény,0.05357142857142857,9
+USSR-örmény,GDR,0.6,9
+GDR,USSR-üzbég,0.03571428571428571,6
+USSR-üzbég,GDR,0.8571428571428571,6
+GDR,Vietnam,0.023809523809523808,4
+Vietnam,GDR,1,4
+Hungary,Albania,0.04081632653061224,6
+Albania,Hungary,1,6
+Hungary,Bulgaria,0.19727891156462585,29
+Bulgaria,Hungary,0.4084507042253521,29
+Hungary,China,0.08843537414965986,13
+China,Hungary,0.43333333333333335,13
+Hungary,Cuba,0.034013605442176874,5
+Cuba,Hungary,1,5
+Hungary,Czechoslovakia-cseh,0.38095238095238093,56
+Czechoslovakia-cseh,Hungary,0.37333333333333335,56
+Hungary,Czechoslovakia-szlovák,0.3877551020408163,57
+Czechoslovakia-szlovák,Hungary,0.34545454545454546,57
+Hungary,Czechoslovakia-ukrán,0,0
+Czechoslovakia-ukrán,Hungary,0,0
+Hungary,GDR,0.41496598639455784,61
+GDR,Hungary,0.3630952380952381,61
+Hungary,Hungary,NA,NA
+Hungary,Mongolia,0.02040816326530612,3
+Mongolia,Hungary,0.6,3
+Hungary,North Korea,0.006802721088435374,1
+North Korea,Hungary,1,1
+Hungary,Poland,0.32653061224489793,48
+Poland,Hungary,0.3380281690140845,48
+Hungary,Romania,0.272108843537415,40
+Romania,Hungary,0.2857142857142857,40
+Hungary,USSR-altaji,0,0
+USSR-altaji,Hungary,0,0
+Hungary,USSR-azerbajdzsán,0.05442176870748299,8
+USSR-azerbajdzsán,Hungary,0.6666666666666666,8
+Hungary,USSR-baskir,0.006802721088435374,1
+USSR-baskir,Hungary,1,1
+Hungary,USSR-csuvas,0.006802721088435374,1
+USSR-csuvas,Hungary,0.5,1
+Hungary,USSR-fehérorosz,0.027210884353741496,4
+USSR-fehérorosz,Hungary,0.4444444444444444,4
+Hungary,USSR-finn,0,0
+USSR-finn,Hungary,0,0
+Hungary,USSR-grúz,0.08163265306122448,12
+USSR-grúz,Hungary,0.5,12
+Hungary,USSR-kazah,0.02040816326530612,3
+USSR-kazah,Hungary,0.3,3
+Hungary,USSR-kirgiz,0.02040816326530612,3
+USSR-kirgiz,Hungary,0.5,3
+Hungary,USSR-komi,0.006802721088435374,1
+USSR-komi,Hungary,1,1
+Hungary,USSR-lett,0.11564625850340136,17
+USSR-lett,Hungary,0.6071428571428571,17
+Hungary,USSR-litván,0.10204081632653061,15
+USSR-litván,Hungary,0.4838709677419355,15
+Hungary,USSR-liv,0,0
+USSR-liv,Hungary,0,0
+Hungary,USSR-moldva,0.04081632653061224,6
+USSR-moldva,Hungary,0.46153846153846156,6
+Hungary,USSR-orosz,0.36054421768707484,53
+USSR-orosz,Hungary,0.3375796178343949,53
+Hungary,USSR-tadzsik,0.034013605442176874,5
+USSR-tadzsik,Hungary,0.7142857142857143,5
+Hungary,USSR-tatár,0.006802721088435374,1
+USSR-tatár,Hungary,1,1
+Hungary,USSR-türkmén,0.034013605442176874,5
+USSR-türkmén,Hungary,0.8333333333333334,5
+Hungary,USSR-udmurt,0.006802721088435374,1
+USSR-udmurt,Hungary,0.5,1
+Hungary,USSR-ujgur,0.006802721088435374,1
+USSR-ujgur,Hungary,1,1
+Hungary,USSR-ukrán,0.1564625850340136,23
+USSR-ukrán,Hungary,0.48936170212765956,23
+Hungary,"USSR-ukrán, orosz",0.006802721088435374,1
+"USSR-ukrán, orosz",Hungary,1,1
+Hungary,USSR-észt,0.11564625850340136,17
+USSR-észt,Hungary,0.5151515151515151,17
+Hungary,USSR-örmény,0.047619047619047616,7
+USSR-örmény,Hungary,0.4666666666666667,7
+Hungary,USSR-üzbég,0.034013605442176874,5
+USSR-üzbég,Hungary,0.7142857142857143,5
+Hungary,Vietnam,0.027210884353741496,4
+Vietnam,Hungary,1,4
+Mongolia,Albania,0.4,2
+Albania,Mongolia,0.3333333333333333,2
+Mongolia,Bulgaria,0.4,2
+Bulgaria,Mongolia,0.028169014084507043,2
+Mongolia,China,0.6,3
+China,Mongolia,0.1,3
+Mongolia,Cuba,0.4,2
+Cuba,Mongolia,0.4,2
+Mongolia,Czechoslovakia-cseh,0.8,4
+Czechoslovakia-cseh,Mongolia,0.02666666666666667,4
+Mongolia,Czechoslovakia-szlovák,0.6,3
+Czechoslovakia-szlovák,Mongolia,0.01818181818181818,3
+Mongolia,Czechoslovakia-ukrán,0,0
+Czechoslovakia-ukrán,Mongolia,0,0
+Mongolia,GDR,0.6,3
+GDR,Mongolia,0.017857142857142856,3
+Mongolia,Hungary,0.6,3
+Hungary,Mongolia,0.02040816326530612,3
+Mongolia,Mongolia,NA,NA
+Mongolia,North Korea,0.2,1
+North Korea,Mongolia,1,1
+Mongolia,Poland,0.6,3
+Poland,Mongolia,0.02112676056338028,3
+Mongolia,Romania,0.6,3
+Romania,Mongolia,0.02142857142857143,3
+Mongolia,USSR-altaji,0.2,1
+USSR-altaji,Mongolia,1,1
+Mongolia,USSR-azerbajdzsán,0.6,3
+USSR-azerbajdzsán,Mongolia,0.25,3
+Mongolia,USSR-baskir,0.2,1
+USSR-baskir,Mongolia,1,1
+Mongolia,USSR-csuvas,0.4,2
+USSR-csuvas,Mongolia,1,2
+Mongolia,USSR-fehérorosz,0.6,3
+USSR-fehérorosz,Mongolia,0.3333333333333333,3
+Mongolia,USSR-finn,0.2,1
+USSR-finn,Mongolia,1,1
+Mongolia,USSR-grúz,0.6,3
+USSR-grúz,Mongolia,0.125,3
+Mongolia,USSR-kazah,0.6,3
+USSR-kazah,Mongolia,0.3,3
+Mongolia,USSR-kirgiz,0.4,2
+USSR-kirgiz,Mongolia,0.3333333333333333,2
+Mongolia,USSR-komi,0,0
+USSR-komi,Mongolia,0,0
+Mongolia,USSR-lett,0.4,2
+USSR-lett,Mongolia,0.07142857142857142,2
+Mongolia,USSR-litván,0.4,2
+USSR-litván,Mongolia,0.06451612903225806,2
+Mongolia,USSR-liv,0,0
+USSR-liv,Mongolia,0,0
+Mongolia,USSR-moldva,0.4,2
+USSR-moldva,Mongolia,0.15384615384615385,2
+Mongolia,USSR-orosz,0.8,4
+USSR-orosz,Mongolia,0.025477707006369428,4
+Mongolia,USSR-tadzsik,0.4,2
+USSR-tadzsik,Mongolia,0.2857142857142857,2
+Mongolia,USSR-tatár,0,0
+USSR-tatár,Mongolia,0,0
+Mongolia,USSR-türkmén,0.4,2
+USSR-türkmén,Mongolia,0.3333333333333333,2
+Mongolia,USSR-udmurt,0.4,2
+USSR-udmurt,Mongolia,1,2
+Mongolia,USSR-ujgur,0.2,1
+USSR-ujgur,Mongolia,1,1
+Mongolia,USSR-ukrán,0.4,2
+USSR-ukrán,Mongolia,0.0425531914893617,2
+Mongolia,"USSR-ukrán, orosz",0.2,1
+"USSR-ukrán, orosz",Mongolia,1,1
+Mongolia,USSR-észt,0.4,2
+USSR-észt,Mongolia,0.06060606060606061,2
+Mongolia,USSR-örmény,0.4,2
+USSR-örmény,Mongolia,0.13333333333333333,2
+Mongolia,USSR-üzbég,0.2,1
+USSR-üzbég,Mongolia,0.14285714285714285,1
+Mongolia,Vietnam,0.2,1
+Vietnam,Mongolia,0.25,1
+North Korea,Albania,1,1
+Albania,North Korea,0.16666666666666666,1
+North Korea,Bulgaria,1,1
+Bulgaria,North Korea,0.014084507042253521,1
+North Korea,China,1,1
+China,North Korea,0.03333333333333333,1
+North Korea,Cuba,1,1
+Cuba,North Korea,0.2,1
+North Korea,Czechoslovakia-cseh,1,1
+Czechoslovakia-cseh,North Korea,0.006666666666666667,1
+North Korea,Czechoslovakia-szlovák,1,1
+Czechoslovakia-szlovák,North Korea,0.006060606060606061,1
+North Korea,Czechoslovakia-ukrán,0,0
+Czechoslovakia-ukrán,North Korea,0,0
+North Korea,GDR,1,1
+GDR,North Korea,0.005952380952380952,1
+North Korea,Hungary,1,1
+Hungary,North Korea,0.006802721088435374,1
+North Korea,Mongolia,1,1
+Mongolia,North Korea,0.2,1
+North Korea,North Korea,NA,NA
+North Korea,Poland,1,1
+Poland,North Korea,0.007042253521126761,1
+North Korea,Romania,1,1
+Romania,North Korea,0.007142857142857143,1
+North Korea,USSR-altaji,0,0
+USSR-altaji,North Korea,0,0
+North Korea,USSR-azerbajdzsán,1,1
+USSR-azerbajdzsán,North Korea,0.08333333333333333,1
+North Korea,USSR-baskir,1,1
+USSR-baskir,North Korea,1,1
+North Korea,USSR-csuvas,0,0
+USSR-csuvas,North Korea,0,0
+North Korea,USSR-fehérorosz,1,1
+USSR-fehérorosz,North Korea,0.1111111111111111,1
+North Korea,USSR-finn,0,0
+USSR-finn,North Korea,0,0
+North Korea,USSR-grúz,1,1
+USSR-grúz,North Korea,0.041666666666666664,1
+North Korea,USSR-kazah,1,1
+USSR-kazah,North Korea,0.1,1
+North Korea,USSR-kirgiz,1,1
+USSR-kirgiz,North Korea,0.16666666666666666,1
+North Korea,USSR-komi,0,0
+USSR-komi,North Korea,0,0
+North Korea,USSR-lett,1,1
+USSR-lett,North Korea,0.03571428571428571,1
+North Korea,USSR-litván,1,1
+USSR-litván,North Korea,0.03225806451612903,1
+North Korea,USSR-liv,0,0
+USSR-liv,North Korea,0,0
+North Korea,USSR-moldva,1,1
+USSR-moldva,North Korea,0.07692307692307693,1
+North Korea,USSR-orosz,1,1
+USSR-orosz,North Korea,0.006369426751592357,1
+North Korea,USSR-tadzsik,1,1
+USSR-tadzsik,North Korea,0.14285714285714285,1
+North Korea,USSR-tatár,0,0
+USSR-tatár,North Korea,0,0
+North Korea,USSR-türkmén,1,1
+USSR-türkmén,North Korea,0.16666666666666666,1
+North Korea,USSR-udmurt,1,1
+USSR-udmurt,North Korea,0.5,1
+North Korea,USSR-ujgur,0,0
+USSR-ujgur,North Korea,0,0
+North Korea,USSR-ukrán,1,1
+USSR-ukrán,North Korea,0.02127659574468085,1
+North Korea,"USSR-ukrán, orosz",0,0
+"USSR-ukrán, orosz",North Korea,0,0
+North Korea,USSR-észt,1,1
+USSR-észt,North Korea,0.030303030303030304,1
+North Korea,USSR-örmény,1,1
+USSR-örmény,North Korea,0.06666666666666667,1
+North Korea,USSR-üzbég,1,1
+USSR-üzbég,North Korea,0.14285714285714285,1
+North Korea,Vietnam,1,1
+Vietnam,North Korea,0.25,1
+Poland,Albania,0.035211267605633804,5
+Albania,Poland,0.8333333333333334,5
+Poland,Bulgaria,0.2746478873239437,39
+Bulgaria,Poland,0.5492957746478874,39
+Poland,China,0.07042253521126761,10
+China,Poland,0.3333333333333333,10
+Poland,Cuba,0.035211267605633804,5
+Cuba,Poland,1,5
+Poland,Czechoslovakia-cseh,0.5492957746478874,78
+Czechoslovakia-cseh,Poland,0.52,78
+Poland,Czechoslovakia-szlovák,0.5,71
+Czechoslovakia-szlovák,Poland,0.4303030303030303,71
+Poland,Czechoslovakia-ukrán,0,0
+Czechoslovakia-ukrán,Poland,0,0
+Poland,GDR,0.5633802816901409,80
+GDR,Poland,0.47619047619047616,80
+Poland,Hungary,0.3380281690140845,48
+Hungary,Poland,0.32653061224489793,48
+Poland,Mongolia,0.02112676056338028,3
+Mongolia,Poland,0.6,3
+Poland,North Korea,0.007042253521126761,1
+North Korea,Poland,1,1
+Poland,Poland,NA,NA
+Poland,Romania,0.3591549295774648,51
+Romania,Poland,0.36428571428571427,51
+Poland,USSR-altaji,0,0
+USSR-altaji,Poland,0,0
+Poland,USSR-azerbajdzsán,0.04929577464788732,7
+USSR-azerbajdzsán,Poland,0.5833333333333334,7
+Poland,USSR-baskir,0.007042253521126761,1
+USSR-baskir,Poland,1,1
+Poland,USSR-csuvas,0.007042253521126761,1
+USSR-csuvas,Poland,0.5,1
+Poland,USSR-fehérorosz,0.035211267605633804,5
+USSR-fehérorosz,Poland,0.5555555555555556,5
+Poland,USSR-finn,0,0
+USSR-finn,Poland,0,0
+Poland,USSR-grúz,0.11971830985915492,17
+USSR-grúz,Poland,0.7083333333333334,17
+Poland,USSR-kazah,0.04225352112676056,6
+USSR-kazah,Poland,0.6,6
+Poland,USSR-kirgiz,0.04225352112676056,6
+USSR-kirgiz,Poland,1,6
+Poland,USSR-komi,0,0
+USSR-komi,Poland,0,0
+Poland,USSR-lett,0.15492957746478872,22
+USSR-lett,Poland,0.7857142857142857,22
+Poland,USSR-litván,0.1619718309859155,23
+USSR-litván,Poland,0.7419354838709677,23
+Poland,USSR-liv,0,0
+USSR-liv,Poland,0,0
+Poland,USSR-moldva,0.06338028169014084,9
+USSR-moldva,Poland,0.6923076923076923,9
+Poland,USSR-orosz,0.4647887323943662,66
+USSR-orosz,Poland,0.42038216560509556,66
+Poland,USSR-tadzsik,0.035211267605633804,5
+USSR-tadzsik,Poland,0.7142857142857143,5
+Poland,USSR-tatár,0,0
+USSR-tatár,Poland,0,0
+Poland,USSR-türkmén,0.035211267605633804,5
+USSR-türkmén,Poland,0.8333333333333334,5
+Poland,USSR-udmurt,0.007042253521126761,1
+USSR-udmurt,Poland,0.5,1
+Poland,USSR-ujgur,0.007042253521126761,1
+USSR-ujgur,Poland,1,1
+Poland,USSR-ukrán,0.19718309859154928,28
+USSR-ukrán,Poland,0.5957446808510638,28
+Poland,"USSR-ukrán, orosz",0.007042253521126761,1
+"USSR-ukrán, orosz",Poland,1,1
+Poland,USSR-észt,0.176056338028169,25
+USSR-észt,Poland,0.7575757575757576,25
+Poland,USSR-örmény,0.07746478873239436,11
+USSR-örmény,Poland,0.7333333333333333,11
+Poland,USSR-üzbég,0.035211267605633804,5
+USSR-üzbég,Poland,0.7142857142857143,5
+Poland,Vietnam,0.02112676056338028,3
+Vietnam,Poland,0.75,3
+Romania,Albania,0.03571428571428571,5
+Albania,Romania,0.8333333333333334,5
+Romania,Bulgaria,0.22142857142857142,31
+Bulgaria,Romania,0.43661971830985913,31
+Romania,China,0.1,14
+China,Romania,0.4666666666666667,14
+Romania,Cuba,0.03571428571428571,5
+Cuba,Romania,1,5
+Romania,Czechoslovakia-cseh,0.42857142857142855,60
+Czechoslovakia-cseh,Romania,0.4,60
+Romania,Czechoslovakia-szlovák,0.35714285714285715,50
+Czechoslovakia-szlovák,Romania,0.30303030303030304,50
+Romania,Czechoslovakia-ukrán,0,0
+Czechoslovakia-ukrán,Romania,0,0
+Romania,GDR,0.38571428571428573,54
+GDR,Romania,0.32142857142857145,54
+Romania,Hungary,0.2857142857142857,40
+Hungary,Romania,0.272108843537415,40
+Romania,Mongolia,0.02142857142857143,3
+Mongolia,Romania,0.6,3
+Romania,North Korea,0.007142857142857143,1
+North Korea,Romania,1,1
+Romania,Poland,0.36428571428571427,51
+Poland,Romania,0.3591549295774648,51
+Romania,Romania,NA,NA
+Romania,USSR-altaji,0,0
+USSR-altaji,Romania,0,0
+Romania,USSR-azerbajdzsán,0.04285714285714286,6
+USSR-azerbajdzsán,Romania,0.5,6
+Romania,USSR-baskir,0.007142857142857143,1
+USSR-baskir,Romania,1,1
+Romania,USSR-csuvas,0.007142857142857143,1
+USSR-csuvas,Romania,0.5,1
+Romania,USSR-fehérorosz,0.02857142857142857,4
+USSR-fehérorosz,Romania,0.4444444444444444,4
+Romania,USSR-finn,0,0
+USSR-finn,Romania,0,0
+Romania,USSR-grúz,0.12142857142857143,17
+USSR-grúz,Romania,0.7083333333333334,17
+Romania,USSR-kazah,0.03571428571428571,5
+USSR-kazah,Romania,0.5,5
+Romania,USSR-kirgiz,0.02857142857142857,4
+USSR-kirgiz,Romania,0.6666666666666666,4
+Romania,USSR-komi,0,0
+USSR-komi,Romania,0,0
+Romania,USSR-lett,0.12142857142857143,17
+USSR-lett,Romania,0.6071428571428571,17
+Romania,USSR-litván,0.10714285714285714,15
+USSR-litván,Romania,0.4838709677419355,15
+Romania,USSR-liv,0.007142857142857143,1
+USSR-liv,Romania,1,1
+Romania,USSR-moldva,0.04285714285714286,6
+USSR-moldva,Romania,0.46153846153846156,6
+Romania,USSR-orosz,0.37857142857142856,53
+USSR-orosz,Romania,0.3375796178343949,53
+Romania,USSR-tadzsik,0.03571428571428571,5
+USSR-tadzsik,Romania,0.7142857142857143,5
+Romania,USSR-tatár,0,0
+USSR-tatár,Romania,0,0
+Romania,USSR-türkmén,0.03571428571428571,5
+USSR-türkmén,Romania,0.8333333333333334,5
+Romania,USSR-udmurt,0.007142857142857143,1
+USSR-udmurt,Romania,0.5,1
+Romania,USSR-ujgur,0.007142857142857143,1
+USSR-ujgur,Romania,1,1
+Romania,USSR-ukrán,0.17857142857142858,25
+USSR-ukrán,Romania,0.5319148936170213,25
+Romania,"USSR-ukrán, orosz",0.007142857142857143,1
+"USSR-ukrán, orosz",Romania,1,1
+Romania,USSR-észt,0.11428571428571428,16
+USSR-észt,Romania,0.48484848484848486,16
+Romania,USSR-örmény,0.06428571428571428,9
+USSR-örmény,Romania,0.6,9
+Romania,USSR-üzbég,0.03571428571428571,5
+USSR-üzbég,Romania,0.7142857142857143,5
+Romania,Vietnam,0.02142857142857143,3
+Vietnam,Romania,0.75,3
+USSR-altaji,Albania,0,0
+Albania,USSR-altaji,0,0
+USSR-altaji,Bulgaria,0,0
+Bulgaria,USSR-altaji,0,0
+USSR-altaji,China,1,1
+China,USSR-altaji,0.03333333333333333,1
+USSR-altaji,Cuba,0,0
+Cuba,USSR-altaji,0,0
+USSR-altaji,Czechoslovakia-cseh,1,1
+Czechoslovakia-cseh,USSR-altaji,0.006666666666666667,1
+USSR-altaji,Czechoslovakia-szlovák,0,0
+Czechoslovakia-szlovák,USSR-altaji,0,0
+USSR-altaji,Czechoslovakia-ukrán,0,0
+Czechoslovakia-ukrán,USSR-altaji,0,0
+USSR-altaji,GDR,1,1
+GDR,USSR-altaji,0.005952380952380952,1
+USSR-altaji,Hungary,0,0
+Hungary,USSR-altaji,0,0
+USSR-altaji,Mongolia,1,1
+Mongolia,USSR-altaji,0.2,1
+USSR-altaji,North Korea,0,0
+North Korea,USSR-altaji,0,0
+USSR-altaji,Poland,0,0
+Poland,USSR-altaji,0,0
+USSR-altaji,Romania,0,0
+Romania,USSR-altaji,0,0
+USSR-altaji,USSR-altaji,NA,NA
+USSR-altaji,USSR-azerbajdzsán,1,1
+USSR-azerbajdzsán,USSR-altaji,0.08333333333333333,1
+USSR-altaji,USSR-baskir,0,0
+USSR-baskir,USSR-altaji,0,0
+USSR-altaji,USSR-csuvas,1,1
+USSR-csuvas,USSR-altaji,0.5,1
+USSR-altaji,USSR-fehérorosz,1,1
+USSR-fehérorosz,USSR-altaji,0.1111111111111111,1
+USSR-altaji,USSR-finn,1,1
+USSR-finn,USSR-altaji,1,1
+USSR-altaji,USSR-grúz,1,1
+USSR-grúz,USSR-altaji,0.041666666666666664,1
+USSR-altaji,USSR-kazah,1,1
+USSR-kazah,USSR-altaji,0.1,1
+USSR-altaji,USSR-kirgiz,0,0
+USSR-kirgiz,USSR-altaji,0,0
+USSR-altaji,USSR-komi,0,0
+USSR-komi,USSR-altaji,0,0
+USSR-altaji,USSR-lett,0,0
+USSR-lett,USSR-altaji,0,0
+USSR-altaji,USSR-litván,0,0
+USSR-litván,USSR-altaji,0,0
+USSR-altaji,USSR-liv,0,0
+USSR-liv,USSR-altaji,0,0
+USSR-altaji,USSR-moldva,1,1
+USSR-moldva,USSR-altaji,0.07692307692307693,1
+USSR-altaji,USSR-orosz,1,1
+USSR-orosz,USSR-altaji,0.006369426751592357,1
+USSR-altaji,USSR-tadzsik,0,0
+USSR-tadzsik,USSR-altaji,0,0
+USSR-altaji,USSR-tatár,0,0
+USSR-tatár,USSR-altaji,0,0
+USSR-altaji,USSR-türkmén,0,0
+USSR-türkmén,USSR-altaji,0,0
+USSR-altaji,USSR-udmurt,1,1
+USSR-udmurt,USSR-altaji,0.5,1
+USSR-altaji,USSR-ujgur,0,0
+USSR-ujgur,USSR-altaji,0,0
+USSR-altaji,USSR-ukrán,0,0
+USSR-ukrán,USSR-altaji,0,0
+USSR-altaji,"USSR-ukrán, orosz",0,0
+"USSR-ukrán, orosz",USSR-altaji,0,0
+USSR-altaji,USSR-észt,0,0
+USSR-észt,USSR-altaji,0,0
+USSR-altaji,USSR-örmény,0,0
+USSR-örmény,USSR-altaji,0,0
+USSR-altaji,USSR-üzbég,0,0
+USSR-üzbég,USSR-altaji,0,0
+USSR-altaji,Vietnam,0,0
+Vietnam,USSR-altaji,0,0
+USSR-azerbajdzsán,Albania,0.25,3
+Albania,USSR-azerbajdzsán,0.5,3
+USSR-azerbajdzsán,Bulgaria,0.5,6
+Bulgaria,USSR-azerbajdzsán,0.08450704225352113,6
+USSR-azerbajdzsán,China,0.4166666666666667,5
+China,USSR-azerbajdzsán,0.16666666666666666,5
+USSR-azerbajdzsán,Cuba,0.16666666666666666,2
+Cuba,USSR-azerbajdzsán,0.4,2
+USSR-azerbajdzsán,Czechoslovakia-cseh,0.6666666666666666,8
+Czechoslovakia-cseh,USSR-azerbajdzsán,0.05333333333333334,8
+USSR-azerbajdzsán,Czechoslovakia-szlovák,0.6666666666666666,8
+Czechoslovakia-szlovák,USSR-azerbajdzsán,0.048484848484848485,8
+USSR-azerbajdzsán,Czechoslovakia-ukrán,0,0
+Czechoslovakia-ukrán,USSR-azerbajdzsán,0,0
+USSR-azerbajdzsán,GDR,0.8333333333333334,10
+GDR,USSR-azerbajdzsán,0.05952380952380952,10
+USSR-azerbajdzsán,Hungary,0.6666666666666666,8
+Hungary,USSR-azerbajdzsán,0.05442176870748299,8
+USSR-azerbajdzsán,Mongolia,0.25,3
+Mongolia,USSR-azerbajdzsán,0.6,3
+USSR-azerbajdzsán,North Korea,0.08333333333333333,1
+North Korea,USSR-azerbajdzsán,1,1
+USSR-azerbajdzsán,Poland,0.5833333333333334,7
+Poland,USSR-azerbajdzsán,0.04929577464788732,7
+USSR-azerbajdzsán,Romania,0.5,6
+Romania,USSR-azerbajdzsán,0.04285714285714286,6
+USSR-azerbajdzsán,USSR-altaji,0.08333333333333333,1
+USSR-altaji,USSR-azerbajdzsán,1,1
+USSR-azerbajdzsán,USSR-azerbajdzsán,NA,NA
+USSR-azerbajdzsán,USSR-baskir,0.08333333333333333,1
+USSR-baskir,USSR-azerbajdzsán,1,1
+USSR-azerbajdzsán,USSR-csuvas,0.16666666666666666,2
+USSR-csuvas,USSR-azerbajdzsán,1,2
+USSR-azerbajdzsán,USSR-fehérorosz,0.25,3
+USSR-fehérorosz,USSR-azerbajdzsán,0.3333333333333333,3
+USSR-azerbajdzsán,USSR-finn,0.08333333333333333,1
+USSR-finn,USSR-azerbajdzsán,1,1
+USSR-azerbajdzsán,USSR-grúz,0.5833333333333334,7
+USSR-grúz,USSR-azerbajdzsán,0.2916666666666667,7
+USSR-azerbajdzsán,USSR-kazah,0.3333333333333333,4
+USSR-kazah,USSR-azerbajdzsán,0.4,4
+USSR-azerbajdzsán,USSR-kirgiz,0.16666666666666666,2
+USSR-kirgiz,USSR-azerbajdzsán,0.3333333333333333,2
+USSR-azerbajdzsán,USSR-komi,0,0
+USSR-komi,USSR-azerbajdzsán,0,0
+USSR-azerbajdzsán,USSR-lett,0.5,6
+USSR-lett,USSR-azerbajdzsán,0.21428571428571427,6
+USSR-azerbajdzsán,USSR-litván,0.5,6
+USSR-litván,USSR-azerbajdzsán,0.1935483870967742,6
+USSR-azerbajdzsán,USSR-liv,0,0
+USSR-liv,USSR-azerbajdzsán,0,0
+USSR-azerbajdzsán,USSR-moldva,0.3333333333333333,4
+USSR-moldva,USSR-azerbajdzsán,0.3076923076923077,4
+USSR-azerbajdzsán,USSR-orosz,0.8333333333333334,10
+USSR-orosz,USSR-azerbajdzsán,0.06369426751592357,10
+USSR-azerbajdzsán,USSR-tadzsik,0.4166666666666667,5
+USSR-tadzsik,USSR-azerbajdzsán,0.7142857142857143,5
+USSR-azerbajdzsán,USSR-tatár,0,0
+USSR-tatár,USSR-azerbajdzsán,0,0
+USSR-azerbajdzsán,USSR-türkmén,0.3333333333333333,4
+USSR-türkmén,USSR-azerbajdzsán,0.6666666666666666,4
+USSR-azerbajdzsán,USSR-udmurt,0.16666666666666666,2
+USSR-udmurt,USSR-azerbajdzsán,1,2
+USSR-azerbajdzsán,USSR-ujgur,0.08333333333333333,1
+USSR-ujgur,USSR-azerbajdzsán,1,1
+USSR-azerbajdzsán,USSR-ukrán,0.6666666666666666,8
+USSR-ukrán,USSR-azerbajdzsán,0.1702127659574468,8
+USSR-azerbajdzsán,"USSR-ukrán, orosz",0.08333333333333333,1
+"USSR-ukrán, orosz",USSR-azerbajdzsán,1,1
+USSR-azerbajdzsán,USSR-észt,0.5,6
+USSR-észt,USSR-azerbajdzsán,0.18181818181818182,6
+USSR-azerbajdzsán,USSR-örmény,0.4166666666666667,5
+USSR-örmény,USSR-azerbajdzsán,0.3333333333333333,5
+USSR-azerbajdzsán,USSR-üzbég,0.16666666666666666,2
+USSR-üzbég,USSR-azerbajdzsán,0.2857142857142857,2
+USSR-azerbajdzsán,Vietnam,0.08333333333333333,1
+Vietnam,USSR-azerbajdzsán,0.25,1
+USSR-baskir,Albania,1,1
+Albania,USSR-baskir,0.16666666666666666,1
+USSR-baskir,Bulgaria,1,1
+Bulgaria,USSR-baskir,0.014084507042253521,1
+USSR-baskir,China,1,1
+China,USSR-baskir,0.03333333333333333,1
+USSR-baskir,Cuba,1,1
+Cuba,USSR-baskir,0.2,1
+USSR-baskir,Czechoslovakia-cseh,1,1
+Czechoslovakia-cseh,USSR-baskir,0.006666666666666667,1
+USSR-baskir,Czechoslovakia-szlovák,1,1
+Czechoslovakia-szlovák,USSR-baskir,0.006060606060606061,1
+USSR-baskir,Czechoslovakia-ukrán,0,0
+Czechoslovakia-ukrán,USSR-baskir,0,0
+USSR-baskir,GDR,1,1
+GDR,USSR-baskir,0.005952380952380952,1
+USSR-baskir,Hungary,1,1
+Hungary,USSR-baskir,0.006802721088435374,1
+USSR-baskir,Mongolia,1,1
+Mongolia,USSR-baskir,0.2,1
+USSR-baskir,North Korea,1,1
+North Korea,USSR-baskir,1,1
+USSR-baskir,Poland,1,1
+Poland,USSR-baskir,0.007042253521126761,1
+USSR-baskir,Romania,1,1
+Romania,USSR-baskir,0.007142857142857143,1
+USSR-baskir,USSR-altaji,0,0
+USSR-altaji,USSR-baskir,0,0
+USSR-baskir,USSR-azerbajdzsán,1,1
+USSR-azerbajdzsán,USSR-baskir,0.08333333333333333,1
+USSR-baskir,USSR-baskir,NA,NA
+USSR-baskir,USSR-csuvas,0,0
+USSR-csuvas,USSR-baskir,0,0
+USSR-baskir,USSR-fehérorosz,1,1
+USSR-fehérorosz,USSR-baskir,0.1111111111111111,1
+USSR-baskir,USSR-finn,0,0
+USSR-finn,USSR-baskir,0,0
+USSR-baskir,USSR-grúz,1,1
+USSR-grúz,USSR-baskir,0.041666666666666664,1
+USSR-baskir,USSR-kazah,1,1
+USSR-kazah,USSR-baskir,0.1,1
+USSR-baskir,USSR-kirgiz,1,1
+USSR-kirgiz,USSR-baskir,0.16666666666666666,1
+USSR-baskir,USSR-komi,0,0
+USSR-komi,USSR-baskir,0,0
+USSR-baskir,USSR-lett,1,1
+USSR-lett,USSR-baskir,0.03571428571428571,1
+USSR-baskir,USSR-litván,1,1
+USSR-litván,USSR-baskir,0.03225806451612903,1
+USSR-baskir,USSR-liv,0,0
+USSR-liv,USSR-baskir,0,0
+USSR-baskir,USSR-moldva,1,1
+USSR-moldva,USSR-baskir,0.07692307692307693,1
+USSR-baskir,USSR-orosz,1,1
+USSR-orosz,USSR-baskir,0.006369426751592357,1
+USSR-baskir,USSR-tadzsik,1,1
+USSR-tadzsik,USSR-baskir,0.14285714285714285,1
+USSR-baskir,USSR-tatár,0,0
+USSR-tatár,USSR-baskir,0,0
+USSR-baskir,USSR-türkmén,1,1
+USSR-türkmén,USSR-baskir,0.16666666666666666,1
+USSR-baskir,USSR-udmurt,1,1
+USSR-udmurt,USSR-baskir,0.5,1
+USSR-baskir,USSR-ujgur,0,0
+USSR-ujgur,USSR-baskir,0,0
+USSR-baskir,USSR-ukrán,1,1
+USSR-ukrán,USSR-baskir,0.02127659574468085,1
+USSR-baskir,"USSR-ukrán, orosz",0,0
+"USSR-ukrán, orosz",USSR-baskir,0,0
+USSR-baskir,USSR-észt,1,1
+USSR-észt,USSR-baskir,0.030303030303030304,1
+USSR-baskir,USSR-örmény,1,1
+USSR-örmény,USSR-baskir,0.06666666666666667,1
+USSR-baskir,USSR-üzbég,1,1
+USSR-üzbég,USSR-baskir,0.14285714285714285,1
+USSR-baskir,Vietnam,1,1
+Vietnam,USSR-baskir,0.25,1
+USSR-csuvas,Albania,0.5,1
+Albania,USSR-csuvas,0.16666666666666666,1
+USSR-csuvas,Bulgaria,0.5,1
+Bulgaria,USSR-csuvas,0.014084507042253521,1
+USSR-csuvas,China,1,2
+China,USSR-csuvas,0.06666666666666667,2
+USSR-csuvas,Cuba,0.5,1
+Cuba,USSR-csuvas,0.2,1
+USSR-csuvas,Czechoslovakia-cseh,1,2
+Czechoslovakia-cseh,USSR-csuvas,0.013333333333333334,2
+USSR-csuvas,Czechoslovakia-szlovák,0.5,1
+Czechoslovakia-szlovák,USSR-csuvas,0.006060606060606061,1
+USSR-csuvas,Czechoslovakia-ukrán,0,0
+Czechoslovakia-ukrán,USSR-csuvas,0,0
+USSR-csuvas,GDR,1,2
+GDR,USSR-csuvas,0.011904761904761904,2
+USSR-csuvas,Hungary,0.5,1
+Hungary,USSR-csuvas,0.006802721088435374,1
+USSR-csuvas,Mongolia,1,2
+Mongolia,USSR-csuvas,0.4,2
+USSR-csuvas,North Korea,0,0
+North Korea,USSR-csuvas,0,0
+USSR-csuvas,Poland,0.5,1
+Poland,USSR-csuvas,0.007042253521126761,1
+USSR-csuvas,Romania,0.5,1
+Romania,USSR-csuvas,0.007142857142857143,1
+USSR-csuvas,USSR-altaji,0.5,1
+USSR-altaji,USSR-csuvas,1,1
+USSR-csuvas,USSR-azerbajdzsán,1,2
+USSR-azerbajdzsán,USSR-csuvas,0.16666666666666666,2
+USSR-csuvas,USSR-baskir,0,0
+USSR-baskir,USSR-csuvas,0,0
+USSR-csuvas,USSR-csuvas,NA,NA
+USSR-csuvas,USSR-fehérorosz,1,2
+USSR-fehérorosz,USSR-csuvas,0.2222222222222222,2
+USSR-csuvas,USSR-finn,0.5,1
+USSR-finn,USSR-csuvas,1,1
+USSR-csuvas,USSR-grúz,1,2
+USSR-grúz,USSR-csuvas,0.08333333333333333,2
+USSR-csuvas,USSR-kazah,1,2
+USSR-kazah,USSR-csuvas,0.2,2
+USSR-csuvas,USSR-kirgiz,0.5,1
+USSR-kirgiz,USSR-csuvas,0.16666666666666666,1
+USSR-csuvas,USSR-komi,0,0
+USSR-komi,USSR-csuvas,0,0
+USSR-csuvas,USSR-lett,0.5,1
+USSR-lett,USSR-csuvas,0.03571428571428571,1
+USSR-csuvas,USSR-litván,0.5,1
+USSR-litván,USSR-csuvas,0.03225806451612903,1
+USSR-csuvas,USSR-liv,0,0
+USSR-liv,USSR-csuvas,0,0
+USSR-csuvas,USSR-moldva,0.5,1
+USSR-moldva,USSR-csuvas,0.07692307692307693,1
+USSR-csuvas,USSR-orosz,1,2
+USSR-orosz,USSR-csuvas,0.012738853503184714,2
+USSR-csuvas,USSR-tadzsik,0.5,1
+USSR-tadzsik,USSR-csuvas,0.14285714285714285,1
+USSR-csuvas,USSR-tatár,0,0
+USSR-tatár,USSR-csuvas,0,0
+USSR-csuvas,USSR-türkmén,0.5,1
+USSR-türkmén,USSR-csuvas,0.16666666666666666,1
+USSR-csuvas,USSR-udmurt,0.5,1
+USSR-udmurt,USSR-csuvas,0.5,1
+USSR-csuvas,USSR-ujgur,0.5,1
+USSR-ujgur,USSR-csuvas,1,1
+USSR-csuvas,USSR-ukrán,0.5,1
+USSR-ukrán,USSR-csuvas,0.02127659574468085,1
+USSR-csuvas,"USSR-ukrán, orosz",0.5,1
+"USSR-ukrán, orosz",USSR-csuvas,1,1
+USSR-csuvas,USSR-észt,0.5,1
+USSR-észt,USSR-csuvas,0.030303030303030304,1
+USSR-csuvas,USSR-örmény,0.5,1
+USSR-örmény,USSR-csuvas,0.06666666666666667,1
+USSR-csuvas,USSR-üzbég,0,0
+USSR-üzbég,USSR-csuvas,0,0
+USSR-csuvas,Vietnam,0,0
+Vietnam,USSR-csuvas,0,0
+USSR-fehérorosz,Albania,0.2222222222222222,2
+Albania,USSR-fehérorosz,0.3333333333333333,2
+USSR-fehérorosz,Bulgaria,0.6666666666666666,6
+Bulgaria,USSR-fehérorosz,0.08450704225352113,6
+USSR-fehérorosz,China,0.4444444444444444,4
+China,USSR-fehérorosz,0.13333333333333333,4
+USSR-fehérorosz,Cuba,0.2222222222222222,2
+Cuba,USSR-fehérorosz,0.4,2
+USSR-fehérorosz,Czechoslovakia-cseh,0.6666666666666666,6
+Czechoslovakia-cseh,USSR-fehérorosz,0.04,6
+USSR-fehérorosz,Czechoslovakia-szlovák,0.6666666666666666,6
+Czechoslovakia-szlovák,USSR-fehérorosz,0.03636363636363636,6
+USSR-fehérorosz,Czechoslovakia-ukrán,0,0
+Czechoslovakia-ukrán,USSR-fehérorosz,0,0
+USSR-fehérorosz,GDR,0.7777777777777778,7
+GDR,USSR-fehérorosz,0.041666666666666664,7
+USSR-fehérorosz,Hungary,0.4444444444444444,4
+Hungary,USSR-fehérorosz,0.027210884353741496,4
+USSR-fehérorosz,Mongolia,0.3333333333333333,3
+Mongolia,USSR-fehérorosz,0.6,3
+USSR-fehérorosz,North Korea,0.1111111111111111,1
+North Korea,USSR-fehérorosz,1,1
+USSR-fehérorosz,Poland,0.5555555555555556,5
+Poland,USSR-fehérorosz,0.035211267605633804,5
+USSR-fehérorosz,Romania,0.4444444444444444,4
+Romania,USSR-fehérorosz,0.02857142857142857,4
+USSR-fehérorosz,USSR-altaji,0.1111111111111111,1
+USSR-altaji,USSR-fehérorosz,1,1
+USSR-fehérorosz,USSR-azerbajdzsán,0.3333333333333333,3
+USSR-azerbajdzsán,USSR-fehérorosz,0.25,3
+USSR-fehérorosz,USSR-baskir,0.1111111111111111,1
+USSR-baskir,USSR-fehérorosz,1,1
+USSR-fehérorosz,USSR-csuvas,0.2222222222222222,2
+USSR-csuvas,USSR-fehérorosz,1,2
+USSR-fehérorosz,USSR-fehérorosz,NA,NA
+USSR-fehérorosz,USSR-finn,0.1111111111111111,1
+USSR-finn,USSR-fehérorosz,1,1
+USSR-fehérorosz,USSR-grúz,0.6666666666666666,6
+USSR-grúz,USSR-fehérorosz,0.25,6
+USSR-fehérorosz,USSR-kazah,0.3333333333333333,3
+USSR-kazah,USSR-fehérorosz,0.3,3
+USSR-fehérorosz,USSR-kirgiz,0.3333333333333333,3
+USSR-kirgiz,USSR-fehérorosz,0.5,3
+USSR-fehérorosz,USSR-komi,0.1111111111111111,1
+USSR-komi,USSR-fehérorosz,1,1
+USSR-fehérorosz,USSR-lett,0.4444444444444444,4
+USSR-lett,USSR-fehérorosz,0.14285714285714285,4
+USSR-fehérorosz,USSR-litván,0.3333333333333333,3
+USSR-litván,USSR-fehérorosz,0.0967741935483871,3
+USSR-fehérorosz,USSR-liv,0,0
+USSR-liv,USSR-fehérorosz,0,0
+USSR-fehérorosz,USSR-moldva,0.4444444444444444,4
+USSR-moldva,USSR-fehérorosz,0.3076923076923077,4
+USSR-fehérorosz,USSR-orosz,1,9
+USSR-orosz,USSR-fehérorosz,0.05732484076433121,9
+USSR-fehérorosz,USSR-tadzsik,0.2222222222222222,2
+USSR-tadzsik,USSR-fehérorosz,0.2857142857142857,2
+USSR-fehérorosz,USSR-tatár,0.1111111111111111,1
+USSR-tatár,USSR-fehérorosz,1,1
+USSR-fehérorosz,USSR-türkmén,0.2222222222222222,2
+USSR-türkmén,USSR-fehérorosz,0.3333333333333333,2
+USSR-fehérorosz,USSR-udmurt,0.2222222222222222,2
+USSR-udmurt,USSR-fehérorosz,1,2
+USSR-fehérorosz,USSR-ujgur,0.1111111111111111,1
+USSR-ujgur,USSR-fehérorosz,1,1
+USSR-fehérorosz,USSR-ukrán,0.5555555555555556,5
+USSR-ukrán,USSR-fehérorosz,0.10638297872340426,5
+USSR-fehérorosz,"USSR-ukrán, orosz",0.1111111111111111,1
+"USSR-ukrán, orosz",USSR-fehérorosz,1,1
+USSR-fehérorosz,USSR-észt,0.6666666666666666,6
+USSR-észt,USSR-fehérorosz,0.18181818181818182,6
+USSR-fehérorosz,USSR-örmény,0.3333333333333333,3
+USSR-örmény,USSR-fehérorosz,0.2,3
+USSR-fehérorosz,USSR-üzbég,0.2222222222222222,2
+USSR-üzbég,USSR-fehérorosz,0.2857142857142857,2
+USSR-fehérorosz,Vietnam,0.2222222222222222,2
+Vietnam,USSR-fehérorosz,0.5,2
+USSR-finn,Albania,0,0
+Albania,USSR-finn,0,0
+USSR-finn,Bulgaria,0,0
+Bulgaria,USSR-finn,0,0
+USSR-finn,China,1,1
+China,USSR-finn,0.03333333333333333,1
+USSR-finn,Cuba,0,0
+Cuba,USSR-finn,0,0
+USSR-finn,Czechoslovakia-cseh,1,1
+Czechoslovakia-cseh,USSR-finn,0.006666666666666667,1
+USSR-finn,Czechoslovakia-szlovák,0,0
+Czechoslovakia-szlovák,USSR-finn,0,0
+USSR-finn,Czechoslovakia-ukrán,0,0
+Czechoslovakia-ukrán,USSR-finn,0,0
+USSR-finn,GDR,1,1
+GDR,USSR-finn,0.005952380952380952,1
+USSR-finn,Hungary,0,0
+Hungary,USSR-finn,0,0
+USSR-finn,Mongolia,1,1
+Mongolia,USSR-finn,0.2,1
+USSR-finn,North Korea,0,0
+North Korea,USSR-finn,0,0
+USSR-finn,Poland,0,0
+Poland,USSR-finn,0,0
+USSR-finn,Romania,0,0
+Romania,USSR-finn,0,0
+USSR-finn,USSR-altaji,1,1
+USSR-altaji,USSR-finn,1,1
+USSR-finn,USSR-azerbajdzsán,1,1
+USSR-azerbajdzsán,USSR-finn,0.08333333333333333,1
+USSR-finn,USSR-baskir,0,0
+USSR-baskir,USSR-finn,0,0
+USSR-finn,USSR-csuvas,1,1
+USSR-csuvas,USSR-finn,0.5,1
+USSR-finn,USSR-fehérorosz,1,1
+USSR-fehérorosz,USSR-finn,0.1111111111111111,1
+USSR-finn,USSR-finn,NA,NA
+USSR-finn,USSR-grúz,1,1
+USSR-grúz,USSR-finn,0.041666666666666664,1
+USSR-finn,USSR-kazah,1,1
+USSR-kazah,USSR-finn,0.1,1
+USSR-finn,USSR-kirgiz,0,0
+USSR-kirgiz,USSR-finn,0,0
+USSR-finn,USSR-komi,0,0
+USSR-komi,USSR-finn,0,0
+USSR-finn,USSR-lett,0,0
+USSR-lett,USSR-finn,0,0
+USSR-finn,USSR-litván,0,0
+USSR-litván,USSR-finn,0,0
+USSR-finn,USSR-liv,0,0
+USSR-liv,USSR-finn,0,0
+USSR-finn,USSR-moldva,1,1
+USSR-moldva,USSR-finn,0.07692307692307693,1
+USSR-finn,USSR-orosz,1,1
+USSR-orosz,USSR-finn,0.006369426751592357,1
+USSR-finn,USSR-tadzsik,0,0
+USSR-tadzsik,USSR-finn,0,0
+USSR-finn,USSR-tatár,0,0
+USSR-tatár,USSR-finn,0,0
+USSR-finn,USSR-türkmén,0,0
+USSR-türkmén,USSR-finn,0,0
+USSR-finn,USSR-udmurt,1,1
+USSR-udmurt,USSR-finn,0.5,1
+USSR-finn,USSR-ujgur,0,0
+USSR-ujgur,USSR-finn,0,0
+USSR-finn,USSR-ukrán,0,0
+USSR-ukrán,USSR-finn,0,0
+USSR-finn,"USSR-ukrán, orosz",0,0
+"USSR-ukrán, orosz",USSR-finn,0,0
+USSR-finn,USSR-észt,0,0
+USSR-észt,USSR-finn,0,0
+USSR-finn,USSR-örmény,0,0
+USSR-örmény,USSR-finn,0,0
+USSR-finn,USSR-üzbég,0,0
+USSR-üzbég,USSR-finn,0,0
+USSR-finn,Vietnam,0,0
+Vietnam,USSR-finn,0,0
+USSR-grúz,Albania,0.08333333333333333,2
+Albania,USSR-grúz,0.3333333333333333,2
+USSR-grúz,Bulgaria,0.375,9
+Bulgaria,USSR-grúz,0.1267605633802817,9
+USSR-grúz,China,0.25,6
+China,USSR-grúz,0.2,6
+USSR-grúz,Cuba,0.08333333333333333,2
+Cuba,USSR-grúz,0.4,2
+USSR-grúz,Czechoslovakia-cseh,0.6666666666666666,16
+Czechoslovakia-cseh,USSR-grúz,0.10666666666666667,16
+USSR-grúz,Czechoslovakia-szlovák,0.625,15
+Czechoslovakia-szlovák,USSR-grúz,0.09090909090909091,15
+USSR-grúz,Czechoslovakia-ukrán,0,0
+Czechoslovakia-ukrán,USSR-grúz,0,0
+USSR-grúz,GDR,0.8333333333333334,20
+GDR,USSR-grúz,0.11904761904761904,20
+USSR-grúz,Hungary,0.5,12
+Hungary,USSR-grúz,0.08163265306122448,12
+USSR-grúz,Mongolia,0.125,3
+Mongolia,USSR-grúz,0.6,3
+USSR-grúz,North Korea,0.041666666666666664,1
+North Korea,USSR-grúz,1,1
+USSR-grúz,Poland,0.7083333333333334,17
+Poland,USSR-grúz,0.11971830985915492,17
+USSR-grúz,Romania,0.7083333333333334,17
+Romania,USSR-grúz,0.12142857142857143,17
+USSR-grúz,USSR-altaji,0.041666666666666664,1
+USSR-altaji,USSR-grúz,1,1
+USSR-grúz,USSR-azerbajdzsán,0.2916666666666667,7
+USSR-azerbajdzsán,USSR-grúz,0.5833333333333334,7
+USSR-grúz,USSR-baskir,0.041666666666666664,1
+USSR-baskir,USSR-grúz,1,1
+USSR-grúz,USSR-csuvas,0.08333333333333333,2
+USSR-csuvas,USSR-grúz,1,2
+USSR-grúz,USSR-fehérorosz,0.25,6
+USSR-fehérorosz,USSR-grúz,0.6666666666666666,6
+USSR-grúz,USSR-finn,0.041666666666666664,1
+USSR-finn,USSR-grúz,1,1
+USSR-grúz,USSR-grúz,NA,NA
+USSR-grúz,USSR-kazah,0.25,6
+USSR-kazah,USSR-grúz,0.6,6
+USSR-grúz,USSR-kirgiz,0.16666666666666666,4
+USSR-kirgiz,USSR-grúz,0.6666666666666666,4
+USSR-grúz,USSR-komi,0,0
+USSR-komi,USSR-grúz,0,0
+USSR-grúz,USSR-lett,0.375,9
+USSR-lett,USSR-grúz,0.32142857142857145,9
+USSR-grúz,USSR-litván,0.4583333333333333,11
+USSR-litván,USSR-grúz,0.3548387096774194,11
+USSR-grúz,USSR-liv,0,0
+USSR-liv,USSR-grúz,0,0
+USSR-grúz,USSR-moldva,0.20833333333333334,5
+USSR-moldva,USSR-grúz,0.38461538461538464,5
+USSR-grúz,USSR-orosz,0.875,21
+USSR-orosz,USSR-grúz,0.1337579617834395,21
+USSR-grúz,USSR-tadzsik,0.25,6
+USSR-tadzsik,USSR-grúz,0.8571428571428571,6
+USSR-grúz,USSR-tatár,0,0
+USSR-tatár,USSR-grúz,0,0
+USSR-grúz,USSR-türkmén,0.20833333333333334,5
+USSR-türkmén,USSR-grúz,0.8333333333333334,5
+USSR-grúz,USSR-udmurt,0.08333333333333333,2
+USSR-udmurt,USSR-grúz,1,2
+USSR-grúz,USSR-ujgur,0.041666666666666664,1
+USSR-ujgur,USSR-grúz,1,1
+USSR-grúz,USSR-ukrán,0.5833333333333334,14
+USSR-ukrán,USSR-grúz,0.2978723404255319,14
+USSR-grúz,"USSR-ukrán, orosz",0.041666666666666664,1
+"USSR-ukrán, orosz",USSR-grúz,1,1
+USSR-grúz,USSR-észt,0.4166666666666667,10
+USSR-észt,USSR-grúz,0.30303030303030304,10
+USSR-grúz,USSR-örmény,0.3333333333333333,8
+USSR-örmény,USSR-grúz,0.5333333333333333,8
+USSR-grúz,USSR-üzbég,0.16666666666666666,4
+USSR-üzbég,USSR-grúz,0.5714285714285714,4
+USSR-grúz,Vietnam,0.041666666666666664,1
+Vietnam,USSR-grúz,0.25,1
+USSR-kazah,Albania,0.2,2
+Albania,USSR-kazah,0.3333333333333333,2
+USSR-kazah,Bulgaria,0.5,5
+Bulgaria,USSR-kazah,0.07042253521126761,5
+USSR-kazah,China,0.6,6
+China,USSR-kazah,0.2,6
+USSR-kazah,Cuba,0.2,2
+Cuba,USSR-kazah,0.4,2
+USSR-kazah,Czechoslovakia-cseh,0.8,8
+Czechoslovakia-cseh,USSR-kazah,0.05333333333333334,8
+USSR-kazah,Czechoslovakia-szlovák,0.6,6
+Czechoslovakia-szlovák,USSR-kazah,0.03636363636363636,6
+USSR-kazah,Czechoslovakia-ukrán,0,0
+Czechoslovakia-ukrán,USSR-kazah,0,0
+USSR-kazah,GDR,0.9,9
+GDR,USSR-kazah,0.05357142857142857,9
+USSR-kazah,Hungary,0.3,3
+Hungary,USSR-kazah,0.02040816326530612,3
+USSR-kazah,Mongolia,0.3,3
+Mongolia,USSR-kazah,0.6,3
+USSR-kazah,North Korea,0.1,1
+North Korea,USSR-kazah,1,1
+USSR-kazah,Poland,0.6,6
+Poland,USSR-kazah,0.04225352112676056,6
+USSR-kazah,Romania,0.5,5
+Romania,USSR-kazah,0.03571428571428571,5
+USSR-kazah,USSR-altaji,0.1,1
+USSR-altaji,USSR-kazah,1,1
+USSR-kazah,USSR-azerbajdzsán,0.4,4
+USSR-azerbajdzsán,USSR-kazah,0.3333333333333333,4
+USSR-kazah,USSR-baskir,0.1,1
+USSR-baskir,USSR-kazah,1,1
+USSR-kazah,USSR-csuvas,0.2,2
+USSR-csuvas,USSR-kazah,1,2
+USSR-kazah,USSR-fehérorosz,0.3,3
+USSR-fehérorosz,USSR-kazah,0.3333333333333333,3
+USSR-kazah,USSR-finn,0.1,1
+USSR-finn,USSR-kazah,1,1
+USSR-kazah,USSR-grúz,0.6,6
+USSR-grúz,USSR-kazah,0.25,6
+USSR-kazah,USSR-kazah,NA,NA
+USSR-kazah,USSR-kirgiz,0.4,4
+USSR-kirgiz,USSR-kazah,0.6666666666666666,4
+USSR-kazah,USSR-komi,0,0
+USSR-komi,USSR-kazah,0,0
+USSR-kazah,USSR-lett,0.4,4
+USSR-lett,USSR-kazah,0.14285714285714285,4
+USSR-kazah,USSR-litván,0.6,6
+USSR-litván,USSR-kazah,0.1935483870967742,6
+USSR-kazah,USSR-liv,0.1,1
+USSR-liv,USSR-kazah,1,1
+USSR-kazah,USSR-moldva,0.4,4
+USSR-moldva,USSR-kazah,0.3076923076923077,4
+USSR-kazah,USSR-orosz,0.9,9
+USSR-orosz,USSR-kazah,0.05732484076433121,9
+USSR-kazah,USSR-tadzsik,0.3,3
+USSR-tadzsik,USSR-kazah,0.42857142857142855,3
+USSR-kazah,USSR-tatár,0,0
+USSR-tatár,USSR-kazah,0,0
+USSR-kazah,USSR-türkmén,0.3,3
+USSR-türkmén,USSR-kazah,0.5,3
+USSR-kazah,USSR-udmurt,0.2,2
+USSR-udmurt,USSR-kazah,1,2
+USSR-kazah,USSR-ujgur,0.1,1
+USSR-ujgur,USSR-kazah,1,1
+USSR-kazah,USSR-ukrán,0.8,8
+USSR-ukrán,USSR-kazah,0.1702127659574468,8
+USSR-kazah,"USSR-ukrán, orosz",0.1,1
+"USSR-ukrán, orosz",USSR-kazah,1,1
+USSR-kazah,USSR-észt,0.5,5
+USSR-észt,USSR-kazah,0.15151515151515152,5
+USSR-kazah,USSR-örmény,0.3,3
+USSR-örmény,USSR-kazah,0.2,3
+USSR-kazah,USSR-üzbég,0.2,2
+USSR-üzbég,USSR-kazah,0.2857142857142857,2
+USSR-kazah,Vietnam,0.1,1
+Vietnam,USSR-kazah,0.25,1
+USSR-kirgiz,Albania,0.3333333333333333,2
+Albania,USSR-kirgiz,0.3333333333333333,2
+USSR-kirgiz,Bulgaria,0.5,3
+Bulgaria,USSR-kirgiz,0.04225352112676056,3
+USSR-kirgiz,China,0.3333333333333333,2
+China,USSR-kirgiz,0.06666666666666667,2
+USSR-kirgiz,Cuba,0.3333333333333333,2
+Cuba,USSR-kirgiz,0.4,2
+USSR-kirgiz,Czechoslovakia-cseh,1,6
+Czechoslovakia-cseh,USSR-kirgiz,0.04,6
+USSR-kirgiz,Czechoslovakia-szlovák,0.8333333333333334,5
+Czechoslovakia-szlovák,USSR-kirgiz,0.030303030303030304,5
+USSR-kirgiz,Czechoslovakia-ukrán,0,0
+Czechoslovakia-ukrán,USSR-kirgiz,0,0
+USSR-kirgiz,GDR,1,6
+GDR,USSR-kirgiz,0.03571428571428571,6
+USSR-kirgiz,Hungary,0.5,3
+Hungary,USSR-kirgiz,0.02040816326530612,3
+USSR-kirgiz,Mongolia,0.3333333333333333,2
+Mongolia,USSR-kirgiz,0.4,2
+USSR-kirgiz,North Korea,0.16666666666666666,1
+North Korea,USSR-kirgiz,1,1
+USSR-kirgiz,Poland,1,6
+Poland,USSR-kirgiz,0.04225352112676056,6
+USSR-kirgiz,Romania,0.6666666666666666,4
+Romania,USSR-kirgiz,0.02857142857142857,4
+USSR-kirgiz,USSR-altaji,0,0
+USSR-altaji,USSR-kirgiz,0,0
+USSR-kirgiz,USSR-azerbajdzsán,0.3333333333333333,2
+USSR-azerbajdzsán,USSR-kirgiz,0.16666666666666666,2
+USSR-kirgiz,USSR-baskir,0.16666666666666666,1
+USSR-baskir,USSR-kirgiz,1,1
+USSR-kirgiz,USSR-csuvas,0.16666666666666666,1
+USSR-csuvas,USSR-kirgiz,0.5,1
+USSR-kirgiz,USSR-fehérorosz,0.5,3
+USSR-fehérorosz,USSR-kirgiz,0.3333333333333333,3
+USSR-kirgiz,USSR-finn,0,0
+USSR-finn,USSR-kirgiz,0,0
+USSR-kirgiz,USSR-grúz,0.6666666666666666,4
+USSR-grúz,USSR-kirgiz,0.16666666666666666,4
+USSR-kirgiz,USSR-kazah,0.6666666666666666,4
+USSR-kazah,USSR-kirgiz,0.4,4
+USSR-kirgiz,USSR-kirgiz,NA,NA
+USSR-kirgiz,USSR-komi,0,0
+USSR-komi,USSR-kirgiz,0,0
+USSR-kirgiz,USSR-lett,0.5,3
+USSR-lett,USSR-kirgiz,0.10714285714285714,3
+USSR-kirgiz,USSR-litván,0.8333333333333334,5
+USSR-litván,USSR-kirgiz,0.16129032258064516,5
+USSR-kirgiz,USSR-liv,0,0
+USSR-liv,USSR-kirgiz,0,0
+USSR-kirgiz,USSR-moldva,0.3333333333333333,2
+USSR-moldva,USSR-kirgiz,0.15384615384615385,2
+USSR-kirgiz,USSR-orosz,1,6
+USSR-orosz,USSR-kirgiz,0.03821656050955414,6
+USSR-kirgiz,USSR-tadzsik,0.3333333333333333,2
+USSR-tadzsik,USSR-kirgiz,0.2857142857142857,2
+USSR-kirgiz,USSR-tatár,0,0
+USSR-tatár,USSR-kirgiz,0,0
+USSR-kirgiz,USSR-türkmén,0.3333333333333333,2
+USSR-türkmén,USSR-kirgiz,0.3333333333333333,2
+USSR-kirgiz,USSR-udmurt,0.16666666666666666,1
+USSR-udmurt,USSR-kirgiz,0.5,1
+USSR-kirgiz,USSR-ujgur,0.16666666666666666,1
+USSR-ujgur,USSR-kirgiz,1,1
+USSR-kirgiz,USSR-ukrán,0.8333333333333334,5
+USSR-ukrán,USSR-kirgiz,0.10638297872340426,5
+USSR-kirgiz,"USSR-ukrán, orosz",0.16666666666666666,1
+"USSR-ukrán, orosz",USSR-kirgiz,1,1
+USSR-kirgiz,USSR-észt,0.8333333333333334,5
+USSR-észt,USSR-kirgiz,0.15151515151515152,5
+USSR-kirgiz,USSR-örmény,0.3333333333333333,2
+USSR-örmény,USSR-kirgiz,0.13333333333333333,2
+USSR-kirgiz,USSR-üzbég,0.16666666666666666,1
+USSR-üzbég,USSR-kirgiz,0.14285714285714285,1
+USSR-kirgiz,Vietnam,0.16666666666666666,1
+Vietnam,USSR-kirgiz,0.25,1
+USSR-komi,Albania,0,0
+Albania,USSR-komi,0,0
+USSR-komi,Bulgaria,1,1
+Bulgaria,USSR-komi,0.014084507042253521,1
+USSR-komi,China,1,1
+China,USSR-komi,0.03333333333333333,1
+USSR-komi,Cuba,0,0
+Cuba,USSR-komi,0,0
+USSR-komi,Czechoslovakia-cseh,0,0
+Czechoslovakia-cseh,USSR-komi,0,0
+USSR-komi,Czechoslovakia-szlovák,1,1
+Czechoslovakia-szlovák,USSR-komi,0.006060606060606061,1
+USSR-komi,Czechoslovakia-ukrán,0,0
+Czechoslovakia-ukrán,USSR-komi,0,0
+USSR-komi,GDR,1,1
+GDR,USSR-komi,0.005952380952380952,1
+USSR-komi,Hungary,1,1
+Hungary,USSR-komi,0.006802721088435374,1
+USSR-komi,Mongolia,0,0
+Mongolia,USSR-komi,0,0
+USSR-komi,North Korea,0,0
+North Korea,USSR-komi,0,0
+USSR-komi,Poland,0,0
+Poland,USSR-komi,0,0
+USSR-komi,Romania,0,0
+Romania,USSR-komi,0,0
+USSR-komi,USSR-altaji,0,0
+USSR-altaji,USSR-komi,0,0
+USSR-komi,USSR-azerbajdzsán,0,0
+USSR-azerbajdzsán,USSR-komi,0,0
+USSR-komi,USSR-baskir,0,0
+USSR-baskir,USSR-komi,0,0
+USSR-komi,USSR-csuvas,0,0
+USSR-csuvas,USSR-komi,0,0
+USSR-komi,USSR-fehérorosz,1,1
+USSR-fehérorosz,USSR-komi,0.1111111111111111,1
+USSR-komi,USSR-finn,0,0
+USSR-finn,USSR-komi,0,0
+USSR-komi,USSR-grúz,0,0
+USSR-grúz,USSR-komi,0,0
+USSR-komi,USSR-kazah,0,0
+USSR-kazah,USSR-komi,0,0
+USSR-komi,USSR-kirgiz,0,0
+USSR-kirgiz,USSR-komi,0,0
+USSR-komi,USSR-komi,NA,NA
+USSR-komi,USSR-lett,0,0
+USSR-lett,USSR-komi,0,0
+USSR-komi,USSR-litván,1,1
+USSR-litván,USSR-komi,0.03225806451612903,1
+USSR-komi,USSR-liv,0,0
+USSR-liv,USSR-komi,0,0
+USSR-komi,USSR-moldva,0,0
+USSR-moldva,USSR-komi,0,0
+USSR-komi,USSR-orosz,1,1
+USSR-orosz,USSR-komi,0.006369426751592357,1
+USSR-komi,USSR-tadzsik,0,0
+USSR-tadzsik,USSR-komi,0,0
+USSR-komi,USSR-tatár,1,1
+USSR-tatár,USSR-komi,1,1
+USSR-komi,USSR-türkmén,0,0
+USSR-türkmén,USSR-komi,0,0
+USSR-komi,USSR-udmurt,0,0
+USSR-udmurt,USSR-komi,0,0
+USSR-komi,USSR-ujgur,0,0
+USSR-ujgur,USSR-komi,0,0
+USSR-komi,USSR-ukrán,1,1
+USSR-ukrán,USSR-komi,0.02127659574468085,1
+USSR-komi,"USSR-ukrán, orosz",0,0
+"USSR-ukrán, orosz",USSR-komi,0,0
+USSR-komi,USSR-észt,1,1
+USSR-észt,USSR-komi,0.030303030303030304,1
+USSR-komi,USSR-örmény,0,0
+USSR-örmény,USSR-komi,0,0
+USSR-komi,USSR-üzbég,1,1
+USSR-üzbég,USSR-komi,0.14285714285714285,1
+USSR-komi,Vietnam,1,1
+Vietnam,USSR-komi,0.25,1
+USSR-lett,Albania,0.17857142857142858,5
+Albania,USSR-lett,0.8333333333333334,5
+USSR-lett,Bulgaria,0.75,21
+Bulgaria,USSR-lett,0.29577464788732394,21
+USSR-lett,China,0.2857142857142857,8
+China,USSR-lett,0.26666666666666666,8
+USSR-lett,Cuba,0.17857142857142858,5
+Cuba,USSR-lett,1,5
+USSR-lett,Czechoslovakia-cseh,0.7857142857142857,22
+Czechoslovakia-cseh,USSR-lett,0.14666666666666667,22
+USSR-lett,Czechoslovakia-szlovák,0.8214285714285714,23
+Czechoslovakia-szlovák,USSR-lett,0.1393939393939394,23
+USSR-lett,Czechoslovakia-ukrán,0,0
+Czechoslovakia-ukrán,USSR-lett,0,0
+USSR-lett,GDR,0.7857142857142857,22
+GDR,USSR-lett,0.13095238095238096,22
+USSR-lett,Hungary,0.6071428571428571,17
+Hungary,USSR-lett,0.11564625850340136,17
+USSR-lett,Mongolia,0.07142857142857142,2
+Mongolia,USSR-lett,0.4,2
+USSR-lett,North Korea,0.03571428571428571,1
+North Korea,USSR-lett,1,1
+USSR-lett,Poland,0.7857142857142857,22
+Poland,USSR-lett,0.15492957746478872,22
+USSR-lett,Romania,0.6071428571428571,17
+Romania,USSR-lett,0.12142857142857143,17
+USSR-lett,USSR-altaji,0,0
+USSR-altaji,USSR-lett,0,0
+USSR-lett,USSR-azerbajdzsán,0.21428571428571427,6
+USSR-azerbajdzsán,USSR-lett,0.5,6
+USSR-lett,USSR-baskir,0.03571428571428571,1
+USSR-baskir,USSR-lett,1,1
+USSR-lett,USSR-csuvas,0.03571428571428571,1
+USSR-csuvas,USSR-lett,0.5,1
+USSR-lett,USSR-fehérorosz,0.14285714285714285,4
+USSR-fehérorosz,USSR-lett,0.4444444444444444,4
+USSR-lett,USSR-finn,0,0
+USSR-finn,USSR-lett,0,0
+USSR-lett,USSR-grúz,0.32142857142857145,9
+USSR-grúz,USSR-lett,0.375,9
+USSR-lett,USSR-kazah,0.14285714285714285,4
+USSR-kazah,USSR-lett,0.4,4
+USSR-lett,USSR-kirgiz,0.10714285714285714,3
+USSR-kirgiz,USSR-lett,0.5,3
+USSR-lett,USSR-komi,0,0
+USSR-komi,USSR-lett,0,0
+USSR-lett,USSR-lett,NA,NA
+USSR-lett,USSR-litván,0.4642857142857143,13
+USSR-litván,USSR-lett,0.41935483870967744,13
+USSR-lett,USSR-liv,0,0
+USSR-liv,USSR-lett,0,0
+USSR-lett,USSR-moldva,0.21428571428571427,6
+USSR-moldva,USSR-lett,0.46153846153846156,6
+USSR-lett,USSR-orosz,0.9285714285714286,26
+USSR-orosz,USSR-lett,0.16560509554140126,26
+USSR-lett,USSR-tadzsik,0.14285714285714285,4
+USSR-tadzsik,USSR-lett,0.5714285714285714,4
+USSR-lett,USSR-tatár,0,0
+USSR-tatár,USSR-lett,0,0
+USSR-lett,USSR-türkmén,0.14285714285714285,4
+USSR-türkmén,USSR-lett,0.6666666666666666,4
+USSR-lett,USSR-udmurt,0.03571428571428571,1
+USSR-udmurt,USSR-lett,0.5,1
+USSR-lett,USSR-ujgur,0.03571428571428571,1
+USSR-ujgur,USSR-lett,1,1
+USSR-lett,USSR-ukrán,0.6071428571428571,17
+USSR-ukrán,USSR-lett,0.3617021276595745,17
+USSR-lett,"USSR-ukrán, orosz",0.03571428571428571,1
+"USSR-ukrán, orosz",USSR-lett,1,1
+USSR-lett,USSR-észt,0.42857142857142855,12
+USSR-észt,USSR-lett,0.36363636363636365,12
+USSR-lett,USSR-örmény,0.32142857142857145,9
+USSR-örmény,USSR-lett,0.6,9
+USSR-lett,USSR-üzbég,0.14285714285714285,4
+USSR-üzbég,USSR-lett,0.5714285714285714,4
+USSR-lett,Vietnam,0.10714285714285714,3
+Vietnam,USSR-lett,0.75,3
+USSR-litván,Albania,0.0967741935483871,3
+Albania,USSR-litván,0.5,3
+USSR-litván,Bulgaria,0.45161290322580644,14
+Bulgaria,USSR-litván,0.19718309859154928,14
+USSR-litván,China,0.22580645161290322,7
+China,USSR-litván,0.23333333333333334,7
+USSR-litván,Cuba,0.0967741935483871,3
+Cuba,USSR-litván,0.6,3
+USSR-litván,Czechoslovakia-cseh,0.6129032258064516,19
+Czechoslovakia-cseh,USSR-litván,0.12666666666666668,19
+USSR-litván,Czechoslovakia-szlovák,0.6451612903225806,20
+Czechoslovakia-szlovák,USSR-litván,0.12121212121212122,20
+USSR-litván,Czechoslovakia-ukrán,0,0
+Czechoslovakia-ukrán,USSR-litván,0,0
+USSR-litván,GDR,0.6451612903225806,20
+GDR,USSR-litván,0.11904761904761904,20
+USSR-litván,Hungary,0.4838709677419355,15
+Hungary,USSR-litván,0.10204081632653061,15
+USSR-litván,Mongolia,0.06451612903225806,2
+Mongolia,USSR-litván,0.4,2
+USSR-litván,North Korea,0.03225806451612903,1
+North Korea,USSR-litván,1,1
+USSR-litván,Poland,0.7419354838709677,23
+Poland,USSR-litván,0.1619718309859155,23
+USSR-litván,Romania,0.4838709677419355,15
+Romania,USSR-litván,0.10714285714285714,15
+USSR-litván,USSR-altaji,0,0
+USSR-altaji,USSR-litván,0,0
+USSR-litván,USSR-azerbajdzsán,0.1935483870967742,6
+USSR-azerbajdzsán,USSR-litván,0.5,6
+USSR-litván,USSR-baskir,0.03225806451612903,1
+USSR-baskir,USSR-litván,1,1
+USSR-litván,USSR-csuvas,0.03225806451612903,1
+USSR-csuvas,USSR-litván,0.5,1
+USSR-litván,USSR-fehérorosz,0.0967741935483871,3
+USSR-fehérorosz,USSR-litván,0.3333333333333333,3
+USSR-litván,USSR-finn,0,0
+USSR-finn,USSR-litván,0,0
+USSR-litván,USSR-grúz,0.3548387096774194,11
+USSR-grúz,USSR-litván,0.4583333333333333,11
+USSR-litván,USSR-kazah,0.1935483870967742,6
+USSR-kazah,USSR-litván,0.6,6
+USSR-litván,USSR-kirgiz,0.16129032258064516,5
+USSR-kirgiz,USSR-litván,0.8333333333333334,5
+USSR-litván,USSR-komi,0.03225806451612903,1
+USSR-komi,USSR-litván,1,1
+USSR-litván,USSR-lett,0.41935483870967744,13
+USSR-lett,USSR-litván,0.4642857142857143,13
+USSR-litván,USSR-litván,NA,NA
+USSR-litván,USSR-liv,0,0
+USSR-liv,USSR-litván,0,0
+USSR-litván,USSR-moldva,0.16129032258064516,5
+USSR-moldva,USSR-litván,0.38461538461538464,5
+USSR-litván,USSR-orosz,0.7096774193548387,22
+USSR-orosz,USSR-litván,0.14012738853503184,22
+USSR-litván,USSR-tadzsik,0.16129032258064516,5
+USSR-tadzsik,USSR-litván,0.7142857142857143,5
+USSR-litván,USSR-tatár,0.03225806451612903,1
+USSR-tatár,USSR-litván,1,1
+USSR-litván,USSR-türkmén,0.16129032258064516,5
+USSR-türkmén,USSR-litván,0.8333333333333334,5
+USSR-litván,USSR-udmurt,0.03225806451612903,1
+USSR-udmurt,USSR-litván,0.5,1
+USSR-litván,USSR-ujgur,0.03225806451612903,1
+USSR-ujgur,USSR-litván,1,1
+USSR-litván,USSR-ukrán,0.5806451612903226,18
+USSR-ukrán,USSR-litván,0.3829787234042553,18
+USSR-litván,"USSR-ukrán, orosz",0.03225806451612903,1
+"USSR-ukrán, orosz",USSR-litván,1,1
+USSR-litván,USSR-észt,0.4838709677419355,15
+USSR-észt,USSR-litván,0.45454545454545453,15
+USSR-litván,USSR-örmény,0.2903225806451613,9
+USSR-örmény,USSR-litván,0.6,9
+USSR-litván,USSR-üzbég,0.16129032258064516,5
+USSR-üzbég,USSR-litván,0.7142857142857143,5
+USSR-litván,Vietnam,0.0967741935483871,3
+Vietnam,USSR-litván,0.75,3
+USSR-liv,Albania,0,0
+Albania,USSR-liv,0,0
+USSR-liv,Bulgaria,1,1
+Bulgaria,USSR-liv,0.014084507042253521,1
+USSR-liv,China,1,1
+China,USSR-liv,0.03333333333333333,1
+USSR-liv,Cuba,0,0
+Cuba,USSR-liv,0,0
+USSR-liv,Czechoslovakia-cseh,1,1
+Czechoslovakia-cseh,USSR-liv,0.006666666666666667,1
+USSR-liv,Czechoslovakia-szlovák,1,1
+Czechoslovakia-szlovák,USSR-liv,0.006060606060606061,1
+USSR-liv,Czechoslovakia-ukrán,0,0
+Czechoslovakia-ukrán,USSR-liv,0,0
+USSR-liv,GDR,0,0
+GDR,USSR-liv,0,0
+USSR-liv,Hungary,0,0
+Hungary,USSR-liv,0,0
+USSR-liv,Mongolia,0,0
+Mongolia,USSR-liv,0,0
+USSR-liv,North Korea,0,0
+North Korea,USSR-liv,0,0
+USSR-liv,Poland,0,0
+Poland,USSR-liv,0,0
+USSR-liv,Romania,1,1
+Romania,USSR-liv,0.007142857142857143,1
+USSR-liv,USSR-altaji,0,0
+USSR-altaji,USSR-liv,0,0
+USSR-liv,USSR-azerbajdzsán,0,0
+USSR-azerbajdzsán,USSR-liv,0,0
+USSR-liv,USSR-baskir,0,0
+USSR-baskir,USSR-liv,0,0
+USSR-liv,USSR-csuvas,0,0
+USSR-csuvas,USSR-liv,0,0
+USSR-liv,USSR-fehérorosz,0,0
+USSR-fehérorosz,USSR-liv,0,0
+USSR-liv,USSR-finn,0,0
+USSR-finn,USSR-liv,0,0
+USSR-liv,USSR-grúz,0,0
+USSR-grúz,USSR-liv,0,0
+USSR-liv,USSR-kazah,1,1
+USSR-kazah,USSR-liv,0.1,1
+USSR-liv,USSR-kirgiz,0,0
+USSR-kirgiz,USSR-liv,0,0
+USSR-liv,USSR-komi,0,0
+USSR-komi,USSR-liv,0,0
+USSR-liv,USSR-lett,0,0
+USSR-lett,USSR-liv,0,0
+USSR-liv,USSR-litván,0,0
+USSR-litván,USSR-liv,0,0
+USSR-liv,USSR-liv,NA,NA
+USSR-liv,USSR-moldva,0,0
+USSR-moldva,USSR-liv,0,0
+USSR-liv,USSR-orosz,1,1
+USSR-orosz,USSR-liv,0.006369426751592357,1
+USSR-liv,USSR-tadzsik,0,0
+USSR-tadzsik,USSR-liv,0,0
+USSR-liv,USSR-tatár,0,0
+USSR-tatár,USSR-liv,0,0
+USSR-liv,USSR-türkmén,0,0
+USSR-türkmén,USSR-liv,0,0
+USSR-liv,USSR-udmurt,0,0
+USSR-udmurt,USSR-liv,0,0
+USSR-liv,USSR-ujgur,0,0
+USSR-ujgur,USSR-liv,0,0
+USSR-liv,USSR-ukrán,1,1
+USSR-ukrán,USSR-liv,0.02127659574468085,1
+USSR-liv,"USSR-ukrán, orosz",0,0
+"USSR-ukrán, orosz",USSR-liv,0,0
+USSR-liv,USSR-észt,0,0
+USSR-észt,USSR-liv,0,0
+USSR-liv,USSR-örmény,0,0
+USSR-örmény,USSR-liv,0,0
+USSR-liv,USSR-üzbég,0,0
+USSR-üzbég,USSR-liv,0,0
+USSR-liv,Vietnam,0,0
+Vietnam,USSR-liv,0,0
+USSR-moldva,Albania,0.07692307692307693,1
+Albania,USSR-moldva,0.16666666666666666,1
+USSR-moldva,Bulgaria,0.46153846153846156,6
+Bulgaria,USSR-moldva,0.08450704225352113,6
+USSR-moldva,China,0.15384615384615385,2
+China,USSR-moldva,0.06666666666666667,2
+USSR-moldva,Cuba,0.07692307692307693,1
+Cuba,USSR-moldva,0.2,1
+USSR-moldva,Czechoslovakia-cseh,0.7692307692307693,10
+Czechoslovakia-cseh,USSR-moldva,0.06666666666666667,10
+USSR-moldva,Czechoslovakia-szlovák,0.6153846153846154,8
+Czechoslovakia-szlovák,USSR-moldva,0.048484848484848485,8
+USSR-moldva,Czechoslovakia-ukrán,0,0
+Czechoslovakia-ukrán,USSR-moldva,0,0
+USSR-moldva,GDR,0.8461538461538461,11
+GDR,USSR-moldva,0.06547619047619048,11
+USSR-moldva,Hungary,0.46153846153846156,6
+Hungary,USSR-moldva,0.04081632653061224,6
+USSR-moldva,Mongolia,0.15384615384615385,2
+Mongolia,USSR-moldva,0.4,2
+USSR-moldva,North Korea,0.07692307692307693,1
+North Korea,USSR-moldva,1,1
+USSR-moldva,Poland,0.6923076923076923,9
+Poland,USSR-moldva,0.06338028169014084,9
+USSR-moldva,Romania,0.46153846153846156,6
+Romania,USSR-moldva,0.04285714285714286,6
+USSR-moldva,USSR-altaji,0.07692307692307693,1
+USSR-altaji,USSR-moldva,1,1
+USSR-moldva,USSR-azerbajdzsán,0.3076923076923077,4
+USSR-azerbajdzsán,USSR-moldva,0.3333333333333333,4
+USSR-moldva,USSR-baskir,0.07692307692307693,1
+USSR-baskir,USSR-moldva,1,1
+USSR-moldva,USSR-csuvas,0.07692307692307693,1
+USSR-csuvas,USSR-moldva,0.5,1
+USSR-moldva,USSR-fehérorosz,0.3076923076923077,4
+USSR-fehérorosz,USSR-moldva,0.4444444444444444,4
+USSR-moldva,USSR-finn,0.07692307692307693,1
+USSR-finn,USSR-moldva,1,1
+USSR-moldva,USSR-grúz,0.38461538461538464,5
+USSR-grúz,USSR-moldva,0.20833333333333334,5
+USSR-moldva,USSR-kazah,0.3076923076923077,4
+USSR-kazah,USSR-moldva,0.4,4
+USSR-moldva,USSR-kirgiz,0.15384615384615385,2
+USSR-kirgiz,USSR-moldva,0.3333333333333333,2
+USSR-moldva,USSR-komi,0,0
+USSR-komi,USSR-moldva,0,0
+USSR-moldva,USSR-lett,0.46153846153846156,6
+USSR-lett,USSR-moldva,0.21428571428571427,6
+USSR-moldva,USSR-litván,0.38461538461538464,5
+USSR-litván,USSR-moldva,0.16129032258064516,5
+USSR-moldva,USSR-liv,0,0
+USSR-liv,USSR-moldva,0,0
+USSR-moldva,USSR-moldva,NA,NA
+USSR-moldva,USSR-orosz,0.9230769230769231,12
+USSR-orosz,USSR-moldva,0.07643312101910828,12
+USSR-moldva,USSR-tadzsik,0.15384615384615385,2
+USSR-tadzsik,USSR-moldva,0.2857142857142857,2
+USSR-moldva,USSR-tatár,0,0
+USSR-tatár,USSR-moldva,0,0
+USSR-moldva,USSR-türkmén,0.23076923076923078,3
+USSR-türkmén,USSR-moldva,0.5,3
+USSR-moldva,USSR-udmurt,0.15384615384615385,2
+USSR-udmurt,USSR-moldva,1,2
+USSR-moldva,USSR-ujgur,0,0
+USSR-ujgur,USSR-moldva,0,0
+USSR-moldva,USSR-ukrán,0.6923076923076923,9
+USSR-ukrán,USSR-moldva,0.19148936170212766,9
+USSR-moldva,"USSR-ukrán, orosz",0,0
+"USSR-ukrán, orosz",USSR-moldva,0,0
+USSR-moldva,USSR-észt,0.46153846153846156,6
+USSR-észt,USSR-moldva,0.18181818181818182,6
+USSR-moldva,USSR-örmény,0.3076923076923077,4
+USSR-örmény,USSR-moldva,0.26666666666666666,4
+USSR-moldva,USSR-üzbég,0.07692307692307693,1
+USSR-üzbég,USSR-moldva,0.14285714285714285,1
+USSR-moldva,Vietnam,0.07692307692307693,1
+Vietnam,USSR-moldva,0.25,1
+USSR-orosz,Albania,0.03821656050955414,6
+Albania,USSR-orosz,1,6
+USSR-orosz,Bulgaria,0.3184713375796178,50
+Bulgaria,USSR-orosz,0.704225352112676,50
+USSR-orosz,China,0.12101910828025478,19
+China,USSR-orosz,0.6333333333333333,19
+USSR-orosz,Cuba,0.03184713375796178,5
+Cuba,USSR-orosz,1,5
+USSR-orosz,Czechoslovakia-cseh,0.5095541401273885,80
+Czechoslovakia-cseh,USSR-orosz,0.5333333333333333,80
+USSR-orosz,Czechoslovakia-szlovák,0.5222929936305732,82
+Czechoslovakia-szlovák,USSR-orosz,0.49696969696969695,82
+USSR-orosz,Czechoslovakia-ukrán,0,0
+Czechoslovakia-ukrán,USSR-orosz,0,0
+USSR-orosz,GDR,0.5222929936305732,82
+GDR,USSR-orosz,0.4880952380952381,82
+USSR-orosz,Hungary,0.3375796178343949,53
+Hungary,USSR-orosz,0.36054421768707484,53
+USSR-orosz,Mongolia,0.025477707006369428,4
+Mongolia,USSR-orosz,0.8,4
+USSR-orosz,North Korea,0.006369426751592357,1
+North Korea,USSR-orosz,1,1
+USSR-orosz,Poland,0.42038216560509556,66
+Poland,USSR-orosz,0.4647887323943662,66
+USSR-orosz,Romania,0.3375796178343949,53
+Romania,USSR-orosz,0.37857142857142856,53
+USSR-orosz,USSR-altaji,0.006369426751592357,1
+USSR-altaji,USSR-orosz,1,1
+USSR-orosz,USSR-azerbajdzsán,0.06369426751592357,10
+USSR-azerbajdzsán,USSR-orosz,0.8333333333333334,10
+USSR-orosz,USSR-baskir,0.006369426751592357,1
+USSR-baskir,USSR-orosz,1,1
+USSR-orosz,USSR-csuvas,0.012738853503184714,2
+USSR-csuvas,USSR-orosz,1,2
+USSR-orosz,USSR-fehérorosz,0.05732484076433121,9
+USSR-fehérorosz,USSR-orosz,1,9
+USSR-orosz,USSR-finn,0.006369426751592357,1
+USSR-finn,USSR-orosz,1,1
+USSR-orosz,USSR-grúz,0.1337579617834395,21
+USSR-grúz,USSR-orosz,0.875,21
+USSR-orosz,USSR-kazah,0.05732484076433121,9
+USSR-kazah,USSR-orosz,0.9,9
+USSR-orosz,USSR-kirgiz,0.03821656050955414,6
+USSR-kirgiz,USSR-orosz,1,6
+USSR-orosz,USSR-komi,0.006369426751592357,1
+USSR-komi,USSR-orosz,1,1
+USSR-orosz,USSR-lett,0.16560509554140126,26
+USSR-lett,USSR-orosz,0.9285714285714286,26
+USSR-orosz,USSR-litván,0.14012738853503184,22
+USSR-litván,USSR-orosz,0.7096774193548387,22
+USSR-orosz,USSR-liv,0.006369426751592357,1
+USSR-liv,USSR-orosz,1,1
+USSR-orosz,USSR-moldva,0.07643312101910828,12
+USSR-moldva,USSR-orosz,0.9230769230769231,12
+USSR-orosz,USSR-orosz,NA,NA
+USSR-orosz,USSR-tadzsik,0.03184713375796178,5
+USSR-tadzsik,USSR-orosz,0.7142857142857143,5
+USSR-orosz,USSR-tatár,0.006369426751592357,1
+USSR-tatár,USSR-orosz,1,1
+USSR-orosz,USSR-türkmén,0.03184713375796178,5
+USSR-türkmén,USSR-orosz,0.8333333333333334,5
+USSR-orosz,USSR-udmurt,0.012738853503184714,2
+USSR-udmurt,USSR-orosz,1,2
+USSR-orosz,USSR-ujgur,0.006369426751592357,1
+USSR-ujgur,USSR-orosz,1,1
+USSR-orosz,USSR-ukrán,0.25477707006369427,40
+USSR-ukrán,USSR-orosz,0.851063829787234,40
+USSR-orosz,"USSR-ukrán, orosz",0.006369426751592357,1
+"USSR-ukrán, orosz",USSR-orosz,1,1
+USSR-orosz,USSR-észt,0.16560509554140126,26
+USSR-észt,USSR-orosz,0.7878787878787878,26
+USSR-orosz,USSR-örmény,0.08280254777070063,13
+USSR-örmény,USSR-orosz,0.8666666666666667,13
+USSR-orosz,USSR-üzbég,0.044585987261146494,7
+USSR-üzbég,USSR-orosz,1,7
+USSR-orosz,Vietnam,0.025477707006369428,4
+Vietnam,USSR-orosz,1,4
+USSR-tadzsik,Albania,0.2857142857142857,2
+Albania,USSR-tadzsik,0.3333333333333333,2
+USSR-tadzsik,Bulgaria,0.42857142857142855,3
+Bulgaria,USSR-tadzsik,0.04225352112676056,3
+USSR-tadzsik,China,0.42857142857142855,3
+China,USSR-tadzsik,0.1,3
+USSR-tadzsik,Cuba,0.2857142857142857,2
+Cuba,USSR-tadzsik,0.4,2
+USSR-tadzsik,Czechoslovakia-cseh,0.7142857142857143,5
+Czechoslovakia-cseh,USSR-tadzsik,0.03333333333333333,5
+USSR-tadzsik,Czechoslovakia-szlovák,0.5714285714285714,4
+Czechoslovakia-szlovák,USSR-tadzsik,0.024242424242424242,4
+USSR-tadzsik,Czechoslovakia-ukrán,0,0
+Czechoslovakia-ukrán,USSR-tadzsik,0,0
+USSR-tadzsik,GDR,0.8571428571428571,6
+GDR,USSR-tadzsik,0.03571428571428571,6
+USSR-tadzsik,Hungary,0.7142857142857143,5
+Hungary,USSR-tadzsik,0.034013605442176874,5
+USSR-tadzsik,Mongolia,0.2857142857142857,2
+Mongolia,USSR-tadzsik,0.4,2
+USSR-tadzsik,North Korea,0.14285714285714285,1
+North Korea,USSR-tadzsik,1,1
+USSR-tadzsik,Poland,0.7142857142857143,5
+Poland,USSR-tadzsik,0.035211267605633804,5
+USSR-tadzsik,Romania,0.7142857142857143,5
+Romania,USSR-tadzsik,0.03571428571428571,5
+USSR-tadzsik,USSR-altaji,0,0
+USSR-altaji,USSR-tadzsik,0,0
+USSR-tadzsik,USSR-azerbajdzsán,0.7142857142857143,5
+USSR-azerbajdzsán,USSR-tadzsik,0.4166666666666667,5
+USSR-tadzsik,USSR-baskir,0.14285714285714285,1
+USSR-baskir,USSR-tadzsik,1,1
+USSR-tadzsik,USSR-csuvas,0.14285714285714285,1
+USSR-csuvas,USSR-tadzsik,0.5,1
+USSR-tadzsik,USSR-fehérorosz,0.2857142857142857,2
+USSR-fehérorosz,USSR-tadzsik,0.2222222222222222,2
+USSR-tadzsik,USSR-finn,0,0
+USSR-finn,USSR-tadzsik,0,0
+USSR-tadzsik,USSR-grúz,0.8571428571428571,6
+USSR-grúz,USSR-tadzsik,0.25,6
+USSR-tadzsik,USSR-kazah,0.42857142857142855,3
+USSR-kazah,USSR-tadzsik,0.3,3
+USSR-tadzsik,USSR-kirgiz,0.2857142857142857,2
+USSR-kirgiz,USSR-tadzsik,0.3333333333333333,2
+USSR-tadzsik,USSR-komi,0,0
+USSR-komi,USSR-tadzsik,0,0
+USSR-tadzsik,USSR-lett,0.5714285714285714,4
+USSR-lett,USSR-tadzsik,0.14285714285714285,4
+USSR-tadzsik,USSR-litván,0.7142857142857143,5
+USSR-litván,USSR-tadzsik,0.16129032258064516,5
+USSR-tadzsik,USSR-liv,0,0
+USSR-liv,USSR-tadzsik,0,0
+USSR-tadzsik,USSR-moldva,0.2857142857142857,2
+USSR-moldva,USSR-tadzsik,0.15384615384615385,2
+USSR-tadzsik,USSR-orosz,0.7142857142857143,5
+USSR-orosz,USSR-tadzsik,0.03184713375796178,5
+USSR-tadzsik,USSR-tadzsik,NA,NA
+USSR-tadzsik,USSR-tatár,0,0
+USSR-tatár,USSR-tadzsik,0,0
+USSR-tadzsik,USSR-türkmén,0.5714285714285714,4
+USSR-türkmén,USSR-tadzsik,0.6666666666666666,4
+USSR-tadzsik,USSR-udmurt,0.14285714285714285,1
+USSR-udmurt,USSR-tadzsik,0.5,1
+USSR-tadzsik,USSR-ujgur,0.14285714285714285,1
+USSR-ujgur,USSR-tadzsik,1,1
+USSR-tadzsik,USSR-ukrán,0.7142857142857143,5
+USSR-ukrán,USSR-tadzsik,0.10638297872340426,5
+USSR-tadzsik,"USSR-ukrán, orosz",0.14285714285714285,1
+"USSR-ukrán, orosz",USSR-tadzsik,1,1
+USSR-tadzsik,USSR-észt,0.5714285714285714,4
+USSR-észt,USSR-tadzsik,0.12121212121212122,4
+USSR-tadzsik,USSR-örmény,0.7142857142857143,5
+USSR-örmény,USSR-tadzsik,0.3333333333333333,5
+USSR-tadzsik,USSR-üzbég,0.2857142857142857,2
+USSR-üzbég,USSR-tadzsik,0.2857142857142857,2
+USSR-tadzsik,Vietnam,0.14285714285714285,1
+Vietnam,USSR-tadzsik,0.25,1
+USSR-tatár,Albania,0,0
+Albania,USSR-tatár,0,0
+USSR-tatár,Bulgaria,1,1
+Bulgaria,USSR-tatár,0.014084507042253521,1
+USSR-tatár,China,1,1
+China,USSR-tatár,0.03333333333333333,1
+USSR-tatár,Cuba,0,0
+Cuba,USSR-tatár,0,0
+USSR-tatár,Czechoslovakia-cseh,0,0
+Czechoslovakia-cseh,USSR-tatár,0,0
+USSR-tatár,Czechoslovakia-szlovák,1,1
+Czechoslovakia-szlovák,USSR-tatár,0.006060606060606061,1
+USSR-tatár,Czechoslovakia-ukrán,0,0
+Czechoslovakia-ukrán,USSR-tatár,0,0
+USSR-tatár,GDR,1,1
+GDR,USSR-tatár,0.005952380952380952,1
+USSR-tatár,Hungary,1,1
+Hungary,USSR-tatár,0.006802721088435374,1
+USSR-tatár,Mongolia,0,0
+Mongolia,USSR-tatár,0,0
+USSR-tatár,North Korea,0,0
+North Korea,USSR-tatár,0,0
+USSR-tatár,Poland,0,0
+Poland,USSR-tatár,0,0
+USSR-tatár,Romania,0,0
+Romania,USSR-tatár,0,0
+USSR-tatár,USSR-altaji,0,0
+USSR-altaji,USSR-tatár,0,0
+USSR-tatár,USSR-azerbajdzsán,0,0
+USSR-azerbajdzsán,USSR-tatár,0,0
+USSR-tatár,USSR-baskir,0,0
+USSR-baskir,USSR-tatár,0,0
+USSR-tatár,USSR-csuvas,0,0
+USSR-csuvas,USSR-tatár,0,0
+USSR-tatár,USSR-fehérorosz,1,1
+USSR-fehérorosz,USSR-tatár,0.1111111111111111,1
+USSR-tatár,USSR-finn,0,0
+USSR-finn,USSR-tatár,0,0
+USSR-tatár,USSR-grúz,0,0
+USSR-grúz,USSR-tatár,0,0
+USSR-tatár,USSR-kazah,0,0
+USSR-kazah,USSR-tatár,0,0
+USSR-tatár,USSR-kirgiz,0,0
+USSR-kirgiz,USSR-tatár,0,0
+USSR-tatár,USSR-komi,1,1
+USSR-komi,USSR-tatár,1,1
+USSR-tatár,USSR-lett,0,0
+USSR-lett,USSR-tatár,0,0
+USSR-tatár,USSR-litván,1,1
+USSR-litván,USSR-tatár,0.03225806451612903,1
+USSR-tatár,USSR-liv,0,0
+USSR-liv,USSR-tatár,0,0
+USSR-tatár,USSR-moldva,0,0
+USSR-moldva,USSR-tatár,0,0
+USSR-tatár,USSR-orosz,1,1
+USSR-orosz,USSR-tatár,0.006369426751592357,1
+USSR-tatár,USSR-tadzsik,0,0
+USSR-tadzsik,USSR-tatár,0,0
+USSR-tatár,USSR-tatár,NA,NA
+USSR-tatár,USSR-türkmén,0,0
+USSR-türkmén,USSR-tatár,0,0
+USSR-tatár,USSR-udmurt,0,0
+USSR-udmurt,USSR-tatár,0,0
+USSR-tatár,USSR-ujgur,0,0
+USSR-ujgur,USSR-tatár,0,0
+USSR-tatár,USSR-ukrán,1,1
+USSR-ukrán,USSR-tatár,0.02127659574468085,1
+USSR-tatár,"USSR-ukrán, orosz",0,0
+"USSR-ukrán, orosz",USSR-tatár,0,0
+USSR-tatár,USSR-észt,1,1
+USSR-észt,USSR-tatár,0.030303030303030304,1
+USSR-tatár,USSR-örmény,0,0
+USSR-örmény,USSR-tatár,0,0
+USSR-tatár,USSR-üzbég,1,1
+USSR-üzbég,USSR-tatár,0.14285714285714285,1
+USSR-tatár,Vietnam,1,1
+Vietnam,USSR-tatár,0.25,1
+USSR-türkmén,Albania,0.3333333333333333,2
+Albania,USSR-türkmén,0.3333333333333333,2
+USSR-türkmén,Bulgaria,0.8333333333333334,5
+Bulgaria,USSR-türkmén,0.07042253521126761,5
+USSR-türkmén,China,0.5,3
+China,USSR-türkmén,0.1,3
+USSR-türkmén,Cuba,0.3333333333333333,2
+Cuba,USSR-türkmén,0.4,2
+USSR-türkmén,Czechoslovakia-cseh,0.8333333333333334,5
+Czechoslovakia-cseh,USSR-türkmén,0.03333333333333333,5
+USSR-türkmén,Czechoslovakia-szlovák,0.8333333333333334,5
+Czechoslovakia-szlovák,USSR-türkmén,0.030303030303030304,5
+USSR-türkmén,Czechoslovakia-ukrán,0,0
+Czechoslovakia-ukrán,USSR-türkmén,0,0
+USSR-türkmén,GDR,1,6
+GDR,USSR-türkmén,0.03571428571428571,6
+USSR-türkmén,Hungary,0.8333333333333334,5
+Hungary,USSR-türkmén,0.034013605442176874,5
+USSR-türkmén,Mongolia,0.3333333333333333,2
+Mongolia,USSR-türkmén,0.4,2
+USSR-türkmén,North Korea,0.16666666666666666,1
+North Korea,USSR-türkmén,1,1
+USSR-türkmén,Poland,0.8333333333333334,5
+Poland,USSR-türkmén,0.035211267605633804,5
+USSR-türkmén,Romania,0.8333333333333334,5
+Romania,USSR-türkmén,0.03571428571428571,5
+USSR-türkmén,USSR-altaji,0,0
+USSR-altaji,USSR-türkmén,0,0
+USSR-türkmén,USSR-azerbajdzsán,0.6666666666666666,4
+USSR-azerbajdzsán,USSR-türkmén,0.3333333333333333,4
+USSR-türkmén,USSR-baskir,0.16666666666666666,1
+USSR-baskir,USSR-türkmén,1,1
+USSR-türkmén,USSR-csuvas,0.16666666666666666,1
+USSR-csuvas,USSR-türkmén,0.5,1
+USSR-türkmén,USSR-fehérorosz,0.3333333333333333,2
+USSR-fehérorosz,USSR-türkmén,0.2222222222222222,2
+USSR-türkmén,USSR-finn,0,0
+USSR-finn,USSR-türkmén,0,0
+USSR-türkmén,USSR-grúz,0.8333333333333334,5
+USSR-grúz,USSR-türkmén,0.20833333333333334,5
+USSR-türkmén,USSR-kazah,0.5,3
+USSR-kazah,USSR-türkmén,0.3,3
+USSR-türkmén,USSR-kirgiz,0.3333333333333333,2
+USSR-kirgiz,USSR-türkmén,0.3333333333333333,2
+USSR-türkmén,USSR-komi,0,0
+USSR-komi,USSR-türkmén,0,0
+USSR-türkmén,USSR-lett,0.6666666666666666,4
+USSR-lett,USSR-türkmén,0.14285714285714285,4
+USSR-türkmén,USSR-litván,0.8333333333333334,5
+USSR-litván,USSR-türkmén,0.16129032258064516,5
+USSR-türkmén,USSR-liv,0,0
+USSR-liv,USSR-türkmén,0,0
+USSR-türkmén,USSR-moldva,0.5,3
+USSR-moldva,USSR-türkmén,0.23076923076923078,3
+USSR-türkmén,USSR-orosz,0.8333333333333334,5
+USSR-orosz,USSR-türkmén,0.03184713375796178,5
+USSR-türkmén,USSR-tadzsik,0.6666666666666666,4
+USSR-tadzsik,USSR-türkmén,0.5714285714285714,4
+USSR-türkmén,USSR-tatár,0,0
+USSR-tatár,USSR-türkmén,0,0
+USSR-türkmén,USSR-türkmén,NA,NA
+USSR-türkmén,USSR-udmurt,0.16666666666666666,1
+USSR-udmurt,USSR-türkmén,0.5,1
+USSR-türkmén,USSR-ujgur,0.16666666666666666,1
+USSR-ujgur,USSR-türkmén,1,1
+USSR-türkmén,USSR-ukrán,1,6
+USSR-ukrán,USSR-türkmén,0.1276595744680851,6
+USSR-türkmén,"USSR-ukrán, orosz",0.16666666666666666,1
+"USSR-ukrán, orosz",USSR-türkmén,1,1
+USSR-türkmén,USSR-észt,0.3333333333333333,2
+USSR-észt,USSR-türkmén,0.06060606060606061,2
+USSR-türkmén,USSR-örmény,0.8333333333333334,5
+USSR-örmény,USSR-türkmén,0.3333333333333333,5
+USSR-türkmén,USSR-üzbég,0.16666666666666666,1
+USSR-üzbég,USSR-türkmén,0.14285714285714285,1
+USSR-türkmén,Vietnam,0.16666666666666666,1
+Vietnam,USSR-türkmén,0.25,1
+USSR-udmurt,Albania,0.5,1
+Albania,USSR-udmurt,0.16666666666666666,1
+USSR-udmurt,Bulgaria,0.5,1
+Bulgaria,USSR-udmurt,0.014084507042253521,1
+USSR-udmurt,China,1,2
+China,USSR-udmurt,0.06666666666666667,2
+USSR-udmurt,Cuba,0.5,1
+Cuba,USSR-udmurt,0.2,1
+USSR-udmurt,Czechoslovakia-cseh,1,2
+Czechoslovakia-cseh,USSR-udmurt,0.013333333333333334,2
+USSR-udmurt,Czechoslovakia-szlovák,0.5,1
+Czechoslovakia-szlovák,USSR-udmurt,0.006060606060606061,1
+USSR-udmurt,Czechoslovakia-ukrán,0,0
+Czechoslovakia-ukrán,USSR-udmurt,0,0
+USSR-udmurt,GDR,1,2
+GDR,USSR-udmurt,0.011904761904761904,2
+USSR-udmurt,Hungary,0.5,1
+Hungary,USSR-udmurt,0.006802721088435374,1
+USSR-udmurt,Mongolia,1,2
+Mongolia,USSR-udmurt,0.4,2
+USSR-udmurt,North Korea,0.5,1
+North Korea,USSR-udmurt,1,1
+USSR-udmurt,Poland,0.5,1
+Poland,USSR-udmurt,0.007042253521126761,1
+USSR-udmurt,Romania,0.5,1
+Romania,USSR-udmurt,0.007142857142857143,1
+USSR-udmurt,USSR-altaji,0.5,1
+USSR-altaji,USSR-udmurt,1,1
+USSR-udmurt,USSR-azerbajdzsán,1,2
+USSR-azerbajdzsán,USSR-udmurt,0.16666666666666666,2
+USSR-udmurt,USSR-baskir,0.5,1
+USSR-baskir,USSR-udmurt,1,1
+USSR-udmurt,USSR-csuvas,0.5,1
+USSR-csuvas,USSR-udmurt,0.5,1
+USSR-udmurt,USSR-fehérorosz,1,2
+USSR-fehérorosz,USSR-udmurt,0.2222222222222222,2
+USSR-udmurt,USSR-finn,0.5,1
+USSR-finn,USSR-udmurt,1,1
+USSR-udmurt,USSR-grúz,1,2
+USSR-grúz,USSR-udmurt,0.08333333333333333,2
+USSR-udmurt,USSR-kazah,1,2
+USSR-kazah,USSR-udmurt,0.2,2
+USSR-udmurt,USSR-kirgiz,0.5,1
+USSR-kirgiz,USSR-udmurt,0.16666666666666666,1
+USSR-udmurt,USSR-komi,0,0
+USSR-komi,USSR-udmurt,0,0
+USSR-udmurt,USSR-lett,0.5,1
+USSR-lett,USSR-udmurt,0.03571428571428571,1
+USSR-udmurt,USSR-litván,0.5,1
+USSR-litván,USSR-udmurt,0.03225806451612903,1
+USSR-udmurt,USSR-liv,0,0
+USSR-liv,USSR-udmurt,0,0
+USSR-udmurt,USSR-moldva,1,2
+USSR-moldva,USSR-udmurt,0.15384615384615385,2
+USSR-udmurt,USSR-orosz,1,2
+USSR-orosz,USSR-udmurt,0.012738853503184714,2
+USSR-udmurt,USSR-tadzsik,0.5,1
+USSR-tadzsik,USSR-udmurt,0.14285714285714285,1
+USSR-udmurt,USSR-tatár,0,0
+USSR-tatár,USSR-udmurt,0,0
+USSR-udmurt,USSR-türkmén,0.5,1
+USSR-türkmén,USSR-udmurt,0.16666666666666666,1
+USSR-udmurt,USSR-udmurt,NA,NA
+USSR-udmurt,USSR-ujgur,0,0
+USSR-ujgur,USSR-udmurt,0,0
+USSR-udmurt,USSR-ukrán,0.5,1
+USSR-ukrán,USSR-udmurt,0.02127659574468085,1
+USSR-udmurt,"USSR-ukrán, orosz",0,0
+"USSR-ukrán, orosz",USSR-udmurt,0,0
+USSR-udmurt,USSR-észt,0.5,1
+USSR-észt,USSR-udmurt,0.030303030303030304,1
+USSR-udmurt,USSR-örmény,0.5,1
+USSR-örmény,USSR-udmurt,0.06666666666666667,1
+USSR-udmurt,USSR-üzbég,0.5,1
+USSR-üzbég,USSR-udmurt,0.14285714285714285,1
+USSR-udmurt,Vietnam,0.5,1
+Vietnam,USSR-udmurt,0.25,1
+USSR-ujgur,Albania,1,1
+Albania,USSR-ujgur,0.16666666666666666,1
+USSR-ujgur,Bulgaria,1,1
+Bulgaria,USSR-ujgur,0.014084507042253521,1
+USSR-ujgur,China,1,1
+China,USSR-ujgur,0.03333333333333333,1
+USSR-ujgur,Cuba,1,1
+Cuba,USSR-ujgur,0.2,1
+USSR-ujgur,Czechoslovakia-cseh,1,1
+Czechoslovakia-cseh,USSR-ujgur,0.006666666666666667,1
+USSR-ujgur,Czechoslovakia-szlovák,1,1
+Czechoslovakia-szlovák,USSR-ujgur,0.006060606060606061,1
+USSR-ujgur,Czechoslovakia-ukrán,0,0
+Czechoslovakia-ukrán,USSR-ujgur,0,0
+USSR-ujgur,GDR,1,1
+GDR,USSR-ujgur,0.005952380952380952,1
+USSR-ujgur,Hungary,1,1
+Hungary,USSR-ujgur,0.006802721088435374,1
+USSR-ujgur,Mongolia,1,1
+Mongolia,USSR-ujgur,0.2,1
+USSR-ujgur,North Korea,0,0
+North Korea,USSR-ujgur,0,0
+USSR-ujgur,Poland,1,1
+Poland,USSR-ujgur,0.007042253521126761,1
+USSR-ujgur,Romania,1,1
+Romania,USSR-ujgur,0.007142857142857143,1
+USSR-ujgur,USSR-altaji,0,0
+USSR-altaji,USSR-ujgur,0,0
+USSR-ujgur,USSR-azerbajdzsán,1,1
+USSR-azerbajdzsán,USSR-ujgur,0.08333333333333333,1
+USSR-ujgur,USSR-baskir,0,0
+USSR-baskir,USSR-ujgur,0,0
+USSR-ujgur,USSR-csuvas,1,1
+USSR-csuvas,USSR-ujgur,0.5,1
+USSR-ujgur,USSR-fehérorosz,1,1
+USSR-fehérorosz,USSR-ujgur,0.1111111111111111,1
+USSR-ujgur,USSR-finn,0,0
+USSR-finn,USSR-ujgur,0,0
+USSR-ujgur,USSR-grúz,1,1
+USSR-grúz,USSR-ujgur,0.041666666666666664,1
+USSR-ujgur,USSR-kazah,1,1
+USSR-kazah,USSR-ujgur,0.1,1
+USSR-ujgur,USSR-kirgiz,1,1
+USSR-kirgiz,USSR-ujgur,0.16666666666666666,1
+USSR-ujgur,USSR-komi,0,0
+USSR-komi,USSR-ujgur,0,0
+USSR-ujgur,USSR-lett,1,1
+USSR-lett,USSR-ujgur,0.03571428571428571,1
+USSR-ujgur,USSR-litván,1,1
+USSR-litván,USSR-ujgur,0.03225806451612903,1
+USSR-ujgur,USSR-liv,0,0
+USSR-liv,USSR-ujgur,0,0
+USSR-ujgur,USSR-moldva,0,0
+USSR-moldva,USSR-ujgur,0,0
+USSR-ujgur,USSR-orosz,1,1
+USSR-orosz,USSR-ujgur,0.006369426751592357,1
+USSR-ujgur,USSR-tadzsik,1,1
+USSR-tadzsik,USSR-ujgur,0.14285714285714285,1
+USSR-ujgur,USSR-tatár,0,0
+USSR-tatár,USSR-ujgur,0,0
+USSR-ujgur,USSR-türkmén,1,1
+USSR-türkmén,USSR-ujgur,0.16666666666666666,1
+USSR-ujgur,USSR-udmurt,0,0
+USSR-udmurt,USSR-ujgur,0,0
+USSR-ujgur,USSR-ujgur,NA,NA
+USSR-ujgur,USSR-ukrán,1,1
+USSR-ukrán,USSR-ujgur,0.02127659574468085,1
+USSR-ujgur,"USSR-ukrán, orosz",1,1
+"USSR-ukrán, orosz",USSR-ujgur,1,1
+USSR-ujgur,USSR-észt,1,1
+USSR-észt,USSR-ujgur,0.030303030303030304,1
+USSR-ujgur,USSR-örmény,1,1
+USSR-örmény,USSR-ujgur,0.06666666666666667,1
+USSR-ujgur,USSR-üzbég,0,0
+USSR-üzbég,USSR-ujgur,0,0
+USSR-ujgur,Vietnam,0,0
+Vietnam,USSR-ujgur,0,0
+USSR-ukrán,Albania,0.1276595744680851,6
+Albania,USSR-ukrán,1,6
+USSR-ukrán,Bulgaria,0.5531914893617021,26
+Bulgaria,USSR-ukrán,0.36619718309859156,26
+USSR-ukrán,China,0.23404255319148937,11
+China,USSR-ukrán,0.36666666666666664,11
+USSR-ukrán,Cuba,0.10638297872340426,5
+Cuba,USSR-ukrán,1,5
+USSR-ukrán,Czechoslovakia-cseh,0.6595744680851063,31
+Czechoslovakia-cseh,USSR-ukrán,0.20666666666666667,31
+USSR-ukrán,Czechoslovakia-szlovák,0.6808510638297872,32
+Czechoslovakia-szlovák,USSR-ukrán,0.19393939393939394,32
+USSR-ukrán,Czechoslovakia-ukrán,0,0
+Czechoslovakia-ukrán,USSR-ukrán,0,0
+USSR-ukrán,GDR,0.6808510638297872,32
+GDR,USSR-ukrán,0.19047619047619047,32
+USSR-ukrán,Hungary,0.48936170212765956,23
+Hungary,USSR-ukrán,0.1564625850340136,23
+USSR-ukrán,Mongolia,0.0425531914893617,2
+Mongolia,USSR-ukrán,0.4,2
+USSR-ukrán,North Korea,0.02127659574468085,1
+North Korea,USSR-ukrán,1,1
+USSR-ukrán,Poland,0.5957446808510638,28
+Poland,USSR-ukrán,0.19718309859154928,28
+USSR-ukrán,Romania,0.5319148936170213,25
+Romania,USSR-ukrán,0.17857142857142858,25
+USSR-ukrán,USSR-altaji,0,0
+USSR-altaji,USSR-ukrán,0,0
+USSR-ukrán,USSR-azerbajdzsán,0.1702127659574468,8
+USSR-azerbajdzsán,USSR-ukrán,0.6666666666666666,8
+USSR-ukrán,USSR-baskir,0.02127659574468085,1
+USSR-baskir,USSR-ukrán,1,1
+USSR-ukrán,USSR-csuvas,0.02127659574468085,1
+USSR-csuvas,USSR-ukrán,0.5,1
+USSR-ukrán,USSR-fehérorosz,0.10638297872340426,5
+USSR-fehérorosz,USSR-ukrán,0.5555555555555556,5
+USSR-ukrán,USSR-finn,0,0
+USSR-finn,USSR-ukrán,0,0
+USSR-ukrán,USSR-grúz,0.2978723404255319,14
+USSR-grúz,USSR-ukrán,0.5833333333333334,14
+USSR-ukrán,USSR-kazah,0.1702127659574468,8
+USSR-kazah,USSR-ukrán,0.8,8
+USSR-ukrán,USSR-kirgiz,0.10638297872340426,5
+USSR-kirgiz,USSR-ukrán,0.8333333333333334,5
+USSR-ukrán,USSR-komi,0.02127659574468085,1
+USSR-komi,USSR-ukrán,1,1
+USSR-ukrán,USSR-lett,0.3617021276595745,17
+USSR-lett,USSR-ukrán,0.6071428571428571,17
+USSR-ukrán,USSR-litván,0.3829787234042553,18
+USSR-litván,USSR-ukrán,0.5806451612903226,18
+USSR-ukrán,USSR-liv,0.02127659574468085,1
+USSR-liv,USSR-ukrán,1,1
+USSR-ukrán,USSR-moldva,0.19148936170212766,9
+USSR-moldva,USSR-ukrán,0.6923076923076923,9
+USSR-ukrán,USSR-orosz,0.851063829787234,40
+USSR-orosz,USSR-ukrán,0.25477707006369427,40
+USSR-ukrán,USSR-tadzsik,0.10638297872340426,5
+USSR-tadzsik,USSR-ukrán,0.7142857142857143,5
+USSR-ukrán,USSR-tatár,0.02127659574468085,1
+USSR-tatár,USSR-ukrán,1,1
+USSR-ukrán,USSR-türkmén,0.1276595744680851,6
+USSR-türkmén,USSR-ukrán,1,6
+USSR-ukrán,USSR-udmurt,0.02127659574468085,1
+USSR-udmurt,USSR-ukrán,0.5,1
+USSR-ukrán,USSR-ujgur,0.02127659574468085,1
+USSR-ujgur,USSR-ukrán,1,1
+USSR-ukrán,USSR-ukrán,NA,NA
+USSR-ukrán,"USSR-ukrán, orosz",0.02127659574468085,1
+"USSR-ukrán, orosz",USSR-ukrán,1,1
+USSR-ukrán,USSR-észt,0.3404255319148936,16
+USSR-észt,USSR-ukrán,0.48484848484848486,16
+USSR-ukrán,USSR-örmény,0.23404255319148937,11
+USSR-örmény,USSR-ukrán,0.7333333333333333,11
+USSR-ukrán,USSR-üzbég,0.1276595744680851,6
+USSR-üzbég,USSR-ukrán,0.8571428571428571,6
+USSR-ukrán,Vietnam,0.0851063829787234,4
+Vietnam,USSR-ukrán,1,4
+"USSR-ukrán, orosz",Albania,1,1
+Albania,"USSR-ukrán, orosz",0.16666666666666666,1
+"USSR-ukrán, orosz",Bulgaria,1,1
+Bulgaria,"USSR-ukrán, orosz",0.014084507042253521,1
+"USSR-ukrán, orosz",China,1,1
+China,"USSR-ukrán, orosz",0.03333333333333333,1
+"USSR-ukrán, orosz",Cuba,1,1
+Cuba,"USSR-ukrán, orosz",0.2,1
+"USSR-ukrán, orosz",Czechoslovakia-cseh,1,1
+Czechoslovakia-cseh,"USSR-ukrán, orosz",0.006666666666666667,1
+"USSR-ukrán, orosz",Czechoslovakia-szlovák,1,1
+Czechoslovakia-szlovák,"USSR-ukrán, orosz",0.006060606060606061,1
+"USSR-ukrán, orosz",Czechoslovakia-ukrán,0,0
+Czechoslovakia-ukrán,"USSR-ukrán, orosz",0,0
+"USSR-ukrán, orosz",GDR,1,1
+GDR,"USSR-ukrán, orosz",0.005952380952380952,1
+"USSR-ukrán, orosz",Hungary,1,1
+Hungary,"USSR-ukrán, orosz",0.006802721088435374,1
+"USSR-ukrán, orosz",Mongolia,1,1
+Mongolia,"USSR-ukrán, orosz",0.2,1
+"USSR-ukrán, orosz",North Korea,0,0
+North Korea,"USSR-ukrán, orosz",0,0
+"USSR-ukrán, orosz",Poland,1,1
+Poland,"USSR-ukrán, orosz",0.007042253521126761,1
+"USSR-ukrán, orosz",Romania,1,1
+Romania,"USSR-ukrán, orosz",0.007142857142857143,1
+"USSR-ukrán, orosz",USSR-altaji,0,0
+USSR-altaji,"USSR-ukrán, orosz",0,0
+"USSR-ukrán, orosz",USSR-azerbajdzsán,1,1
+USSR-azerbajdzsán,"USSR-ukrán, orosz",0.08333333333333333,1
+"USSR-ukrán, orosz",USSR-baskir,0,0
+USSR-baskir,"USSR-ukrán, orosz",0,0
+"USSR-ukrán, orosz",USSR-csuvas,1,1
+USSR-csuvas,"USSR-ukrán, orosz",0.5,1
+"USSR-ukrán, orosz",USSR-fehérorosz,1,1
+USSR-fehérorosz,"USSR-ukrán, orosz",0.1111111111111111,1
+"USSR-ukrán, orosz",USSR-finn,0,0
+USSR-finn,"USSR-ukrán, orosz",0,0
+"USSR-ukrán, orosz",USSR-grúz,1,1
+USSR-grúz,"USSR-ukrán, orosz",0.041666666666666664,1
+"USSR-ukrán, orosz",USSR-kazah,1,1
+USSR-kazah,"USSR-ukrán, orosz",0.1,1
+"USSR-ukrán, orosz",USSR-kirgiz,1,1
+USSR-kirgiz,"USSR-ukrán, orosz",0.16666666666666666,1
+"USSR-ukrán, orosz",USSR-komi,0,0
+USSR-komi,"USSR-ukrán, orosz",0,0
+"USSR-ukrán, orosz",USSR-lett,1,1
+USSR-lett,"USSR-ukrán, orosz",0.03571428571428571,1
+"USSR-ukrán, orosz",USSR-litván,1,1
+USSR-litván,"USSR-ukrán, orosz",0.03225806451612903,1
+"USSR-ukrán, orosz",USSR-liv,0,0
+USSR-liv,"USSR-ukrán, orosz",0,0
+"USSR-ukrán, orosz",USSR-moldva,0,0
+USSR-moldva,"USSR-ukrán, orosz",0,0
+"USSR-ukrán, orosz",USSR-orosz,1,1
+USSR-orosz,"USSR-ukrán, orosz",0.006369426751592357,1
+"USSR-ukrán, orosz",USSR-tadzsik,1,1
+USSR-tadzsik,"USSR-ukrán, orosz",0.14285714285714285,1
+"USSR-ukrán, orosz",USSR-tatár,0,0
+USSR-tatár,"USSR-ukrán, orosz",0,0
+"USSR-ukrán, orosz",USSR-türkmén,1,1
+USSR-türkmén,"USSR-ukrán, orosz",0.16666666666666666,1
+"USSR-ukrán, orosz",USSR-udmurt,0,0
+USSR-udmurt,"USSR-ukrán, orosz",0,0
+"USSR-ukrán, orosz",USSR-ujgur,1,1
+USSR-ujgur,"USSR-ukrán, orosz",1,1
+"USSR-ukrán, orosz",USSR-ukrán,1,1
+USSR-ukrán,"USSR-ukrán, orosz",0.02127659574468085,1
+"USSR-ukrán, orosz","USSR-ukrán, orosz",NA,NA
+"USSR-ukrán, orosz",USSR-észt,1,1
+USSR-észt,"USSR-ukrán, orosz",0.030303030303030304,1
+"USSR-ukrán, orosz",USSR-örmény,1,1
+USSR-örmény,"USSR-ukrán, orosz",0.06666666666666667,1
+"USSR-ukrán, orosz",USSR-üzbég,0,0
+USSR-üzbég,"USSR-ukrán, orosz",0,0
+"USSR-ukrán, orosz",Vietnam,0,0
+Vietnam,"USSR-ukrán, orosz",0,0
+USSR-észt,Albania,0.12121212121212122,4
+Albania,USSR-észt,0.6666666666666666,4
+USSR-észt,Bulgaria,0.42424242424242425,14
+Bulgaria,USSR-észt,0.19718309859154928,14
+USSR-észt,China,0.21212121212121213,7
+China,USSR-észt,0.23333333333333334,7
+USSR-észt,Cuba,0.09090909090909091,3
+Cuba,USSR-észt,0.6,3
+USSR-észt,Czechoslovakia-cseh,0.696969696969697,23
+Czechoslovakia-cseh,USSR-észt,0.15333333333333332,23
+USSR-észt,Czechoslovakia-szlovák,0.7878787878787878,26
+Czechoslovakia-szlovák,USSR-észt,0.15757575757575756,26
+USSR-észt,Czechoslovakia-ukrán,0,0
+Czechoslovakia-ukrán,USSR-észt,0,0
+USSR-észt,GDR,0.7878787878787878,26
+GDR,USSR-észt,0.15476190476190477,26
+USSR-észt,Hungary,0.5151515151515151,17
+Hungary,USSR-észt,0.11564625850340136,17
+USSR-észt,Mongolia,0.06060606060606061,2
+Mongolia,USSR-észt,0.4,2
+USSR-észt,North Korea,0.030303030303030304,1
+North Korea,USSR-észt,1,1
+USSR-észt,Poland,0.7575757575757576,25
+Poland,USSR-észt,0.176056338028169,25
+USSR-észt,Romania,0.48484848484848486,16
+Romania,USSR-észt,0.11428571428571428,16
+USSR-észt,USSR-altaji,0,0
+USSR-altaji,USSR-észt,0,0
+USSR-észt,USSR-azerbajdzsán,0.18181818181818182,6
+USSR-azerbajdzsán,USSR-észt,0.5,6
+USSR-észt,USSR-baskir,0.030303030303030304,1
+USSR-baskir,USSR-észt,1,1
+USSR-észt,USSR-csuvas,0.030303030303030304,1
+USSR-csuvas,USSR-észt,0.5,1
+USSR-észt,USSR-fehérorosz,0.18181818181818182,6
+USSR-fehérorosz,USSR-észt,0.6666666666666666,6
+USSR-észt,USSR-finn,0,0
+USSR-finn,USSR-észt,0,0
+USSR-észt,USSR-grúz,0.30303030303030304,10
+USSR-grúz,USSR-észt,0.4166666666666667,10
+USSR-észt,USSR-kazah,0.15151515151515152,5
+USSR-kazah,USSR-észt,0.5,5
+USSR-észt,USSR-kirgiz,0.15151515151515152,5
+USSR-kirgiz,USSR-észt,0.8333333333333334,5
+USSR-észt,USSR-komi,0.030303030303030304,1
+USSR-komi,USSR-észt,1,1
+USSR-észt,USSR-lett,0.36363636363636365,12
+USSR-lett,USSR-észt,0.42857142857142855,12
+USSR-észt,USSR-litván,0.45454545454545453,15
+USSR-litván,USSR-észt,0.4838709677419355,15
+USSR-észt,USSR-liv,0,0
+USSR-liv,USSR-észt,0,0
+USSR-észt,USSR-moldva,0.18181818181818182,6
+USSR-moldva,USSR-észt,0.46153846153846156,6
+USSR-észt,USSR-orosz,0.7878787878787878,26
+USSR-orosz,USSR-észt,0.16560509554140126,26
+USSR-észt,USSR-tadzsik,0.12121212121212122,4
+USSR-tadzsik,USSR-észt,0.5714285714285714,4
+USSR-észt,USSR-tatár,0.030303030303030304,1
+USSR-tatár,USSR-észt,1,1
+USSR-észt,USSR-türkmén,0.06060606060606061,2
+USSR-türkmén,USSR-észt,0.3333333333333333,2
+USSR-észt,USSR-udmurt,0.030303030303030304,1
+USSR-udmurt,USSR-észt,0.5,1
+USSR-észt,USSR-ujgur,0.030303030303030304,1
+USSR-ujgur,USSR-észt,1,1
+USSR-észt,USSR-ukrán,0.48484848484848486,16
+USSR-ukrán,USSR-észt,0.3404255319148936,16
+USSR-észt,"USSR-ukrán, orosz",0.030303030303030304,1
+"USSR-ukrán, orosz",USSR-észt,1,1
+USSR-észt,USSR-észt,NA,NA
+USSR-észt,USSR-örmény,0.21212121212121213,7
+USSR-örmény,USSR-észt,0.4666666666666667,7
+USSR-észt,USSR-üzbég,0.12121212121212122,4
+USSR-üzbég,USSR-észt,0.5714285714285714,4
+USSR-észt,Vietnam,0.09090909090909091,3
+Vietnam,USSR-észt,0.75,3
+USSR-örmény,Albania,0.2,3
+Albania,USSR-örmény,0.5,3
+USSR-örmény,Bulgaria,0.6,9
+Bulgaria,USSR-örmény,0.1267605633802817,9
+USSR-örmény,China,0.26666666666666666,4
+China,USSR-örmény,0.13333333333333333,4
+USSR-örmény,Cuba,0.13333333333333333,2
+Cuba,USSR-örmény,0.4,2
+USSR-örmény,Czechoslovakia-cseh,0.6666666666666666,10
+Czechoslovakia-cseh,USSR-örmény,0.06666666666666667,10
+USSR-örmény,Czechoslovakia-szlovák,0.6666666666666666,10
+Czechoslovakia-szlovák,USSR-örmény,0.06060606060606061,10
+USSR-örmény,Czechoslovakia-ukrán,0,0
+Czechoslovakia-ukrán,USSR-örmény,0,0
+USSR-örmény,GDR,0.6,9
+GDR,USSR-örmény,0.05357142857142857,9
+USSR-örmény,Hungary,0.4666666666666667,7
+Hungary,USSR-örmény,0.047619047619047616,7
+USSR-örmény,Mongolia,0.13333333333333333,2
+Mongolia,USSR-örmény,0.4,2
+USSR-örmény,North Korea,0.06666666666666667,1
+North Korea,USSR-örmény,1,1
+USSR-örmény,Poland,0.7333333333333333,11
+Poland,USSR-örmény,0.07746478873239436,11
+USSR-örmény,Romania,0.6,9
+Romania,USSR-örmény,0.06428571428571428,9
+USSR-örmény,USSR-altaji,0,0
+USSR-altaji,USSR-örmény,0,0
+USSR-örmény,USSR-azerbajdzsán,0.3333333333333333,5
+USSR-azerbajdzsán,USSR-örmény,0.4166666666666667,5
+USSR-örmény,USSR-baskir,0.06666666666666667,1
+USSR-baskir,USSR-örmény,1,1
+USSR-örmény,USSR-csuvas,0.06666666666666667,1
+USSR-csuvas,USSR-örmény,0.5,1
+USSR-örmény,USSR-fehérorosz,0.2,3
+USSR-fehérorosz,USSR-örmény,0.3333333333333333,3
+USSR-örmény,USSR-finn,0,0
+USSR-finn,USSR-örmény,0,0
+USSR-örmény,USSR-grúz,0.5333333333333333,8
+USSR-grúz,USSR-örmény,0.3333333333333333,8
+USSR-örmény,USSR-kazah,0.2,3
+USSR-kazah,USSR-örmény,0.3,3
+USSR-örmény,USSR-kirgiz,0.13333333333333333,2
+USSR-kirgiz,USSR-örmény,0.3333333333333333,2
+USSR-örmény,USSR-komi,0,0
+USSR-komi,USSR-örmény,0,0
+USSR-örmény,USSR-lett,0.6,9
+USSR-lett,USSR-örmény,0.32142857142857145,9
+USSR-örmény,USSR-litván,0.6,9
+USSR-litván,USSR-örmény,0.2903225806451613,9
+USSR-örmény,USSR-liv,0,0
+USSR-liv,USSR-örmény,0,0
+USSR-örmény,USSR-moldva,0.26666666666666666,4
+USSR-moldva,USSR-örmény,0.3076923076923077,4
+USSR-örmény,USSR-orosz,0.8666666666666667,13
+USSR-orosz,USSR-örmény,0.08280254777070063,13
+USSR-örmény,USSR-tadzsik,0.3333333333333333,5
+USSR-tadzsik,USSR-örmény,0.7142857142857143,5
+USSR-örmény,USSR-tatár,0,0
+USSR-tatár,USSR-örmény,0,0
+USSR-örmény,USSR-türkmén,0.3333333333333333,5
+USSR-türkmén,USSR-örmény,0.8333333333333334,5
+USSR-örmény,USSR-udmurt,0.06666666666666667,1
+USSR-udmurt,USSR-örmény,0.5,1
+USSR-örmény,USSR-ujgur,0.06666666666666667,1
+USSR-ujgur,USSR-örmény,1,1
+USSR-örmény,USSR-ukrán,0.7333333333333333,11
+USSR-ukrán,USSR-örmény,0.23404255319148937,11
+USSR-örmény,"USSR-ukrán, orosz",0.06666666666666667,1
+"USSR-ukrán, orosz",USSR-örmény,1,1
+USSR-örmény,USSR-észt,0.4666666666666667,7
+USSR-észt,USSR-örmény,0.21212121212121213,7
+USSR-örmény,USSR-örmény,NA,NA
+USSR-örmény,USSR-üzbég,0.2,3
+USSR-üzbég,USSR-örmény,0.42857142857142855,3
+USSR-örmény,Vietnam,0.13333333333333333,2
+Vietnam,USSR-örmény,0.5,2
+USSR-üzbég,Albania,0.14285714285714285,1
+Albania,USSR-üzbég,0.16666666666666666,1
+USSR-üzbég,Bulgaria,0.7142857142857143,5
+Bulgaria,USSR-üzbég,0.07042253521126761,5
+USSR-üzbég,China,0.5714285714285714,4
+China,USSR-üzbég,0.13333333333333333,4
+USSR-üzbég,Cuba,0.14285714285714285,1
+Cuba,USSR-üzbég,0.2,1
+USSR-üzbég,Czechoslovakia-cseh,0.8571428571428571,6
+Czechoslovakia-cseh,USSR-üzbég,0.04,6
+USSR-üzbég,Czechoslovakia-szlovák,0.8571428571428571,6
+Czechoslovakia-szlovák,USSR-üzbég,0.03636363636363636,6
+USSR-üzbég,Czechoslovakia-ukrán,0,0
+Czechoslovakia-ukrán,USSR-üzbég,0,0
+USSR-üzbég,GDR,0.8571428571428571,6
+GDR,USSR-üzbég,0.03571428571428571,6
+USSR-üzbég,Hungary,0.7142857142857143,5
+Hungary,USSR-üzbég,0.034013605442176874,5
+USSR-üzbég,Mongolia,0.14285714285714285,1
+Mongolia,USSR-üzbég,0.2,1
+USSR-üzbég,North Korea,0.14285714285714285,1
+North Korea,USSR-üzbég,1,1
+USSR-üzbég,Poland,0.7142857142857143,5
+Poland,USSR-üzbég,0.035211267605633804,5
+USSR-üzbég,Romania,0.7142857142857143,5
+Romania,USSR-üzbég,0.03571428571428571,5
+USSR-üzbég,USSR-altaji,0,0
+USSR-altaji,USSR-üzbég,0,0
+USSR-üzbég,USSR-azerbajdzsán,0.2857142857142857,2
+USSR-azerbajdzsán,USSR-üzbég,0.16666666666666666,2
+USSR-üzbég,USSR-baskir,0.14285714285714285,1
+USSR-baskir,USSR-üzbég,1,1
+USSR-üzbég,USSR-csuvas,0,0
+USSR-csuvas,USSR-üzbég,0,0
+USSR-üzbég,USSR-fehérorosz,0.2857142857142857,2
+USSR-fehérorosz,USSR-üzbég,0.2222222222222222,2
+USSR-üzbég,USSR-finn,0,0
+USSR-finn,USSR-üzbég,0,0
+USSR-üzbég,USSR-grúz,0.5714285714285714,4
+USSR-grúz,USSR-üzbég,0.16666666666666666,4
+USSR-üzbég,USSR-kazah,0.2857142857142857,2
+USSR-kazah,USSR-üzbég,0.2,2
+USSR-üzbég,USSR-kirgiz,0.14285714285714285,1
+USSR-kirgiz,USSR-üzbég,0.16666666666666666,1
+USSR-üzbég,USSR-komi,0.14285714285714285,1
+USSR-komi,USSR-üzbég,1,1
+USSR-üzbég,USSR-lett,0.5714285714285714,4
+USSR-lett,USSR-üzbég,0.14285714285714285,4
+USSR-üzbég,USSR-litván,0.7142857142857143,5
+USSR-litván,USSR-üzbég,0.16129032258064516,5
+USSR-üzbég,USSR-liv,0,0
+USSR-liv,USSR-üzbég,0,0
+USSR-üzbég,USSR-moldva,0.14285714285714285,1
+USSR-moldva,USSR-üzbég,0.07692307692307693,1
+USSR-üzbég,USSR-orosz,1,7
+USSR-orosz,USSR-üzbég,0.044585987261146494,7
+USSR-üzbég,USSR-tadzsik,0.2857142857142857,2
+USSR-tadzsik,USSR-üzbég,0.2857142857142857,2
+USSR-üzbég,USSR-tatár,0.14285714285714285,1
+USSR-tatár,USSR-üzbég,1,1
+USSR-üzbég,USSR-türkmén,0.14285714285714285,1
+USSR-türkmén,USSR-üzbég,0.16666666666666666,1
+USSR-üzbég,USSR-udmurt,0.14285714285714285,1
+USSR-udmurt,USSR-üzbég,0.5,1
+USSR-üzbég,USSR-ujgur,0,0
+USSR-ujgur,USSR-üzbég,0,0
+USSR-üzbég,USSR-ukrán,0.8571428571428571,6
+USSR-ukrán,USSR-üzbég,0.1276595744680851,6
+USSR-üzbég,"USSR-ukrán, orosz",0,0
+"USSR-ukrán, orosz",USSR-üzbég,0,0
+USSR-üzbég,USSR-észt,0.5714285714285714,4
+USSR-észt,USSR-üzbég,0.12121212121212122,4
+USSR-üzbég,USSR-örmény,0.42857142857142855,3
+USSR-örmény,USSR-üzbég,0.2,3
+USSR-üzbég,USSR-üzbég,NA,NA
+USSR-üzbég,Vietnam,0.2857142857142857,2
+Vietnam,USSR-üzbég,0.5,2
+Vietnam,Albania,0.75,3
+Albania,Vietnam,0.5,3
+Vietnam,Bulgaria,1,4
+Bulgaria,Vietnam,0.056338028169014086,4
+Vietnam,China,1,4
+China,Vietnam,0.13333333333333333,4
+Vietnam,Cuba,0.5,2
+Cuba,Vietnam,0.4,2
+Vietnam,Czechoslovakia-cseh,0.75,3
+Czechoslovakia-cseh,Vietnam,0.02,3
+Vietnam,Czechoslovakia-szlovák,1,4
+Czechoslovakia-szlovák,Vietnam,0.024242424242424242,4
+Vietnam,Czechoslovakia-ukrán,0,0
+Czechoslovakia-ukrán,Vietnam,0,0
+Vietnam,GDR,1,4
+GDR,Vietnam,0.023809523809523808,4
+Vietnam,Hungary,1,4
+Hungary,Vietnam,0.027210884353741496,4
+Vietnam,Mongolia,0.25,1
+Mongolia,Vietnam,0.2,1
+Vietnam,North Korea,0.25,1
+North Korea,Vietnam,1,1
+Vietnam,Poland,0.75,3
+Poland,Vietnam,0.02112676056338028,3
+Vietnam,Romania,0.75,3
+Romania,Vietnam,0.02142857142857143,3
+Vietnam,USSR-altaji,0,0
+USSR-altaji,Vietnam,0,0
+Vietnam,USSR-azerbajdzsán,0.25,1
+USSR-azerbajdzsán,Vietnam,0.08333333333333333,1
+Vietnam,USSR-baskir,0.25,1
+USSR-baskir,Vietnam,1,1
+Vietnam,USSR-csuvas,0,0
+USSR-csuvas,Vietnam,0,0
+Vietnam,USSR-fehérorosz,0.5,2
+USSR-fehérorosz,Vietnam,0.2222222222222222,2
+Vietnam,USSR-finn,0,0
+USSR-finn,Vietnam,0,0
+Vietnam,USSR-grúz,0.25,1
+USSR-grúz,Vietnam,0.041666666666666664,1
+Vietnam,USSR-kazah,0.25,1
+USSR-kazah,Vietnam,0.1,1
+Vietnam,USSR-kirgiz,0.25,1
+USSR-kirgiz,Vietnam,0.16666666666666666,1
+Vietnam,USSR-komi,0.25,1
+USSR-komi,Vietnam,1,1
+Vietnam,USSR-lett,0.75,3
+USSR-lett,Vietnam,0.10714285714285714,3
+Vietnam,USSR-litván,0.75,3
+USSR-litván,Vietnam,0.0967741935483871,3
+Vietnam,USSR-liv,0,0
+USSR-liv,Vietnam,0,0
+Vietnam,USSR-moldva,0.25,1
+USSR-moldva,Vietnam,0.07692307692307693,1
+Vietnam,USSR-orosz,1,4
+USSR-orosz,Vietnam,0.025477707006369428,4
+Vietnam,USSR-tadzsik,0.25,1
+USSR-tadzsik,Vietnam,0.14285714285714285,1
+Vietnam,USSR-tatár,0.25,1
+USSR-tatár,Vietnam,1,1
+Vietnam,USSR-türkmén,0.25,1
+USSR-türkmén,Vietnam,0.16666666666666666,1
+Vietnam,USSR-udmurt,0.25,1
+USSR-udmurt,Vietnam,0.5,1
+Vietnam,USSR-ujgur,0,0
+USSR-ujgur,Vietnam,0,0
+Vietnam,USSR-ukrán,1,4
+USSR-ukrán,Vietnam,0.0851063829787234,4
+Vietnam,"USSR-ukrán, orosz",0,0
+"USSR-ukrán, orosz",Vietnam,0,0
+Vietnam,USSR-észt,0.75,3
+USSR-észt,Vietnam,0.09090909090909091,3
+Vietnam,USSR-örmény,0.5,2
+USSR-örmény,Vietnam,0.13333333333333333,2
+Vietnam,USSR-üzbég,0.5,2
+USSR-üzbég,Vietnam,0.2857142857142857,2
+Vietnam,Vietnam,NA,NA
