@@ -36,14 +36,14 @@ navbarPage(
           the Hungarian literature tranlated into foreign languages."),
         p("The dataset is based on",
           a("Bibliographica Hungaricana", href="http://demeter.oszk.hu", target="_blank"),
-          " by Tibor Demeter and Tiborné Demeter, and UNESCO's ", 
+          "by Tibor Demeter and Tiborné Demeter, and UNESCO's",
           a("Index Translationum", href="https://www.unesco.org/xtrans/bsform.aspx", target="_blank"),
-          " database."),
-        p("The source code is available at ",
+          "database."),
+        p("The source code is available at",
           a("GiHhub", href="https://github.com/pkiraly/patterns-of-translations/", target="_blank"),
-          " while the data is available at ",
+          "while the data is available at",
           a("GRO.data", href="https://doi.org/10.25625/5JFAMK", target="_blank"),
-          " repository."
+          "repository."
         ),
       )
     )
