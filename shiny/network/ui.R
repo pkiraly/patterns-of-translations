@@ -5,19 +5,25 @@ navbarPage(
   tabPanel(
     "Network Analysis",
     fluidPage(
-      h4("Connections between regions"),
-      p("The network edges represent the number of authors translated in both regions."),
-      sliderInput("limit",
+      fluidRow(
+        column(3,
+          h4("Connections between regions"),
+          p("The network edges represent the number of authors translated in both regions."),
+          sliderInput("limit",
               label = "Minimum nr of common authors",
               min = 5,
               max = 100,
               value = 10,
               step = 5),
-      radioButtons("layout", label = "chart type", choices = c(
-        "network" = "network",
-        "circle" = "layout_in_circle"
-      )),
-      plotOutput(outputId = "network_plot", width = "100%")
+          radioButtons("layout", label = "chart type", choices = c(
+            "network" = "network",
+            "circle" = "layout_in_circle"
+          )),
+        ),
+        column(9,
+           plotOutput(outputId = "network_plot", width = "100%")
+        )
+      )
     ),
   ),
   tabPanel(

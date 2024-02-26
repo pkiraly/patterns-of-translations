@@ -43,6 +43,7 @@ function(input, output, session) {
     E(net)$width <- E(net)$weight / 20
     E(net)$label <- E(net)$weight
     print(input$layout)
+    par(mar = c(0, 0, 0, 0)) # set margin
     if (input$layout == "layout_in_circle") {
       plot(net, 
            # edge.color=c("dark red", "slategrey")[(E(net)$type=="hyperlink")+1],
@@ -64,5 +65,5 @@ function(input, output, session) {
     # edge.curved=.1
     # vertex.shape="none", vertex.label=nodes2$media
   
-  }, width = 800, height = 800)
+  }, width = 800, height = 600)
 }
