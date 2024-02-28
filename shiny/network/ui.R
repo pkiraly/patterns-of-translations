@@ -5,6 +5,9 @@ navbarPage(
   tabPanel(
     "Network Analysis",
     fluidPage(
+      tags$head(
+        tags$link(rel = "stylesheet", type = "text/css", href = "style.css")
+      ),
       fluidRow(
         column(3,
           h4("Connections between regions"),
@@ -36,9 +39,11 @@ navbarPage(
           ),
           tableOutput("abbreviations")
         ),
-        column(9,
+        column(6,
           p("The network edges represent the number of authors translated in both regions. The direction represents the chronological order."),
           plotOutput(outputId = "network_plot", width = "100%", height = '600px'),
+        ),
+        column(3,
           dataTableOutput("data_table")
         )
       )

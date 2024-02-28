@@ -110,7 +110,7 @@ function(input, output, session) {
     }
     # edge.curved=.1
     # vertex.shape="none", vertex.label=nodes2$media
-  }, width = 800, height = 600)
+  }, width = 600, height = 600)
   
   output$data_table <- renderDataTable({
     if (input$focus == "all") {
