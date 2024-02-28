@@ -118,8 +118,29 @@ function(input, output, session) {
     } else {
       edges <- edges_for_country(input$country, input$limit)
     }
+    
+    print(head(
+      edges %>% 
+        rename(score = weight) %>% 
+        left_join(regions, join_by(from == id))
+    ))
+    print(head(
+        edges %>% 
+          rename(score = weight) %>% 
+          left_join(regions, join_by(from == id)) %>% 
+          select(-from) %>% 
+          mutate(from = paste(region, " (", world, ")", sep = "" ))
+    ))
     edges %>% 
       rename(score = weight) %>% 
+      left_join(regions, join_by(from == id)) %>% 
+      select(-from) %>% 
+      mutate(from = paste(region, " (", world, ")", sep = "" )) %>% 
+      select(-world) %>% 
+      left_join(regions, join_by(to == id)) %>% 
+      select(-to) %>% 
+      mutate(to = paste(region, " (", world, ")", sep = "" )) %>% 
+      select(from, to, score) %>% 
       arrange(desc(score))
   })
 
