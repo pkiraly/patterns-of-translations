@@ -1,326 +1,170 @@
 country1,country2,ratio,common_authors
 Albania,Albania,NA,NA
 Albania,Bulgaria,1,6
-Bulgaria,Albania,0.08450704225352113,6
 Albania,China,0.6666666666666666,4
-China,Albania,0.13333333333333333,4
 Albania,Cuba,0.6666666666666666,4
-Cuba,Albania,0.8,4
 Albania,Czechoslovakia,1,6
-Czechoslovakia,Albania,0.025210084033613446,6
 Albania,GDR,1,6
-GDR,Albania,0.03571428571428571,6
 Albania,Hungary,1,6
-Hungary,Albania,0.04081632653061224,6
 Albania,Mongolia,0.3333333333333333,2
-Mongolia,Albania,0.4,2
 Albania,North Korea,0.16666666666666666,1
-North Korea,Albania,1,1
 Albania,Poland,0.8333333333333334,5
-Poland,Albania,0.035211267605633804,5
 Albania,Romania,0.8333333333333334,5
-Romania,Albania,0.03571428571428571,5
 Albania,USSR,1,6
-USSR,Albania,0.032432432432432434,6
 Albania,Vietnam,0.5,3
-Vietnam,Albania,0.75,3
 Bulgaria,Albania,0.08450704225352113,6
-Albania,Bulgaria,1,6
 Bulgaria,Bulgaria,NA,NA
 Bulgaria,China,0.18309859154929578,13
-China,Bulgaria,0.43333333333333335,13
 Bulgaria,Cuba,0.07042253521126761,5
-Cuba,Bulgaria,1,5
 Bulgaria,Czechoslovakia,0.7746478873239436,55
-Czechoslovakia,Bulgaria,0.23109243697478993,55
 Bulgaria,GDR,0.6056338028169014,43
-GDR,Bulgaria,0.25595238095238093,43
 Bulgaria,Hungary,0.4084507042253521,29
-Hungary,Bulgaria,0.19727891156462585,29
 Bulgaria,Mongolia,0.028169014084507043,2
-Mongolia,Bulgaria,0.4,2
 Bulgaria,North Korea,0.014084507042253521,1
-North Korea,Bulgaria,1,1
 Bulgaria,Poland,0.5492957746478874,39
-Poland,Bulgaria,0.2746478873239437,39
 Bulgaria,Romania,0.43661971830985913,31
-Romania,Bulgaria,0.22142857142857142,31
 Bulgaria,USSR,0.704225352112676,50
-USSR,Bulgaria,0.2702702702702703,50
 Bulgaria,Vietnam,0.056338028169014086,4
-Vietnam,Bulgaria,1,4
 China,Albania,0.13333333333333333,4
-Albania,China,0.6666666666666666,4
 China,Bulgaria,0.43333333333333335,13
-Bulgaria,China,0.18309859154929578,13
 China,China,NA,NA
 China,Cuba,0.1,3
-Cuba,China,0.6,3
 China,Czechoslovakia,0.6,18
-Czechoslovakia,China,0.07563025210084033,18
 China,GDR,0.5333333333333333,16
-GDR,China,0.09523809523809523,16
 China,Hungary,0.43333333333333335,13
-Hungary,China,0.08843537414965986,13
 China,Mongolia,0.1,3
-Mongolia,China,0.6,3
 China,North Korea,0.03333333333333333,1
-North Korea,China,1,1
 China,Poland,0.3333333333333333,10
-Poland,China,0.07042253521126761,10
 China,Romania,0.4666666666666667,14
-Romania,China,0.1,14
 China,USSR,0.6333333333333333,19
-USSR,China,0.10270270270270271,19
 China,Vietnam,0.13333333333333333,4
-Vietnam,China,1,4
 Cuba,Albania,0.8,4
-Albania,Cuba,0.6666666666666666,4
 Cuba,Bulgaria,1,5
-Bulgaria,Cuba,0.07042253521126761,5
 Cuba,China,0.6,3
-China,Cuba,0.1,3
 Cuba,Cuba,NA,NA
 Cuba,Czechoslovakia,1,5
-Czechoslovakia,Cuba,0.02100840336134454,5
 Cuba,GDR,1,5
-GDR,Cuba,0.02976190476190476,5
 Cuba,Hungary,1,5
-Hungary,Cuba,0.034013605442176874,5
 Cuba,Mongolia,0.4,2
-Mongolia,Cuba,0.4,2
 Cuba,North Korea,0.2,1
-North Korea,Cuba,1,1
 Cuba,Poland,1,5
-Poland,Cuba,0.035211267605633804,5
 Cuba,Romania,1,5
-Romania,Cuba,0.03571428571428571,5
 Cuba,USSR,1,5
-USSR,Cuba,0.02702702702702703,5
 Cuba,Vietnam,0.4,2
-Vietnam,Cuba,0.5,2
 Czechoslovakia,Albania,0.025210084033613446,6
-Albania,Czechoslovakia,1,6
 Czechoslovakia,Bulgaria,0.23109243697478993,55
-Bulgaria,Czechoslovakia,0.7746478873239436,55
 Czechoslovakia,China,0.07563025210084033,18
-China,Czechoslovakia,0.6,18
 Czechoslovakia,Cuba,0.02100840336134454,5
-Cuba,Czechoslovakia,1,5
 Czechoslovakia,Czechoslovakia,NA,NA
 Czechoslovakia,GDR,0.47478991596638653,113
-GDR,Czechoslovakia,0.6726190476190477,113
 Czechoslovakia,Hungary,0.2857142857142857,68
-Hungary,Czechoslovakia,0.46258503401360546,68
 Czechoslovakia,Mongolia,0.01680672268907563,4
-Mongolia,Czechoslovakia,0.8,4
 Czechoslovakia,North Korea,0.004201680672268907,1
-North Korea,Czechoslovakia,1,1
 Czechoslovakia,Poland,0.40756302521008403,97
-Poland,Czechoslovakia,0.6830985915492958,97
 Czechoslovakia,Romania,0.2857142857142857,68
-Romania,Czechoslovakia,0.4857142857142857,68
 Czechoslovakia,USSR,0.47058823529411764,112
-USSR,Czechoslovakia,0.6054054054054054,112
 Czechoslovakia,Vietnam,0.01680672268907563,4
-Vietnam,Czechoslovakia,1,4
 GDR,Albania,0.03571428571428571,6
-Albania,GDR,1,6
 GDR,Bulgaria,0.25595238095238093,43
-Bulgaria,GDR,0.6056338028169014,43
 GDR,China,0.09523809523809523,16
-China,GDR,0.5333333333333333,16
 GDR,Cuba,0.02976190476190476,5
-Cuba,GDR,1,5
 GDR,Czechoslovakia,0.6726190476190477,113
-Czechoslovakia,GDR,0.47478991596638653,113
 GDR,GDR,NA,NA
 GDR,Hungary,0.3630952380952381,61
-Hungary,GDR,0.41496598639455784,61
 GDR,Mongolia,0.017857142857142856,3
-Mongolia,GDR,0.6,3
 GDR,North Korea,0.005952380952380952,1
-North Korea,GDR,1,1
 GDR,Poland,0.47619047619047616,80
-Poland,GDR,0.5633802816901409,80
 GDR,Romania,0.32142857142857145,54
-Romania,GDR,0.38571428571428573,54
 GDR,USSR,0.5297619047619048,89
-USSR,GDR,0.4810810810810811,89
 GDR,Vietnam,0.023809523809523808,4
-Vietnam,GDR,1,4
 Hungary,Albania,0.04081632653061224,6
-Albania,Hungary,1,6
 Hungary,Bulgaria,0.19727891156462585,29
-Bulgaria,Hungary,0.4084507042253521,29
 Hungary,China,0.08843537414965986,13
-China,Hungary,0.43333333333333335,13
 Hungary,Cuba,0.034013605442176874,5
-Cuba,Hungary,1,5
 Hungary,Czechoslovakia,0.46258503401360546,68
-Czechoslovakia,Hungary,0.2857142857142857,68
 Hungary,GDR,0.41496598639455784,61
-GDR,Hungary,0.3630952380952381,61
 Hungary,Hungary,NA,NA
 Hungary,Mongolia,0.02040816326530612,3
-Mongolia,Hungary,0.6,3
 Hungary,North Korea,0.006802721088435374,1
-North Korea,Hungary,1,1
 Hungary,Poland,0.32653061224489793,48
-Poland,Hungary,0.3380281690140845,48
 Hungary,Romania,0.272108843537415,40
-Romania,Hungary,0.2857142857142857,40
 Hungary,USSR,0.3673469387755102,54
-USSR,Hungary,0.2918918918918919,54
 Hungary,Vietnam,0.027210884353741496,4
-Vietnam,Hungary,1,4
 Mongolia,Albania,0.4,2
-Albania,Mongolia,0.3333333333333333,2
 Mongolia,Bulgaria,0.4,2
-Bulgaria,Mongolia,0.028169014084507043,2
 Mongolia,China,0.6,3
-China,Mongolia,0.1,3
 Mongolia,Cuba,0.4,2
-Cuba,Mongolia,0.4,2
 Mongolia,Czechoslovakia,0.8,4
-Czechoslovakia,Mongolia,0.01680672268907563,4
 Mongolia,GDR,0.6,3
-GDR,Mongolia,0.017857142857142856,3
 Mongolia,Hungary,0.6,3
-Hungary,Mongolia,0.02040816326530612,3
 Mongolia,Mongolia,NA,NA
 Mongolia,North Korea,0.2,1
-North Korea,Mongolia,1,1
 Mongolia,Poland,0.6,3
-Poland,Mongolia,0.02112676056338028,3
 Mongolia,Romania,0.6,3
-Romania,Mongolia,0.02142857142857143,3
 Mongolia,USSR,0.8,4
-USSR,Mongolia,0.021621621621621623,4
 Mongolia,Vietnam,0.2,1
-Vietnam,Mongolia,0.25,1
 North Korea,Albania,1,1
-Albania,North Korea,0.16666666666666666,1
 North Korea,Bulgaria,1,1
-Bulgaria,North Korea,0.014084507042253521,1
 North Korea,China,1,1
-China,North Korea,0.03333333333333333,1
 North Korea,Cuba,1,1
-Cuba,North Korea,0.2,1
 North Korea,Czechoslovakia,1,1
-Czechoslovakia,North Korea,0.004201680672268907,1
 North Korea,GDR,1,1
-GDR,North Korea,0.005952380952380952,1
 North Korea,Hungary,1,1
-Hungary,North Korea,0.006802721088435374,1
 North Korea,Mongolia,1,1
-Mongolia,North Korea,0.2,1
 North Korea,North Korea,NA,NA
 North Korea,Poland,1,1
-Poland,North Korea,0.007042253521126761,1
 North Korea,Romania,1,1
-Romania,North Korea,0.007142857142857143,1
 North Korea,USSR,1,1
-USSR,North Korea,0.005405405405405406,1
 North Korea,Vietnam,1,1
-Vietnam,North Korea,0.25,1
 Poland,Albania,0.035211267605633804,5
-Albania,Poland,0.8333333333333334,5
 Poland,Bulgaria,0.2746478873239437,39
-Bulgaria,Poland,0.5492957746478874,39
 Poland,China,0.07042253521126761,10
-China,Poland,0.3333333333333333,10
 Poland,Cuba,0.035211267605633804,5
-Cuba,Poland,1,5
 Poland,Czechoslovakia,0.6830985915492958,97
-Czechoslovakia,Poland,0.40756302521008403,97
 Poland,GDR,0.5633802816901409,80
-GDR,Poland,0.47619047619047616,80
 Poland,Hungary,0.3380281690140845,48
-Hungary,Poland,0.32653061224489793,48
 Poland,Mongolia,0.02112676056338028,3
-Mongolia,Poland,0.6,3
 Poland,North Korea,0.007042253521126761,1
-North Korea,Poland,1,1
 Poland,Poland,NA,NA
 Poland,Romania,0.3591549295774648,51
-Romania,Poland,0.36428571428571427,51
 Poland,USSR,0.528169014084507,75
-USSR,Poland,0.40540540540540543,75
 Poland,Vietnam,0.02112676056338028,3
-Vietnam,Poland,0.75,3
 Romania,Albania,0.03571428571428571,5
-Albania,Romania,0.8333333333333334,5
 Romania,Bulgaria,0.22142857142857142,31
-Bulgaria,Romania,0.43661971830985913,31
 Romania,China,0.1,14
-China,Romania,0.4666666666666667,14
 Romania,Cuba,0.03571428571428571,5
-Cuba,Romania,1,5
 Romania,Czechoslovakia,0.4857142857142857,68
-Czechoslovakia,Romania,0.2857142857142857,68
 Romania,GDR,0.38571428571428573,54
-GDR,Romania,0.32142857142857145,54
 Romania,Hungary,0.2857142857142857,40
-Hungary,Romania,0.272108843537415,40
 Romania,Mongolia,0.02142857142857143,3
-Mongolia,Romania,0.6,3
 Romania,North Korea,0.007142857142857143,1
-North Korea,Romania,1,1
 Romania,Poland,0.36428571428571427,51
-Poland,Romania,0.3591549295774648,51
 Romania,Romania,NA,NA
 Romania,USSR,0.40714285714285714,57
-USSR,Romania,0.3081081081081081,57
 Romania,Vietnam,0.02142857142857143,3
-Vietnam,Romania,0.75,3
 USSR,Albania,0.032432432432432434,6
-Albania,USSR,1,6
 USSR,Bulgaria,0.2702702702702703,50
-Bulgaria,USSR,0.704225352112676,50
 USSR,China,0.10270270270270271,19
-China,USSR,0.6333333333333333,19
 USSR,Cuba,0.02702702702702703,5
-Cuba,USSR,1,5
 USSR,Czechoslovakia,0.6054054054054054,112
-Czechoslovakia,USSR,0.47058823529411764,112
 USSR,GDR,0.4810810810810811,89
-GDR,USSR,0.5297619047619048,89
 USSR,Hungary,0.2918918918918919,54
-Hungary,USSR,0.3673469387755102,54
 USSR,Mongolia,0.021621621621621623,4
-Mongolia,USSR,0.8,4
 USSR,North Korea,0.005405405405405406,1
-North Korea,USSR,1,1
 USSR,Poland,0.40540540540540543,75
-Poland,USSR,0.528169014084507,75
 USSR,Romania,0.3081081081081081,57
-Romania,USSR,0.40714285714285714,57
 USSR,USSR,NA,NA
 USSR,Vietnam,0.021621621621621623,4
-Vietnam,USSR,1,4
 Vietnam,Albania,0.75,3
-Albania,Vietnam,0.5,3
 Vietnam,Bulgaria,1,4
-Bulgaria,Vietnam,0.056338028169014086,4
 Vietnam,China,1,4
-China,Vietnam,0.13333333333333333,4
 Vietnam,Cuba,0.5,2
-Cuba,Vietnam,0.4,2
 Vietnam,Czechoslovakia,1,4
-Czechoslovakia,Vietnam,0.01680672268907563,4
 Vietnam,GDR,1,4
-GDR,Vietnam,0.023809523809523808,4
 Vietnam,Hungary,1,4
-Hungary,Vietnam,0.027210884353741496,4
 Vietnam,Mongolia,0.25,1
-Mongolia,Vietnam,0.2,1
 Vietnam,North Korea,0.25,1
-North Korea,Vietnam,1,1
 Vietnam,Poland,0.75,3
-Poland,Vietnam,0.02112676056338028,3
 Vietnam,Romania,0.75,3
-Romania,Vietnam,0.02142857142857143,3
 Vietnam,USSR,1,4
-USSR,Vietnam,0.021621621621621623,4
 Vietnam,Vietnam,NA,NA

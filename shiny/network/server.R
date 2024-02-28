@@ -1,69 +1,136 @@
 library(tidyverse)
 library(igraph)
 
-getNetwork <- function(common_authors_limit) {
-  regions <- read_csv('data/regions.csv')
-  
-  df <- read_csv('data/ratios-of-soviet-block-by-regions.csv')
-  df <- df %>% 
+prepare_base_df <- function(df) {
+  a <- df %>% 
+    left_join(regions, join_by(region1 == region)) %>%
+    filter(is.na(id))
+  print(a)
+
+  df %>% 
     distinct() %>% 
-    filter(region1 != 'Hungary' & region2 != 'Hungary') %>% 
+    # filter(region1 != 'Hungary' & region2 != 'Hungary') %>% 
     filter(!is.na(ratio)) %>% 
-    filter(common_authors > common_authors_limit) %>% 
+    # filter(common_authors > common_authors_limit) %>% 
     left_join(regions, join_by(region1 == region)) %>% 
     rename(from = id) %>% 
     left_join(regions, join_by(region2 == region)) %>% 
     rename(to = id) %>% 
     select(-c(region1, region2))
+}
 
-  nodes <- df %>% 
+extractNodes <- function(df) {
+  ids <- unique(c(df$from, df$to))
+  regions %>% 
+    filter(id %in% ids)
+}
+
+edges_for_all <- function(common_authors_limit) {
+  df %>% 
     filter(common_authors > common_authors_limit) %>% 
-    select(from) %>% 
-    distinct() %>% 
-    mutate(
-      id = from,
-      label = from
-    )
-
-  ids <- nodes %>% select(id) %>% unlist(use.names = FALSE)
-
-  edges <- df %>% 
-    filter(common_authors > common_authors_limit) %>% 
-    filter(from %in% ids & to %in% ids) %>% 
-    filter(row_number() %% 2 == 1) %>% 
-    rename(weight = common_authors) %>% 
+    filter(first > 0) %>% 
+    rename(weight = first) %>% 
     select(from, to, weight)
+}
 
-  graph_from_data_frame(d=edges, vertices=nodes, directed=FALSE)
-} 
+getNetwork <- function(common_authors_limit) {
+  edges <- edges_for_all(common_authors_limit)
+  nodes <- extractNodes(edges)
+  print(head(nodes))
+  graph_from_data_frame(d=edges, vertices=nodes, directed=TRUE)
+}
+
+edges_for_country <- function(country, common_authors_limit) {
+  df %>% 
+    filter(from == country | to == country) %>% 
+    filter(common_authors > common_authors_limit) %>% 
+    filter(first > 0) %>% 
+    rename(weight = first) %>% 
+    select(from, to, weight)
+}
+
+getNetworkForCountry <- function(country, common_authors_limit) {
+  edges <- edges_for_country(country, common_authors_limit)
+  nodes <- extractNodes(edges)
+  print(head(nodes))
+  graph_from_data_frame(d=edges, vertices=nodes, directed=TRUE)
+}
+
+regions <- read_csv('data/regions.csv',
+                    show_col_types = FALSE) %>% 
+  arrange(id)
+
+raw_df <- read_csv('data/ratios-of-soviet-block-by-regions.csv',
+                   show_col_types = FALSE)
+df <- prepare_base_df(raw_df)
 
 function(input, output, session) {
+  observeEvent(input$focus, {
+    if (input$focus == "single") {
+      updateSelectInput(
+        inputId = "country",
+        choices = setNames(regions$id, regions$region)
+      )
+    }
+  })
+  
   output$network_plot <- renderPlot({
-    net <- getNetwork(input$limit)
+    if (input$focus == "all") {
+      net <- getNetwork(input$limit)
+    } else {
+      net <- getNetworkForCountry(input$country, input$limit)
+    }
     E(net)$width <- E(net)$weight / 20
     E(net)$label <- E(net)$weight
-    print(input$layout)
+    V(net)$label.color <- c('blue', 'maroon', '#666666')[V(net)$world]
+    print(V(net)$label.color)
     par(mar = c(0, 0, 0, 0)) # set margin
     if (input$layout == "layout_in_circle") {
       plot(net, 
            # edge.color=c("dark red", "slategrey")[(E(net)$type=="hyperlink")+1],
-           layout=layout_in_circle, edge.curved=.3,
-           vertex.label.color="maroon", 
+           layout=layout_in_circle,
+           vertex.label.color=c('blue', 'maroon', '#666666')[V(net)$world], 
            vertex.label.cex=1.5,
            vertex.shape="none", 
+           edge.curved=.3,
+           edge.label.cex=.7,
            edge.label.color="cornflowerblue",
+           edge.arrow.size=E(net)$weight / 50,
       )
     } else {
       plot(net,
-           edge.curved=.3,
-           vertex.label.color="maroon", 
+           # vertex.label.color="maroon", 
            vertex.label.cex=1.5,
            vertex.shape="none", 
+           edge.curved=.3,
+           edge.label.cex=.7,
            edge.label.color="cornflowerblue",
+           edge.arrow.size=E(net)$weight / 50,
       )
     }
     # edge.curved=.1
     # vertex.shape="none", vertex.label=nodes2$media
-  
   }, width = 800, height = 600)
+  
+  output$data_table <- renderDataTable({
+    if (input$focus == "all") {
+      edges <- edges_for_all(input$limit)
+    } else {
+      edges <- edges_for_country(input$country, input$limit)
+    }
+    edges %>% 
+      rename(score = weight) %>% 
+      arrange(desc(score))
+  })
+
+  output$abbreviations <- renderTable({
+    if (input$focus == "all") {
+      edges <- edges_for_all(input$limit)
+    } else {
+      edges <- edges_for_country(input$country, input$limit)
+    }
+    extractNodes(edges) %>% 
+      mutate(world = as.character(world)) %>% 
+      arrange(id)
+  })
 }

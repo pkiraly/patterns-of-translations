@@ -1,39 +1,57 @@
-id,region
-AL,Albania
-BR,Bulgaria
-CH,China
-C,Cuba
-CZ,Czechoslovakia-cseh
-SK,Czechoslovakia-szlovák
-CS-UA,Czechoslovakia-ukrán
-DDR,GDR
-MGL,Mongolia
-DPR,North Korea
-PL,Poland
-RO,Romania
-SU-alt,USSR-altaji
-AZ,USSR-azerbajdzsán
-SU-bas,USSR-baskir
-SU-csu,USSR-csuvas
-BY,USSR-fehérorosz
-SU-fi,USSR-finn
-GE,USSR-grúz
-KZ,USSR-kazah
-KS,USSR-kirgiz
-SU-kom,USSR-komi
-LV,USSR-lett
-LT,USSR-litván
-SU-liv,USSR-liv
-MD,USSR-moldva
-RUS,USSR-orosz
-TJ,USSR-tadzsik
-SU-tat,USSR-tatár
-TM,USSR-türkmén
-SU-udm,USSR-udmurt
-SU-ujg,USSR-ujgur
-UA,USSR-ukrán
-SU-UA,"USSR-ukrán, orosz"
-EST,USSR-észt
-AM,USSR-örmény
-UZ,USSR-üzbég
-VN,Vietnam
+id,region,world
+AL,Albania,2
+BR,Bulgaria,2
+CHN,China,2
+C,Cuba,2
+CZ,Czechoslovakia-cseh,2
+SK,Czechoslovakia-szlovák,2
+CS-UA,Czechoslovakia-ukrán,2
+DDR,German Democratic Republic,2
+MGL,Mongolia,2
+DPR,North Korea,2
+PL,Poland,2
+RO,Romania,2
+HU,Hungary,2
+SU-alt,USSR-altaji,2
+AZ,USSR-azerbajdzsán,2
+SU-bas,USSR-baskir,2
+SU-csu,USSR-csuvas,2
+BY,USSR-fehérorosz,2
+SU-fi,USSR-finn,2
+GE,USSR-grúz,2
+KZ,USSR-kazah,2
+KS,USSR-kirgiz,2
+SU-kom,USSR-komi,2
+LV,USSR-lett,2
+LT,USSR-litván,2
+SU-liv,USSR-liv,2
+MD,USSR-moldva,2
+RUS,USSR-orosz,2
+TJ,USSR-tadzsik,2
+SU-tat,USSR-tatár,2
+TM,USSR-türkmén,2
+SU-udm,USSR-udmurt,2
+SU-ujg,USSR-ujgur,2
+UA,USSR-ukrán,2
+SU-UA,"USSR-ukrán, orosz",2
+EST,USSR-észt,2
+AM,USSR-örmény,2
+UZ,USSR-üzbég,2
+VN,Vietnam,2
+D,Federal Republic of Germany,1
+F,France,1
+I,Italy,1
+YU,Yugoslavia,3
+E,Spain,1
+A,Austria,1
+UK,United Kingdom,1
+FI,Finland,1
+NL,Netherlands,1
+TY,Turkey,3
+S,Sweden,1
+USA,United States,1
+J,Japan,1
+B,Belgium,1
+IL,Israel,1
+DE,Denmark,1
+N,Norway,1

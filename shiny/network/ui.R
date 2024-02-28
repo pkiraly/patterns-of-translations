@@ -8,20 +8,38 @@ navbarPage(
       fluidRow(
         column(3,
           h4("Connections between regions"),
-          p("The network edges represent the number of authors translated in both regions."),
           sliderInput("limit",
-              label = "Minimum number of authors",
-              min = 5,
-              max = 100,
-              value = 10,
-              step = 5),
-          radioButtons("layout", label = "chart type", choices = c(
-            "network" = "network",
-            "circle" = "layout_in_circle"
+            label = "Minimum number of authors",
+            min = 1,
+            max = 100,
+            value = 10,
+            step = 1,
+            width = '100%'),
+          radioButtons(
+            "layout",
+            label = "chart type",
+            choices = c(
+              "network" = "network",
+              "circle" = "layout_in_circle"
           )),
+          radioButtons(
+            "focus",
+            label = "focus on",
+            choices = c(
+              "all countries" = "all",
+              "single country" = "single"
+            )),
+          selectInput(
+            "country",
+            "Select a country",
+            choices = NULL
+          ),
+          tableOutput("abbreviations")
         ),
         column(9,
-           plotOutput(outputId = "network_plot", width = "100%")
+          p("The network edges represent the number of authors translated in both regions. The direction represents the chronological order."),
+          plotOutput(outputId = "network_plot", width = "100%", height = '600px'),
+          dataTableOutput("data_table")
         )
       )
     ),
