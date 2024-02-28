@@ -129,14 +129,17 @@ function(input, output, session) {
           rename(score = weight) %>% 
           left_join(regions, join_by(from == id)) %>% 
           select(-from) %>% 
-          mutate(from = paste(region, " (", world, ")", sep = "" ))
+          mutate(from = paste(region, " (", world, ")", sep = "" )) %>% 
+          select(-c(world, region)) %>% 
+          left_join(regions, join_by(to == id)) %>% 
+          select(-to)
     ))
     edges %>% 
       rename(score = weight) %>% 
       left_join(regions, join_by(from == id)) %>% 
       select(-from) %>% 
       mutate(from = paste(region, " (", world, ")", sep = "" )) %>% 
-      select(-world) %>% 
+      select(-c(world, region)) %>% 
       left_join(regions, join_by(to == id)) %>% 
       select(-to) %>% 
       mutate(to = paste(region, " (", world, ")", sep = "" )) %>% 
