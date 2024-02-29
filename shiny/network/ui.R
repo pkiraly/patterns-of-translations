@@ -1,4 +1,6 @@
 library(shiny)
+library(igraph)
+library(DT)
 
 navbarPage(
   "Patterns of Translations",
