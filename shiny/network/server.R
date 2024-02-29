@@ -111,6 +111,20 @@ function(input, output, session) {
     } else {
       edges <- edges_for_country(input$country, input$limit)
     }
+    print(paste("edges: ", nrow(edges)))
+    
+    d <- edges %>% 
+      rename(score = weight) %>% 
+      left_join(regions, join_by(from == id)) %>% 
+      select(-from) %>% 
+      mutate(from = paste(region, " (", world, ")", sep = "" )) %>% 
+      select(-c(world, region)) %>% 
+      left_join(regions, join_by(to == id)) %>% 
+      select(-to) %>% 
+      mutate(to = paste(region, " (", world, ")", sep = "" )) %>% 
+      select(from, to, score) %>% 
+      arrange(desc(score))
+    print(paste("d: ", nrow(d)))
     
     edges %>% 
       rename(score = weight) %>% 
