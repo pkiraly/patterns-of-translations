@@ -60,6 +60,7 @@ df <- prepare_base_df(raw_df)
 
 function(input, output, session) {
   observeEvent(input$focus, {
+    print(paste("input$focus: ", input$focus))
     if (input$focus == "single") {
       updateSelectInput(
         inputId = "country",
