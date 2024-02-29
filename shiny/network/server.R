@@ -3,9 +3,9 @@ library(igraph)
 library(DT)
 
 prepare_base_df <- function(df) {
-  df %>% 
-    distinct() %>% 
-    # filter(region1 != 'Hungary' & region2 != 'Hungary') %>% 
+  df %>%
+    distinct() %>%
+    # filter(region1 != 'Hungary' & region2 != 'Hungary') %>%
     filter(!is.na(ratio)) %>% 
     # filter(common_authors > common_authors_limit) %>% 
     left_join(regions, join_by(region1 == region)) %>% 
@@ -89,10 +89,14 @@ function(input, output, session) {
   output$network_plot <- renderPlot({
     if (input$country == "all" || input$country == "") {
       net <- getNetwork(input$limit)
+      shapes <- rep('none', length(V(net)))
     } else {
       net <- getNetworkForCountry(input$country, input$limit, input$level)
+      countries <- V(net)$name
+      shapes <- c('none', 'circle')[as.integer(countries == input$country) + 1]
     }
-    E(net)$width <- (E(net)$weight / 30) ^ 1.5
+    V(net)$shape <- shapes
+    E(net)$width <- (E(net)$weight / 20) ^ 1.5
     E(net)$label <- E(net)$weight
     V(net)$label.color <- c('blue', 'maroon', '#666666')[V(net)$world]
     par(mar = c(0, 0, 0, 0)) # set margin
@@ -100,9 +104,9 @@ function(input, output, session) {
       plot(net, 
            # edge.color=c("dark red", "slategrey")[(E(net)$type=="hyperlink")+1],
            layout=layout_in_circle,
-           vertex.label.color=c('blue', 'maroon', '#666666')[V(net)$world], 
            vertex.label.cex=1.5,
-           vertex.shape="none", 
+           vertex.color=adjustcolor("white", alpha.f = .5),
+           vertex.frame.color="#999999",
            edge.curved=.3,
            edge.label.cex=.7,
            edge.label.color="cornflowerblue",
@@ -112,7 +116,8 @@ function(input, output, session) {
       plot(net,
            # vertex.label.color="maroon", 
            vertex.label.cex=1.5,
-           vertex.shape="none", 
+           vertex.color=adjustcolor("white", alpha.f = .5),
+           vertex.frame.color="#999999",
            edge.curved=.3,
            edge.label.cex=.7,
            edge.label.color="cornflowerblue",
@@ -124,7 +129,6 @@ function(input, output, session) {
   }, width = 600, height = 600)
   
   output$data_table <- renderDataTable({
-    print(paste("level:", input$level))
     if (input$country == "all" || input$country == "") {
       edges <- edges_for_all(input$limit)
     } else {
@@ -159,6 +163,8 @@ function(input, output, session) {
       left_join(inits, join_by(id)) %>% 
       left_join(follows, join_by(id)) %>% 
       mutate(
+        init = ifelse(is.na(init), 0, init),
+        follow = ifelse(is.na(follow), 0, follow),
         region = paste(region, " (", world, ")", sep = ""),
         ratio = paste(round(init), ":", round(follow), sep = ""),
         result = as.integer(round((init - follow))),
