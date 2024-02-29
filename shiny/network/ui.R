@@ -31,11 +31,20 @@ navbarPage(
             choices = c(
               "all countries" = "all",
               "single country" = "single"
-            )),
+          )),
           selectInput(
             "country",
             "Select a country",
             choices = NULL
+          ),
+          p(
+            id = "abbreviation-explanation",
+            strong("ratio"),
+            "shows how many times a region published authors before and after",
+            "than others in the current network.",
+            strong("result"),
+            "is the summary of it. If this number is positive the region",
+            "published more authors before than other regions."
           ),
           tableOutput("abbreviations")
         ),

@@ -1,12 +1,8 @@
 library(tidyverse)
 library(igraph)
+library(DT)
 
 prepare_base_df <- function(df) {
-  a <- df %>% 
-    left_join(regions, join_by(region1 == region)) %>%
-    filter(is.na(id))
-  print(a)
-
   df %>% 
     distinct() %>% 
     # filter(region1 != 'Hungary' & region2 != 'Hungary') %>% 
@@ -27,7 +23,7 @@ extractNodes <- function(df) {
 
 edges_for_all <- function(common_authors_limit) {
   df %>% 
-    filter(common_authors > common_authors_limit) %>% 
+    filter(common_authors >= common_authors_limit) %>% 
     filter(first > 0) %>% 
     rename(weight = first) %>% 
     select(from, to, weight)
@@ -36,14 +32,13 @@ edges_for_all <- function(common_authors_limit) {
 getNetwork <- function(common_authors_limit) {
   edges <- edges_for_all(common_authors_limit)
   nodes <- extractNodes(edges)
-  print(head(nodes))
   graph_from_data_frame(d=edges, vertices=nodes, directed=TRUE)
 }
 
 edges_for_country <- function(country, common_authors_limit) {
   df %>% 
     filter(from == country | to == country) %>% 
-    filter(common_authors > common_authors_limit) %>% 
+    filter(common_authors >= common_authors_limit) %>% 
     filter(first > 0) %>% 
     rename(weight = first) %>% 
     select(from, to, weight)
@@ -52,7 +47,6 @@ edges_for_country <- function(country, common_authors_limit) {
 getNetworkForCountry <- function(country, common_authors_limit) {
   edges <- edges_for_country(country, common_authors_limit)
   nodes <- extractNodes(edges)
-  print(head(nodes))
   graph_from_data_frame(d=edges, vertices=nodes, directed=TRUE)
 }
 
@@ -80,10 +74,9 @@ function(input, output, session) {
     } else {
       net <- getNetworkForCountry(input$country, input$limit)
     }
-    E(net)$width <- E(net)$weight / 20
+    E(net)$width <- (E(net)$weight / 30) ^ 1.5
     E(net)$label <- E(net)$weight
     V(net)$label.color <- c('blue', 'maroon', '#666666')[V(net)$world]
-    print(V(net)$label.color)
     par(mar = c(0, 0, 0, 0)) # set margin
     if (input$layout == "layout_in_circle") {
       plot(net, 
@@ -95,7 +88,7 @@ function(input, output, session) {
            edge.curved=.3,
            edge.label.cex=.7,
            edge.label.color="cornflowerblue",
-           edge.arrow.size=E(net)$weight / 50,
+           edge.arrow.size=.1, # E(net)$weight / 50,
       )
     } else {
       plot(net,
@@ -105,7 +98,7 @@ function(input, output, session) {
            edge.curved=.3,
            edge.label.cex=.7,
            edge.label.color="cornflowerblue",
-           edge.arrow.size=E(net)$weight / 50,
+           edge.arrow.size = .01 + (input$limit / 100), # E(net)$weight / 50,
       )
     }
     # edge.curved=.1
@@ -119,21 +112,6 @@ function(input, output, session) {
       edges <- edges_for_country(input$country, input$limit)
     }
     
-    print(head(
-      edges %>% 
-        rename(score = weight) %>% 
-        left_join(regions, join_by(from == id))
-    ))
-    print(head(
-        edges %>% 
-          rename(score = weight) %>% 
-          left_join(regions, join_by(from == id)) %>% 
-          select(-from) %>% 
-          mutate(from = paste(region, " (", world, ")", sep = "" )) %>% 
-          select(-c(world, region)) %>% 
-          left_join(regions, join_by(to == id)) %>% 
-          select(-to)
-    ))
     edges %>% 
       rename(score = weight) %>% 
       left_join(regions, join_by(from == id)) %>% 
@@ -144,7 +122,8 @@ function(input, output, session) {
       select(-to) %>% 
       mutate(to = paste(region, " (", world, ")", sep = "" )) %>% 
       select(from, to, score) %>% 
-      arrange(desc(score))
+      arrange(desc(score)) %>% 
+      datatable(rownames = FALSE)
   })
 
   output$abbreviations <- renderTable({
@@ -153,8 +132,19 @@ function(input, output, session) {
     } else {
       edges <- edges_for_country(input$country, input$limit)
     }
+    inits <- edges %>% group_by(from) %>% summarise(init = sum(weight)) %>% rename(id = from)
+    follows <- edges %>% group_by(to) %>% summarise(follow = sum(weight)) %>% rename(id = to)
+    
     extractNodes(edges) %>% 
       mutate(world = as.character(world)) %>% 
-      arrange(id)
+      left_join(inits, join_by(id)) %>% 
+      left_join(follows, join_by(id)) %>% 
+      mutate(
+        region = paste(region, " (", world, ")", sep = ""),
+        ratio = paste(round(init), ":", round(follow), sep = ""),
+        result = as.integer(round((init - follow))),
+      ) %>% 
+      select(-c(world, init, follow)) %>% 
+      arrange(desc(result))
   })
 }

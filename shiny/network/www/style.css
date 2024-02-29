@@ -1,5 +1,28 @@
-#data_table table td,
-#abbreviations table td
+#data_table,
+#abbreviations,
+#abbreviation-explanation
 {
   font-size: 80%
+}
+
+#data_table table.dataTable td,
+#data_table table.dataTable th,
+#abbreviations table.table td,
+#abbreviations table.table th {
+  padding: 2px;
+  vertical-align: top;
+}
+
+#abbreviations table.table td:nth-child(3) {
+  text-align: center;
+}
+
+#data_table table.dataTable tbody tr td:last-child {
+  text-align: right;
+  width: 10%;
+}
+
+#data_table table.dataTable thead tr th:last-child {
+  padding-left: 5px;
+  width: 10%;
 }
