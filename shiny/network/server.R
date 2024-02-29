@@ -35,17 +35,37 @@ getNetwork <- function(common_authors_limit) {
   graph_from_data_frame(d=edges, vertices=nodes, directed=TRUE)
 }
 
-edges_for_country <- function(country, common_authors_limit) {
-  df %>% 
-    filter(from == country | to == country) %>% 
-    filter(common_authors >= common_authors_limit) %>% 
-    filter(first > 0) %>% 
-    rename(weight = first) %>% 
-    select(from, to, weight)
+edges_for_country <- function(country, common_authors_limit, level = FALSE) {
+  if (level == TRUE) {
+    df2 <- df %>% 
+      filter(from == country | to == country) %>% 
+      filter(common_authors >= common_authors_limit) %>% 
+      filter(first > 0)
+    ids <- extractNodes(df2) %>% pull(id)
+
+    if (length(ids[ids == country]) == 0) {
+      df %>% filter(from == "NON EXISTENT") %>% 
+        rename(weight = first)
+    } else {
+      df %>% 
+        filter(from %in% ids | to %in% ids) %>% 
+        filter(common_authors >= common_authors_limit) %>% 
+        filter(first > 0) %>% 
+        rename(weight = first) %>% 
+        select(from, to, weight)
+    }
+  } else {
+    df %>% 
+      filter(from == country | to == country) %>% 
+      filter(common_authors >= common_authors_limit) %>% 
+      filter(first > 0) %>% 
+      rename(weight = first) %>% 
+      select(from, to, weight)
+  }
 }
 
-getNetworkForCountry <- function(country, common_authors_limit) {
-  edges <- edges_for_country(country, common_authors_limit)
+getNetworkForCountry <- function(country, common_authors_limit, level) {
+  edges <- edges_for_country(country, common_authors_limit, level)
   nodes <- extractNodes(edges)
   graph_from_data_frame(d=edges, vertices=nodes, directed=TRUE)
 }
@@ -59,20 +79,18 @@ raw_df <- read_csv('data/ratios-of-soviet-block-by-regions.csv',
 df <- prepare_base_df(raw_df)
 
 function(input, output, session) {
-  observeEvent(input$focus, {
-    if (input$focus == "single") {
-      updateSelectInput(
-        inputId = "country",
-        choices = setNames(regions$id, regions$region)
-      )
-    }
-  })
+  ids <- c("all", regions$id)
+  names <- c("all regions", regions$region)
+  updateSelectInput(
+    inputId = "country",
+    choices = setNames(ids, names)
+  )
   
   output$network_plot <- renderPlot({
-    if (input$focus == "all") {
+    if (input$country == "all" || input$country == "") {
       net <- getNetwork(input$limit)
     } else {
-      net <- getNetworkForCountry(input$country, input$limit)
+      net <- getNetworkForCountry(input$country, input$limit, input$level)
     }
     E(net)$width <- (E(net)$weight / 30) ^ 1.5
     E(net)$label <- E(net)$weight
@@ -106,10 +124,11 @@ function(input, output, session) {
   }, width = 600, height = 600)
   
   output$data_table <- renderDataTable({
-    if (input$focus == "all") {
+    print(paste("level:", input$level))
+    if (input$country == "all" || input$country == "") {
       edges <- edges_for_all(input$limit)
     } else {
-      edges <- edges_for_country(input$country, input$limit)
+      edges <- edges_for_country(input$country, input$limit, input$level)
     }
 
     edges %>% 
@@ -127,10 +146,10 @@ function(input, output, session) {
   })
 
   output$abbreviations <- renderTable({
-    if (input$focus == "all") {
+    if (input$country == "all" || input$country == "") {
       edges <- edges_for_all(input$limit)
     } else {
-      edges <- edges_for_country(input$country, input$limit)
+      edges <- edges_for_country(input$country, input$limit, input$level)
     }
     inits <- edges %>% group_by(from) %>% summarise(init = sum(weight)) %>% rename(id = from)
     follows <- edges %>% group_by(to) %>% summarise(follow = sum(weight)) %>% rename(id = to)

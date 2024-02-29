@@ -27,18 +27,12 @@ navbarPage(
               "network" = "network",
               "circle" = "layout_in_circle"
           )),
-          radioButtons(
-            "focus",
-            label = "focus on",
-            choices = c(
-              "all countries" = "all",
-              "single country" = "single"
-          )),
           selectInput(
             "country",
-            "Select a country",
-            choices = NULL
+            "Select a region",
+            choices = NULL,
           ),
+          checkboxInput("level", "show 2 levels for a region"),
           p(
             id = "abbreviation-explanation",
             strong("ratio"),
