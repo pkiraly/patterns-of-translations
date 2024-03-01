@@ -13,8 +13,15 @@ navbarPage(
       fluidRow(
         column(3,
           h4("Connections between regions"),
+          radioButtons(
+            "minmax",
+            label = "criterium",
+            choices = c(
+              "Minimum number of authors" = "min",
+              "Maximum number of authors" = "max"
+            )),
           sliderInput("limit",
-            label = "Minimum number of authors",
+            label = "number of authors",
             min = 1,
             max = 100,
             value = 10,
@@ -47,6 +54,20 @@ navbarPage(
         column(6,
           p("The network edges represent the number of authors translated in both regions. The direction represents the chronological order."),
           plotOutput(outputId = "network_plot", width = "100%", height = '600px'),
+          h3("network metrics", class = "metrics"),
+          tags$ul(
+            class = "metrics",
+            tags$li("diameter: the length of the longest shortest paths"),
+            tags$li("degree: the number of its adjacent edges"),
+            tags$li("betweenness: number of shortest paths going through a node"),
+            tags$li("closeness: how many steps is required to access every other vertex from a given vertex")
+          ),
+          p(
+            class = "metrics",
+            "the diamater: ",
+            textOutput("diameter", inline=TRUE)
+          ),
+          dataTableOutput("metrics")
         ),
         column(3,
           dataTableOutput("data_table")

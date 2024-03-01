@@ -21,26 +21,35 @@ extractNodes <- function(df) {
     filter(id %in% ids)
 }
 
-edges_for_all <- function(common_authors_limit) {
-  df %>% 
-    filter(common_authors >= common_authors_limit) %>% 
+edges_for_all <- function(common_authors_limit, minmax) {
+  if (minmax == "min") {
+    df2 <- df %>% filter(common_authors >= common_authors_limit) 
+  } else if (minmax == "max") {
+    df2 <- df %>% filter(common_authors <= common_authors_limit) 
+  }
+  df2 %>% 
     filter(first > 0) %>% 
     rename(weight = first) %>% 
     select(from, to, weight)
 }
 
-getNetwork <- function(common_authors_limit) {
-  edges <- edges_for_all(common_authors_limit)
+getNetwork <- function(common_authors_limit, minmax) {
+  edges <- edges_for_all(common_authors_limit, minmax)
   nodes <- extractNodes(edges)
   graph_from_data_frame(d=edges, vertices=nodes, directed=TRUE)
 }
 
-edges_for_country <- function(country, common_authors_limit, level = FALSE) {
+edges_for_country <- function(country, common_authors_limit, minmax, level = FALSE) {
   if (level == TRUE) {
     df2 <- df %>% 
       filter(from == country | to == country) %>% 
-      filter(common_authors >= common_authors_limit) %>% 
       filter(first > 0)
+    
+    if (minmax == "min") {
+      df2 <- df2 %>% filter(common_authors >= common_authors_limit) 
+    } else if (minmax == "max") {
+      df2 <- df2 %>% filter(common_authors <= common_authors_limit) 
+    }
     ids <- extractNodes(df2) %>% pull(id)
 
     if (length(ids[ids == country]) == 0) {
@@ -88,13 +97,22 @@ function(input, output, session) {
   
   output$network_plot <- renderPlot({
     if (input$country == "all" || input$country == "") {
-      net <- getNetwork(input$limit)
+      net <- getNetwork(input$limit, input$minmax)
       shapes <- rep('none', length(V(net)))
     } else {
-      net <- getNetworkForCountry(input$country, input$limit, input$level)
+      net <- getNetworkForCountry(input$country, input$limit, input$minmax, input$level)
       countries <- V(net)$name
       shapes <- c('none', 'circle')[as.integer(countries == input$country) + 1]
     }
+    ebn <- edge_betweenness(net)
+    # print("edge_betweenness(net): ")
+    # print(str(ebn))
+    edgeDf <- as.tibble(as_edgelist(net))
+    names(edgeDf) <- c("from", "to")
+    edgeDf$ebn <- ebn
+
+    # print(cliques(net))
+    
     V(net)$shape <- shapes
     E(net)$width <- (E(net)$weight / 20) ^ 1.5
     E(net)$label <- E(net)$weight
@@ -130,9 +148,9 @@ function(input, output, session) {
   
   output$data_table <- renderDataTable({
     if (input$country == "all" || input$country == "") {
-      edges <- edges_for_all(input$limit)
+      edges <- edges_for_all(input$limit, input$minmax)
     } else {
-      edges <- edges_for_country(input$country, input$limit, input$level)
+      edges <- edges_for_country(input$country, input$limit, input$minmax, input$level)
     }
 
     edges %>% 
@@ -151,9 +169,9 @@ function(input, output, session) {
 
   output$abbreviations <- renderTable({
     if (input$country == "all" || input$country == "") {
-      edges <- edges_for_all(input$limit)
+      edges <- edges_for_all(input$limit, input$minmax)
     } else {
-      edges <- edges_for_country(input$country, input$limit, input$level)
+      edges <- edges_for_country(input$country, input$limit, input$minmax, input$level)
     }
     inits <- edges %>% group_by(from) %>% summarise(init = sum(weight)) %>% rename(id = from)
     follows <- edges %>% group_by(to) %>% summarise(follow = sum(weight)) %>% rename(id = to)
@@ -171,5 +189,44 @@ function(input, output, session) {
       ) %>% 
       select(-c(world, init, follow)) %>% 
       arrange(desc(result))
+  })
+  
+  output$metrics <- renderDataTable({
+    if (input$country == "all" || input$country == "") {
+      edges <- edges_for_all(input$limit, input$minmax)
+    } else {
+      edges <- edges_for_country(input$country, input$limit, input$minmax, input$level)
+    }
+
+    nodes <- extractNodes(edges)
+    net <- graph_from_data_frame(d=edges, vertices=nodes, directed=TRUE)
+    
+    degreeVector <- degree(net)
+    nodeDf <- as.tibble(degreeVector)
+    names(nodeDf) <- c("degree")
+    nodeDf$id <- names(degreeVector)
+    nodeDf <- nodeDf %>% 
+      select(id, degree) %>% 
+      mutate(
+        page_rank = round(unname(page_rank(net)$vector) * 1000) / 1000,
+        betweenness = unname(betweenness(net)),
+        closeness_in = round(closeness(net, mode = "in") * 100000) / 100000,
+        closeness_out = round(closeness(net, mode = "out") * 100000) / 100000,
+        closeness_total = round(closeness(net, mode = "total") * 100000) / 100000,
+      ) %>% 
+      datatable()
+  })
+  
+  output$diameter <- renderText({
+    if (input$country == "all" || input$country == "") {
+      edges <- edges_for_all(input$limit, input$minmax)
+    } else {
+      edges <- edges_for_country(input$country, input$limit, input$minmax, input$level)
+    }
+ 
+    nodes <- extractNodes(edges)
+    net <- graph_from_data_frame(d=edges, vertices=nodes, directed=TRUE)
+    
+    diameter(net)
   })
 }
