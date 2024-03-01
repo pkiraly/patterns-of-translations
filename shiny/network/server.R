@@ -73,8 +73,8 @@ edges_for_country <- function(country, common_authors_limit, minmax, level = FAL
   }
 }
 
-getNetworkForCountry <- function(country, common_authors_limit, level) {
-  edges <- edges_for_country(country, common_authors_limit, level)
+getNetworkForCountry <- function(country, common_authors_limit, minmax, level) {
+  edges <- edges_for_country(country, common_authors_limit, minmax, level)
   nodes <- extractNodes(edges)
   graph_from_data_frame(d=edges, vertices=nodes, directed=TRUE)
 }
@@ -105,11 +105,13 @@ function(input, output, session) {
       shapes <- c('none', 'circle')[as.integer(countries == input$country) + 1]
     }
     ebn <- edge_betweenness(net)
-    # print("edge_betweenness(net): ")
-    # print(str(ebn))
-    edgeDf <- as.tibble(as_edgelist(net))
-    names(edgeDf) <- c("from", "to")
-    edgeDf$ebn <- ebn
+    if (length(ebn) > 0) {
+      print("edge_betweenness(net): ")
+      print(str(ebn))
+      edgeDf <- as.tibble(as_edgelist(net))
+      names(edgeDf) <- c("from", "to")
+      edgeDf$ebn <- ebn
+    }
 
     # print(cliques(net))
     
