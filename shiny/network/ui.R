@@ -67,7 +67,7 @@ navbarPage(
             "the diamater: ",
             textOutput("diameter", inline=TRUE)
           ),
-          dataTableOutput("metrics")
+          dataTableOutput("metrics"),
         ),
         column(3,
           dataTableOutput("data_table")

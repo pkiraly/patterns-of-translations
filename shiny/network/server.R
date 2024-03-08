@@ -106,9 +106,7 @@ function(input, output, session) {
     }
     ebn <- edge_betweenness(net)
     if (length(ebn) > 0) {
-      print("edge_betweenness(net): ")
-      print(str(ebn))
-      edgeDf <- as.tibble(as_edgelist(net))
+      edgeDf <- as_tibble(as_edgelist(net))
       names(edgeDf) <- c("from", "to")
       edgeDf$ebn <- ebn
     }
@@ -204,19 +202,19 @@ function(input, output, session) {
     net <- graph_from_data_frame(d=edges, vertices=nodes, directed=TRUE)
     
     degreeVector <- degree(net)
-    nodeDf <- as.tibble(degreeVector)
+    nodeDf <- as_tibble(degreeVector)
     names(nodeDf) <- c("degree")
     nodeDf$id <- names(degreeVector)
     nodeDf <- nodeDf %>% 
       select(id, degree) %>% 
       mutate(
         page_rank = round(unname(page_rank(net)$vector) * 1000) / 1000,
-        betweenness = unname(betweenness(net)),
+        betweenness = round(unname(betweenness(net)) * 100) / 100,
         closeness_in = round(closeness(net, mode = "in") * 100000) / 100000,
         closeness_out = round(closeness(net, mode = "out") * 100000) / 100000,
         closeness_total = round(closeness(net, mode = "total") * 100000) / 100000,
       ) %>% 
-      datatable()
+      datatable(options = list(pageLength = 25))
   })
   
   output$diameter <- renderText({
