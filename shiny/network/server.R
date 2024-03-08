@@ -116,7 +116,7 @@ function(input, output, session) {
     V(net)$shape <- shapes
     E(net)$width <- (E(net)$weight / 20) ^ 1.5
     E(net)$label <- E(net)$weight
-    V(net)$label.color <- c('blue', 'maroon', '#666666')[V(net)$world]
+    V(net)$label.color <- c('blue', 'maroon', 'darkgreen')[V(net)$world]
     par(mar = c(0, 0, 0, 0)) # set margin
     if (input$layout == "layout_in_circle") {
       plot(net, 
