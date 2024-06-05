@@ -86,7 +86,7 @@ navbarPage(
                   tags$li(strong("after"),
                     "is the number of times an author was published after another region"),
                   tags$li(strong("sum"),
-                    "is the total number of authors published in the region"),
+                    "is the sum of 'before' and 'after' values"),
                   tags$li(strong("balance"),
                     "is the difference of 'before' and 'after' values"),
                   tags$li(strong("ratio"),
