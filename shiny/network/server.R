@@ -196,7 +196,7 @@ function(input, output, session) {
         sum = before + after,
         balance = before - after,
         # ratio = paste(round(before), ":", round(after), sep = ""),
-        ratio = round(before / after, digits = 2),
+        ratio = ifelse(after == 0, before, round(before / after, digits = 2)),
         score = round(log10(ratio * sum), digits = 2),
       ) %>% 
       select(-c(world, init, follow)) %>% 

@@ -2,7 +2,7 @@ id,region,world
 AL,Albania,2
 BG,Bulgaria,2
 CHN,China,2
-C,Cuba,2
+CU,Cuba,2
 CZ,Czechoslovakia-cseh,2
 SK,Czechoslovakia-szlovák,2
 CS-UA,Czechoslovakia-ukrán,2
@@ -20,7 +20,7 @@ BY,USSR-fehérorosz,2
 SU-fi,USSR-finn,2
 GE,USSR-grúz,2
 KZ,USSR-kazah,2
-KS,USSR-kirgiz,2
+KG,USSR-kirgiz,2
 SU-kom,USSR-komi,2
 LV,USSR-lett,2
 LT,USSR-litván,2
@@ -55,3 +55,20 @@ B,Belgium,1
 IL,Israel,1
 DE,Denmark,1
 N,Norway,1
+AR,Argentina,3
+AU,Australia,1
+BR,Brasil,3
+CA,Canada,1
+CL,Chile,3
+EG,Egypt,3
+GR,Greece,1
+IN,India,3
+IR,Iran,3
+LI,Liechtenstein,1
+MY,Malaysia,3
+MX,Mexico,3
+PT,Portugal,1
+SG,Singapore,3
+KR,South Korea,3
+CH,Switzerland,1
+VE,Venezuela,3

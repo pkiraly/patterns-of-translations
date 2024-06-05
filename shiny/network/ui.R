@@ -31,10 +31,24 @@ navbarPage(
             "world",
             label = "based on authors published",
             choices = c(
-              "only in 1st world" = "1",
-              "only in 2nd world" = "2",
-              "in 1st and 2nd world" = "1-2",
-              "everywhere" = "all"
+              "1" = "1",
+              "1, 2" = "1-2",
+              "1, 2, 3" = "1-2-3",
+              "1, 2, 3, 4" = "1-2-3-4",
+              "1, 2, 4" = "1-2-4",
+              "1, 3" = "1-3",
+              "1, 4" = "1-4",
+              "2" = "2",
+              "2, 3" = "2-3",
+              "2, 3, 4" = "2-3-4",
+              "2, 4" = "2-4",
+              "3" = "3",
+              "4" = "4",
+              "all" = "all"
+              # "only in 1st world" = "1",
+              # "only in 2nd world" = "2",
+              # "in 1st and 2nd world" = "1-2",
+              # "everywhere" = "all"
           )),
           radioButtons(
             "layout",

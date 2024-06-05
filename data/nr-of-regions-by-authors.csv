@@ -1,42 +1,45 @@
 author,regions
-PETŐFI Sándor,42
-MOLNÁR Ferenc,29
-SZABÓ Magda,25
-DÉRY Tibor,24
-JÓKAI Mór,24
-JÓZSEF Attila,23
-MIKSZÁTH Kálmán,23
-MÓRICZ Zsigmond,23
-ÖRKÉNY István,23
+PETŐFI Sándor,45
+MOLNÁR Ferenc,32
+DÉRY Tibor,27
+JÓKAI Mór,27
+MÓRICZ Zsigmond,27
+JÓZSEF Attila,26
+SZABÓ Magda,26
+ÖRKÉNY István,25
+MIKSZÁTH Kálmán,24
+GÁRDONYI Géza,22
 ILLYÉS Gyula,22
 NÉMETH László,22
-GÁRDONYI Géza,21
-ADY Endre,19
+ADY Endre,20
+ILLÉS Béla,19
 FEJES Endre,18
-ILLÉS Béla,18
-KARINTHY Ferenc,17
-KARINTHY Frigyes,17
+KARINTHY Ferenc,18
+KARINTHY Frigyes,18
+KOSZTOLÁNYI Dezső,17
+PASSUTH László,17
 SÁNTA Ferenc,17
-KOSZTOLÁNYI Dezső,16
+ZILAHY Lajos,17
+HARSÁNYI Zsolt,16
 MÓRA Ferenc,16
 RADNÓTI Miklós,16
-PASSUTH László,15
-ZILAHY Lajos,15
-HARSÁNYI Zsolt,14
+KERTÉSZ Ákos,14
+MADÁCH Imre,14
 NAGY Sándor,14
+VERES Péter,14
 WEÖRES Sándor,14
 BERKESI András,13
-KERTÉSZ Ákos,13
 KONRÁD György,13
-MADÁCH Imre,13
 SOMOGYI TÓTH Sándor,13
-VERES Péter,13
 FÜST Milán,12
+KÖRMENDI Ferenc,12
 LENGYEL József,12
+OTTLIK Géza,12
 FEHÉR Klára,11
+HALASI Mária,11
+KARDOS G. György,11
 KRÚDY Gyula,11
 MÉSZÖLY Miklós,11
-OTTLIK Géza,11
 RADÓ Sándor,11
 ZALKA Máté,11
 ACZÉL Tamás,10
@@ -44,97 +47,99 @@ BABITS Mihály,10
 DARVAS József,10
 FEKETE István,10
 GALGÓCZI Erzsébet,10
-HALASI Mária,10
-KARDOS G. György,10
-KÖRMENDI Ferenc,10
+HERNÁDI Gyula,10
 MESTERHÁZI Lajos,10
 NAGY Lajos,10
 TATAY Sándor,10
 CSERES Tibor,9
 DOBOZY Imre,9
 GERGELY Márta,9
-HERNÁDI Gyula,9
 KASSÁK Lajos,9
 MÁNDY Iván,9
 SARKADI Imre,9
+BALÁZS József,8
 ESTERHÁZY Péter,8
 FEKETE Gyula,8
 HÁY Gyula,8
+JUST Béla,8
 KESZI Imre,8
+MÁRAI Sándor,8
+NYISZLI Miklós,8
 SZABÓ Pál,8
-BALÁZS József,7
+SZAKONYI Károly,8
+VASZARY Gábor,8
+VÖRÖSMARTY Mihály,8
 BERTHA Bulcsu,7
 BÓKAY János,7
 CSURKA István,7
+FÖLDES Jolán,7
 GODA Gábor,7
-JUST Béla,7
+JUHÁSZ Ferenc,7
 JÓKAI Anna,7
 KAFFKA Margit,7
 MOLDOVA György,7
 MOLNÁR Géza,7
-MÁRAI Sándor,7
-NYISZLI Miklós,7
+MURÁNYI KOVÁCS Endre,7
 PALOTAI Boris,7
+PILINSZKY János,7
 REJTŐ Jenő,7
-SZAKONYI Károly,7
 SZERB Antal,7
 TAMÁSI Áron,7
 TERSÁNSZKY JÓZSI Jenő,7
-VÖRÖSMARTY Mihály,7
+ARANY János,6
 CSÁTH Géza,6
 DÉKÁNY András,6
-FÖLDES Jolán,6
 GERGELY Sándor,6
 GÁBOR Andor,6
 HEGEDŰS Géza,6
 HELTAI Jenő,6
 HERCZEG Ferenc,6
 HUBAY Miklós,6
-JUHÁSZ Ferenc,6
 KODOLÁNYI János,6
 LAKATOS Menyhért,6
 LÁZÁR Ervin,6
-MURÁNYI KOVÁCS Endre,6
 NÁDAS Péter,6
-PILINSZKY János,6
 RÓNASZEGI Miklós,6
+SÓS György,6
+SÜTŐ András,6
 THURY Zsuzsa,6
-VASZARY Gábor,6
 VÁMOS Miklós,6
-ARANY János,5
 ASZTALOS István,5
+BALÁZS Béla,5
 BERKESI András−KARDOS György,5
 BRÓDY Sándor,5
 BÁRÁNY Tamás,5
 CSOÓRI Sándor,5
 CSUKÁS István,5
+Dalos György,5
+FALUDY György,5
 FÖLDEÁK János,5
 GÁL György Sándor,5
 HEVESI Lajos,5
 HIDAS Antal,5
 HÁRS László,5
 ILLÉS Endre,5
+KACZÉR Illés,5
 KATONA József,5
 KOLOZSVÁRI GRANDPIERRE Emil,5
 KŐSZEGI Imre,5
 Márton Klára,5
 PETROVÁCZ István,5
+RÓNAY György,5
 SZAMOS Rudolf,5
 SZILVÁSI Lajos,5
+SZÁSZ Imre,5
 SZÁVA István,5
-SÓS György,5
-SÜTŐ András,5
 THURZÓ Gábor,5
 VÉSZI Endre,5
-BALÁZS Béla,4
 BENEDEK István,4
 BETLEN Oszkár,4
 BOLDIZSÁR Iván,4
 BÓKA László,4
-Dalos György,4
+CSIKY Gergely,4
+DÁNIEL Anna,4
 ERDŐDY János,4
 EÖTVÖS József,4
-FALUDY György,4
 FAZEKAS Mihály,4
 FÖLDES Péter,4
 GARAI Gábor,4
@@ -142,16 +147,13 @@ GELLÉRI Andor Endre,4
 GYÁRFÁS Miklós,4
 GÁLL István,4
 GÖNCZ Árpád,4
-KACZÉR Illés,4
 LENGYEL Péter,4
 NAGY Katalin,4
 NEMERE István,4
 NEMES NAGY Ágnes,4
-RÓNAY György,4
 SIMONFFY András,4
 SZÁNTÓ György,4
 SZÁSZ Béla,4
-SZÁSZ Imre,4
 Tóth Judith,4
 URBÁN Ernő,4
 VIDOR Miklós,4
@@ -159,8 +161,6 @@ ZALKA Miklós,4
 ZSOLDOS Péter,4
 BARABÁS Tibor,3
 BENJÁMIN László,3
-CSIKY Gergely,3
-DÁNIEL Anna,3
 EÖRSI István,3
 FODOR László,3
 G. SZABÓ Judit,3
@@ -176,18 +176,22 @@ KÁNTOR Zsuzsa,3
 MUNKÁCSI Miklós,3
 NAGY László,3
 NÉMETH Imre,3
+RAB Gusztáv,3
 RÁKOSY Gergely,3
 SEBESTYÉN György,3
 SPIRÓ György,3
 SZABÓ Dezső,3
+SZABÓ István,3
 SZABÓ Lőrinc,3
 SZILÁGYI István,3
 SZÉKELY János (John Pen),3
+SZÉKELY László,3
 Száva István,3
 SÁNDOR Kálmán,3
 THIERY Árpád,3
 TÓTH Árpád,3
 TÖMÖRKÉNY István,3
+TÖRÖK Sándor,3
 VASZARY János,3
 ÖRSI Ferenc,3
 ANDRÁS László,2
@@ -231,6 +235,7 @@ KUNCZ Aladár,2
 Kolozsvári Papp László,2
 KÁLLAI István,2
 KÖLCSEY Ferenc,2
+KÖNNYŰ László,2
 Lengyel Dénes,2
 MARKOVITS Rodion,2
 MATTYASOVSZKY Jenő,2
@@ -244,14 +249,13 @@ Mág Bertalan,2
 NAGY István,2
 ORAVECZ Paula,2
 PAP Károly,2
-RAB Gusztáv,2
+PERLAKY Lajos,2
 RAFFAI Sarolta,2
 RIDEG Sándor,2
 SCHWAJDA György,2
 SIMON István,2
 SIPKAY Barna,2
 SOMLYÓ György,2
-SZABÓ István,2
 SZATHMÁRI Sándor,2
 SZEBERÉNYI Lehel,2
 SZENES Béla,2
@@ -261,10 +265,11 @@ Sükösd Mihály,2
 TABI László,2
 TANDORI Dezső,2
 TARDOS Tibor,2
-TÖRÖK Sándor,2
+Urbán János,2
 VADÁSZ Ferenc,2
 VAJDA István,2
 VAS István,2
+Vámbéry Ármin,2
 Zalka Máté,2
 ZÁGONI Ferenc,2
 ÁPRILY Lajos,2
@@ -314,6 +319,7 @@ CSIKI László,1
 CSIKÓS Georg,1
 CSILLIK Gábor,1
 CSOKONAI VITÉZ Mihály,1
+"CSOÓRI Sándor, KÁLNOKY László, PILINSZKY János, RÓNAY László",1
 "CSOÓRI Sándor, KÁNYÁDI Sándor",1
 CSUKA Zoltán,1
 CSÖRSZ István,1
@@ -328,7 +334,10 @@ Debreczeni József,1
 Dehel Gabor,1
 Deme Zoltán,1
 Deutsch Weinberger Varda,1
+Dezséry András,1
 Deák Tamás,1
+Domahidy András,1
+Domokos Alex,1
 Domokos Mátyás,1
 Dráveczky Zsuzsa,1
 DÉKÁNY Károly,1
@@ -378,6 +387,7 @@ GÖRGEY Gábor,1
 HAJNAL Anna,1
 HAJNAL Gábor,1
 HARSÁNYI Gréte,1
+HEGEDÜS Sándor,1
 HERCEG János,1
 HORVÁTH Etel,1
 HORVÁTH Imre,1
@@ -401,6 +411,7 @@ JÓZSEF Attila; Majakovskij Vladimir Vladimirovič,1
 KALÁSZ Márton,1
 KARINTHY Frigyes−MAJOROS István,1
 KASSAI Ferenc,1
+KATYI Endre,1
 KAZINCZY Ferenc,1
 KEREKESHÁZY József,1
 KERTÉSZ Erzsébet,1
@@ -426,7 +437,6 @@ Kiss József László,1
 KÁNYÁDI Sándor,1
 KÁROLY Sándor,1
 KÓS Károly,1
-KÖNNYŰ László,1
 Kálmán Vera,1
 KŐVÁRY György,1
 LENGYEL Emil,1
@@ -446,6 +456,7 @@ MAJOR Nándor,1
 MAJTÉNYI Erik,1
 MAJTÉNYI Mihály,1
 MAKAI Sándor,1
+MALLÁSZ Gitta,1
 MAROS Antal,1
 MAROSI Gyula,1
 MEGYERI Sári,1
@@ -456,9 +467,12 @@ MOLTER Károly,1
 MORVAY Gyula,1
 Major-Zala Lajos,1
 Mester Zsolt,1
+MÉCS László,1
 MÉHES György,1
 MÉLIUSZ József,1
 Mózes Attila,1
+NADLER Herbert,1
+NAGY Kristóf és Mária,1
 NAGYKÁSZONY Zoltán,1
 NEMES György,1
 NEMES László,1
@@ -470,7 +484,6 @@ Osztojkán Béla,1
 PALÁSTI László,1
 PAP József,1
 PAPP Ferenc,1
-PERLAKY Lajos,1
 PETRI György,1
 PINTÉR István−SZABÓ László,1
 PLESCH János,1
@@ -494,6 +507,7 @@ Rásonyi László,1
 SALAMON Ernő,1
 SEBŐK Ferenc,1
 SEBŐK Éva,1
+SERÉDY Kató,1
 SINKÓ Ervin,1
 SIVIRSKY Antal,1
 SZABOLCSI Lajos,1
@@ -516,14 +530,15 @@ SZIRÁKY Judit,1
 SZOMBATHY Viktor,1
 SZOMBATI Sándor,1
 SZÉKELY János,1
-SZÉKELY László,1
 SZÉP Ernő,1
 Soltész József,1
 Székely Júlia; Tolstoj Lev Nikolaevič,1
 SÁNDOR András,1
 SÁSDI Sándor,1
+SŐTÉR István,1
 T. KOVÁCS Hermin,1
 TABÉRY Géza,1
+TELEKI József,1
 TIMÁR Máté,1
 TOLLAS A. Júlia,1
 TOLNAI Lajos,1
@@ -544,7 +559,6 @@ Túrmezei Erzsébet,1
 Tőzsér Árpád,1
 UJVÁRY Géza,1
 Ujhelyi János,1
-Urbán János,1
 VARGA Imre,1
 VERESS Miklós,1
 VERESS Zoltán,1
@@ -556,7 +570,6 @@ Vigh Jenő,1
 VÁCI Mihály,1
 VÉGEL László,1
 Vágvölgyi Éva,1
-Vámbéry Ármin,1
 Végh Antal,1
 WASS Albert,1
 ZOLNAY Vimos,1
