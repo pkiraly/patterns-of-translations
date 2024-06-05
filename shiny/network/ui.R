@@ -82,18 +82,19 @@ navbarPage(
                 tags$ul(
                   class = "metrics",
                   tags$li(strong("before"),
-                    "is the number of times an author was published before another region"),
+                    "is the number of times there was an author published in this region before another region in the current network (all definitions apply to the current network)"),
                   tags$li(strong("after"),
-                    "is the number of times an author was published after another region"),
+                    "is the number of times there was an author published in this region after another region"),
                   tags$li(strong("sum"),
-                    "is the sum of 'before' and 'after' values"),
+                    "is the total number of times there was an author published before or after another region (sum=before+after)"),
                   tags$li(strong("balance"),
                     "is the difference of 'before' and 'after' values"),
                   tags$li(strong("ratio"),
-                    "shows how many times a region published authors before and after",
-                    "than others in the current network."),
+                    "is the quotient of 'before' and 'after' values"),
                   tags$li(strong("score"),
-                    "is the summary of it. The logarithmic value of 'ratio' times 'sum'")
+                    "is the logarithmic value of 'ratio' multiplied by 'sum': log",
+                    tags$sub('10'),
+                    "(('before'+'after')*('before'/'after'))")
                 )
               ),
               dataTableOutput("abbreviations")
