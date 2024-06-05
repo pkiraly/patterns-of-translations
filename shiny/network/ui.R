@@ -49,37 +49,56 @@ navbarPage(
             choices = NULL,
           ),
           checkboxInput("level", "show 2 levels for a region"),
-          p(
-            id = "abbreviation-explanation",
-            strong("ratio"),
-            "shows how many times a region published authors before and after",
-            "than others in the current network.",
-            strong("result"),
-            "is the summary of it. If this number is positive the region",
-            "published more authors before than other regions."
-          ),
-          tableOutput("abbreviations")
         ),
-        column(6,
-          p("The network edges represent the number of authors translated in both regions. The direction represents the chronological order."),
-          plotOutput(outputId = "network_plot", width = "100%", height = '600px'),
-          h3("network metrics", class = "metrics"),
-          tags$ul(
-            class = "metrics",
-            tags$li("diameter: the length of the longest shortest paths"),
-            tags$li("degree: the number of its adjacent edges"),
-            tags$li("betweenness: number of shortest paths going through a node"),
-            tags$li("closeness: how many steps is required to access every other vertex from a given vertex")
+        column(9,
+          fluidRow(
+            column(9,
+              p("The network edges represent the number of authors translated in both regions. The direction represents the chronological order."),
+              plotOutput(outputId = "network_plot", width = "100%", height = '600px'),
+            ),
+            column(3,
+              dataTableOutput("data_table")
+            ),
           ),
-          p(
-            class = "metrics",
-            "the diamater: ",
-            textOutput("diameter", inline=TRUE)
-          ),
-          dataTableOutput("metrics"),
-        ),
-        column(3,
-          dataTableOutput("data_table")
+          fluidRow(
+            column(12,
+              h3("network metrics", class = "metrics"),
+              tags$ul(
+                class = "metrics",
+                tags$li("diameter: the length of the longest shortest paths"),
+                tags$li("degree: the number of its adjacent edges"),
+                tags$li("betweenness: number of shortest paths going through a node"),
+                tags$li("closeness: how many steps is required to access every other vertex from a given vertex")
+              ),
+              p(
+                class = "metrics",
+                "the diamater: ",
+                textOutput("diameter", inline=TRUE)
+              ),
+              dataTableOutput("metrics"),
+              h3("region statistics", class = "metrics"),
+              p(
+                id = "abbreviation-explanation",
+                tags$ul(
+                  class = "metrics",
+                  tags$li(strong("before"),
+                    "is the number of times an author was published before another region"),
+                  tags$li(strong("after"),
+                    "is the number of times an author was published after another region"),
+                  tags$li(strong("sum"),
+                    "is the total number of authors published in the region"),
+                  tags$li(strong("balance"),
+                    "is the difference of 'before' and 'after' values"),
+                  tags$li(strong("ratio"),
+                    "shows how many times a region published authors before and after",
+                    "than others in the current network."),
+                  tags$li(strong("score"),
+                    "is the summary of it. The logarithmic value of 'ratio' times 'sum'")
+                )
+              ),
+              dataTableOutput("abbreviations")
+            )
+          )
         )
       )
     ),

@@ -175,7 +175,7 @@ function(input, output, session) {
       datatable(rownames = FALSE)
   })
 
-  output$abbreviations <- renderTable({
+  output$abbreviations <- renderDataTable({
     df <- readData()
     if (input$country == "all" || input$country == "") {
       edges <- edges_for_all(df, input$limit, input$minmax)
@@ -190,14 +190,17 @@ function(input, output, session) {
       left_join(inits, join_by(id)) %>% 
       left_join(follows, join_by(id)) %>% 
       mutate(
-        init = ifelse(is.na(init), 0, init),
-        follow = ifelse(is.na(follow), 0, follow),
         region = paste(region, " (", world, ")", sep = ""),
-        ratio = paste(round(init), ":", round(follow), sep = ""),
-        result = as.integer(round((init - follow))),
+        before = ifelse(is.na(init), 0, init),
+        after = ifelse(is.na(follow), 0, follow),
+        sum = before + after,
+        balance = before - after,
+        # ratio = paste(round(before), ":", round(after), sep = ""),
+        ratio = round(before / after, digits = 2),
+        score = round(log10(ratio * sum), digits = 2),
       ) %>% 
       select(-c(world, init, follow)) %>% 
-      arrange(desc(result))
+      arrange(desc(score))
   })
   
   output$metrics <- renderDataTable({
