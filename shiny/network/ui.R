@@ -28,6 +28,15 @@ navbarPage(
             step = 1,
             width = '100%'),
           radioButtons(
+            "world",
+            label = "based on authors published",
+            choices = c(
+              "only in 1st world" = "1",
+              "only in 2nd world" = "2",
+              "in 1st and 2nd world" = "1-2",
+              "everywhere" = "all"
+          )),
+          radioButtons(
             "layout",
             label = "chart type",
             choices = c(

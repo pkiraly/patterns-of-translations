@@ -3,7 +3,7 @@ library(igraph)
 library(DT)
 
 prepare_base_df <- function(df) {
-  df %>%
+  df2 <- df %>%
     distinct() %>%
     # filter(region1 != 'Hungary' & region2 != 'Hungary') %>%
     filter(!is.na(ratio)) %>% 
@@ -21,7 +21,7 @@ extractNodes <- function(df) {
     filter(id %in% ids)
 }
 
-edges_for_all <- function(common_authors_limit, minmax) {
+edges_for_all <- function(df, common_authors_limit, minmax) {
   if (minmax == "min") {
     df2 <- df %>% filter(common_authors >= common_authors_limit) 
   } else if (minmax == "max") {
@@ -33,13 +33,13 @@ edges_for_all <- function(common_authors_limit, minmax) {
     select(from, to, weight)
 }
 
-getNetwork <- function(common_authors_limit, minmax) {
-  edges <- edges_for_all(common_authors_limit, minmax)
+getNetwork <- function(df, common_authors_limit, minmax) {
+  edges <- edges_for_all(df, common_authors_limit, minmax)
   nodes <- extractNodes(edges)
   graph_from_data_frame(d=edges, vertices=nodes, directed=TRUE)
 }
 
-edges_for_country <- function(country, common_authors_limit, minmax, level = FALSE) {
+edges_for_country <- function(df, country, common_authors_limit, minmax, level = FALSE) {
   if (level == TRUE) {
     df2 <- df %>% 
       filter(from == country | to == country) %>% 
@@ -73,34 +73,41 @@ edges_for_country <- function(country, common_authors_limit, minmax, level = FAL
   }
 }
 
-getNetworkForCountry <- function(country, common_authors_limit, minmax, level) {
-  edges <- edges_for_country(country, common_authors_limit, minmax, level)
+getNetworkForCountry <- function(df, country, common_authors_limit, minmax, level) {
+  edges <- edges_for_country(df, country, common_authors_limit, minmax, level)
   nodes <- extractNodes(edges)
   graph_from_data_frame(d=edges, vertices=nodes, directed=TRUE)
 }
 
-regions <- read_csv('data/regions.csv',
-                    show_col_types = FALSE) %>% 
+regions <- read_csv('data/regions.csv', show_col_types = FALSE) %>% 
   arrange(id)
 
-raw_df <- read_csv('data/ratios-of-soviet-block-by-regions.csv',
-                   show_col_types = FALSE)
-df <- prepare_base_df(raw_df)
+readWorldFile <- function(world) {
+  file_name <- paste0('data/ratios-by-regions-', world, '.csv')
+  raw_df <- read_csv(file_name, show_col_types = FALSE)
+  base_df <- prepare_base_df(raw_df)
+  base_df
+}
 
 function(input, output, session) {
   ids <- c("all", regions$id)
   names <- c("all regions", regions$region)
+  readData <- reactive({
+    readWorldFile(input$world)
+  })
+
   updateSelectInput(
     inputId = "country",
     choices = setNames(ids, names)
   )
   
   output$network_plot <- renderPlot({
+    df <- readData()
     if (input$country == "all" || input$country == "") {
-      net <- getNetwork(input$limit, input$minmax)
+      net <- getNetwork(df, input$limit, input$minmax)
       shapes <- rep('none', length(V(net)))
     } else {
-      net <- getNetworkForCountry(input$country, input$limit, input$minmax, input$level)
+      net <- getNetworkForCountry(df, input$country, input$limit, input$minmax, input$level)
       countries <- V(net)$name
       shapes <- c('none', 'circle')[as.integer(countries == input$country) + 1]
     }
@@ -147,10 +154,11 @@ function(input, output, session) {
   }, width = 600, height = 600)
   
   output$data_table <- renderDataTable({
+    df <- readData()
     if (input$country == "all" || input$country == "") {
-      edges <- edges_for_all(input$limit, input$minmax)
+      edges <- edges_for_all(df, input$limit, input$minmax)
     } else {
-      edges <- edges_for_country(input$country, input$limit, input$minmax, input$level)
+      edges <- edges_for_country(df, input$country, input$limit, input$minmax, input$level)
     }
 
     edges %>% 
@@ -168,10 +176,11 @@ function(input, output, session) {
   })
 
   output$abbreviations <- renderTable({
+    df <- readData()
     if (input$country == "all" || input$country == "") {
-      edges <- edges_for_all(input$limit, input$minmax)
+      edges <- edges_for_all(df, input$limit, input$minmax)
     } else {
-      edges <- edges_for_country(input$country, input$limit, input$minmax, input$level)
+      edges <- edges_for_country(df, input$country, input$limit, input$minmax, input$level)
     }
     inits <- edges %>% group_by(from) %>% summarise(init = sum(weight)) %>% rename(id = from)
     follows <- edges %>% group_by(to) %>% summarise(follow = sum(weight)) %>% rename(id = to)
@@ -192,10 +201,11 @@ function(input, output, session) {
   })
   
   output$metrics <- renderDataTable({
+    df <- readData()
     if (input$country == "all" || input$country == "") {
-      edges <- edges_for_all(input$limit, input$minmax)
+      edges <- edges_for_all(df, input$limit, input$minmax)
     } else {
-      edges <- edges_for_country(input$country, input$limit, input$minmax, input$level)
+      edges <- edges_for_country(df, input$country, input$limit, input$minmax, input$level)
     }
 
     nodes <- extractNodes(edges)
@@ -218,10 +228,11 @@ function(input, output, session) {
   })
   
   output$diameter <- renderText({
+    df <- readData()
     if (input$country == "all" || input$country == "") {
-      edges <- edges_for_all(input$limit, input$minmax)
+      edges <- edges_for_all(df, input$limit, input$minmax)
     } else {
-      edges <- edges_for_country(input$country, input$limit, input$minmax, input$level)
+      edges <- edges_for_country(df, input$country, input$limit, input$minmax, input$level)
     }
  
     nodes <- extractNodes(edges)

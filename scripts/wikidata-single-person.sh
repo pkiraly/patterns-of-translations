@@ -7,7 +7,9 @@ SELECT ?sexLabel ?dateOfBirth ?placeOfBirthLabel ?placeOfBirthGeonamesId ?placeO
   wd:$ID
     wdt:P21 ?sex ;  
     wdt:P569 ?dateOfBirth ; 
-    wdt:P570 ?dateOfDeath . 
+  OPTIONAL { 
+    wd:$ID wdt:P570 ?dateOfDeath . 
+  }
   OPTIONAL { 
     wd:$ID wdt:P19 ?placeOfBirth . 
     ?placeOfBirth wdt:P1566 ?placeOfBirthGeonamesId . 
