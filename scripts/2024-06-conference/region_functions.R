@@ -64,6 +64,35 @@ calculate_ratios <- function(current_world, all_authors, authors_by_region, base
   ratios
 }
 
+calculate_ratios2 <- function(all_authors, positive, negative, authors_by_region, base_stats) {
+  if (is.na(positive)) {
+    selected_authors_by_region <- authors_by_region
+  } else {
+    selected_authors <- selectWorld(all_authors_df, row$positive, row$negative)
+    selected_authors_by_region <- authors_by_region %>% 
+      filter(author %in% selected_authors)
+  }
+  
+  l <- length(base_stats$region)
+  ratios <- as_tibble(data.frame(c1 = character(),
+                                 c2 = character(),
+                                 ratio = numeric(),
+                                 common_authors = numeric(),
+                                 first = numeric()))
+  for (i in seq(l)) {
+    country1 <- base_stats$region[i]
+    for (j in seq(i, l)) {
+      country2 <- base_stats$region[j]
+      ratios <- calculate_pair(ratios, 
+                               country1, country2, 
+                               selected_authors_by_region,
+                               base_stats)
+    }
+  }
+  ratios <- ratios %>% rename(region1 = c1, region2 = c2)
+  ratios
+}
+
 get_score_for_first_publication <- function(authors, regions) {
   base_scores <- data.frame(region = regions, score = c(0, 0))
   
@@ -81,4 +110,19 @@ get_score_for_first_publication <- function(authors, regions) {
     left_join(calulated_scores, join_by(region)) %>% 
     mutate(score = ifelse(!is.na(score.y), score.y, score.x)) %>% 
     select(region, score)
+}
+
+selectWorld <- function(authors_by_world, positive, negative = NA) {
+  if (is.na(positive)) {
+    selected <- authors_by_world
+  } else {
+    selected <- authors_by_world %>% 
+      filter(grepl(positive, world))
+  }
+  
+  if (!is.na(negative)) {
+    selected <- selected %>% 
+      filter(!grepl(negative, world))
+  }
+  selected %>% select(author) %>% unlist(use.names = FALSE)
 }
