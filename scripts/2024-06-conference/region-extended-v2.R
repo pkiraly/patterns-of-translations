@@ -96,5 +96,17 @@ for (i in 1:nrow(segments)) {
   file_name <- paste0('data/ratios-by-regions-', suffix, '.csv')
   print(file_name)
   write_csv(ratios, file = file_name)
+
+  authors <- calculate_author_region_pairs(all_authors_df, row$positive, row$negative, 
+                              authors_by_region, base_stats)
+  print(head(authors))
+  file_name <- paste0('data/author-region-pairs-', suffix, '.csv')
+  print(file_name)
+  write_csv(authors, file = file_name)
 }
 
+# adat
+# -2 ellenürzöse
+#' dia:
+#' nyugat, kelet
+# nyugat, k0zöp EU, szovjet, maradök?

@@ -96,6 +96,11 @@ function(input, output, session) {
     readWorldFile(input$world)
   })
 
+  readAuthorRegionPairs <- reactive({
+    file_name <- paste0('data/author-region-pairs-', input$world, '.csv')
+    read_csv(file_name, show_col_types = FALSE)
+  })
+
   updateSelectInput(
     inputId = "country",
     choices = setNames(ids, names)
@@ -153,14 +158,14 @@ function(input, output, session) {
     # vertex.shape="none", vertex.label=nodes2$media
   }, width = 600, height = 600)
   
-  output$data_table <- renderDataTable({
+  output$network_edges <- renderDataTable({
     df <- readData()
     if (input$country == "all" || input$country == "") {
       edges <- edges_for_all(df, input$limit, input$minmax)
     } else {
       edges <- edges_for_country(df, input$country, input$limit, input$minmax, input$level)
     }
-
+    
     edges %>% 
       rename(score = weight) %>% 
       left_join(regions, join_by(from == id)) %>% 
@@ -173,6 +178,36 @@ function(input, output, session) {
       select(from, to, score) %>% 
       arrange(desc(score)) %>% 
       datatable(rownames = FALSE)
+  })
+  
+  output$author_list <- renderText({
+    author_region_pairs <- readAuthorRegionPairs()
+
+    df <- readData()
+    if (input$country == "all" || input$country == "") {
+      edges <- edges_for_all(df, input$limit, input$minmax)
+    } else {
+      edges <- edges_for_country(df, input$country, input$limit, input$minmax, input$level)
+    }
+    e <- edges %>% 
+      rename(score = weight) %>% 
+      left_join(regions, join_by(from == id)) %>% 
+      left_join(regions, join_by(to == id)) %>% 
+      select(region.x, region.y, score) %>% 
+      rename(region1 = region.x, region2 = region.y)
+
+    region_names <- author_region_pairs %>% 
+      left_join(e, by = join_by(region1, region2)) %>% 
+      filter(!is.na(score)) %>% 
+      count(author) %>%
+      arrange(desc(n), author) %>% 
+      mutate(
+        item = sprintf('%s (%d)', author, n)
+      ) %>% 
+      select(item) %>% 
+      unlist(use.names = FALSE)
+    
+    paste(region_names, collapse = ', ')
   })
 
   output$abbreviations <- renderDataTable({

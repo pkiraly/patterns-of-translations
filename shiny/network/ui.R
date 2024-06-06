@@ -78,11 +78,14 @@ navbarPage(
               plotOutput(outputId = "network_plot", width = "100%", height = '600px'),
             ),
             column(3,
-              dataTableOutput("data_table")
+              h3('Edges in the network', class = "metrics"),
+              dataTableOutput("network_edges")
             ),
           ),
           fluidRow(
             column(12,
+              h3("authors", class = "metrics"),
+              textOutput("author_list"),
               h3("network metrics", class = "metrics"),
               tags$ul(
                 class = "metrics",

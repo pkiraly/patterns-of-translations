@@ -93,6 +93,44 @@ calculate_ratios2 <- function(all_authors, positive, negative, authors_by_region
   ratios
 }
 
+calculate_author_region_pairs <- function(all_authors, positive, negative,
+                                          authors_by_region, base_stats) {
+  if (is.na(positive)) {
+    selected_authors_by_region <- authors_by_region
+  } else {
+    selected_authors <- selectWorld(all_authors_df, row$positive, row$negative)
+    selected_authors_by_region <- authors_by_region %>% 
+      filter(author %in% selected_authors)
+  }
+  
+  l <- length(base_stats$region)
+  df <- as_tibble(data.frame(
+    author = character(),
+    c1 = character(),
+    c2 = character()))
+  for (i in seq(l)) {
+    country1 <- base_stats$region[i]
+    for (j in seq(i, l)) {
+      country2 <- base_stats$region[j]
+      au1 <- selected_authors_by_region %>% filter(region == country1)
+      au2 <- selected_authors_by_region %>% filter(region == country2)
+      common_authors <- intersect(au1$author, au2$author)
+      intersect <- length(common_authors)
+      if (intersect > 0) {
+        for (author in common_authors) {
+          df <- df %>% 
+            add_row(
+              author = author,
+              c1 = country1,
+              c2 = country2)
+        }
+      }
+    }
+  }
+  df <- df %>% rename(region1 = c1, region2 = c2)
+  df
+}
+
 get_score_for_first_publication <- function(authors, regions) {
   base_scores <- data.frame(region = regions, score = c(0, 0))
   
