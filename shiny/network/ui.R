@@ -84,7 +84,8 @@ navbarPage(
           ),
           fluidRow(
             column(12,
-              h3("authors", class = "metrics"),
+              h3("The authors represented by the network", class = "metrics"),
+              p('The parentheses contain the number of publications.'),
               textOutput("author_list"),
               h3("network metrics", class = "metrics"),
               tags$ul(
