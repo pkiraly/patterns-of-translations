@@ -85,7 +85,7 @@ navbarPage(
           fluidRow(
             column(12,
               h3("The authors represented by the network", class = "metrics"),
-              p('The parentheses contain the number of egdes the author contributes to (the number of pair of countries, that both published the author)'),
+              p('The parentheses contain the number of egdes the author contributes to (the number of pair of countries in the current network, that both published the author)'),
               textOutput("author_list"),
               h3("network metrics", class = "metrics"),
               tags$ul(
