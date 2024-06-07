@@ -197,6 +197,7 @@ function(input, output, session) {
       rename(region1 = region.x, region2 = region.y)
 
     region_names <- author_region_pairs %>% 
+      filter(region1 != region2) %>% 
       left_join(e, by = join_by(region1, region2)) %>% 
       filter(!is.na(score)) %>% 
       count(author) %>%
