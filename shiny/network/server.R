@@ -2,6 +2,9 @@ library(tidyverse)
 library(igraph)
 library(DT)
 
+print('#### START')
+dataDir <- 'data2025'
+
 prepare_base_df <- function(df) {
   df2 <- df %>%
     distinct() %>%
@@ -30,12 +33,18 @@ edges_for_all <- function(df, common_authors_limit, minmax) {
   df2 %>% 
     filter(first > 0) %>% 
     rename(weight = first) %>% 
+    filter(!is.na(from) & !is.na(to)) %>% 
     select(from, to, weight)
 }
 
 getNetwork <- function(df, common_authors_limit, minmax) {
+  print('getNetwork')
   edges <- edges_for_all(df, common_authors_limit, minmax)
+  print(edges, n = Inf)
+  print('/edges_for_all')
   nodes <- extractNodes(edges)
+  print(nodes)
+  print('/extractNodes')
   graph_from_data_frame(d=edges, vertices=nodes, directed=TRUE)
 }
 
@@ -79,13 +88,15 @@ getNetworkForCountry <- function(df, country, common_authors_limit, minmax, leve
   graph_from_data_frame(d=edges, vertices=nodes, directed=TRUE)
 }
 
-regions <- read_csv('data/regions.csv', show_col_types = FALSE) %>% 
+regions <- read_csv(paste0(dataDir, '/regions.csv'), show_col_types = FALSE) %>% 
   arrange(id)
 
 readWorldFile <- function(world) {
-  file_name <- paste0('data/ratios-by-regions-', world, '.csv')
+  file_name <- paste0(dataDir, '/ratios-by-regions-', world, '.csv')
+  print(file_name)
   raw_df <- read_csv(file_name, show_col_types = FALSE)
   base_df <- prepare_base_df(raw_df)
+  print('readWorldFile()')
   base_df
 }
 
@@ -97,8 +108,11 @@ function(input, output, session) {
   })
 
   readAuthorRegionPairs <- reactive({
-    file_name <- paste0('data/author-region-pairs-', input$world, '.csv')
-    read_csv(file_name, show_col_types = FALSE)
+    file_name <- paste0(dataDir, '/author-region-pairs-', input$world, '.csv')
+    print(file_name)
+    pariDF <- read_csv(file_name, show_col_types = FALSE)
+    print('readAuthorRegionPairs read')
+    return(pariDF)
   })
 
   updateSelectInput(
@@ -108,12 +122,17 @@ function(input, output, session) {
   
   output$network_plot <- renderPlot({
     df <- readData()
+    print(head(df))
     if (input$country == "all" || input$country == "") {
+      print('country = all or empty')
       net <- getNetwork(df, input$limit, input$minmax)
+      print('/getNetwork()')
       shapes <- rep('none', length(V(net)))
     } else {
+      print('has a country')
       net <- getNetworkForCountry(df, input$country, input$limit, input$minmax, input$level)
       countries <- V(net)$name
+      print(countries)
       shapes <- c('none', 'circle')[as.integer(countries == input$country) + 1]
     }
     ebn <- edge_betweenness(net)

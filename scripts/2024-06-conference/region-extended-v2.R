@@ -88,8 +88,8 @@ for (i in 1:nrow(segments)) {
 for (i in 1:nrow(segments)) {
   row <- segments[i,]
   suffix <- gsub(" ", '-', row$name)
-  print(row$name)
-  print(suffix)
+  print(sprintf('row$name: %s', row$name))
+  print(sprintf('suffix: %s', suffix))
   ratios <- calculate_ratios2(all_authors_df, row$positive, row$negative, 
                               authors_by_region, base_stats)
   print(head(ratios))
@@ -97,8 +97,10 @@ for (i in 1:nrow(segments)) {
   print(file_name)
   write_csv(ratios, file = file_name)
 
-  authors <- calculate_author_region_pairs(all_authors_df, row$positive, row$negative, 
-                              authors_by_region, base_stats)
+  authors <- calculate_author_region_pairs(
+    all_authors_df, row$positive, row$negative, 
+    authors_by_region, base_stats
+  )
   print(head(authors))
   file_name <- paste0('data/author-region-pairs-', suffix, '.csv')
   print(file_name)

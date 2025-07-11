@@ -10,6 +10,8 @@ df <- readRDS('data_raw/postwar.rds')
 calculated_pub_years <- read_csv('data_raw/calculated_pub_years.csv')
 calculated_pub_years
 
+countries <- c('Czechoslovakia', 'GDR', 'Poland', 'USSR')
+
 world2 <- df %>% 
   filter(country != "Hungary") %>% 
   left_join(calculated_pub_years, by = join_by(id)) %>% 
@@ -21,8 +23,10 @@ world2 <- df %>%
     )
   ) %>% 
   filter(!is.na(orig_pub_yr)) %>% 
-  filter(world == 2)
+#  filter(world == 2) %>% 
+  filter((world == 1) | (country %in% countries))
 nrow(world2)
+world2
 
 min_year <- min(world2$year_n)
 max_year <- max(world2$year_n)
@@ -44,10 +48,10 @@ prepared <- world2 %>%
       ifelse(
         country == 'USSR',
         country,
-        'other'
+        '1st world'
       )
     ),
-    region = factor(region, levels = c('Central Europe', 'USSR', 'other'))
+    region = factor(region, levels = c('1st world', 'Central Europe', 'USSR'))
   ) %>% 
   select(delay, region, year_range) %>% 
   group_by(year_range, region, delay) %>% 
@@ -60,15 +64,25 @@ total_books_per_segments <- prepared %>%
   group_by(year_range, region) %>% 
   summarise(total_books = sum(n), .groups = 'drop')
 
+total_books_per_segments
+
 dgmin <- min(prepared$delay, na.rm = T) - 1
 dgmax <- max(prepared$delay, na.rm = T)
 delay_breaks <- c(dgmin, delay_breaks, dgmax)
+delay_breaks
+
+print(prepared, n = Inf)
+prepared %>% 
+  ungroup() %>% 
+  select(region) %>% 
+  distinct()
 
 groups <- prepared %>% 
   ungroup() %>% 
   mutate(
     delay1 = cut(delay, breaks = delay_breaks) 
   )
+print(groups, n = Inf)
 
 labels <- data.frame(b = delay_breaks) %>% 
   mutate(
@@ -87,7 +101,7 @@ delays <- groups %>%
   mutate(delay_label = labels) %>% 
   select(-n)
 
-groups
+print(groups, n = Inf)
 total_books_per_segments
 
 g2 <- groups %>% 
@@ -95,6 +109,7 @@ g2 <- groups %>%
   mutate(delay2 = factor(delay_label, levels = labels)) %>% 
   select(-c(delay1, delay_label))
 g2
+print(g2, n = Inf)
 
 g2 %>% 
   left_join(total_books_per_segments) %>% 
@@ -127,7 +142,7 @@ g3 <- g2 %>%
     p2 = cumsum(percent),
     color = ifelse(p2 < 50, 'under 50%', 'above 50%')
   )
-g3
+print(g3, n = Inf)
 
 g3 %>% 
   ggplot(aes(x = delay2, y = percent)) +

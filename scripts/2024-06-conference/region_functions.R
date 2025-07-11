@@ -54,10 +54,12 @@ calculate_ratios <- function(current_world, all_authors, authors_by_region, base
     country1 <- base_stats$region[i]
     for (j in seq(i, l)) {
       country2 <- base_stats$region[j]
-      ratios <- calculate_pair(ratios, 
-                               country1, country2, 
-                               selected_authors_by_region,
-                               base_stats)
+      if (!is.na(country1) && !is.na(country2)) {
+        ratios <- calculate_pair(ratios, 
+                                 country1, country2, 
+                                 selected_authors_by_region,
+                                 base_stats)
+      }
     }
   }
   ratios <- ratios %>% rename(region1 = c1, region2 = c2)
@@ -81,12 +83,16 @@ calculate_ratios2 <- function(all_authors, positive, negative, authors_by_region
                                  first = numeric()))
   for (i in seq(l)) {
     country1 <- base_stats$region[i]
-    for (j in seq(i, l)) {
-      country2 <- base_stats$region[j]
-      ratios <- calculate_pair(ratios, 
-                               country1, country2, 
-                               selected_authors_by_region,
-                               base_stats)
+    if (!is.na(country1)) {
+      for (j in seq(i, l)) {
+        country2 <- base_stats$region[j]
+        if (!is.na(country2)) {
+          ratios <- calculate_pair(ratios, 
+                                   country1, country2, 
+                                   selected_authors_by_region,
+                                   base_stats)
+        }
+      }
     }
   }
   ratios <- ratios %>% rename(region1 = c1, region2 = c2)
@@ -132,7 +138,6 @@ calculate_author_region_pairs <- function(all_authors, positive, negative,
 }
 
 get_score_for_first_publication <- function(authors, regions) {
-  base_scores <- data.frame(region = regions, score = c(0, 0))
   
   calulated_scores <- authors_by_region2 %>% 
     filter(author %in% authors & region %in% regions) %>% 
@@ -144,10 +149,15 @@ get_score_for_first_publication <- function(authors, regions) {
     group_by(region) %>% 
     summarise(score = sum(score), .groups = "drop")
   
-  base_scores %>% 
-    left_join(calulated_scores, join_by(region)) %>% 
-    mutate(score = ifelse(!is.na(score.y), score.y, score.x)) %>% 
-    select(region, score)
+  if (nrow(calulated_scores) == 2) {
+    calulated_scores
+  } else {
+    base_scores <- tibble(region = regions, score = c(0, 0))
+    base_scores %>% 
+      left_join(calulated_scores, join_by(region)) %>% 
+      mutate(score = ifelse(!is.na(score.y), score.y, score.x)) %>% 
+      select(region, score)
+  }
 }
 
 selectWorld <- function(authors_by_world, positive, negative = NA) {

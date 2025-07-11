@@ -12,6 +12,7 @@ calculated_pub_years
 
 world2 <- df %>% 
   filter(country != "Hungary") %>% 
+  filter(world != 3) %>% 
   left_join(calculated_pub_years, by = join_by(id)) %>% 
   mutate(
     orig_pub_yr = ifelse(

@@ -399,12 +399,12 @@ Vietnam,Australia,0,0,0
 Australia,Yugoslavia,0,0,0
 Yugoslavia,Australia,0,0,0
 Austria,Austria,NA,NA,NA
-Austria,Belgium,0,0,0
-Belgium,Austria,0,0,0
+Austria,Belgium,0.025,1,1
+Belgium,Austria,0.058823529411764705,1,0
 Austria,Brasil,0,0,0
 Brasil,Austria,0,0,0
-Austria,Bulgaria,0,0,0
-Bulgaria,Austria,0,0,0
+Austria,Bulgaria,0.025,1,1
+Bulgaria,Austria,0.014285714285714285,1,0
 Austria,Canada,0,0,0
 Canada,Austria,0,0,0
 Austria,Chile,0,0,0
@@ -413,34 +413,34 @@ Austria,Colombia,0,0,0
 Colombia,Austria,0,0,0
 Austria,Cuba,0,0,0
 Cuba,Austria,0,0,0
-Austria,Czechoslovakia-cseh,0,0,0
-Czechoslovakia-cseh,Austria,0,0,0
-Austria,Czechoslovakia-szlovák,0,0,0
-Czechoslovakia-szlovák,Austria,0,0,0
+Austria,Czechoslovakia-cseh,0.025,1,1
+Czechoslovakia-cseh,Austria,0.0070921985815602835,1,0
+Austria,Czechoslovakia-szlovák,0.025,1,1
+Czechoslovakia-szlovák,Austria,0.006024096385542169,1,0
 Austria,Denmark,0,0,0
 Denmark,Austria,0,0,0
 Austria,Egypt,0,0,0
 Egypt,Austria,0,0,0
-Austria,Federal Republic of Germany,0,0,0
-Federal Republic of Germany,Austria,0,0,0
+Austria,Federal Republic of Germany,0.025,1,1
+Federal Republic of Germany,Austria,0.010638297872340425,1,0
 Austria,Finland,0,0,0
 Finland,Austria,0,0,0
 Austria,France,0,0,0
 France,Austria,0,0,0
-Austria,GDR,0,0,0
-GDR,Austria,0,0,0
+Austria,GDR,0.025,1,1
+GDR,Austria,0.0064516129032258064,1,0
 Austria,Greece,0,0,0
 Greece,Austria,0,0,0
-Austria,Hungary,0,0,0
-Hungary,Austria,0,0,0
+Austria,Hungary,0.025,1,1
+Hungary,Austria,0.009523809523809525,1,0
 Austria,India,0,0,0
 India,Austria,0,0,0
 Austria,Iran,0,0,0
 Iran,Austria,0,0,0
 Austria,Israel,0,0,0
 Israel,Austria,0,0,0
-Austria,Italy,0,0,0
-Italy,Austria,0,0,0
+Austria,Italy,0.025,1,1
+Italy,Austria,0.020833333333333332,1,0
 Austria,Japan,0,0,0
 Japan,Austria,0,0,0
 Austria,Liechtenstein,0,0,0
@@ -451,34 +451,34 @@ Austria,Mexico,0,0,0
 Mexico,Austria,0,0,0
 Austria,Mongolia,0,0,0
 Mongolia,Austria,0,0,0
-Austria,Netherlands,0,0,0
-Netherlands,Austria,0,0,0
+Austria,Netherlands,0.025,1,1
+Netherlands,Austria,0.030303030303030304,1,0
 Austria,North Korea,0,0,0
 North Korea,Austria,0,0,0
 Austria,Norway,0,0,0
 Norway,Austria,0,0,0
-Austria,PR China,0,0,0
-PR China,Austria,0,0,0
-Austria,Poland,0,0,0
-Poland,Austria,0,0,0
+Austria,PR China,0.025,1,1
+PR China,Austria,0.043478260869565216,1,0
+Austria,Poland,0.025,1,1
+Poland,Austria,0.0072992700729927005,1,0
 Austria,Portugal,0,0,0
 Portugal,Austria,0,0,0
-Austria,Romania,0,0,0
-Romania,Austria,0,0,0
+Austria,Romania,0.025,1,0
+Romania,Austria,0.0072992700729927005,1,1
 Austria,Singapore,0,0,0
 Singapore,Austria,0,0,0
 Austria,South Korea,0,0,0
 South Korea,Austria,0,0,0
-Austria,Spain,0,0,0
-Spain,Austria,0,0,0
+Austria,Spain,0.025,1,1
+Spain,Austria,0.029411764705882353,1,0
 Austria,Sweden,0,0,0
 Sweden,Austria,0,0,0
-Austria,Switzerland,0,0,0
-Switzerland,Austria,0,0,0
+Austria,Switzerland,0.025,1,1
+Switzerland,Austria,0.045454545454545456,1,0
 Austria,Turkey,0,0,0
 Turkey,Austria,0,0,0
-Austria,UK,0,0,0
-UK,Austria,0,0,0
+Austria,UK,0.025,1,1
+UK,Austria,0.03571428571428571,1,0
 Austria,USA,0,0,0
 USA,Austria,0,0,0
 Austria,USSR-altaji,0,0,0
@@ -493,45 +493,45 @@ Austria,USSR-fehérorosz,0,0,0
 USSR-fehérorosz,Austria,0,0,0
 Austria,USSR-finn,0,0,0
 USSR-finn,Austria,0,0,0
-Austria,USSR-grúz,0,0,0
-USSR-grúz,Austria,0,0,0
-Austria,USSR-kazah,0,0,0
-USSR-kazah,Austria,0,0,0
+Austria,USSR-grúz,0.025,1,1
+USSR-grúz,Austria,0.043478260869565216,1,0
+Austria,USSR-kazah,0.025,1,1
+USSR-kazah,Austria,0.1111111111111111,1,0
 Austria,USSR-kirgiz,0,0,0
 USSR-kirgiz,Austria,0,0,0
-Austria,USSR-lett,0,0,0
-USSR-lett,Austria,0,0,0
-Austria,USSR-litván,0,0,0
-USSR-litván,Austria,0,0,0
+Austria,USSR-lett,0.025,1,1
+USSR-lett,Austria,0.03571428571428571,1,0
+Austria,USSR-litván,0.025,1,1
+USSR-litván,Austria,0.02857142857142857,1,0
 Austria,USSR-moldva,0,0,0
 USSR-moldva,Austria,0,0,0
-Austria,USSR-orosz,0,0,0
-USSR-orosz,Austria,0,0,0
+Austria,USSR-orosz,0.025,1,0.5
+USSR-orosz,Austria,0.006756756756756757,1,0.5
 Austria,USSR-tadzsik,0,0,0
 USSR-tadzsik,Austria,0,0,0
 Austria,USSR-türkmén,0,0,0
 USSR-türkmén,Austria,0,0,0
 Austria,USSR-udmurt,0,0,0
 USSR-udmurt,Austria,0,0,0
-Austria,USSR-ukrán,0,0,0
-USSR-ukrán,Austria,0,0,0
-Austria,USSR-észt,0,0,0
-USSR-észt,Austria,0,0,0
+Austria,USSR-ukrán,0.025,1,1
+USSR-ukrán,Austria,0.022222222222222223,1,0
+Austria,USSR-észt,0.025,1,1
+USSR-észt,Austria,0.030303030303030304,1,0
 Austria,USSR-örmény,0,0,0
 USSR-örmény,Austria,0,0,0
-Austria,USSR-üzbég,0,0,0
-USSR-üzbég,Austria,0,0,0
+Austria,USSR-üzbég,0.025,1,1
+USSR-üzbég,Austria,0.125,1,0
 Austria,Venezuela,0,0,0
 Venezuela,Austria,0,0,0
 Austria,Vietnam,0,0,0
 Vietnam,Austria,0,0,0
-Austria,Yugoslavia,0,0,0
-Yugoslavia,Austria,0,0,0
+Austria,Yugoslavia,0.025,1,1
+Yugoslavia,Austria,0.012195121951219513,1,0
 Belgium,Belgium,NA,NA,NA
 Belgium,Brasil,0,0,0
 Brasil,Belgium,0,0,0
-Belgium,Bulgaria,0,0,0
-Bulgaria,Belgium,0,0,0
+Belgium,Bulgaria,0.058823529411764705,1,1
+Bulgaria,Belgium,0.014285714285714285,1,0
 Belgium,Canada,0,0,0
 Canada,Belgium,0,0,0
 Belgium,Chile,0,0,0
@@ -540,34 +540,34 @@ Belgium,Colombia,0,0,0
 Colombia,Belgium,0,0,0
 Belgium,Cuba,0,0,0
 Cuba,Belgium,0,0,0
-Belgium,Czechoslovakia-cseh,0,0,0
-Czechoslovakia-cseh,Belgium,0,0,0
-Belgium,Czechoslovakia-szlovák,0,0,0
-Czechoslovakia-szlovák,Belgium,0,0,0
+Belgium,Czechoslovakia-cseh,0.058823529411764705,1,0.5
+Czechoslovakia-cseh,Belgium,0.0070921985815602835,1,0.5
+Belgium,Czechoslovakia-szlovák,0.058823529411764705,1,0
+Czechoslovakia-szlovák,Belgium,0.006024096385542169,1,1
 Belgium,Denmark,0,0,0
 Denmark,Belgium,0,0,0
 Belgium,Egypt,0,0,0
 Egypt,Belgium,0,0,0
-Belgium,Federal Republic of Germany,0,0,0
-Federal Republic of Germany,Belgium,0,0,0
+Belgium,Federal Republic of Germany,0.058823529411764705,1,1
+Federal Republic of Germany,Belgium,0.010638297872340425,1,0
 Belgium,Finland,0,0,0
 Finland,Belgium,0,0,0
 Belgium,France,0,0,0
 France,Belgium,0,0,0
-Belgium,GDR,0,0,0
-GDR,Belgium,0,0,0
+Belgium,GDR,0.058823529411764705,1,0
+GDR,Belgium,0.0064516129032258064,1,1
 Belgium,Greece,0,0,0
 Greece,Belgium,0,0,0
-Belgium,Hungary,0,0,0
-Hungary,Belgium,0,0,0
+Belgium,Hungary,0.058823529411764705,1,1
+Hungary,Belgium,0.009523809523809525,1,0
 Belgium,India,0,0,0
 India,Belgium,0,0,0
 Belgium,Iran,0,0,0
 Iran,Belgium,0,0,0
 Belgium,Israel,0,0,0
 Israel,Belgium,0,0,0
-Belgium,Italy,0,0,0
-Italy,Belgium,0,0,0
+Belgium,Italy,0.058823529411764705,1,1
+Italy,Belgium,0.020833333333333332,1,0
 Belgium,Japan,0,0,0
 Japan,Belgium,0,0,0
 Belgium,Liechtenstein,0,0,0
@@ -578,34 +578,34 @@ Belgium,Mexico,0,0,0
 Mexico,Belgium,0,0,0
 Belgium,Mongolia,0,0,0
 Mongolia,Belgium,0,0,0
-Belgium,Netherlands,0,0,0
-Netherlands,Belgium,0,0,0
+Belgium,Netherlands,0.058823529411764705,1,1
+Netherlands,Belgium,0.030303030303030304,1,0
 Belgium,North Korea,0,0,0
 North Korea,Belgium,0,0,0
 Belgium,Norway,0,0,0
 Norway,Belgium,0,0,0
-Belgium,PR China,0,0,0
-PR China,Belgium,0,0,0
-Belgium,Poland,0,0,0
-Poland,Belgium,0,0,0
+Belgium,PR China,0.058823529411764705,1,1
+PR China,Belgium,0.043478260869565216,1,0
+Belgium,Poland,0.058823529411764705,1,0
+Poland,Belgium,0.0072992700729927005,1,1
 Belgium,Portugal,0,0,0
 Portugal,Belgium,0,0,0
-Belgium,Romania,0,0,0
-Romania,Belgium,0,0,0
+Belgium,Romania,0.058823529411764705,1,0
+Romania,Belgium,0.0072992700729927005,1,1
 Belgium,Singapore,0,0,0
 Singapore,Belgium,0,0,0
 Belgium,South Korea,0,0,0
 South Korea,Belgium,0,0,0
-Belgium,Spain,0,0,0
-Spain,Belgium,0,0,0
+Belgium,Spain,0.058823529411764705,1,1
+Spain,Belgium,0.029411764705882353,1,0
 Belgium,Sweden,0,0,0
 Sweden,Belgium,0,0,0
-Belgium,Switzerland,0,0,0
-Switzerland,Belgium,0,0,0
+Belgium,Switzerland,0.058823529411764705,1,1
+Switzerland,Belgium,0.045454545454545456,1,0
 Belgium,Turkey,0,0,0
 Turkey,Belgium,0,0,0
-Belgium,UK,0,0,0
-UK,Belgium,0,0,0
+Belgium,UK,0.058823529411764705,1,1
+UK,Belgium,0.03571428571428571,1,0
 Belgium,USA,0,0,0
 USA,Belgium,0,0,0
 Belgium,USSR-altaji,0,0,0
@@ -620,40 +620,40 @@ Belgium,USSR-fehérorosz,0,0,0
 USSR-fehérorosz,Belgium,0,0,0
 Belgium,USSR-finn,0,0,0
 USSR-finn,Belgium,0,0,0
-Belgium,USSR-grúz,0,0,0
-USSR-grúz,Belgium,0,0,0
-Belgium,USSR-kazah,0,0,0
-USSR-kazah,Belgium,0,0,0
+Belgium,USSR-grúz,0.058823529411764705,1,1
+USSR-grúz,Belgium,0.043478260869565216,1,0
+Belgium,USSR-kazah,0.058823529411764705,1,1
+USSR-kazah,Belgium,0.1111111111111111,1,0
 Belgium,USSR-kirgiz,0,0,0
 USSR-kirgiz,Belgium,0,0,0
-Belgium,USSR-lett,0,0,0
-USSR-lett,Belgium,0,0,0
-Belgium,USSR-litván,0,0,0
-USSR-litván,Belgium,0,0,0
+Belgium,USSR-lett,0.058823529411764705,1,1
+USSR-lett,Belgium,0.03571428571428571,1,0
+Belgium,USSR-litván,0.058823529411764705,1,1
+USSR-litván,Belgium,0.02857142857142857,1,0
 Belgium,USSR-moldva,0,0,0
 USSR-moldva,Belgium,0,0,0
-Belgium,USSR-orosz,0,0,0
-USSR-orosz,Belgium,0,0,0
+Belgium,USSR-orosz,0.058823529411764705,1,0
+USSR-orosz,Belgium,0.006756756756756757,1,1
 Belgium,USSR-tadzsik,0,0,0
 USSR-tadzsik,Belgium,0,0,0
 Belgium,USSR-türkmén,0,0,0
 USSR-türkmén,Belgium,0,0,0
 Belgium,USSR-udmurt,0,0,0
 USSR-udmurt,Belgium,0,0,0
-Belgium,USSR-ukrán,0,0,0
-USSR-ukrán,Belgium,0,0,0
-Belgium,USSR-észt,0,0,0
-USSR-észt,Belgium,0,0,0
+Belgium,USSR-ukrán,0.058823529411764705,1,1
+USSR-ukrán,Belgium,0.022222222222222223,1,0
+Belgium,USSR-észt,0.058823529411764705,1,1
+USSR-észt,Belgium,0.030303030303030304,1,0
 Belgium,USSR-örmény,0,0,0
 USSR-örmény,Belgium,0,0,0
-Belgium,USSR-üzbég,0,0,0
-USSR-üzbég,Belgium,0,0,0
+Belgium,USSR-üzbég,0.058823529411764705,1,1
+USSR-üzbég,Belgium,0.125,1,0
 Belgium,Venezuela,0,0,0
 Venezuela,Belgium,0,0,0
 Belgium,Vietnam,0,0,0
 Vietnam,Belgium,0,0,0
-Belgium,Yugoslavia,0,0,0
-Yugoslavia,Belgium,0,0,0
+Belgium,Yugoslavia,0.058823529411764705,1,0
+Yugoslavia,Belgium,0.012195121951219513,1,1
 Brasil,Brasil,NA,NA,NA
 Brasil,Bulgaria,0,0,0
 Bulgaria,Brasil,0,0,0
@@ -788,34 +788,34 @@ Bulgaria,Colombia,0,0,0
 Colombia,Bulgaria,0,0,0
 Bulgaria,Cuba,0,0,0
 Cuba,Bulgaria,0,0,0
-Bulgaria,Czechoslovakia-cseh,0,0,0
-Czechoslovakia-cseh,Bulgaria,0,0,0
-Bulgaria,Czechoslovakia-szlovák,0,0,0
-Czechoslovakia-szlovák,Bulgaria,0,0,0
+Bulgaria,Czechoslovakia-cseh,0.014285714285714285,1,0
+Czechoslovakia-cseh,Bulgaria,0.0070921985815602835,1,1
+Bulgaria,Czechoslovakia-szlovák,0.014285714285714285,1,0
+Czechoslovakia-szlovák,Bulgaria,0.006024096385542169,1,1
 Bulgaria,Denmark,0,0,0
 Denmark,Bulgaria,0,0,0
 Bulgaria,Egypt,0,0,0
 Egypt,Bulgaria,0,0,0
-Bulgaria,Federal Republic of Germany,0,0,0
-Federal Republic of Germany,Bulgaria,0,0,0
+Bulgaria,Federal Republic of Germany,0.014285714285714285,1,1
+Federal Republic of Germany,Bulgaria,0.010638297872340425,1,0
 Bulgaria,Finland,0,0,0
 Finland,Bulgaria,0,0,0
 Bulgaria,France,0,0,0
 France,Bulgaria,0,0,0
-Bulgaria,GDR,0,0,0
-GDR,Bulgaria,0,0,0
+Bulgaria,GDR,0.014285714285714285,1,0
+GDR,Bulgaria,0.0064516129032258064,1,1
 Bulgaria,Greece,0,0,0
 Greece,Bulgaria,0,0,0
-Bulgaria,Hungary,0,0,0
-Hungary,Bulgaria,0,0,0
+Bulgaria,Hungary,0.014285714285714285,1,1
+Hungary,Bulgaria,0.009523809523809525,1,0
 Bulgaria,India,0,0,0
 India,Bulgaria,0,0,0
 Bulgaria,Iran,0,0,0
 Iran,Bulgaria,0,0,0
 Bulgaria,Israel,0,0,0
 Israel,Bulgaria,0,0,0
-Bulgaria,Italy,0,0,0
-Italy,Bulgaria,0,0,0
+Bulgaria,Italy,0.014285714285714285,1,0
+Italy,Bulgaria,0.020833333333333332,1,1
 Bulgaria,Japan,0,0,0
 Japan,Bulgaria,0,0,0
 Bulgaria,Liechtenstein,0,0,0
@@ -826,34 +826,34 @@ Bulgaria,Mexico,0,0,0
 Mexico,Bulgaria,0,0,0
 Bulgaria,Mongolia,0,0,0
 Mongolia,Bulgaria,0,0,0
-Bulgaria,Netherlands,0,0,0
-Netherlands,Bulgaria,0,0,0
+Bulgaria,Netherlands,0.014285714285714285,1,1
+Netherlands,Bulgaria,0.030303030303030304,1,0
 Bulgaria,North Korea,0,0,0
 North Korea,Bulgaria,0,0,0
 Bulgaria,Norway,0,0,0
 Norway,Bulgaria,0,0,0
-Bulgaria,PR China,0,0,0
-PR China,Bulgaria,0,0,0
-Bulgaria,Poland,0,0,0
-Poland,Bulgaria,0,0,0
+Bulgaria,PR China,0.014285714285714285,1,0
+PR China,Bulgaria,0.043478260869565216,1,1
+Bulgaria,Poland,0.014285714285714285,1,0
+Poland,Bulgaria,0.0072992700729927005,1,1
 Bulgaria,Portugal,0,0,0
 Portugal,Bulgaria,0,0,0
-Bulgaria,Romania,0,0,0
-Romania,Bulgaria,0,0,0
+Bulgaria,Romania,0.014285714285714285,1,0
+Romania,Bulgaria,0.0072992700729927005,1,1
 Bulgaria,Singapore,0,0,0
 Singapore,Bulgaria,0,0,0
 Bulgaria,South Korea,0,0,0
 South Korea,Bulgaria,0,0,0
-Bulgaria,Spain,0,0,0
-Spain,Bulgaria,0,0,0
+Bulgaria,Spain,0.014285714285714285,1,0
+Spain,Bulgaria,0.029411764705882353,1,1
 Bulgaria,Sweden,0,0,0
 Sweden,Bulgaria,0,0,0
-Bulgaria,Switzerland,0,0,0
-Switzerland,Bulgaria,0,0,0
+Bulgaria,Switzerland,0.014285714285714285,1,0.5
+Switzerland,Bulgaria,0.045454545454545456,1,0.5
 Bulgaria,Turkey,0,0,0
 Turkey,Bulgaria,0,0,0
-Bulgaria,UK,0,0,0
-UK,Bulgaria,0,0,0
+Bulgaria,UK,0.014285714285714285,1,1
+UK,Bulgaria,0.03571428571428571,1,0
 Bulgaria,USA,0,0,0
 USA,Bulgaria,0,0,0
 Bulgaria,USSR-altaji,0,0,0
@@ -868,40 +868,40 @@ Bulgaria,USSR-fehérorosz,0,0,0
 USSR-fehérorosz,Bulgaria,0,0,0
 Bulgaria,USSR-finn,0,0,0
 USSR-finn,Bulgaria,0,0,0
-Bulgaria,USSR-grúz,0,0,0
-USSR-grúz,Bulgaria,0,0,0
-Bulgaria,USSR-kazah,0,0,0
-USSR-kazah,Bulgaria,0,0,0
+Bulgaria,USSR-grúz,0.014285714285714285,1,1
+USSR-grúz,Bulgaria,0.043478260869565216,1,0
+Bulgaria,USSR-kazah,0.014285714285714285,1,1
+USSR-kazah,Bulgaria,0.1111111111111111,1,0
 Bulgaria,USSR-kirgiz,0,0,0
 USSR-kirgiz,Bulgaria,0,0,0
-Bulgaria,USSR-lett,0,0,0
-USSR-lett,Bulgaria,0,0,0
-Bulgaria,USSR-litván,0,0,0
-USSR-litván,Bulgaria,0,0,0
+Bulgaria,USSR-lett,0.014285714285714285,1,0
+USSR-lett,Bulgaria,0.03571428571428571,1,1
+Bulgaria,USSR-litván,0.014285714285714285,1,1
+USSR-litván,Bulgaria,0.02857142857142857,1,0
 Bulgaria,USSR-moldva,0,0,0
 USSR-moldva,Bulgaria,0,0,0
-Bulgaria,USSR-orosz,0,0,0
-USSR-orosz,Bulgaria,0,0,0
+Bulgaria,USSR-orosz,0.014285714285714285,1,0
+USSR-orosz,Bulgaria,0.006756756756756757,1,1
 Bulgaria,USSR-tadzsik,0,0,0
 USSR-tadzsik,Bulgaria,0,0,0
 Bulgaria,USSR-türkmén,0,0,0
 USSR-türkmén,Bulgaria,0,0,0
 Bulgaria,USSR-udmurt,0,0,0
 USSR-udmurt,Bulgaria,0,0,0
-Bulgaria,USSR-ukrán,0,0,0
-USSR-ukrán,Bulgaria,0,0,0
-Bulgaria,USSR-észt,0,0,0
-USSR-észt,Bulgaria,0,0,0
+Bulgaria,USSR-ukrán,0.014285714285714285,1,0
+USSR-ukrán,Bulgaria,0.022222222222222223,1,1
+Bulgaria,USSR-észt,0.014285714285714285,1,1
+USSR-észt,Bulgaria,0.030303030303030304,1,0
 Bulgaria,USSR-örmény,0,0,0
 USSR-örmény,Bulgaria,0,0,0
-Bulgaria,USSR-üzbég,0,0,0
-USSR-üzbég,Bulgaria,0,0,0
+Bulgaria,USSR-üzbég,0.014285714285714285,1,1
+USSR-üzbég,Bulgaria,0.125,1,0
 Bulgaria,Venezuela,0,0,0
 Venezuela,Bulgaria,0,0,0
 Bulgaria,Vietnam,0,0,0
 Vietnam,Bulgaria,0,0,0
-Bulgaria,Yugoslavia,0,0,0
-Yugoslavia,Bulgaria,0,0,0
+Bulgaria,Yugoslavia,0.014285714285714285,1,0
+Yugoslavia,Bulgaria,0.012195121951219513,1,1
 Canada,Canada,NA,NA,NA
 Canada,Chile,0,0,0
 Chile,Canada,0,0,0
@@ -1375,32 +1375,32 @@ Vietnam,Cuba,0,0,0
 Cuba,Yugoslavia,0,0,0
 Yugoslavia,Cuba,0,0,0
 Czechoslovakia-cseh,Czechoslovakia-cseh,NA,NA,NA
-Czechoslovakia-cseh,Czechoslovakia-szlovák,0,0,0
-Czechoslovakia-szlovák,Czechoslovakia-cseh,0,0,0
+Czechoslovakia-cseh,Czechoslovakia-szlovák,0.0070921985815602835,1,0
+Czechoslovakia-szlovák,Czechoslovakia-cseh,0.006024096385542169,1,1
 Czechoslovakia-cseh,Denmark,0,0,0
 Denmark,Czechoslovakia-cseh,0,0,0
 Czechoslovakia-cseh,Egypt,0,0,0
 Egypt,Czechoslovakia-cseh,0,0,0
-Czechoslovakia-cseh,Federal Republic of Germany,0,0,0
-Federal Republic of Germany,Czechoslovakia-cseh,0,0,0
+Czechoslovakia-cseh,Federal Republic of Germany,0.0070921985815602835,1,1
+Federal Republic of Germany,Czechoslovakia-cseh,0.010638297872340425,1,0
 Czechoslovakia-cseh,Finland,0,0,0
 Finland,Czechoslovakia-cseh,0,0,0
 Czechoslovakia-cseh,France,0,0,0
 France,Czechoslovakia-cseh,0,0,0
-Czechoslovakia-cseh,GDR,0,0,0
-GDR,Czechoslovakia-cseh,0,0,0
+Czechoslovakia-cseh,GDR,0.0070921985815602835,1,0
+GDR,Czechoslovakia-cseh,0.0064516129032258064,1,1
 Czechoslovakia-cseh,Greece,0,0,0
 Greece,Czechoslovakia-cseh,0,0,0
-Czechoslovakia-cseh,Hungary,0,0,0
-Hungary,Czechoslovakia-cseh,0,0,0
+Czechoslovakia-cseh,Hungary,0.0070921985815602835,1,1
+Hungary,Czechoslovakia-cseh,0.009523809523809525,1,0
 Czechoslovakia-cseh,India,0,0,0
 India,Czechoslovakia-cseh,0,0,0
 Czechoslovakia-cseh,Iran,0,0,0
 Iran,Czechoslovakia-cseh,0,0,0
 Czechoslovakia-cseh,Israel,0,0,0
 Israel,Czechoslovakia-cseh,0,0,0
-Czechoslovakia-cseh,Italy,0,0,0
-Italy,Czechoslovakia-cseh,0,0,0
+Czechoslovakia-cseh,Italy,0.0070921985815602835,1,1
+Italy,Czechoslovakia-cseh,0.020833333333333332,1,0
 Czechoslovakia-cseh,Japan,0,0,0
 Japan,Czechoslovakia-cseh,0,0,0
 Czechoslovakia-cseh,Liechtenstein,0,0,0
@@ -1411,34 +1411,34 @@ Czechoslovakia-cseh,Mexico,0,0,0
 Mexico,Czechoslovakia-cseh,0,0,0
 Czechoslovakia-cseh,Mongolia,0,0,0
 Mongolia,Czechoslovakia-cseh,0,0,0
-Czechoslovakia-cseh,Netherlands,0,0,0
-Netherlands,Czechoslovakia-cseh,0,0,0
+Czechoslovakia-cseh,Netherlands,0.0070921985815602835,1,1
+Netherlands,Czechoslovakia-cseh,0.030303030303030304,1,0
 Czechoslovakia-cseh,North Korea,0,0,0
 North Korea,Czechoslovakia-cseh,0,0,0
 Czechoslovakia-cseh,Norway,0,0,0
 Norway,Czechoslovakia-cseh,0,0,0
-Czechoslovakia-cseh,PR China,0,0,0
-PR China,Czechoslovakia-cseh,0,0,0
-Czechoslovakia-cseh,Poland,0,0,0
-Poland,Czechoslovakia-cseh,0,0,0
+Czechoslovakia-cseh,PR China,0.0070921985815602835,1,1
+PR China,Czechoslovakia-cseh,0.043478260869565216,1,0
+Czechoslovakia-cseh,Poland,0.0070921985815602835,1,0
+Poland,Czechoslovakia-cseh,0.0072992700729927005,1,1
 Czechoslovakia-cseh,Portugal,0,0,0
 Portugal,Czechoslovakia-cseh,0,0,0
-Czechoslovakia-cseh,Romania,0,0,0
-Romania,Czechoslovakia-cseh,0,0,0
+Czechoslovakia-cseh,Romania,0.0070921985815602835,1,0
+Romania,Czechoslovakia-cseh,0.0072992700729927005,1,1
 Czechoslovakia-cseh,Singapore,0,0,0
 Singapore,Czechoslovakia-cseh,0,0,0
 Czechoslovakia-cseh,South Korea,0,0,0
 South Korea,Czechoslovakia-cseh,0,0,0
-Czechoslovakia-cseh,Spain,0,0,0
-Spain,Czechoslovakia-cseh,0,0,0
+Czechoslovakia-cseh,Spain,0.0070921985815602835,1,1
+Spain,Czechoslovakia-cseh,0.029411764705882353,1,0
 Czechoslovakia-cseh,Sweden,0,0,0
 Sweden,Czechoslovakia-cseh,0,0,0
-Czechoslovakia-cseh,Switzerland,0,0,0
-Switzerland,Czechoslovakia-cseh,0,0,0
+Czechoslovakia-cseh,Switzerland,0.0070921985815602835,1,1
+Switzerland,Czechoslovakia-cseh,0.045454545454545456,1,0
 Czechoslovakia-cseh,Turkey,0,0,0
 Turkey,Czechoslovakia-cseh,0,0,0
-Czechoslovakia-cseh,UK,0,0,0
-UK,Czechoslovakia-cseh,0,0,0
+Czechoslovakia-cseh,UK,0.0070921985815602835,1,1
+UK,Czechoslovakia-cseh,0.03571428571428571,1,0
 Czechoslovakia-cseh,USA,0,0,0
 USA,Czechoslovakia-cseh,0,0,0
 Czechoslovakia-cseh,USSR-altaji,0,0,0
@@ -1453,65 +1453,65 @@ Czechoslovakia-cseh,USSR-fehérorosz,0,0,0
 USSR-fehérorosz,Czechoslovakia-cseh,0,0,0
 Czechoslovakia-cseh,USSR-finn,0,0,0
 USSR-finn,Czechoslovakia-cseh,0,0,0
-Czechoslovakia-cseh,USSR-grúz,0,0,0
-USSR-grúz,Czechoslovakia-cseh,0,0,0
-Czechoslovakia-cseh,USSR-kazah,0,0,0
-USSR-kazah,Czechoslovakia-cseh,0,0,0
+Czechoslovakia-cseh,USSR-grúz,0.0070921985815602835,1,1
+USSR-grúz,Czechoslovakia-cseh,0.043478260869565216,1,0
+Czechoslovakia-cseh,USSR-kazah,0.0070921985815602835,1,1
+USSR-kazah,Czechoslovakia-cseh,0.1111111111111111,1,0
 Czechoslovakia-cseh,USSR-kirgiz,0,0,0
 USSR-kirgiz,Czechoslovakia-cseh,0,0,0
-Czechoslovakia-cseh,USSR-lett,0,0,0
-USSR-lett,Czechoslovakia-cseh,0,0,0
-Czechoslovakia-cseh,USSR-litván,0,0,0
-USSR-litván,Czechoslovakia-cseh,0,0,0
+Czechoslovakia-cseh,USSR-lett,0.0070921985815602835,1,1
+USSR-lett,Czechoslovakia-cseh,0.03571428571428571,1,0
+Czechoslovakia-cseh,USSR-litván,0.0070921985815602835,1,1
+USSR-litván,Czechoslovakia-cseh,0.02857142857142857,1,0
 Czechoslovakia-cseh,USSR-moldva,0,0,0
 USSR-moldva,Czechoslovakia-cseh,0,0,0
-Czechoslovakia-cseh,USSR-orosz,0,0,0
-USSR-orosz,Czechoslovakia-cseh,0,0,0
+Czechoslovakia-cseh,USSR-orosz,0.0070921985815602835,1,0
+USSR-orosz,Czechoslovakia-cseh,0.006756756756756757,1,1
 Czechoslovakia-cseh,USSR-tadzsik,0,0,0
 USSR-tadzsik,Czechoslovakia-cseh,0,0,0
 Czechoslovakia-cseh,USSR-türkmén,0,0,0
 USSR-türkmén,Czechoslovakia-cseh,0,0,0
 Czechoslovakia-cseh,USSR-udmurt,0,0,0
 USSR-udmurt,Czechoslovakia-cseh,0,0,0
-Czechoslovakia-cseh,USSR-ukrán,0,0,0
-USSR-ukrán,Czechoslovakia-cseh,0,0,0
-Czechoslovakia-cseh,USSR-észt,0,0,0
-USSR-észt,Czechoslovakia-cseh,0,0,0
+Czechoslovakia-cseh,USSR-ukrán,0.0070921985815602835,1,1
+USSR-ukrán,Czechoslovakia-cseh,0.022222222222222223,1,0
+Czechoslovakia-cseh,USSR-észt,0.0070921985815602835,1,1
+USSR-észt,Czechoslovakia-cseh,0.030303030303030304,1,0
 Czechoslovakia-cseh,USSR-örmény,0,0,0
 USSR-örmény,Czechoslovakia-cseh,0,0,0
-Czechoslovakia-cseh,USSR-üzbég,0,0,0
-USSR-üzbég,Czechoslovakia-cseh,0,0,0
+Czechoslovakia-cseh,USSR-üzbég,0.0070921985815602835,1,1
+USSR-üzbég,Czechoslovakia-cseh,0.125,1,0
 Czechoslovakia-cseh,Venezuela,0,0,0
 Venezuela,Czechoslovakia-cseh,0,0,0
 Czechoslovakia-cseh,Vietnam,0,0,0
 Vietnam,Czechoslovakia-cseh,0,0,0
-Czechoslovakia-cseh,Yugoslavia,0,0,0
-Yugoslavia,Czechoslovakia-cseh,0,0,0
+Czechoslovakia-cseh,Yugoslavia,0.0070921985815602835,1,0
+Yugoslavia,Czechoslovakia-cseh,0.012195121951219513,1,1
 Czechoslovakia-szlovák,Czechoslovakia-szlovák,NA,NA,NA
 Czechoslovakia-szlovák,Denmark,0,0,0
 Denmark,Czechoslovakia-szlovák,0,0,0
 Czechoslovakia-szlovák,Egypt,0,0,0
 Egypt,Czechoslovakia-szlovák,0,0,0
-Czechoslovakia-szlovák,Federal Republic of Germany,0,0,0
-Federal Republic of Germany,Czechoslovakia-szlovák,0,0,0
+Czechoslovakia-szlovák,Federal Republic of Germany,0.006024096385542169,1,1
+Federal Republic of Germany,Czechoslovakia-szlovák,0.010638297872340425,1,0
 Czechoslovakia-szlovák,Finland,0,0,0
 Finland,Czechoslovakia-szlovák,0,0,0
 Czechoslovakia-szlovák,France,0,0,0
 France,Czechoslovakia-szlovák,0,0,0
-Czechoslovakia-szlovák,GDR,0,0,0
-GDR,Czechoslovakia-szlovák,0,0,0
+Czechoslovakia-szlovák,GDR,0.006024096385542169,1,1
+GDR,Czechoslovakia-szlovák,0.0064516129032258064,1,0
 Czechoslovakia-szlovák,Greece,0,0,0
 Greece,Czechoslovakia-szlovák,0,0,0
-Czechoslovakia-szlovák,Hungary,0,0,0
-Hungary,Czechoslovakia-szlovák,0,0,0
+Czechoslovakia-szlovák,Hungary,0.006024096385542169,1,1
+Hungary,Czechoslovakia-szlovák,0.009523809523809525,1,0
 Czechoslovakia-szlovák,India,0,0,0
 India,Czechoslovakia-szlovák,0,0,0
 Czechoslovakia-szlovák,Iran,0,0,0
 Iran,Czechoslovakia-szlovák,0,0,0
 Czechoslovakia-szlovák,Israel,0,0,0
 Israel,Czechoslovakia-szlovák,0,0,0
-Czechoslovakia-szlovák,Italy,0,0,0
-Italy,Czechoslovakia-szlovák,0,0,0
+Czechoslovakia-szlovák,Italy,0.006024096385542169,1,1
+Italy,Czechoslovakia-szlovák,0.020833333333333332,1,0
 Czechoslovakia-szlovák,Japan,0,0,0
 Japan,Czechoslovakia-szlovák,0,0,0
 Czechoslovakia-szlovák,Liechtenstein,0,0,0
@@ -1522,34 +1522,34 @@ Czechoslovakia-szlovák,Mexico,0,0,0
 Mexico,Czechoslovakia-szlovák,0,0,0
 Czechoslovakia-szlovák,Mongolia,0,0,0
 Mongolia,Czechoslovakia-szlovák,0,0,0
-Czechoslovakia-szlovák,Netherlands,0,0,0
-Netherlands,Czechoslovakia-szlovák,0,0,0
+Czechoslovakia-szlovák,Netherlands,0.006024096385542169,1,1
+Netherlands,Czechoslovakia-szlovák,0.030303030303030304,1,0
 Czechoslovakia-szlovák,North Korea,0,0,0
 North Korea,Czechoslovakia-szlovák,0,0,0
 Czechoslovakia-szlovák,Norway,0,0,0
 Norway,Czechoslovakia-szlovák,0,0,0
-Czechoslovakia-szlovák,PR China,0,0,0
-PR China,Czechoslovakia-szlovák,0,0,0
-Czechoslovakia-szlovák,Poland,0,0,0
-Poland,Czechoslovakia-szlovák,0,0,0
+Czechoslovakia-szlovák,PR China,0.006024096385542169,1,1
+PR China,Czechoslovakia-szlovák,0.043478260869565216,1,0
+Czechoslovakia-szlovák,Poland,0.006024096385542169,1,1
+Poland,Czechoslovakia-szlovák,0.0072992700729927005,1,0
 Czechoslovakia-szlovák,Portugal,0,0,0
 Portugal,Czechoslovakia-szlovák,0,0,0
-Czechoslovakia-szlovák,Romania,0,0,0
-Romania,Czechoslovakia-szlovák,0,0,0
+Czechoslovakia-szlovák,Romania,0.006024096385542169,1,0
+Romania,Czechoslovakia-szlovák,0.0072992700729927005,1,1
 Czechoslovakia-szlovák,Singapore,0,0,0
 Singapore,Czechoslovakia-szlovák,0,0,0
 Czechoslovakia-szlovák,South Korea,0,0,0
 South Korea,Czechoslovakia-szlovák,0,0,0
-Czechoslovakia-szlovák,Spain,0,0,0
-Spain,Czechoslovakia-szlovák,0,0,0
+Czechoslovakia-szlovák,Spain,0.006024096385542169,1,1
+Spain,Czechoslovakia-szlovák,0.029411764705882353,1,0
 Czechoslovakia-szlovák,Sweden,0,0,0
 Sweden,Czechoslovakia-szlovák,0,0,0
-Czechoslovakia-szlovák,Switzerland,0,0,0
-Switzerland,Czechoslovakia-szlovák,0,0,0
+Czechoslovakia-szlovák,Switzerland,0.006024096385542169,1,1
+Switzerland,Czechoslovakia-szlovák,0.045454545454545456,1,0
 Czechoslovakia-szlovák,Turkey,0,0,0
 Turkey,Czechoslovakia-szlovák,0,0,0
-Czechoslovakia-szlovák,UK,0,0,0
-UK,Czechoslovakia-szlovák,0,0,0
+Czechoslovakia-szlovák,UK,0.006024096385542169,1,1
+UK,Czechoslovakia-szlovák,0.03571428571428571,1,0
 Czechoslovakia-szlovák,USA,0,0,0
 USA,Czechoslovakia-szlovák,0,0,0
 Czechoslovakia-szlovák,USSR-altaji,0,0,0
@@ -1564,40 +1564,40 @@ Czechoslovakia-szlovák,USSR-fehérorosz,0,0,0
 USSR-fehérorosz,Czechoslovakia-szlovák,0,0,0
 Czechoslovakia-szlovák,USSR-finn,0,0,0
 USSR-finn,Czechoslovakia-szlovák,0,0,0
-Czechoslovakia-szlovák,USSR-grúz,0,0,0
-USSR-grúz,Czechoslovakia-szlovák,0,0,0
-Czechoslovakia-szlovák,USSR-kazah,0,0,0
-USSR-kazah,Czechoslovakia-szlovák,0,0,0
+Czechoslovakia-szlovák,USSR-grúz,0.006024096385542169,1,1
+USSR-grúz,Czechoslovakia-szlovák,0.043478260869565216,1,0
+Czechoslovakia-szlovák,USSR-kazah,0.006024096385542169,1,1
+USSR-kazah,Czechoslovakia-szlovák,0.1111111111111111,1,0
 Czechoslovakia-szlovák,USSR-kirgiz,0,0,0
 USSR-kirgiz,Czechoslovakia-szlovák,0,0,0
-Czechoslovakia-szlovák,USSR-lett,0,0,0
-USSR-lett,Czechoslovakia-szlovák,0,0,0
-Czechoslovakia-szlovák,USSR-litván,0,0,0
-USSR-litván,Czechoslovakia-szlovák,0,0,0
+Czechoslovakia-szlovák,USSR-lett,0.006024096385542169,1,1
+USSR-lett,Czechoslovakia-szlovák,0.03571428571428571,1,0
+Czechoslovakia-szlovák,USSR-litván,0.006024096385542169,1,1
+USSR-litván,Czechoslovakia-szlovák,0.02857142857142857,1,0
 Czechoslovakia-szlovák,USSR-moldva,0,0,0
 USSR-moldva,Czechoslovakia-szlovák,0,0,0
-Czechoslovakia-szlovák,USSR-orosz,0,0,0
-USSR-orosz,Czechoslovakia-szlovák,0,0,0
+Czechoslovakia-szlovák,USSR-orosz,0.006024096385542169,1,0
+USSR-orosz,Czechoslovakia-szlovák,0.006756756756756757,1,1
 Czechoslovakia-szlovák,USSR-tadzsik,0,0,0
 USSR-tadzsik,Czechoslovakia-szlovák,0,0,0
 Czechoslovakia-szlovák,USSR-türkmén,0,0,0
 USSR-türkmén,Czechoslovakia-szlovák,0,0,0
 Czechoslovakia-szlovák,USSR-udmurt,0,0,0
 USSR-udmurt,Czechoslovakia-szlovák,0,0,0
-Czechoslovakia-szlovák,USSR-ukrán,0,0,0
-USSR-ukrán,Czechoslovakia-szlovák,0,0,0
-Czechoslovakia-szlovák,USSR-észt,0,0,0
-USSR-észt,Czechoslovakia-szlovák,0,0,0
+Czechoslovakia-szlovák,USSR-ukrán,0.006024096385542169,1,1
+USSR-ukrán,Czechoslovakia-szlovák,0.022222222222222223,1,0
+Czechoslovakia-szlovák,USSR-észt,0.006024096385542169,1,1
+USSR-észt,Czechoslovakia-szlovák,0.030303030303030304,1,0
 Czechoslovakia-szlovák,USSR-örmény,0,0,0
 USSR-örmény,Czechoslovakia-szlovák,0,0,0
-Czechoslovakia-szlovák,USSR-üzbég,0,0,0
-USSR-üzbég,Czechoslovakia-szlovák,0,0,0
+Czechoslovakia-szlovák,USSR-üzbég,0.006024096385542169,1,1
+USSR-üzbég,Czechoslovakia-szlovák,0.125,1,0
 Czechoslovakia-szlovák,Venezuela,0,0,0
 Venezuela,Czechoslovakia-szlovák,0,0,0
 Czechoslovakia-szlovák,Vietnam,0,0,0
 Vietnam,Czechoslovakia-szlovák,0,0,0
-Czechoslovakia-szlovák,Yugoslavia,0,0,0
-Yugoslavia,Czechoslovakia-szlovák,0,0,0
+Czechoslovakia-szlovák,Yugoslavia,0.006024096385542169,1,1
+Yugoslavia,Czechoslovakia-szlovák,0.012195121951219513,1,0
 Denmark,Denmark,NA,NA,NA
 Denmark,Egypt,0,0,0
 Egypt,Denmark,0,0,0
@@ -1819,20 +1819,20 @@ Federal Republic of Germany,Finland,0,0,0
 Finland,Federal Republic of Germany,0,0,0
 Federal Republic of Germany,France,0,0,0
 France,Federal Republic of Germany,0,0,0
-Federal Republic of Germany,GDR,0,0,0
-GDR,Federal Republic of Germany,0,0,0
+Federal Republic of Germany,GDR,0.010638297872340425,1,0
+GDR,Federal Republic of Germany,0.0064516129032258064,1,1
 Federal Republic of Germany,Greece,0,0,0
 Greece,Federal Republic of Germany,0,0,0
-Federal Republic of Germany,Hungary,0,0,0
-Hungary,Federal Republic of Germany,0,0,0
+Federal Republic of Germany,Hungary,0.010638297872340425,1,0.5
+Hungary,Federal Republic of Germany,0.009523809523809525,1,0.5
 Federal Republic of Germany,India,0,0,0
 India,Federal Republic of Germany,0,0,0
 Federal Republic of Germany,Iran,0,0,0
 Iran,Federal Republic of Germany,0,0,0
 Federal Republic of Germany,Israel,0,0,0
 Israel,Federal Republic of Germany,0,0,0
-Federal Republic of Germany,Italy,0,0,0
-Italy,Federal Republic of Germany,0,0,0
+Federal Republic of Germany,Italy,0.010638297872340425,1,0
+Italy,Federal Republic of Germany,0.020833333333333332,1,1
 Federal Republic of Germany,Japan,0,0,0
 Japan,Federal Republic of Germany,0,0,0
 Federal Republic of Germany,Liechtenstein,0,0,0
@@ -1843,34 +1843,34 @@ Federal Republic of Germany,Mexico,0,0,0
 Mexico,Federal Republic of Germany,0,0,0
 Federal Republic of Germany,Mongolia,0,0,0
 Mongolia,Federal Republic of Germany,0,0,0
-Federal Republic of Germany,Netherlands,0,0,0
-Netherlands,Federal Republic of Germany,0,0,0
+Federal Republic of Germany,Netherlands,0.010638297872340425,1,0
+Netherlands,Federal Republic of Germany,0.030303030303030304,1,1
 Federal Republic of Germany,North Korea,0,0,0
 North Korea,Federal Republic of Germany,0,0,0
 Federal Republic of Germany,Norway,0,0,0
 Norway,Federal Republic of Germany,0,0,0
-Federal Republic of Germany,PR China,0,0,0
-PR China,Federal Republic of Germany,0,0,0
-Federal Republic of Germany,Poland,0,0,0
-Poland,Federal Republic of Germany,0,0,0
+Federal Republic of Germany,PR China,0.010638297872340425,1,0
+PR China,Federal Republic of Germany,0.043478260869565216,1,1
+Federal Republic of Germany,Poland,0.010638297872340425,1,0
+Poland,Federal Republic of Germany,0.0072992700729927005,1,1
 Federal Republic of Germany,Portugal,0,0,0
 Portugal,Federal Republic of Germany,0,0,0
-Federal Republic of Germany,Romania,0,0,0
-Romania,Federal Republic of Germany,0,0,0
+Federal Republic of Germany,Romania,0.010638297872340425,1,0
+Romania,Federal Republic of Germany,0.0072992700729927005,1,1
 Federal Republic of Germany,Singapore,0,0,0
 Singapore,Federal Republic of Germany,0,0,0
 Federal Republic of Germany,South Korea,0,0,0
 South Korea,Federal Republic of Germany,0,0,0
-Federal Republic of Germany,Spain,0,0,0
-Spain,Federal Republic of Germany,0,0,0
+Federal Republic of Germany,Spain,0.010638297872340425,1,0
+Spain,Federal Republic of Germany,0.029411764705882353,1,1
 Federal Republic of Germany,Sweden,0,0,0
 Sweden,Federal Republic of Germany,0,0,0
-Federal Republic of Germany,Switzerland,0,0,0
-Switzerland,Federal Republic of Germany,0,0,0
+Federal Republic of Germany,Switzerland,0.010638297872340425,1,0
+Switzerland,Federal Republic of Germany,0.045454545454545456,1,1
 Federal Republic of Germany,Turkey,0,0,0
 Turkey,Federal Republic of Germany,0,0,0
-Federal Republic of Germany,UK,0,0,0
-UK,Federal Republic of Germany,0,0,0
+Federal Republic of Germany,UK,0.010638297872340425,1,1
+UK,Federal Republic of Germany,0.03571428571428571,1,0
 Federal Republic of Germany,USA,0,0,0
 USA,Federal Republic of Germany,0,0,0
 Federal Republic of Germany,USSR-altaji,0,0,0
@@ -1885,40 +1885,40 @@ Federal Republic of Germany,USSR-fehérorosz,0,0,0
 USSR-fehérorosz,Federal Republic of Germany,0,0,0
 Federal Republic of Germany,USSR-finn,0,0,0
 USSR-finn,Federal Republic of Germany,0,0,0
-Federal Republic of Germany,USSR-grúz,0,0,0
-USSR-grúz,Federal Republic of Germany,0,0,0
-Federal Republic of Germany,USSR-kazah,0,0,0
-USSR-kazah,Federal Republic of Germany,0,0,0
+Federal Republic of Germany,USSR-grúz,0.010638297872340425,1,1
+USSR-grúz,Federal Republic of Germany,0.043478260869565216,1,0
+Federal Republic of Germany,USSR-kazah,0.010638297872340425,1,0
+USSR-kazah,Federal Republic of Germany,0.1111111111111111,1,1
 Federal Republic of Germany,USSR-kirgiz,0,0,0
 USSR-kirgiz,Federal Republic of Germany,0,0,0
-Federal Republic of Germany,USSR-lett,0,0,0
-USSR-lett,Federal Republic of Germany,0,0,0
-Federal Republic of Germany,USSR-litván,0,0,0
-USSR-litván,Federal Republic of Germany,0,0,0
+Federal Republic of Germany,USSR-lett,0.010638297872340425,1,0
+USSR-lett,Federal Republic of Germany,0.03571428571428571,1,1
+Federal Republic of Germany,USSR-litván,0.010638297872340425,1,1
+USSR-litván,Federal Republic of Germany,0.02857142857142857,1,0
 Federal Republic of Germany,USSR-moldva,0,0,0
 USSR-moldva,Federal Republic of Germany,0,0,0
-Federal Republic of Germany,USSR-orosz,0,0,0
-USSR-orosz,Federal Republic of Germany,0,0,0
+Federal Republic of Germany,USSR-orosz,0.010638297872340425,1,0
+USSR-orosz,Federal Republic of Germany,0.006756756756756757,1,1
 Federal Republic of Germany,USSR-tadzsik,0,0,0
 USSR-tadzsik,Federal Republic of Germany,0,0,0
 Federal Republic of Germany,USSR-türkmén,0,0,0
 USSR-türkmén,Federal Republic of Germany,0,0,0
 Federal Republic of Germany,USSR-udmurt,0,0,0
 USSR-udmurt,Federal Republic of Germany,0,0,0
-Federal Republic of Germany,USSR-ukrán,0,0,0
-USSR-ukrán,Federal Republic of Germany,0,0,0
-Federal Republic of Germany,USSR-észt,0,0,0
-USSR-észt,Federal Republic of Germany,0,0,0
+Federal Republic of Germany,USSR-ukrán,0.010638297872340425,1,0
+USSR-ukrán,Federal Republic of Germany,0.022222222222222223,1,1
+Federal Republic of Germany,USSR-észt,0.010638297872340425,1,0
+USSR-észt,Federal Republic of Germany,0.030303030303030304,1,1
 Federal Republic of Germany,USSR-örmény,0,0,0
 USSR-örmény,Federal Republic of Germany,0,0,0
-Federal Republic of Germany,USSR-üzbég,0,0,0
-USSR-üzbég,Federal Republic of Germany,0,0,0
+Federal Republic of Germany,USSR-üzbég,0.010638297872340425,1,1
+USSR-üzbég,Federal Republic of Germany,0.125,1,0
 Federal Republic of Germany,Venezuela,0,0,0
 Venezuela,Federal Republic of Germany,0,0,0
 Federal Republic of Germany,Vietnam,0,0,0
 Vietnam,Federal Republic of Germany,0,0,0
-Federal Republic of Germany,Yugoslavia,0,0,0
-Yugoslavia,Federal Republic of Germany,0,0,0
+Federal Republic of Germany,Yugoslavia,0.010638297872340425,1,0
+Yugoslavia,Federal Republic of Germany,0.012195121951219513,1,1
 Finland,Finland,NA,NA,NA
 Finland,France,0,0,0
 France,Finland,0,0,0
@@ -2126,16 +2126,16 @@ Yugoslavia,France,0,0,0
 GDR,GDR,NA,NA,NA
 GDR,Greece,0,0,0
 Greece,GDR,0,0,0
-GDR,Hungary,0,0,0
-Hungary,GDR,0,0,0
+GDR,Hungary,0.0064516129032258064,1,1
+Hungary,GDR,0.009523809523809525,1,0
 GDR,India,0,0,0
 India,GDR,0,0,0
 GDR,Iran,0,0,0
 Iran,GDR,0,0,0
 GDR,Israel,0,0,0
 Israel,GDR,0,0,0
-GDR,Italy,0,0,0
-Italy,GDR,0,0,0
+GDR,Italy,0.0064516129032258064,1,1
+Italy,GDR,0.020833333333333332,1,0
 GDR,Japan,0,0,0
 Japan,GDR,0,0,0
 GDR,Liechtenstein,0,0,0
@@ -2146,34 +2146,34 @@ GDR,Mexico,0,0,0
 Mexico,GDR,0,0,0
 GDR,Mongolia,0,0,0
 Mongolia,GDR,0,0,0
-GDR,Netherlands,0,0,0
-Netherlands,GDR,0,0,0
+GDR,Netherlands,0.0064516129032258064,1,1
+Netherlands,GDR,0.030303030303030304,1,0
 GDR,North Korea,0,0,0
 North Korea,GDR,0,0,0
 GDR,Norway,0,0,0
 Norway,GDR,0,0,0
-GDR,PR China,0,0,0
-PR China,GDR,0,0,0
-GDR,Poland,0,0,0
-Poland,GDR,0,0,0
+GDR,PR China,0.0064516129032258064,1,1
+PR China,GDR,0.043478260869565216,1,0
+GDR,Poland,0.0064516129032258064,1,0.5
+Poland,GDR,0.0072992700729927005,1,0.5
 GDR,Portugal,0,0,0
 Portugal,GDR,0,0,0
-GDR,Romania,0,0,0
-Romania,GDR,0,0,0
+GDR,Romania,0.0064516129032258064,1,0
+Romania,GDR,0.0072992700729927005,1,1
 GDR,Singapore,0,0,0
 Singapore,GDR,0,0,0
 GDR,South Korea,0,0,0
 South Korea,GDR,0,0,0
-GDR,Spain,0,0,0
-Spain,GDR,0,0,0
+GDR,Spain,0.0064516129032258064,1,1
+Spain,GDR,0.029411764705882353,1,0
 GDR,Sweden,0,0,0
 Sweden,GDR,0,0,0
-GDR,Switzerland,0,0,0
-Switzerland,GDR,0,0,0
+GDR,Switzerland,0.0064516129032258064,1,1
+Switzerland,GDR,0.045454545454545456,1,0
 GDR,Turkey,0,0,0
 Turkey,GDR,0,0,0
-GDR,UK,0,0,0
-UK,GDR,0,0,0
+GDR,UK,0.0064516129032258064,1,1
+UK,GDR,0.03571428571428571,1,0
 GDR,USA,0,0,0
 USA,GDR,0,0,0
 GDR,USSR-altaji,0,0,0
@@ -2188,40 +2188,40 @@ GDR,USSR-fehérorosz,0,0,0
 USSR-fehérorosz,GDR,0,0,0
 GDR,USSR-finn,0,0,0
 USSR-finn,GDR,0,0,0
-GDR,USSR-grúz,0,0,0
-USSR-grúz,GDR,0,0,0
-GDR,USSR-kazah,0,0,0
-USSR-kazah,GDR,0,0,0
+GDR,USSR-grúz,0.0064516129032258064,1,1
+USSR-grúz,GDR,0.043478260869565216,1,0
+GDR,USSR-kazah,0.0064516129032258064,1,1
+USSR-kazah,GDR,0.1111111111111111,1,0
 GDR,USSR-kirgiz,0,0,0
 USSR-kirgiz,GDR,0,0,0
-GDR,USSR-lett,0,0,0
-USSR-lett,GDR,0,0,0
-GDR,USSR-litván,0,0,0
-USSR-litván,GDR,0,0,0
+GDR,USSR-lett,0.0064516129032258064,1,1
+USSR-lett,GDR,0.03571428571428571,1,0
+GDR,USSR-litván,0.0064516129032258064,1,1
+USSR-litván,GDR,0.02857142857142857,1,0
 GDR,USSR-moldva,0,0,0
 USSR-moldva,GDR,0,0,0
-GDR,USSR-orosz,0,0,0
-USSR-orosz,GDR,0,0,0
+GDR,USSR-orosz,0.0064516129032258064,1,0
+USSR-orosz,GDR,0.006756756756756757,1,1
 GDR,USSR-tadzsik,0,0,0
 USSR-tadzsik,GDR,0,0,0
 GDR,USSR-türkmén,0,0,0
 USSR-türkmén,GDR,0,0,0
 GDR,USSR-udmurt,0,0,0
 USSR-udmurt,GDR,0,0,0
-GDR,USSR-ukrán,0,0,0
-USSR-ukrán,GDR,0,0,0
-GDR,USSR-észt,0,0,0
-USSR-észt,GDR,0,0,0
+GDR,USSR-ukrán,0.0064516129032258064,1,1
+USSR-ukrán,GDR,0.022222222222222223,1,0
+GDR,USSR-észt,0.0064516129032258064,1,1
+USSR-észt,GDR,0.030303030303030304,1,0
 GDR,USSR-örmény,0,0,0
 USSR-örmény,GDR,0,0,0
-GDR,USSR-üzbég,0,0,0
-USSR-üzbég,GDR,0,0,0
+GDR,USSR-üzbég,0.0064516129032258064,1,1
+USSR-üzbég,GDR,0.125,1,0
 GDR,Venezuela,0,0,0
 Venezuela,GDR,0,0,0
 GDR,Vietnam,0,0,0
 Vietnam,GDR,0,0,0
-GDR,Yugoslavia,0,0,0
-Yugoslavia,GDR,0,0,0
+GDR,Yugoslavia,0.0064516129032258064,1,0.5
+Yugoslavia,GDR,0.012195121951219513,1,0.5
 Greece,Greece,NA,NA,NA
 Greece,Hungary,0,0,0
 Hungary,Greece,0,0,0
@@ -2326,8 +2326,8 @@ Hungary,Iran,0,0,0
 Iran,Hungary,0,0,0
 Hungary,Israel,0,0,0
 Israel,Hungary,0,0,0
-Hungary,Italy,0,0,0
-Italy,Hungary,0,0,0
+Hungary,Italy,0.009523809523809525,1,0
+Italy,Hungary,0.020833333333333332,1,1
 Hungary,Japan,0,0,0
 Japan,Hungary,0,0,0
 Hungary,Liechtenstein,0,0,0
@@ -2338,34 +2338,34 @@ Hungary,Mexico,0,0,0
 Mexico,Hungary,0,0,0
 Hungary,Mongolia,0,0,0
 Mongolia,Hungary,0,0,0
-Hungary,Netherlands,0,0,0
-Netherlands,Hungary,0,0,0
+Hungary,Netherlands,0.009523809523809525,1,0
+Netherlands,Hungary,0.030303030303030304,1,1
 Hungary,North Korea,0,0,0
 North Korea,Hungary,0,0,0
 Hungary,Norway,0,0,0
 Norway,Hungary,0,0,0
-Hungary,PR China,0,0,0
-PR China,Hungary,0,0,0
-Hungary,Poland,0,0,0
-Poland,Hungary,0,0,0
+Hungary,PR China,0.009523809523809525,1,0
+PR China,Hungary,0.043478260869565216,1,1
+Hungary,Poland,0.009523809523809525,1,0
+Poland,Hungary,0.0072992700729927005,1,1
 Hungary,Portugal,0,0,0
 Portugal,Hungary,0,0,0
-Hungary,Romania,0,0,0
-Romania,Hungary,0,0,0
+Hungary,Romania,0.009523809523809525,1,0
+Romania,Hungary,0.0072992700729927005,1,1
 Hungary,Singapore,0,0,0
 Singapore,Hungary,0,0,0
 Hungary,South Korea,0,0,0
 South Korea,Hungary,0,0,0
-Hungary,Spain,0,0,0
-Spain,Hungary,0,0,0
+Hungary,Spain,0.009523809523809525,1,0
+Spain,Hungary,0.029411764705882353,1,1
 Hungary,Sweden,0,0,0
 Sweden,Hungary,0,0,0
-Hungary,Switzerland,0,0,0
-Switzerland,Hungary,0,0,0
+Hungary,Switzerland,0.009523809523809525,1,0
+Switzerland,Hungary,0.045454545454545456,1,1
 Hungary,Turkey,0,0,0
 Turkey,Hungary,0,0,0
-Hungary,UK,0,0,0
-UK,Hungary,0,0,0
+Hungary,UK,0.009523809523809525,1,1
+UK,Hungary,0.03571428571428571,1,0
 Hungary,USA,0,0,0
 USA,Hungary,0,0,0
 Hungary,USSR-altaji,0,0,0
@@ -2380,40 +2380,40 @@ Hungary,USSR-fehérorosz,0,0,0
 USSR-fehérorosz,Hungary,0,0,0
 Hungary,USSR-finn,0,0,0
 USSR-finn,Hungary,0,0,0
-Hungary,USSR-grúz,0,0,0
-USSR-grúz,Hungary,0,0,0
-Hungary,USSR-kazah,0,0,0
-USSR-kazah,Hungary,0,0,0
+Hungary,USSR-grúz,0.009523809523809525,1,1
+USSR-grúz,Hungary,0.043478260869565216,1,0
+Hungary,USSR-kazah,0.009523809523809525,1,0
+USSR-kazah,Hungary,0.1111111111111111,1,1
 Hungary,USSR-kirgiz,0,0,0
 USSR-kirgiz,Hungary,0,0,0
-Hungary,USSR-lett,0,0,0
-USSR-lett,Hungary,0,0,0
-Hungary,USSR-litván,0,0,0
-USSR-litván,Hungary,0,0,0
+Hungary,USSR-lett,0.009523809523809525,1,0
+USSR-lett,Hungary,0.03571428571428571,1,1
+Hungary,USSR-litván,0.009523809523809525,1,1
+USSR-litván,Hungary,0.02857142857142857,1,0
 Hungary,USSR-moldva,0,0,0
 USSR-moldva,Hungary,0,0,0
-Hungary,USSR-orosz,0,0,0
-USSR-orosz,Hungary,0,0,0
+Hungary,USSR-orosz,0.009523809523809525,1,0
+USSR-orosz,Hungary,0.006756756756756757,1,1
 Hungary,USSR-tadzsik,0,0,0
 USSR-tadzsik,Hungary,0,0,0
 Hungary,USSR-türkmén,0,0,0
 USSR-türkmén,Hungary,0,0,0
 Hungary,USSR-udmurt,0,0,0
 USSR-udmurt,Hungary,0,0,0
-Hungary,USSR-ukrán,0,0,0
-USSR-ukrán,Hungary,0,0,0
-Hungary,USSR-észt,0,0,0
-USSR-észt,Hungary,0,0,0
+Hungary,USSR-ukrán,0.009523809523809525,1,0
+USSR-ukrán,Hungary,0.022222222222222223,1,1
+Hungary,USSR-észt,0.009523809523809525,1,0
+USSR-észt,Hungary,0.030303030303030304,1,1
 Hungary,USSR-örmény,0,0,0
 USSR-örmény,Hungary,0,0,0
-Hungary,USSR-üzbég,0,0,0
-USSR-üzbég,Hungary,0,0,0
+Hungary,USSR-üzbég,0.009523809523809525,1,1
+USSR-üzbég,Hungary,0.125,1,0
 Hungary,Venezuela,0,0,0
 Venezuela,Hungary,0,0,0
 Hungary,Vietnam,0,0,0
 Vietnam,Hungary,0,0,0
-Hungary,Yugoslavia,0,0,0
-Yugoslavia,Hungary,0,0,0
+Hungary,Yugoslavia,0.009523809523809525,1,0
+Yugoslavia,Hungary,0.012195121951219513,1,1
 India,India,NA,NA,NA
 India,Iran,0,0,0
 Iran,India,0,0,0
@@ -2698,34 +2698,34 @@ Italy,Mexico,0,0,0
 Mexico,Italy,0,0,0
 Italy,Mongolia,0,0,0
 Mongolia,Italy,0,0,0
-Italy,Netherlands,0,0,0
-Netherlands,Italy,0,0,0
+Italy,Netherlands,0.020833333333333332,1,1
+Netherlands,Italy,0.030303030303030304,1,0
 Italy,North Korea,0,0,0
 North Korea,Italy,0,0,0
 Italy,Norway,0,0,0
 Norway,Italy,0,0,0
-Italy,PR China,0,0,0
-PR China,Italy,0,0,0
-Italy,Poland,0,0,0
-Poland,Italy,0,0,0
+Italy,PR China,0.020833333333333332,1,0.5
+PR China,Italy,0.043478260869565216,1,0.5
+Italy,Poland,0.020833333333333332,1,0
+Poland,Italy,0.0072992700729927005,1,1
 Italy,Portugal,0,0,0
 Portugal,Italy,0,0,0
-Italy,Romania,0,0,0
-Romania,Italy,0,0,0
+Italy,Romania,0.020833333333333332,1,0
+Romania,Italy,0.0072992700729927005,1,1
 Italy,Singapore,0,0,0
 Singapore,Italy,0,0,0
 Italy,South Korea,0,0,0
 South Korea,Italy,0,0,0
-Italy,Spain,0,0,0
-Spain,Italy,0,0,0
+Italy,Spain,0.020833333333333332,1,0.5
+Spain,Italy,0.029411764705882353,1,0.5
 Italy,Sweden,0,0,0
 Sweden,Italy,0,0,0
-Italy,Switzerland,0,0,0
-Switzerland,Italy,0,0,0
+Italy,Switzerland,0.020833333333333332,1,1
+Switzerland,Italy,0.045454545454545456,1,0
 Italy,Turkey,0,0,0
 Turkey,Italy,0,0,0
-Italy,UK,0,0,0
-UK,Italy,0,0,0
+Italy,UK,0.020833333333333332,1,1
+UK,Italy,0.03571428571428571,1,0
 Italy,USA,0,0,0
 USA,Italy,0,0,0
 Italy,USSR-altaji,0,0,0
@@ -2740,40 +2740,40 @@ Italy,USSR-fehérorosz,0,0,0
 USSR-fehérorosz,Italy,0,0,0
 Italy,USSR-finn,0,0,0
 USSR-finn,Italy,0,0,0
-Italy,USSR-grúz,0,0,0
-USSR-grúz,Italy,0,0,0
-Italy,USSR-kazah,0,0,0
-USSR-kazah,Italy,0,0,0
+Italy,USSR-grúz,0.020833333333333332,1,1
+USSR-grúz,Italy,0.043478260869565216,1,0
+Italy,USSR-kazah,0.020833333333333332,1,1
+USSR-kazah,Italy,0.1111111111111111,1,0
 Italy,USSR-kirgiz,0,0,0
 USSR-kirgiz,Italy,0,0,0
-Italy,USSR-lett,0,0,0
-USSR-lett,Italy,0,0,0
-Italy,USSR-litván,0,0,0
-USSR-litván,Italy,0,0,0
+Italy,USSR-lett,0.020833333333333332,1,1
+USSR-lett,Italy,0.03571428571428571,1,0
+Italy,USSR-litván,0.020833333333333332,1,1
+USSR-litván,Italy,0.02857142857142857,1,0
 Italy,USSR-moldva,0,0,0
 USSR-moldva,Italy,0,0,0
-Italy,USSR-orosz,0,0,0
-USSR-orosz,Italy,0,0,0
+Italy,USSR-orosz,0.020833333333333332,1,0
+USSR-orosz,Italy,0.006756756756756757,1,1
 Italy,USSR-tadzsik,0,0,0
 USSR-tadzsik,Italy,0,0,0
 Italy,USSR-türkmén,0,0,0
 USSR-türkmén,Italy,0,0,0
 Italy,USSR-udmurt,0,0,0
 USSR-udmurt,Italy,0,0,0
-Italy,USSR-ukrán,0,0,0
-USSR-ukrán,Italy,0,0,0
-Italy,USSR-észt,0,0,0
-USSR-észt,Italy,0,0,0
+Italy,USSR-ukrán,0.020833333333333332,1,1
+USSR-ukrán,Italy,0.022222222222222223,1,0
+Italy,USSR-észt,0.020833333333333332,1,1
+USSR-észt,Italy,0.030303030303030304,1,0
 Italy,USSR-örmény,0,0,0
 USSR-örmény,Italy,0,0,0
-Italy,USSR-üzbég,0,0,0
-USSR-üzbég,Italy,0,0,0
+Italy,USSR-üzbég,0.020833333333333332,1,1
+USSR-üzbég,Italy,0.125,1,0
 Italy,Venezuela,0,0,0
 Venezuela,Italy,0,0,0
 Italy,Vietnam,0,0,0
 Vietnam,Italy,0,0,0
-Italy,Yugoslavia,0,0,0
-Yugoslavia,Italy,0,0,0
+Italy,Yugoslavia,0.020833333333333332,1,0
+Yugoslavia,Italy,0.012195121951219513,1,1
 Japan,Japan,NA,NA,NA
 Japan,Liechtenstein,0,0,0
 Liechtenstein,Japan,0,0,0
@@ -3184,28 +3184,28 @@ Netherlands,North Korea,0,0,0
 North Korea,Netherlands,0,0,0
 Netherlands,Norway,0,0,0
 Norway,Netherlands,0,0,0
-Netherlands,PR China,0,0,0
-PR China,Netherlands,0,0,0
-Netherlands,Poland,0,0,0
-Poland,Netherlands,0,0,0
+Netherlands,PR China,0.030303030303030304,1,0
+PR China,Netherlands,0.043478260869565216,1,1
+Netherlands,Poland,0.030303030303030304,1,0
+Poland,Netherlands,0.0072992700729927005,1,1
 Netherlands,Portugal,0,0,0
 Portugal,Netherlands,0,0,0
-Netherlands,Romania,0,0,0
-Romania,Netherlands,0,0,0
+Netherlands,Romania,0.030303030303030304,1,0
+Romania,Netherlands,0.0072992700729927005,1,1
 Netherlands,Singapore,0,0,0
 Singapore,Netherlands,0,0,0
 Netherlands,South Korea,0,0,0
 South Korea,Netherlands,0,0,0
-Netherlands,Spain,0,0,0
-Spain,Netherlands,0,0,0
+Netherlands,Spain,0.030303030303030304,1,0
+Spain,Netherlands,0.029411764705882353,1,1
 Netherlands,Sweden,0,0,0
 Sweden,Netherlands,0,0,0
-Netherlands,Switzerland,0,0,0
-Switzerland,Netherlands,0,0,0
+Netherlands,Switzerland,0.030303030303030304,1,0
+Switzerland,Netherlands,0.045454545454545456,1,1
 Netherlands,Turkey,0,0,0
 Turkey,Netherlands,0,0,0
-Netherlands,UK,0,0,0
-UK,Netherlands,0,0,0
+Netherlands,UK,0.030303030303030304,1,1
+UK,Netherlands,0.03571428571428571,1,0
 Netherlands,USA,0,0,0
 USA,Netherlands,0,0,0
 Netherlands,USSR-altaji,0,0,0
@@ -3220,40 +3220,40 @@ Netherlands,USSR-fehérorosz,0,0,0
 USSR-fehérorosz,Netherlands,0,0,0
 Netherlands,USSR-finn,0,0,0
 USSR-finn,Netherlands,0,0,0
-Netherlands,USSR-grúz,0,0,0
-USSR-grúz,Netherlands,0,0,0
-Netherlands,USSR-kazah,0,0,0
-USSR-kazah,Netherlands,0,0,0
+Netherlands,USSR-grúz,0.030303030303030304,1,1
+USSR-grúz,Netherlands,0.043478260869565216,1,0
+Netherlands,USSR-kazah,0.030303030303030304,1,0
+USSR-kazah,Netherlands,0.1111111111111111,1,1
 Netherlands,USSR-kirgiz,0,0,0
 USSR-kirgiz,Netherlands,0,0,0
-Netherlands,USSR-lett,0,0,0
-USSR-lett,Netherlands,0,0,0
-Netherlands,USSR-litván,0,0,0
-USSR-litván,Netherlands,0,0,0
+Netherlands,USSR-lett,0.030303030303030304,1,0
+USSR-lett,Netherlands,0.03571428571428571,1,1
+Netherlands,USSR-litván,0.030303030303030304,1,1
+USSR-litván,Netherlands,0.02857142857142857,1,0
 Netherlands,USSR-moldva,0,0,0
 USSR-moldva,Netherlands,0,0,0
-Netherlands,USSR-orosz,0,0,0
-USSR-orosz,Netherlands,0,0,0
+Netherlands,USSR-orosz,0.030303030303030304,1,0
+USSR-orosz,Netherlands,0.006756756756756757,1,1
 Netherlands,USSR-tadzsik,0,0,0
 USSR-tadzsik,Netherlands,0,0,0
 Netherlands,USSR-türkmén,0,0,0
 USSR-türkmén,Netherlands,0,0,0
 Netherlands,USSR-udmurt,0,0,0
 USSR-udmurt,Netherlands,0,0,0
-Netherlands,USSR-ukrán,0,0,0
-USSR-ukrán,Netherlands,0,0,0
-Netherlands,USSR-észt,0,0,0
-USSR-észt,Netherlands,0,0,0
+Netherlands,USSR-ukrán,0.030303030303030304,1,0
+USSR-ukrán,Netherlands,0.022222222222222223,1,1
+Netherlands,USSR-észt,0.030303030303030304,1,0.5
+USSR-észt,Netherlands,0.030303030303030304,1,0.5
 Netherlands,USSR-örmény,0,0,0
 USSR-örmény,Netherlands,0,0,0
-Netherlands,USSR-üzbég,0,0,0
-USSR-üzbég,Netherlands,0,0,0
+Netherlands,USSR-üzbég,0.030303030303030304,1,1
+USSR-üzbég,Netherlands,0.125,1,0
 Netherlands,Venezuela,0,0,0
 Venezuela,Netherlands,0,0,0
 Netherlands,Vietnam,0,0,0
 Vietnam,Netherlands,0,0,0
-Netherlands,Yugoslavia,0,0,0
-Yugoslavia,Netherlands,0,0,0
+Netherlands,Yugoslavia,0.030303030303030304,1,0
+Yugoslavia,Netherlands,0.012195121951219513,1,1
 North Korea,North Korea,NA,NA,NA
 North Korea,Norway,0,0,0
 Norway,North Korea,0,0,0
@@ -3399,26 +3399,26 @@ Vietnam,Norway,0,0,0
 Norway,Yugoslavia,0,0,0
 Yugoslavia,Norway,0,0,0
 PR China,PR China,NA,NA,NA
-PR China,Poland,0,0,0
-Poland,PR China,0,0,0
+PR China,Poland,0.043478260869565216,1,0
+Poland,PR China,0.0072992700729927005,1,1
 PR China,Portugal,0,0,0
 Portugal,PR China,0,0,0
-PR China,Romania,0,0,0
-Romania,PR China,0,0,0
+PR China,Romania,0.043478260869565216,1,0
+Romania,PR China,0.0072992700729927005,1,1
 PR China,Singapore,0,0,0
 Singapore,PR China,0,0,0
 PR China,South Korea,0,0,0
 South Korea,PR China,0,0,0
-PR China,Spain,0,0,0
-Spain,PR China,0,0,0
+PR China,Spain,0.043478260869565216,1,0.5
+Spain,PR China,0.029411764705882353,1,0.5
 PR China,Sweden,0,0,0
 Sweden,PR China,0,0,0
-PR China,Switzerland,0,0,0
-Switzerland,PR China,0,0,0
+PR China,Switzerland,0.043478260869565216,1,1
+Switzerland,PR China,0.045454545454545456,1,0
 PR China,Turkey,0,0,0
 Turkey,PR China,0,0,0
-PR China,UK,0,0,0
-UK,PR China,0,0,0
+PR China,UK,0.043478260869565216,1,1
+UK,PR China,0.03571428571428571,1,0
 PR China,USA,0,0,0
 USA,PR China,0,0,0
 PR China,USSR-altaji,0,0,0
@@ -3433,59 +3433,59 @@ PR China,USSR-fehérorosz,0,0,0
 USSR-fehérorosz,PR China,0,0,0
 PR China,USSR-finn,0,0,0
 USSR-finn,PR China,0,0,0
-PR China,USSR-grúz,0,0,0
-USSR-grúz,PR China,0,0,0
-PR China,USSR-kazah,0,0,0
-USSR-kazah,PR China,0,0,0
+PR China,USSR-grúz,0.043478260869565216,1,1
+USSR-grúz,PR China,0.043478260869565216,1,0
+PR China,USSR-kazah,0.043478260869565216,1,1
+USSR-kazah,PR China,0.1111111111111111,1,0
 PR China,USSR-kirgiz,0,0,0
 USSR-kirgiz,PR China,0,0,0
-PR China,USSR-lett,0,0,0
-USSR-lett,PR China,0,0,0
-PR China,USSR-litván,0,0,0
-USSR-litván,PR China,0,0,0
+PR China,USSR-lett,0.043478260869565216,1,1
+USSR-lett,PR China,0.03571428571428571,1,0
+PR China,USSR-litván,0.043478260869565216,1,1
+USSR-litván,PR China,0.02857142857142857,1,0
 PR China,USSR-moldva,0,0,0
 USSR-moldva,PR China,0,0,0
-PR China,USSR-orosz,0,0,0
-USSR-orosz,PR China,0,0,0
+PR China,USSR-orosz,0.043478260869565216,1,0
+USSR-orosz,PR China,0.006756756756756757,1,1
 PR China,USSR-tadzsik,0,0,0
 USSR-tadzsik,PR China,0,0,0
 PR China,USSR-türkmén,0,0,0
 USSR-türkmén,PR China,0,0,0
 PR China,USSR-udmurt,0,0,0
 USSR-udmurt,PR China,0,0,0
-PR China,USSR-ukrán,0,0,0
-USSR-ukrán,PR China,0,0,0
-PR China,USSR-észt,0,0,0
-USSR-észt,PR China,0,0,0
+PR China,USSR-ukrán,0.043478260869565216,1,1
+USSR-ukrán,PR China,0.022222222222222223,1,0
+PR China,USSR-észt,0.043478260869565216,1,1
+USSR-észt,PR China,0.030303030303030304,1,0
 PR China,USSR-örmény,0,0,0
 USSR-örmény,PR China,0,0,0
-PR China,USSR-üzbég,0,0,0
-USSR-üzbég,PR China,0,0,0
+PR China,USSR-üzbég,0.043478260869565216,1,1
+USSR-üzbég,PR China,0.125,1,0
 PR China,Venezuela,0,0,0
 Venezuela,PR China,0,0,0
 PR China,Vietnam,0,0,0
 Vietnam,PR China,0,0,0
-PR China,Yugoslavia,0,0,0
-Yugoslavia,PR China,0,0,0
+PR China,Yugoslavia,0.043478260869565216,1,0
+Yugoslavia,PR China,0.012195121951219513,1,1
 Poland,Poland,NA,NA,NA
 Poland,Portugal,0,0,0
 Portugal,Poland,0,0,0
-Poland,Romania,0,0,0
-Romania,Poland,0,0,0
+Poland,Romania,0.0072992700729927005,1,0
+Romania,Poland,0.0072992700729927005,1,1
 Poland,Singapore,0,0,0
 Singapore,Poland,0,0,0
 Poland,South Korea,0,0,0
 South Korea,Poland,0,0,0
-Poland,Spain,0,0,0
-Spain,Poland,0,0,0
+Poland,Spain,0.0072992700729927005,1,1
+Spain,Poland,0.029411764705882353,1,0
 Poland,Sweden,0,0,0
 Sweden,Poland,0,0,0
-Poland,Switzerland,0,0,0
-Switzerland,Poland,0,0,0
+Poland,Switzerland,0.0072992700729927005,1,1
+Switzerland,Poland,0.045454545454545456,1,0
 Poland,Turkey,0,0,0
 Turkey,Poland,0,0,0
-Poland,UK,0,0,0
-UK,Poland,0,0,0
+Poland,UK,0.0072992700729927005,1,1
+UK,Poland,0.03571428571428571,1,0
 Poland,USA,0,0,0
 USA,Poland,0,0,0
 Poland,USSR-altaji,0,0,0
@@ -3500,40 +3500,40 @@ Poland,USSR-fehérorosz,0,0,0
 USSR-fehérorosz,Poland,0,0,0
 Poland,USSR-finn,0,0,0
 USSR-finn,Poland,0,0,0
-Poland,USSR-grúz,0,0,0
-USSR-grúz,Poland,0,0,0
-Poland,USSR-kazah,0,0,0
-USSR-kazah,Poland,0,0,0
+Poland,USSR-grúz,0.0072992700729927005,1,1
+USSR-grúz,Poland,0.043478260869565216,1,0
+Poland,USSR-kazah,0.0072992700729927005,1,1
+USSR-kazah,Poland,0.1111111111111111,1,0
 Poland,USSR-kirgiz,0,0,0
 USSR-kirgiz,Poland,0,0,0
-Poland,USSR-lett,0,0,0
-USSR-lett,Poland,0,0,0
-Poland,USSR-litván,0,0,0
-USSR-litván,Poland,0,0,0
+Poland,USSR-lett,0.0072992700729927005,1,1
+USSR-lett,Poland,0.03571428571428571,1,0
+Poland,USSR-litván,0.0072992700729927005,1,1
+USSR-litván,Poland,0.02857142857142857,1,0
 Poland,USSR-moldva,0,0,0
 USSR-moldva,Poland,0,0,0
-Poland,USSR-orosz,0,0,0
-USSR-orosz,Poland,0,0,0
+Poland,USSR-orosz,0.0072992700729927005,1,0
+USSR-orosz,Poland,0.006756756756756757,1,1
 Poland,USSR-tadzsik,0,0,0
 USSR-tadzsik,Poland,0,0,0
 Poland,USSR-türkmén,0,0,0
 USSR-türkmén,Poland,0,0,0
 Poland,USSR-udmurt,0,0,0
 USSR-udmurt,Poland,0,0,0
-Poland,USSR-ukrán,0,0,0
-USSR-ukrán,Poland,0,0,0
-Poland,USSR-észt,0,0,0
-USSR-észt,Poland,0,0,0
+Poland,USSR-ukrán,0.0072992700729927005,1,1
+USSR-ukrán,Poland,0.022222222222222223,1,0
+Poland,USSR-észt,0.0072992700729927005,1,1
+USSR-észt,Poland,0.030303030303030304,1,0
 Poland,USSR-örmény,0,0,0
 USSR-örmény,Poland,0,0,0
-Poland,USSR-üzbég,0,0,0
-USSR-üzbég,Poland,0,0,0
+Poland,USSR-üzbég,0.0072992700729927005,1,1
+USSR-üzbég,Poland,0.125,1,0
 Poland,Venezuela,0,0,0
 Venezuela,Poland,0,0,0
 Poland,Vietnam,0,0,0
 Vietnam,Poland,0,0,0
-Poland,Yugoslavia,0,0,0
-Yugoslavia,Poland,0,0,0
+Poland,Yugoslavia,0.0072992700729927005,1,0.5
+Yugoslavia,Poland,0.012195121951219513,1,0.5
 Portugal,Portugal,NA,NA,NA
 Portugal,Romania,0,0,0
 Romania,Portugal,0,0,0
@@ -3604,16 +3604,16 @@ Romania,Singapore,0,0,0
 Singapore,Romania,0,0,0
 Romania,South Korea,0,0,0
 South Korea,Romania,0,0,0
-Romania,Spain,0,0,0
-Spain,Romania,0,0,0
+Romania,Spain,0.0072992700729927005,1,1
+Spain,Romania,0.029411764705882353,1,0
 Romania,Sweden,0,0,0
 Sweden,Romania,0,0,0
-Romania,Switzerland,0,0,0
-Switzerland,Romania,0,0,0
+Romania,Switzerland,0.0072992700729927005,1,1
+Switzerland,Romania,0.045454545454545456,1,0
 Romania,Turkey,0,0,0
 Turkey,Romania,0,0,0
-Romania,UK,0,0,0
-UK,Romania,0,0,0
+Romania,UK,0.0072992700729927005,1,1
+UK,Romania,0.03571428571428571,1,0
 Romania,USA,0,0,0
 USA,Romania,0,0,0
 Romania,USSR-altaji,0,0,0
@@ -3628,40 +3628,40 @@ Romania,USSR-fehérorosz,0,0,0
 USSR-fehérorosz,Romania,0,0,0
 Romania,USSR-finn,0,0,0
 USSR-finn,Romania,0,0,0
-Romania,USSR-grúz,0,0,0
-USSR-grúz,Romania,0,0,0
-Romania,USSR-kazah,0,0,0
-USSR-kazah,Romania,0,0,0
+Romania,USSR-grúz,0.0072992700729927005,1,1
+USSR-grúz,Romania,0.043478260869565216,1,0
+Romania,USSR-kazah,0.0072992700729927005,1,1
+USSR-kazah,Romania,0.1111111111111111,1,0
 Romania,USSR-kirgiz,0,0,0
 USSR-kirgiz,Romania,0,0,0
-Romania,USSR-lett,0,0,0
-USSR-lett,Romania,0,0,0
-Romania,USSR-litván,0,0,0
-USSR-litván,Romania,0,0,0
+Romania,USSR-lett,0.0072992700729927005,1,1
+USSR-lett,Romania,0.03571428571428571,1,0
+Romania,USSR-litván,0.0072992700729927005,1,1
+USSR-litván,Romania,0.02857142857142857,1,0
 Romania,USSR-moldva,0,0,0
 USSR-moldva,Romania,0,0,0
-Romania,USSR-orosz,0,0,0
-USSR-orosz,Romania,0,0,0
+Romania,USSR-orosz,0.0072992700729927005,1,1
+USSR-orosz,Romania,0.006756756756756757,1,0
 Romania,USSR-tadzsik,0,0,0
 USSR-tadzsik,Romania,0,0,0
 Romania,USSR-türkmén,0,0,0
 USSR-türkmén,Romania,0,0,0
 Romania,USSR-udmurt,0,0,0
 USSR-udmurt,Romania,0,0,0
-Romania,USSR-ukrán,0,0,0
-USSR-ukrán,Romania,0,0,0
-Romania,USSR-észt,0,0,0
-USSR-észt,Romania,0,0,0
+Romania,USSR-ukrán,0.0072992700729927005,1,1
+USSR-ukrán,Romania,0.022222222222222223,1,0
+Romania,USSR-észt,0.0072992700729927005,1,1
+USSR-észt,Romania,0.030303030303030304,1,0
 Romania,USSR-örmény,0,0,0
 USSR-örmény,Romania,0,0,0
-Romania,USSR-üzbég,0,0,0
-USSR-üzbég,Romania,0,0,0
+Romania,USSR-üzbég,0.0072992700729927005,1,1
+USSR-üzbég,Romania,0.125,1,0
 Romania,Venezuela,0,0,0
 Venezuela,Romania,0,0,0
 Romania,Vietnam,0,0,0
 Vietnam,Romania,0,0,0
-Romania,Yugoslavia,0,0,0
-Yugoslavia,Romania,0,0,0
+Romania,Yugoslavia,0.0072992700729927005,1,1
+Yugoslavia,Romania,0.012195121951219513,1,0
 Singapore,Singapore,NA,NA,NA
 Singapore,South Korea,0,0,0
 South Korea,Singapore,0,0,0
@@ -3785,12 +3785,12 @@ Yugoslavia,South Korea,0,0,0
 Spain,Spain,NA,NA,NA
 Spain,Sweden,0,0,0
 Sweden,Spain,0,0,0
-Spain,Switzerland,0,0,0
-Switzerland,Spain,0,0,0
+Spain,Switzerland,0.029411764705882353,1,1
+Switzerland,Spain,0.045454545454545456,1,0
 Spain,Turkey,0,0,0
 Turkey,Spain,0,0,0
-Spain,UK,0,0,0
-UK,Spain,0,0,0
+Spain,UK,0.029411764705882353,1,1
+UK,Spain,0.03571428571428571,1,0
 Spain,USA,0,0,0
 USA,Spain,0,0,0
 Spain,USSR-altaji,0,0,0
@@ -3805,40 +3805,40 @@ Spain,USSR-fehérorosz,0,0,0
 USSR-fehérorosz,Spain,0,0,0
 Spain,USSR-finn,0,0,0
 USSR-finn,Spain,0,0,0
-Spain,USSR-grúz,0,0,0
-USSR-grúz,Spain,0,0,0
-Spain,USSR-kazah,0,0,0
-USSR-kazah,Spain,0,0,0
+Spain,USSR-grúz,0.029411764705882353,1,1
+USSR-grúz,Spain,0.043478260869565216,1,0
+Spain,USSR-kazah,0.029411764705882353,1,1
+USSR-kazah,Spain,0.1111111111111111,1,0
 Spain,USSR-kirgiz,0,0,0
 USSR-kirgiz,Spain,0,0,0
-Spain,USSR-lett,0,0,0
-USSR-lett,Spain,0,0,0
-Spain,USSR-litván,0,0,0
-USSR-litván,Spain,0,0,0
+Spain,USSR-lett,0.029411764705882353,1,1
+USSR-lett,Spain,0.03571428571428571,1,0
+Spain,USSR-litván,0.029411764705882353,1,1
+USSR-litván,Spain,0.02857142857142857,1,0
 Spain,USSR-moldva,0,0,0
 USSR-moldva,Spain,0,0,0
-Spain,USSR-orosz,0,0,0
-USSR-orosz,Spain,0,0,0
+Spain,USSR-orosz,0.029411764705882353,1,0
+USSR-orosz,Spain,0.006756756756756757,1,1
 Spain,USSR-tadzsik,0,0,0
 USSR-tadzsik,Spain,0,0,0
 Spain,USSR-türkmén,0,0,0
 USSR-türkmén,Spain,0,0,0
 Spain,USSR-udmurt,0,0,0
 USSR-udmurt,Spain,0,0,0
-Spain,USSR-ukrán,0,0,0
-USSR-ukrán,Spain,0,0,0
-Spain,USSR-észt,0,0,0
-USSR-észt,Spain,0,0,0
+Spain,USSR-ukrán,0.029411764705882353,1,1
+USSR-ukrán,Spain,0.022222222222222223,1,0
+Spain,USSR-észt,0.029411764705882353,1,1
+USSR-észt,Spain,0.030303030303030304,1,0
 Spain,USSR-örmény,0,0,0
 USSR-örmény,Spain,0,0,0
-Spain,USSR-üzbég,0,0,0
-USSR-üzbég,Spain,0,0,0
+Spain,USSR-üzbég,0.029411764705882353,1,1
+USSR-üzbég,Spain,0.125,1,0
 Spain,Venezuela,0,0,0
 Venezuela,Spain,0,0,0
 Spain,Vietnam,0,0,0
 Vietnam,Spain,0,0,0
-Spain,Yugoslavia,0,0,0
-Yugoslavia,Spain,0,0,0
+Spain,Yugoslavia,0.029411764705882353,1,0
+Yugoslavia,Spain,0.012195121951219513,1,1
 Sweden,Sweden,NA,NA,NA
 Sweden,Switzerland,0,0,0
 Switzerland,Sweden,0,0,0
@@ -3897,8 +3897,8 @@ Yugoslavia,Sweden,0,0,0
 Switzerland,Switzerland,NA,NA,NA
 Switzerland,Turkey,0,0,0
 Turkey,Switzerland,0,0,0
-Switzerland,UK,0,0,0
-UK,Switzerland,0,0,0
+Switzerland,UK,0.045454545454545456,1,1
+UK,Switzerland,0.03571428571428571,1,0
 Switzerland,USA,0,0,0
 USA,Switzerland,0,0,0
 Switzerland,USSR-altaji,0,0,0
@@ -3913,40 +3913,40 @@ Switzerland,USSR-fehérorosz,0,0,0
 USSR-fehérorosz,Switzerland,0,0,0
 Switzerland,USSR-finn,0,0,0
 USSR-finn,Switzerland,0,0,0
-Switzerland,USSR-grúz,0,0,0
-USSR-grúz,Switzerland,0,0,0
-Switzerland,USSR-kazah,0,0,0
-USSR-kazah,Switzerland,0,0,0
+Switzerland,USSR-grúz,0.045454545454545456,1,1
+USSR-grúz,Switzerland,0.043478260869565216,1,0
+Switzerland,USSR-kazah,0.045454545454545456,1,1
+USSR-kazah,Switzerland,0.1111111111111111,1,0
 Switzerland,USSR-kirgiz,0,0,0
 USSR-kirgiz,Switzerland,0,0,0
-Switzerland,USSR-lett,0,0,0
-USSR-lett,Switzerland,0,0,0
-Switzerland,USSR-litván,0,0,0
-USSR-litván,Switzerland,0,0,0
+Switzerland,USSR-lett,0.045454545454545456,1,0
+USSR-lett,Switzerland,0.03571428571428571,1,1
+Switzerland,USSR-litván,0.045454545454545456,1,1
+USSR-litván,Switzerland,0.02857142857142857,1,0
 Switzerland,USSR-moldva,0,0,0
 USSR-moldva,Switzerland,0,0,0
-Switzerland,USSR-orosz,0,0,0
-USSR-orosz,Switzerland,0,0,0
+Switzerland,USSR-orosz,0.045454545454545456,1,0
+USSR-orosz,Switzerland,0.006756756756756757,1,1
 Switzerland,USSR-tadzsik,0,0,0
 USSR-tadzsik,Switzerland,0,0,0
 Switzerland,USSR-türkmén,0,0,0
 USSR-türkmén,Switzerland,0,0,0
 Switzerland,USSR-udmurt,0,0,0
 USSR-udmurt,Switzerland,0,0,0
-Switzerland,USSR-ukrán,0,0,0
-USSR-ukrán,Switzerland,0,0,0
-Switzerland,USSR-észt,0,0,0
-USSR-észt,Switzerland,0,0,0
+Switzerland,USSR-ukrán,0.045454545454545456,1,0
+USSR-ukrán,Switzerland,0.022222222222222223,1,1
+Switzerland,USSR-észt,0.045454545454545456,1,1
+USSR-észt,Switzerland,0.030303030303030304,1,0
 Switzerland,USSR-örmény,0,0,0
 USSR-örmény,Switzerland,0,0,0
-Switzerland,USSR-üzbég,0,0,0
-USSR-üzbég,Switzerland,0,0,0
+Switzerland,USSR-üzbég,0.045454545454545456,1,1
+USSR-üzbég,Switzerland,0.125,1,0
 Switzerland,Venezuela,0,0,0
 Venezuela,Switzerland,0,0,0
 Switzerland,Vietnam,0,0,0
 Vietnam,Switzerland,0,0,0
-Switzerland,Yugoslavia,0,0,0
-Yugoslavia,Switzerland,0,0,0
+Switzerland,Yugoslavia,0.045454545454545456,1,0
+Yugoslavia,Switzerland,0.012195121951219513,1,1
 Turkey,Turkey,NA,NA,NA
 Turkey,UK,0,0,0
 UK,Turkey,0,0,0
@@ -4013,40 +4013,40 @@ UK,USSR-fehérorosz,0,0,0
 USSR-fehérorosz,UK,0,0,0
 UK,USSR-finn,0,0,0
 USSR-finn,UK,0,0,0
-UK,USSR-grúz,0,0,0
-USSR-grúz,UK,0,0,0
-UK,USSR-kazah,0,0,0
-USSR-kazah,UK,0,0,0
+UK,USSR-grúz,0.03571428571428571,1,1
+USSR-grúz,UK,0.043478260869565216,1,0
+UK,USSR-kazah,0.03571428571428571,1,0
+USSR-kazah,UK,0.1111111111111111,1,1
 UK,USSR-kirgiz,0,0,0
 USSR-kirgiz,UK,0,0,0
-UK,USSR-lett,0,0,0
-USSR-lett,UK,0,0,0
-UK,USSR-litván,0,0,0
-USSR-litván,UK,0,0,0
+UK,USSR-lett,0.03571428571428571,1,0
+USSR-lett,UK,0.03571428571428571,1,1
+UK,USSR-litván,0.03571428571428571,1,1
+USSR-litván,UK,0.02857142857142857,1,0
 UK,USSR-moldva,0,0,0
 USSR-moldva,UK,0,0,0
-UK,USSR-orosz,0,0,0
-USSR-orosz,UK,0,0,0
+UK,USSR-orosz,0.03571428571428571,1,0
+USSR-orosz,UK,0.006756756756756757,1,1
 UK,USSR-tadzsik,0,0,0
 USSR-tadzsik,UK,0,0,0
 UK,USSR-türkmén,0,0,0
 USSR-türkmén,UK,0,0,0
 UK,USSR-udmurt,0,0,0
 USSR-udmurt,UK,0,0,0
-UK,USSR-ukrán,0,0,0
-USSR-ukrán,UK,0,0,0
-UK,USSR-észt,0,0,0
-USSR-észt,UK,0,0,0
+UK,USSR-ukrán,0.03571428571428571,1,0
+USSR-ukrán,UK,0.022222222222222223,1,1
+UK,USSR-észt,0.03571428571428571,1,0
+USSR-észt,UK,0.030303030303030304,1,1
 UK,USSR-örmény,0,0,0
 USSR-örmény,UK,0,0,0
-UK,USSR-üzbég,0,0,0
-USSR-üzbég,UK,0,0,0
+UK,USSR-üzbég,0.03571428571428571,1,1
+USSR-üzbég,UK,0.125,1,0
 UK,Venezuela,0,0,0
 Venezuela,UK,0,0,0
 UK,Vietnam,0,0,0
 Vietnam,UK,0,0,0
-UK,Yugoslavia,0,0,0
-Yugoslavia,UK,0,0,0
+UK,Yugoslavia,0.03571428571428571,1,0
+Yugoslavia,UK,0.012195121951219513,1,1
 USA,USA,NA,NA,NA
 USA,USSR-altaji,0,0,0
 USSR-altaji,USA,0,0,0
@@ -4160,8 +4160,8 @@ USSR-azerbajdzsán,USSR-litván,0,0,0
 USSR-litván,USSR-azerbajdzsán,0,0,0
 USSR-azerbajdzsán,USSR-moldva,0,0,0
 USSR-moldva,USSR-azerbajdzsán,0,0,0
-USSR-azerbajdzsán,USSR-orosz,0.1,1,0
-USSR-orosz,USSR-azerbajdzsán,0.006756756756756757,1,1
+USSR-azerbajdzsán,USSR-orosz,0,0,0
+USSR-orosz,USSR-azerbajdzsán,0,0,0
 USSR-azerbajdzsán,USSR-tadzsik,0,0,0
 USSR-tadzsik,USSR-azerbajdzsán,0,0,0
 USSR-azerbajdzsán,USSR-türkmén,0,0,0
@@ -4265,20 +4265,20 @@ Yugoslavia,USSR-csuvas,0,0,0
 USSR-fehérorosz,USSR-fehérorosz,NA,NA,NA
 USSR-fehérorosz,USSR-finn,0,0,0
 USSR-finn,USSR-fehérorosz,0,0,0
-USSR-fehérorosz,USSR-grúz,0.14285714285714285,1,1
-USSR-grúz,USSR-fehérorosz,0.043478260869565216,1,0
+USSR-fehérorosz,USSR-grúz,0,0,0
+USSR-grúz,USSR-fehérorosz,0,0,0
 USSR-fehérorosz,USSR-kazah,0,0,0
 USSR-kazah,USSR-fehérorosz,0,0,0
 USSR-fehérorosz,USSR-kirgiz,0,0,0
 USSR-kirgiz,USSR-fehérorosz,0,0,0
-USSR-fehérorosz,USSR-lett,0.14285714285714285,1,0
-USSR-lett,USSR-fehérorosz,0.03571428571428571,1,1
-USSR-fehérorosz,USSR-litván,0.14285714285714285,1,0
-USSR-litván,USSR-fehérorosz,0.02857142857142857,1,1
+USSR-fehérorosz,USSR-lett,0,0,0
+USSR-lett,USSR-fehérorosz,0,0,0
+USSR-fehérorosz,USSR-litván,0,0,0
+USSR-litván,USSR-fehérorosz,0,0,0
 USSR-fehérorosz,USSR-moldva,0,0,0
 USSR-moldva,USSR-fehérorosz,0,0,0
-USSR-fehérorosz,USSR-orosz,0.14285714285714285,1,0
-USSR-orosz,USSR-fehérorosz,0.006756756756756757,1,1
+USSR-fehérorosz,USSR-orosz,0,0,0
+USSR-orosz,USSR-fehérorosz,0,0,0
 USSR-fehérorosz,USSR-tadzsik,0,0,0
 USSR-tadzsik,USSR-fehérorosz,0,0,0
 USSR-fehérorosz,USSR-türkmén,0,0,0
@@ -4335,8 +4335,8 @@ Vietnam,USSR-finn,0,0,0
 USSR-finn,Yugoslavia,0,0,0
 Yugoslavia,USSR-finn,0,0,0
 USSR-grúz,USSR-grúz,NA,NA,NA
-USSR-grúz,USSR-kazah,0,0,0
-USSR-kazah,USSR-grúz,0,0,0
+USSR-grúz,USSR-kazah,0.043478260869565216,1,0
+USSR-kazah,USSR-grúz,0.1111111111111111,1,1
 USSR-grúz,USSR-kirgiz,0,0,0
 USSR-kirgiz,USSR-grúz,0,0,0
 USSR-grúz,USSR-lett,0.043478260869565216,1,0
@@ -4353,51 +4353,51 @@ USSR-grúz,USSR-türkmén,0,0,0
 USSR-türkmén,USSR-grúz,0,0,0
 USSR-grúz,USSR-udmurt,0,0,0
 USSR-udmurt,USSR-grúz,0,0,0
-USSR-grúz,USSR-ukrán,0,0,0
-USSR-ukrán,USSR-grúz,0,0,0
-USSR-grúz,USSR-észt,0,0,0
-USSR-észt,USSR-grúz,0,0,0
+USSR-grúz,USSR-ukrán,0.043478260869565216,1,0
+USSR-ukrán,USSR-grúz,0.022222222222222223,1,1
+USSR-grúz,USSR-észt,0.043478260869565216,1,0
+USSR-észt,USSR-grúz,0.030303030303030304,1,1
 USSR-grúz,USSR-örmény,0,0,0
 USSR-örmény,USSR-grúz,0,0,0
-USSR-grúz,USSR-üzbég,0,0,0
-USSR-üzbég,USSR-grúz,0,0,0
+USSR-grúz,USSR-üzbég,0.043478260869565216,1,1
+USSR-üzbég,USSR-grúz,0.125,1,0
 USSR-grúz,Venezuela,0,0,0
 Venezuela,USSR-grúz,0,0,0
 USSR-grúz,Vietnam,0,0,0
 Vietnam,USSR-grúz,0,0,0
-USSR-grúz,Yugoslavia,0,0,0
-Yugoslavia,USSR-grúz,0,0,0
+USSR-grúz,Yugoslavia,0.043478260869565216,1,0
+Yugoslavia,USSR-grúz,0.012195121951219513,1,1
 USSR-kazah,USSR-kazah,NA,NA,NA
 USSR-kazah,USSR-kirgiz,0,0,0
 USSR-kirgiz,USSR-kazah,0,0,0
-USSR-kazah,USSR-lett,0,0,0
-USSR-lett,USSR-kazah,0,0,0
-USSR-kazah,USSR-litván,0,0,0
-USSR-litván,USSR-kazah,0,0,0
+USSR-kazah,USSR-lett,0.1111111111111111,1,0
+USSR-lett,USSR-kazah,0.03571428571428571,1,1
+USSR-kazah,USSR-litván,0.1111111111111111,1,1
+USSR-litván,USSR-kazah,0.02857142857142857,1,0
 USSR-kazah,USSR-moldva,0,0,0
 USSR-moldva,USSR-kazah,0,0,0
-USSR-kazah,USSR-orosz,0,0,0
-USSR-orosz,USSR-kazah,0,0,0
+USSR-kazah,USSR-orosz,0.1111111111111111,1,0
+USSR-orosz,USSR-kazah,0.006756756756756757,1,1
 USSR-kazah,USSR-tadzsik,0,0,0
 USSR-tadzsik,USSR-kazah,0,0,0
 USSR-kazah,USSR-türkmén,0,0,0
 USSR-türkmén,USSR-kazah,0,0,0
 USSR-kazah,USSR-udmurt,0,0,0
 USSR-udmurt,USSR-kazah,0,0,0
-USSR-kazah,USSR-ukrán,0,0,0
-USSR-ukrán,USSR-kazah,0,0,0
-USSR-kazah,USSR-észt,0,0,0
-USSR-észt,USSR-kazah,0,0,0
+USSR-kazah,USSR-ukrán,0.1111111111111111,1,0
+USSR-ukrán,USSR-kazah,0.022222222222222223,1,1
+USSR-kazah,USSR-észt,0.1111111111111111,1,1
+USSR-észt,USSR-kazah,0.030303030303030304,1,0
 USSR-kazah,USSR-örmény,0,0,0
 USSR-örmény,USSR-kazah,0,0,0
-USSR-kazah,USSR-üzbég,0,0,0
-USSR-üzbég,USSR-kazah,0,0,0
+USSR-kazah,USSR-üzbég,0.1111111111111111,1,1
+USSR-üzbég,USSR-kazah,0.125,1,0
 USSR-kazah,Venezuela,0,0,0
 Venezuela,USSR-kazah,0,0,0
 USSR-kazah,Vietnam,0,0,0
 Vietnam,USSR-kazah,0,0,0
-USSR-kazah,Yugoslavia,0,0,0
-Yugoslavia,USSR-kazah,0,0,0
+USSR-kazah,Yugoslavia,0.1111111111111111,1,0
+Yugoslavia,USSR-kazah,0.012195121951219513,1,1
 USSR-kirgiz,USSR-kirgiz,NA,NA,NA
 USSR-kirgiz,USSR-lett,0,0,0
 USSR-lett,USSR-kirgiz,0,0,0
@@ -4428,8 +4428,8 @@ Vietnam,USSR-kirgiz,0,0,0
 USSR-kirgiz,Yugoslavia,0,0,0
 Yugoslavia,USSR-kirgiz,0,0,0
 USSR-lett,USSR-lett,NA,NA,NA
-USSR-lett,USSR-litván,0.03571428571428571,1,0.5
-USSR-litván,USSR-lett,0.02857142857142857,1,0.5
+USSR-lett,USSR-litván,0.03571428571428571,1,1
+USSR-litván,USSR-lett,0.02857142857142857,1,0
 USSR-lett,USSR-moldva,0,0,0
 USSR-moldva,USSR-lett,0,0,0
 USSR-lett,USSR-orosz,0.03571428571428571,1,0
@@ -4440,20 +4440,20 @@ USSR-lett,USSR-türkmén,0,0,0
 USSR-türkmén,USSR-lett,0,0,0
 USSR-lett,USSR-udmurt,0,0,0
 USSR-udmurt,USSR-lett,0,0,0
-USSR-lett,USSR-ukrán,0,0,0
-USSR-ukrán,USSR-lett,0,0,0
-USSR-lett,USSR-észt,0,0,0
-USSR-észt,USSR-lett,0,0,0
+USSR-lett,USSR-ukrán,0.03571428571428571,1,1
+USSR-ukrán,USSR-lett,0.022222222222222223,1,0
+USSR-lett,USSR-észt,0.03571428571428571,1,1
+USSR-észt,USSR-lett,0.030303030303030304,1,0
 USSR-lett,USSR-örmény,0,0,0
 USSR-örmény,USSR-lett,0,0,0
-USSR-lett,USSR-üzbég,0,0,0
-USSR-üzbég,USSR-lett,0,0,0
+USSR-lett,USSR-üzbég,0.03571428571428571,1,1
+USSR-üzbég,USSR-lett,0.125,1,0
 USSR-lett,Venezuela,0,0,0
 Venezuela,USSR-lett,0,0,0
 USSR-lett,Vietnam,0,0,0
 Vietnam,USSR-lett,0,0,0
-USSR-lett,Yugoslavia,0,0,0
-Yugoslavia,USSR-lett,0,0,0
+USSR-lett,Yugoslavia,0.03571428571428571,1,0
+Yugoslavia,USSR-lett,0.012195121951219513,1,1
 USSR-litván,USSR-litván,NA,NA,NA
 USSR-litván,USSR-moldva,0,0,0
 USSR-moldva,USSR-litván,0,0,0
@@ -4465,31 +4465,31 @@ USSR-litván,USSR-türkmén,0,0,0
 USSR-türkmén,USSR-litván,0,0,0
 USSR-litván,USSR-udmurt,0,0,0
 USSR-udmurt,USSR-litván,0,0,0
-USSR-litván,USSR-ukrán,0,0,0
-USSR-ukrán,USSR-litván,0,0,0
-USSR-litván,USSR-észt,0,0,0
-USSR-észt,USSR-litván,0,0,0
+USSR-litván,USSR-ukrán,0.02857142857142857,1,0
+USSR-ukrán,USSR-litván,0.022222222222222223,1,1
+USSR-litván,USSR-észt,0.02857142857142857,1,0
+USSR-észt,USSR-litván,0.030303030303030304,1,1
 USSR-litván,USSR-örmény,0,0,0
 USSR-örmény,USSR-litván,0,0,0
-USSR-litván,USSR-üzbég,0,0,0
-USSR-üzbég,USSR-litván,0,0,0
+USSR-litván,USSR-üzbég,0.02857142857142857,1,1
+USSR-üzbég,USSR-litván,0.125,1,0
 USSR-litván,Venezuela,0,0,0
 Venezuela,USSR-litván,0,0,0
 USSR-litván,Vietnam,0,0,0
 Vietnam,USSR-litván,0,0,0
-USSR-litván,Yugoslavia,0,0,0
-Yugoslavia,USSR-litván,0,0,0
+USSR-litván,Yugoslavia,0.02857142857142857,1,0
+Yugoslavia,USSR-litván,0.012195121951219513,1,1
 USSR-moldva,USSR-moldva,NA,NA,NA
-USSR-moldva,USSR-orosz,0.09090909090909091,1,0
-USSR-orosz,USSR-moldva,0.006756756756756757,1,1
+USSR-moldva,USSR-orosz,0,0,0
+USSR-orosz,USSR-moldva,0,0,0
 USSR-moldva,USSR-tadzsik,0,0,0
 USSR-tadzsik,USSR-moldva,0,0,0
 USSR-moldva,USSR-türkmén,0,0,0
 USSR-türkmén,USSR-moldva,0,0,0
 USSR-moldva,USSR-udmurt,0,0,0
 USSR-udmurt,USSR-moldva,0,0,0
-USSR-moldva,USSR-ukrán,0.09090909090909091,1,1
-USSR-ukrán,USSR-moldva,0.022222222222222223,1,0
+USSR-moldva,USSR-ukrán,0,0,0
+USSR-ukrán,USSR-moldva,0,0,0
 USSR-moldva,USSR-észt,0,0,0
 USSR-észt,USSR-moldva,0,0,0
 USSR-moldva,USSR-örmény,0,0,0
@@ -4509,20 +4509,20 @@ USSR-orosz,USSR-türkmén,0,0,0
 USSR-türkmén,USSR-orosz,0,0,0
 USSR-orosz,USSR-udmurt,0,0,0
 USSR-udmurt,USSR-orosz,0,0,0
-USSR-orosz,USSR-ukrán,0.02027027027027027,3,1
-USSR-ukrán,USSR-orosz,0.06666666666666667,3,2
-USSR-orosz,USSR-észt,0,0,0
-USSR-észt,USSR-orosz,0,0,0
+USSR-orosz,USSR-ukrán,0.006756756756756757,1,1
+USSR-ukrán,USSR-orosz,0.022222222222222223,1,0
+USSR-orosz,USSR-észt,0.006756756756756757,1,1
+USSR-észt,USSR-orosz,0.030303030303030304,1,0
 USSR-orosz,USSR-örmény,0,0,0
 USSR-örmény,USSR-orosz,0,0,0
-USSR-orosz,USSR-üzbég,0,0,0
-USSR-üzbég,USSR-orosz,0,0,0
+USSR-orosz,USSR-üzbég,0.006756756756756757,1,1
+USSR-üzbég,USSR-orosz,0.125,1,0
 USSR-orosz,Venezuela,0,0,0
 Venezuela,USSR-orosz,0,0,0
 USSR-orosz,Vietnam,0,0,0
 Vietnam,USSR-orosz,0,0,0
-USSR-orosz,Yugoslavia,0,0,0
-Yugoslavia,USSR-orosz,0,0,0
+USSR-orosz,Yugoslavia,0.006756756756756757,1,1
+Yugoslavia,USSR-orosz,0.012195121951219513,1,0
 USSR-tadzsik,USSR-tadzsik,NA,NA,NA
 USSR-tadzsik,USSR-türkmén,0,0,0
 USSR-türkmén,USSR-tadzsik,0,0,0
@@ -4575,18 +4575,18 @@ Vietnam,USSR-udmurt,0,0,0
 USSR-udmurt,Yugoslavia,0,0,0
 Yugoslavia,USSR-udmurt,0,0,0
 USSR-ukrán,USSR-ukrán,NA,NA,NA
-USSR-ukrán,USSR-észt,0,0,0
-USSR-észt,USSR-ukrán,0,0,0
+USSR-ukrán,USSR-észt,0.022222222222222223,1,1
+USSR-észt,USSR-ukrán,0.030303030303030304,1,0
 USSR-ukrán,USSR-örmény,0,0,0
 USSR-örmény,USSR-ukrán,0,0,0
-USSR-ukrán,USSR-üzbég,0,0,0
-USSR-üzbég,USSR-ukrán,0,0,0
+USSR-ukrán,USSR-üzbég,0.022222222222222223,1,1
+USSR-üzbég,USSR-ukrán,0.125,1,0
 USSR-ukrán,Venezuela,0,0,0
 Venezuela,USSR-ukrán,0,0,0
 USSR-ukrán,Vietnam,0,0,0
 Vietnam,USSR-ukrán,0,0,0
-USSR-ukrán,Yugoslavia,0,0,0
-Yugoslavia,USSR-ukrán,0,0,0
+USSR-ukrán,Yugoslavia,0.022222222222222223,1,0
+Yugoslavia,USSR-ukrán,0.012195121951219513,1,1
 USSR-észt,USSR-észt,NA,NA,NA
 USSR-észt,USSR-örmény,0,0,0
 USSR-örmény,USSR-észt,0,0,0
@@ -4596,8 +4596,8 @@ USSR-észt,Venezuela,0,0,0
 Venezuela,USSR-észt,0,0,0
 USSR-észt,Vietnam,0,0,0
 Vietnam,USSR-észt,0,0,0
-USSR-észt,Yugoslavia,0,0,0
-Yugoslavia,USSR-észt,0,0,0
+USSR-észt,Yugoslavia,0.030303030303030304,1,0
+Yugoslavia,USSR-észt,0.012195121951219513,1,1
 USSR-örmény,USSR-örmény,NA,NA,NA
 USSR-örmény,USSR-üzbég,0,0,0
 USSR-üzbég,USSR-örmény,0,0,0
@@ -4612,8 +4612,8 @@ USSR-üzbég,Venezuela,0,0,0
 Venezuela,USSR-üzbég,0,0,0
 USSR-üzbég,Vietnam,0,0,0
 Vietnam,USSR-üzbég,0,0,0
-USSR-üzbég,Yugoslavia,0,0,0
-Yugoslavia,USSR-üzbég,0,0,0
+USSR-üzbég,Yugoslavia,0.125,1,0
+Yugoslavia,USSR-üzbég,0.012195121951219513,1,1
 Venezuela,Venezuela,NA,NA,NA
 Venezuela,Vietnam,0,0,0
 Vietnam,Venezuela,0,0,0

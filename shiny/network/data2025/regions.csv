@@ -1,0 +1,75 @@
+id,region,world
+AL,Albania,2
+BG,Bulgaria,2
+CHN,China,2
+CU,Cuba,2
+CZ,Czechoslovakia-cseh,2
+SK,Czechoslovakia-szlovák,2
+CS-UA,Czechoslovakia-ukrán,2
+GDR,GDR,2
+MGL,Mongolia,2
+DPR,North Korea,2
+PL,Poland,2
+RO,Romania,2
+HU,Hungary,2
+SU-alt,USSR-altaji,2
+AZ,USSR-azerbajdzsán,2
+SU-bas,USSR-baskir,2
+SU-csu,USSR-csuvas,2
+BY,USSR-fehérorosz,2
+SU-fi,USSR-finn,2
+GE,USSR-grúz,2
+KZ,USSR-kazah,2
+KG,USSR-kirgiz,2
+SU-kom,USSR-komi,2
+LV,USSR-lett,2
+LT,USSR-litván,2
+SU-liv,USSR-liv,2
+MD,USSR-moldva,2
+RUS,USSR-orosz,2
+TJ,USSR-tadzsik,2
+SU-tat,USSR-tatár,2
+TM,USSR-türkmén,2
+SU-udm,USSR-udmurt,2
+SU-ujg,USSR-ujgur,2
+UA,USSR-ukrán,2
+SU-UA,"USSR-ukrán, orosz",2
+EST,USSR-észt,2
+AM,USSR-örmény,2
+UZ,USSR-üzbég,2
+VN,Vietnam,2
+D,Federal Republic of Germany,1
+F,France,1
+I,Italy,1
+YU,Yugoslavia,3
+E,Spain,1
+A,Austria,1
+UK,United Kingdom,1
+FI,Finland,1
+NL,Netherlands,1
+TY,Turkey,3
+S,Sweden,1
+USA,United States,1
+J,Japan,1
+B,Belgium,1
+IL,Israel,1
+DE,Denmark,1
+N,Norway,1
+AR,Argentina,3
+AU,Australia,1
+BR,Brasil,3
+CA,Canada,1
+CL,Chile,3
+EG,Egypt,3
+GR,Greece,1
+IN,India,3
+IR,Iran,3
+LI,Liechtenstein,1
+MY,Malaysia,3
+MX,Mexico,3
+PT,Portugal,1
+SG,Singapore,3
+KR,South Korea,3
+CH,Switzerland,1
+VE,Venezuela,3
+NA,NA,0
