@@ -13,28 +13,37 @@ before_after_plot <- function(.df, .suffix, .subtitle) {
       names_from = date_range, values_from = n, values_fill = 0) %>% 
     rename(before = `1801-1944`, after = `1945-2025`) %>% 
     filter(before > 0 & after > 0)
+  editions = sum(df2$before) + sum(df2$after)
   
-  df2 %>% 
+  df3 <- df2 %>% 
+    mutate(
+      b = before / max(before),
+      a = after / max(after)
+    ) %>% 
+    select(-c(before, after)) %>% 
+    rename(before = b, after = a)
+  
+  df3 %>% 
     ggplot(aes(x = before, y = after)) +
       geom_point() +
       geom_abline(color = 'cornflowerblue') +
       geom_text_repel(aes(label = title), color = 'grey') +
       theme_bw() +
       labs(
-        title = '1945 előtt és után is kiadott Jókai-fordítások',
+        title = 'Jókai translations published both before and after 1945',
         subtitle = paste(
           .subtitle,
           sprintf(
-            '(%d mű, %s kiadás)',
+            '(%d works, %s editions)',
             nrow(df2),
-            sum(df2$before) + sum(df2$after)
+            editions
           )
         ),
-        x = 'kiadások száma 1945 előtt',
-        y = 'kiadások száma 1945 után'
+        x = 'before 1945',
+        y = 'after 1945'
       ) +
-      xlim(0, 55) +
-      ylim(0, 55)
+      xlim(0, 1) +
+      ylim(0, 1)
   
   ggsave(sprintf('images/jokai/before-after-%s.png', .suffix),
          width = 8, height = 7, units = 'in', dpi = 300)
@@ -52,6 +61,7 @@ prepare_df <- function(.df) {
     ) %>% 
     select(-c(start, region))
 }
+
 
 #' prepare cuts
 years <- c(1800, 1944, 2025)
@@ -72,13 +82,10 @@ df %>%
   count(city_n) %>% 
   arrange(desc(n))
 
-%>% 
-  pull(city_n)
-
 before_after_plot(
-  prepare_df(df_no_hun), 'without-hungary', 'a magyarországi kiadások nélkül')
+  prepare_df(df_no_hun), 'without-hungary', 'excluding Hungarian editions')
 before_after_plot(
-  prepare_df(df), 'with-hungary', 'a magyarországi kiadásokkal')
+  prepare_df(df), 'with-hungary', 'including Hungarian editions')
 
 df3 <- df2 %>% 
   count(title, date_range) %>%

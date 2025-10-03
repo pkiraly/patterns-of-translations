@@ -1,12 +1,76 @@
 library(tidyverse)
 # library(paletteer)
 library(RColorBrewer)
+source('scripts/jokai/common-functions.R')
 
 df <- readRDS('data_raw/jokai.rds')
 
 df2 <- df %>% 
-  select(lang = targ_lan_n, start = year_n) %>% 
-  filter(!is.na(lang) & !is.na(start)) 
+  select(lang = targ_lan_n, start = year_n, country) %>% 
+  filter(!is.na(lang) & !is.na(start)) %>% 
+  mutate(
+    lang = case_match(
+      lang,
+      'német' ~ 'German',
+      'angol' ~ 'English',
+      'cseh' ~ 'Czech',
+      'észt' ~ 'Estonian',
+      'finn' ~ 'Finnish',
+      'francia' ~ 'French',
+      'lengyel' ~ 'Polish',
+      'olasz' ~ 'Italian',
+      'svéd' ~ 'Swedish',
+      'szerb' ~ 'Serbian',
+      'szlovák' ~ 'Slovakian',
+      'bolgár' ~ 'Bulgarian',
+      'latin' ~ 'Latin',
+      'dán' ~ 'Danish',
+      'orosz' ~ 'Russian',
+      'horvát' ~ 'Croatian',
+      'spanyol' ~ 'Spanish',
+      'román' ~ 'Romanian',
+      'örmény' ~ 'Armenian',
+      'török' ~ 'Turkish',
+      'holland' ~ 'Dutch',
+      'kínai' ~ 'Chinese',
+      'ukrán' ~ 'Ukranian',
+      'szlovén' ~ 'Slovanian',
+      'héber' ~ 'Hebrew',
+      'grúz' ~ 'Georgian',
+      'eszperantó' ~ 'Esperanto',
+      'görög' ~ 'Greek',
+      'lett' ~ 'Latvian',
+      'rutén' ~ 'Ruthenian',
+      'litván' ~ 'Lithuanian',
+      'azerbajdzsán' ~ 'Azerbaijani',
+      'tadzsik' ~ 'Tajik',
+      'türkmén' ~ 'Turkmen',
+      'katalán' ~ 'Catalan',
+      'beás romani' ~ 'Boyash romani',
+      'vietnámi' ~ 'Vietnamese',
+    )
+  ) %>% 
+  mutate(
+    lang = ifelse(between(start, 1945, 1989)
+                  & lang == 'German' 
+                  & !is.na(country) & country == 'GDR', 
+                  paste0('DDR-', lang), lang),
+    lang = ifelse(lang == 'German' 
+                  & !is.na(country) 
+                  & country == 'Hungary',
+                  paste0('HU-', lang), lang),
+    lang = ifelse(
+      lang == 'English',
+      ifelse(!is.na(country) & country == 'UK', paste0('UK-', lang),
+        ifelse(!is.na(country) & country == 'USA', paste0('US-', lang),
+          ifelse(!is.na(country) & country == 'Hungary', paste0('HU-', lang),
+            lang
+          )
+        )
+      ),
+      lang
+    )
+  )
 
 langs <- df2 %>% 
   count(lang) %>% 
@@ -14,7 +78,8 @@ langs <- df2 %>%
   select(lang) %>% 
   pull()
 
-year_range <- 5
+langs
+year_range <- 3
 
 df2 %>% 
   mutate(end = (start + year_range - 1)) %>% 
@@ -27,69 +92,45 @@ df2 %>%
   select(-name) %>% 
   mutate(year = as.integer(year)) %>% 
   count(lang, year) %>% 
-  ggplot(aes(x = year, y = factor(lang, levels = rev(langs)))) +
-    geom_point(aes(size = n), alpha = 0.4, color = 'maroon') +
+  mutate(
+    color = ifelse(grepl('German', lang),
+                   'darkgreen',
+                   ifelse(grepl('English', lang),
+                          'darkblue',
+                          'maroon')),
+  ) %>% 
+  ggplot(aes(x = year, y = factor(lang, levels = langs))) +
+    geom_point(aes(size = n, color = color), alpha = 0.4) + #, color = 'maroon') +
     geom_vline(xintercept = 1905, color = "cornflowerblue", alpha=0.5) +
-    annotate("text", x = 1906, y = 1, label = "Jókai halála",
-           color="cornflowerblue", hjust = "left", size = 8/.pt) +
+    annotate("text", x = 1907, y = length(langs), label = "Jókai's death",
+           color="cornflowerblue", hjust = "right", size = 8/.pt) +
     geom_vline(xintercept = 1945, color = "cornflowerblue", alpha=0.5) +
-    annotate("text", x = 1946, y = 1, label = "1945",
-           color="cornflowerblue", hjust = "left", size = 8/.pt) +
+    annotate("text", x = 1947, y = length(langs), label = "1945",
+           color="cornflowerblue", hjust = "right", size = 8/.pt) +
     geom_vline(xintercept = 1989, color = "cornflowerblue", alpha=0.5) +
-    annotate("text", x = 1990, y = 1, label = "1989",
-           color="cornflowerblue", hjust = "left", size = 8/.pt) +
-    theme_bw() +
+    annotate("text", x = 1991, y = length(langs), label = "1989",
+           color="cornflowerblue", hjust = "right", size = 8/.pt) +
     labs(
-      x = 'kiadási év',
-      y = 'nyelv (az összes megjelenés sorrendjében)',
-      title = 'Jókai jelenléte a könyvpiacon',
-      subtitle = sprintf('könyvpiaci jelenlét = megjelenés + %d év', year_range),
-      size = 'egyszerre\njelenlevő\nművek\nszáma'
-    )
+      x = 'publication year', # 'kiadási év',
+      y = 'language (in order of total publications)', # 'nyelv (az összes megjelenés sorrendjében)',
+      title = 'Jókai\'s presence at the book market', # 'Jókai jelenléte a könyvpiacon',
+      subtitle = sprintf('presence at the book market = publication + %d years', year_range),
+      # sprintf('könyvpiaci jelenlét = megjelenés + %d év', year_range),
+      size = '', # 'egyszerre\njelenlevő\nművek\nszáma'
+    ) +
+    theme_bw() +
+    theme(axis.text.x = element_text(angle = 60, vjust = 1, hjust=1)) +
+    scale_color_identity() +
+    coord_flip()
+
 
 ggsave('images/jokai/language-marketplace.png',
-       width = 8, height = 12, units = 'in', dpi = 300)
+       width = 8, height = calculateHeight(8), units = 'in', dpi = 300)
 
+quit('no')
 #'----
 
 columns <- paste('a', 1:year_range, sep='')
-
-df2 %>% 
-  mutate(end = (start + year_range - 1)) %>% 
-  rowwise() %>% 
-  mutate(st = paste0(seq(start, end), collapse = "|")) %>% 
-  ungroup() %>% 
-  separate_wider_delim(st, "|", names=columns, too_few = "align_start") %>% 
-  select(-c(start, end)) %>% 
-  pivot_longer(-lang, values_to = 'year', names_to = 'weight') %>% 
-  mutate(
-    year = as.integer(year),
-    weight = (year_range - (as.numeric(str_remove(weight, "a")) - 1)) / year_range
-  ) %>% 
-  group_by(lang, year) %>% 
-  summarise(n = sum(weight)) %>% 
-  ungroup() %>% 
-  ggplot(aes(x = year, y = factor(lang, levels = rev(langs)))) +
-    geom_point(aes(size = n), alpha = 0.4, color = 'maroon') +
-    geom_point(aes(size = n/2, y = lang + 0.4),
-               alpha = 0.4, color = 'green') +
-    geom_vline(xintercept = 1905, color = "cornflowerblue", alpha=0.5) +
-    annotate("text", x = 1906, y = 1, label = "Jókai halála",
-           color="cornflowerblue", hjust = "left", size = 8/.pt) +
-    geom_vline(xintercept = 1945, color = "cornflowerblue", alpha=0.5) +
-    annotate("text", x = 1946, y = 1, label = "1945",
-           color="cornflowerblue", hjust = "left", size = 8/.pt) +
-    geom_vline(xintercept = 1989, color = "cornflowerblue", alpha=0.5) +
-    annotate("text", x = 1990, y = 1, label = "1989",
-           color="cornflowerblue", hjust = "left", size = 8/.pt) +
-    theme_bw() +
-    labs(
-      x = 'kiadási év',
-      y = 'nyelv (az összes megjelenés sorrendjében)',
-      title = 'Jókai jelenléte a könyvpiacon',
-      subtitle = sprintf('könyvpiaci jelenlét = megjelenés + %d év', year_range),
-      size = 'egyszerre\njelenlevő\nművek\nszáma'
-    )
 
 df2 %>% 
   mutate(end = (start + year_range - 1)) %>% 

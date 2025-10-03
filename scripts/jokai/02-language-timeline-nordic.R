@@ -142,35 +142,14 @@ df %>%
   count(orig_title) %>% 
   arrange(desc(n))
 
-languages <- df %>% 
-  count(targ_lan_n) %>% 
-  arrange(desc(n)) %>% 
-  # filter(n > 5) %>% 
-  select(targ_lan_n) %>% 
-  unlist(use.names = FALSE)
-
-# df %>% 
-#   select(title = orig_title, year_orig, genre) %>%
-#   distinct() %>% 
-#   mutate(title = sprintf("%s%s", title, 
-#                          ifelse(!is.na(genre) & genre == "regény", "*", "")))
-
-# names(df)
-#' id, author, orig_title, genre, orig_pub_yr, orig_publ_city, targ_lan_n, country
-#' world, target_title, translator, megjelenes, megjegyzes, city_n, year_n, isPartOf
-#' HU-minor, interm_title, interm_lang, is_container, series, db, auth_quality, 
-#' transl_quality, publisher, pagination, orig_lang, editionstat, isbn, kotet
-#' city, year, targ_lan, region     
-
+selected_languages <- c('Swedish', 'Finnish', 'Danish')
 selected_titles <- df %>%
   filter(!is.na(targ_lan_n) & !is.na(orig_title)) %>%
   filter(!(orig_title %in% c('Források:'))) %>% 
-  select(orig_title, targ_lan_n) %>% 
+  filter(targ_lan_n %in% selected_languages) %>% 
+  select(orig_title) %>% 
   distinct() %>% 
-  group_by(orig_title) %>% 
-  summarise(c = n()) %>% 
-  filter(c > 3) %>% 
-  select(orig_title) %>% pull()
+  pull(orig_title)
 
 df2 <- df %>%
   filter(orig_title %in% selected_titles) %>% 
@@ -216,6 +195,7 @@ title_axis <- df %>%
 language_colors <- df %>% 
   filter(!is.na(orig_pub_yr) & orig_title != 'Források:') %>% 
   filter(orig_title %in% selected_titles) %>% 
+  filter(targ_lan_n %in% selected_languages) %>% 
   count(targ_lan_n) %>% 
   arrange(desc(n)) %>% 
   mutate(
@@ -229,51 +209,54 @@ df_final <- df %>%
   filter(!is.na(orig_pub_yr)) %>% 
   left_join(df3, by = join_by(orig_pub_yr, orig_title)) %>% 
   left_join(language_colors, by = join_by(targ_lan_n)) %>% 
+  filter(targ_lan_n %in% selected_languages) %>% 
   arrange(orig_pub_yr)
 # select(orig_pub_yr, orig_title, y) %>% 
 # arrange(desc(targ_lan_n), desc(orig_pub_yr)) %>% 
-
+df_final
 df_final %>%
   ggplot(aes(x = year_n, y = y)) +
   geom_jitter(aes(colour = color), height = 0.1, alpha = 0.7) +
   geom_abline(color = "#cccccc") +
   geom_vline(xintercept = 1905, color = "cornflowerblue", alpha=0.5) +
-  annotate("text", x = 1906, y = max(df_final$orig_pub_yr) + 1, label = "Jókai halála",
+  annotate("text", x = 1906, y = max(df_final$orig_pub_yr) + 1, label = "Jókai' death (1905)",
            color="cornflowerblue", hjust = "left", size = 10/.pt) +
   geom_vline(xintercept = 1945, color = "cornflowerblue", alpha=0.5) +
   annotate("text", x = 1946, y = max(df_final$orig_pub_yr) + 1, label = "1945",
            color="cornflowerblue", hjust = "left", size = 10/.pt) +
-  geom_vline(xintercept = 1989, color = "cornflowerblue", alpha=0.5) +
-  annotate("text", x = 1990, y = max(df_final$orig_pub_yr) + 1, label = "1989",
-           color="cornflowerblue", hjust = "left", size = 10/.pt) +
+  # geom_vline(xintercept = 1989, color = "cornflowerblue", alpha=0.5) +
+  # annotate("text", x = 1990, y = max(df_final$orig_pub_yr) + 1, label = "1989",
+  #          color="cornflowerblue", hjust = "left", size = 10/.pt) +
   scale_y_continuous(
     breaks = title_axis$orig_pub_yr,
     labels = title_axis$title,
     # minor_breaks = seq(1850, 1900, 1)
     ) +
   scale_x_continuous(
-    breaks = seq(1850, 2030, 10),
-    # labels = title_axis$title,
+    breaks = seq(1850, 1989, 10),
+    labels = seq(1850, 1989, 10),
+    
     # minor_breaks = seq(1850, 1900, 1)
   ) +
   labs(
-    title = 'Editions of Jókai\'s translated works', # "Jókai Mór műveinek fordításai - első kiadások",
-    subtitle = 'only works translated at least 4 languages. * = only partly translated', # "csak a legalább 4 nyelvre lefordított alkotások",
+    title = 'Editions of Jókai\'s translated works in Nordic languages', # "Jókai Mór műveinek fordításai - első kiadások",
+    subtitle = '* = only partly translated', # "csak a legalább 4 nyelvre lefordított alkotások",
     x = "Publication year of the translation",
     y = "Work",
     color = "languages",
-    shape = "",
+    # shape = "",
     caption = ""
   ) +
   theme_bw() +
   theme(axis.text.x = element_text(angle = 45, vjust = 1, hjust=1)) +
   scale_colour_manual(
-    # values = c(brewer.pal(7, "Set2"), '#DBC5A0FF')
-    values = c(rainbow_hcl(8))
+    values = c(brewer.pal(3, "Set2"), '#DBC5A0FF')
+    # values = c(rainbow_hcl(8))
   ) +
-  xlim(1850, 2020)
+  # scale_x_continuous(breaks = seq(1850, 1989, 10)) +
+  xlim(1850, 1989)
 
-ggsave('images/jokai/work-timeline.png',
+ggsave('images/jokai/work-timeline-nordic.png',
        width = 12, height = calculateHeight(12), units = 'in', dpi = 300)
 
 

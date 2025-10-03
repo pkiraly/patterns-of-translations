@@ -2,7 +2,7 @@
 # it checks the types
 library(tidyverse)
 
-csv_file <- 'data_raw/merged-Demeter-and-IT-(books-only)-v4-2025-09-15.tsv'
+csv_file <- 'data_raw/merged-Demeter-and-IT-(books-only)-v4-2025-09-23.tsv'
 col_names <- c(
 #  'flagged',
   'id',
@@ -20,6 +20,7 @@ col_names <- c(
   'megjegyzes',
   'city_n',
   'year_n',
+  'editionstat',
   'isPartOf',
   'HU-minor',
   'interm_title',
@@ -32,7 +33,6 @@ col_names <- c(
   'publisher',
   'pagination',
   'orig_lang',
-  'editionstat',
   'isbn',
   'kotet',
   'city',
@@ -57,6 +57,7 @@ col_types <- cols(
   `city_n` = col_character(),
   `year_n` = col_double(),
   `isPartOf` = col_double(),
+  `editionstat` = col_character(),
   `HU-minor` = col_character(),
   `interm_title` = col_character(),
   `interm_lang` = col_character(),
@@ -68,7 +69,6 @@ col_types <- cols(
   `publisher` = col_character(),
   `pagination` = col_character(),
   `orig_lang` = col_character(),
-  `editionstat` = col_character(),
   `isbn` = col_character(),
   `kotet` = col_character(),
   `city` = col_character(),
@@ -79,9 +79,15 @@ df <- read_tsv(csv_file,
                skip = 1,
                col_names = col_names, 
                col_types = col_types)
-df2 <- df %>% 
-  filter(!flagged) %>% 
-  select(-c(flagged))
 
-saveRDS(df, 'data_raw/merged-Demeter-and-IT-(books-only)-v4-2025-09-15.rds')
+problems_df <- problems()
+if (nrow(problems_df) > 0) {
+  print(problems_df)
+}
+
+# df2 <- df %>% 
+#  filter(!flagged) %>% 
+#  select(-c(flagged))
+
+saveRDS(df, 'data_raw/merged-Demeter-and-IT-(books-only)-v4-2025-09-23.rds')
 

@@ -53,7 +53,7 @@ df_langs <- df2 %>%
 
 df_matrix <- df_dates %>% 
   inner_join(df_langs, by = c('title'))
-
+df_matrix
 
 distances <- dist(df_dates, method = "euclidean",
      diag = TRUE, upper = TRUE)
