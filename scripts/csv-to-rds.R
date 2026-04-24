@@ -2,9 +2,9 @@
 # it checks the types
 library(tidyverse)
 
-csv_file <- 'data_raw/merged-Demeter-and-IT-(books-only)-v4-2025-09-23.tsv'
+csv_file <- 'data_raw/merged-Demeter-and-IT-(books-only)-v4-2026-02-20.tsv'
 col_names <- c(
-#  'flagged',
+  'flagged',
   'id',
   'author',
   'orig_title',
@@ -40,7 +40,7 @@ col_names <- c(
   'targ_lan'
 )
 col_types <- cols(
-#  flagged = col_logical(),
+  flagged = col_logical(),
   `id` = col_double(),
   `author` = col_character(),
   `orig_title` = col_character(),
@@ -85,9 +85,9 @@ if (nrow(problems_df) > 0) {
   print(problems_df)
 }
 
-# df2 <- df %>% 
-#  filter(!flagged) %>% 
-#  select(-c(flagged))
+df2 <- df %>% 
+  filter(!flagged) %>% 
+  select(-c(flagged))
 
-saveRDS(df, 'data_raw/merged-Demeter-and-IT-(books-only)-v4-2025-09-23.rds')
+saveRDS(df2, 'data_raw/merged-Demeter-and-IT-(books-only)-v4-2026-02-20.rds')
 
