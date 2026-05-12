@@ -7,3 +7,4 @@ scripts/extract-data-from-qa/*.txt
 .Rhistory
 .RData
 .Ruserdata
+.positai
