@@ -36,7 +36,7 @@ before_after_plot <- function(.df, .suffix, .subtitle) {
     ggplot(aes(x = before, y = after)) +
     geom_jitter() +
     geom_abline(color = 'cornflowerblue') +
-    geom_text_repel(aes(label = title), color = 'grey') +
+    geom_text_repel(aes(label = title), color = '#333333') +
     theme_bw() +
     labs(
       title = 'Jókai translations published both before and after 1945',

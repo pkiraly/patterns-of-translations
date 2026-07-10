@@ -1,11 +1,11 @@
 title,genre,publ_place,publ_year
 Hétköznapok,regény,Pest,1846
 Vadon virágai,novella,Pest,1848
-Forradalmi és csataképek 1848. és 1849-ből Sajótól,,Pest,1850
+Forradalmi és csataképek 1848. és 1849-ből,novella,Pest,1850
 Egy bujdosó naplója. Novellák a forradalom utáni időkből,novella,Pest,1851
 Hangok a vihar után,novella,Pest,1852
 Erdély aranykora,regény,Pest,1852
-"A kétszarvú ember, historiai beszély",novella,Pest,1852
+A kétszarvú ember,novella,Pest,1852
 Török világ Magyarországon,regény,Pest,1853
 Egy magyar nábob,regény,Pest,1853–54
 Janicsárok végnapjai,regény,Pest,1854
@@ -20,10 +20,10 @@ Délvirágok,,Pest,1856
 Árnyképek,novella,Pest,1856
 Szomorú napok,regény,Pest,1856
 A magyar nép adomái,,Pest,1856
-A legvitézebb huszár,,Pest,1856
-A régi jó táblabirák,regény,Pest,1856
+A legvitézebb huszár,regény,Pest,1856
+A régi jó táblabírák,regény,Pest,1856
 Sonkolyi Gergely. Isten nyugosztalja meg szegényt!,novella,Pest,1857
-A varchoniták,,Pest,1857
+A Varchoniták,,Pest,1857
 Fortunatus Imre,,Pest,1857
 A kalóz-király. Történeti novella,novella,Pest,1857
 Novellák,novella,Pest,1857
@@ -50,7 +50,7 @@ Politikai divatok,regény,Pest,1862–64
 Milyenek a nők?,elbeszélés,Pest,1865
 Milyenek a férfiak?,elbeszélés,Pest,1865
 Mire megvénülünk,regény,Pest,1865
-Virradóra. Legújabb novellák és genreképek,novella,Pest,1868
+Virradóra,novella,Pest,1868
 Szerelem bolondjai,regény,Budapest,1868–1869
 "Mit akar az ellenzék, forradalmat vagy reformot?",beszéd,Pest,1869
 A malom alatt,elbeszélés,Budapest,1869
@@ -73,11 +73,11 @@ A jövő század regénye,regény,Pest,1872–74
 A szegénység útja,,Budapest,1874
 Petki Farkas leányai. Regényes kép a múltból,regény,Budapest,1874
 "Egy ember, aki mindent tud",regény,Budapest,1874
-"Enyim, tied, övé",regény,Budapest,1875
+"Enyém, tied, övé",regény,Budapest,1875
 Emlékeim,,Budapest,1875
 Jókai Mór forradalom alatt írt művei. 1848–1849.,,Budapest,1875
 Jókai Mór elbeszélő költeményei és satyrái,,Budapest,1875
-A debreceni lunatikus,elbeszélés,Budapest,1876
+A debreceni lunátikus,elbeszélés,Budapest,1876
 Egész az északi polusig! Vagy: mi lett tovább a Tegethoffal? Regény egy hajón hátramaradt matróz feljegyzése után,regény,Budapest,1876
 Az élet komédiásai,regény,Budapest,1876
 Egy az Isten,regény,Budapest,1877
@@ -88,7 +88,7 @@ Elbeszélések,elbeszélés,Budapest,1877
 Az életből ellesve. Beszélyek,beszéd,Budapest,1878
 Egy asszonyi hajszál. Történelmi regény-vázlat,regény,Budapest,1878
 Észak honából. Muszka rajzok.,,Budapest,1878
-Görög tűz. Elbeszélések mindenféle igazhivők történetéből,elbeszélés,Budapest,1878
+Görögtűz,elbeszélés,Budapest,1878
 Jókai Mór programmbeszéde. tartatott a józsefvárosi választók előtt július 21.,beszéd,Budapest,1878
 Mondjuk ki az igazat,,Budapest,1878
 Egy hírhedt kalandor a XVII. századból,regény,Budapest,1879
@@ -114,8 +114,8 @@ Beszélyek,beszéd,Budapest,1883
 A puskás Kalári,székely monda,Budapest,1883
 Oroszlánhűség. Költői elbeszélés,elbeszélés,Budapest,1883
 A pénz betegségei,elbeszélés,Budapest,1883
-A bálványos vár,regény,Budapest,1883
-A Damokosok. Regényes történet,regény,Budapest,1883
+Bálványos vár,regény,Budapest,1883
+A Damokosok,regény,Budapest,1883
 Beszéde a budget-törvényjavaslat fölött a képviselőház 1880. decz. 4. ülésében,,Budapest,1884
 Negyven év viszhangja,,Budapest,1884
 Magyar föld,,Budapest,1884
@@ -136,7 +136,7 @@ A három márványfej,regény,Budapest,1887
 Olympi verseny. Ábrándkép a budapesti nemzeti színház ötven éves fennállásának ünnepére,,Budapest,1887
 "Gr. Benyovszky Móricz életrajza. Saját emlékiratai és útleírásai. Képekkel, térképekkel, autographokkal sat.",,Budapest,1887–88
 Jocus és Momus,,Budapest,1888
-Lenczi Frater,regény,Budapest,1888
+Lenczi Fráter,regény,Budapest,1888
 Utazás egy sírdomb körül,,Budapest,1889
 "Aki a szivét a homlokán hordja. Rege, regény és való",regény,Budapest,1889
 A lélekidomár,regény,Budapest,1888–1889
@@ -160,13 +160,13 @@ Színművek,dráma,Budapest,1893
 Csataképek a magyar szabadságharczból,,Budapest,1894
 Három királyné,,Budapest,1894
 Az egyhuszasos leány. Száz leány egy rakáson és egyéb elbeszélések,elbeszélés,Budapest,1894
-Magneta,regény,Budapest,1895
-Trenk Frigyes,regény,Budapest,1895
+Magnéta,regény,Budapest,1895
+Trenck Frigyes,regény,Budapest,1895
 A Kráó,regény,Budapest,1895
-Tégy jót. Regény négy szakaszban,regény,Budapest,1895
+Tégy jót,regény,Budapest,1895
 Magyar nemzeti vértanúk,,Budapest,1895
 A Barangok vagy A paeoniai vojvoda,Vígjáték,Budapest,1896
-De kár megvénülni. Regény egy vén öcsém uram élményei után,regény,Budapest,1896
+De kár megvénülni,regény,Budapest,1896
 Kertészgazdászati jegyzetek,,Budapest,1896
 Budapestnek emlékül,Versek,Budapest,1896
 Megtörtént regék,beszéd,Budapest,1897
@@ -174,12 +174,12 @@ Ne hagyd magad! És egyéb elbeszélések,elbeszélés,Budapest,1897
 Az apja fia. És egyéb elbeszélések,elbeszélés,Budapest,1897
 Őszi fény. Újabb elbeszélések,elbeszélés,Budapest,1898
 Mesék és regék,,Budapest,1898
-A barátfalvi levita,,Budapest,1898
+A barátfalvi lévita,,Budapest,1898
 Levente,Történelmi drámai költemény,Budapest,1898
 Költemények,Versek,Budapest,1898
 Emlékbeszéd Rudolf trónörökösről és egyéb beszédek,beszéd,Budapest,1898
 Helvila,dráma,Budapest,1898
-A nagyenyedi két fűzfa,,Budapest,1898
+A nagyenyedi két fűzfa,elbeszélés,Budapest,1898
 A hazajáró lélek,,Budapest,1898
 Mátyás király és a szegény varga,,Budapest,1898
 A tengerszem tündére,Rege,Budapest,1898
@@ -189,5 +189,5 @@ Szép angyalka. Kis képek,novella,Budapest,1899
 Öreg ember nem vén ember. Képzelt regény négy részben,regény,,1900
 Tallérossy Zebulon levelei Mindenváró Ádámhoz,,Budapest,1900
 Egetvívó asszonyszív,történelmi regény,Budapest,1902
-Börtön virága,regény,,1904
+A börtön virága,regény,,1904
 Aranyember,,Budapest,1919

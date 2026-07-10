@@ -12,6 +12,7 @@ cluster_count <- 6
 calculate_with_ratio <- TRUE
 #' deadline
 deadline <- 1920
+deadline <- FALSE
 
 df <- readRDS('data_raw/jokai.rds')
 
@@ -20,6 +21,7 @@ labels <- c()
 for (i in 1:(length(years)-1)) {
   labels <- c(labels, sprintf("%d-%d", years[i]+1, years[i+1]))
 }
+labels
 
 df2 <- df %>% 
   select(orig_title, lang = targ_lan_n, start = year_n, country) %>% 
@@ -98,6 +100,20 @@ df2 <- df %>%
     lang = ifelse(between(start, 1945, 1989) & lang %in% c('Polish', 'Czech', 'Slovakian', 'Bulgarian', 'Slovenian', 'Lithuanian', 'Serbian', 'Croatian', 'Estonian', 'Romanian', 'Armenian', 'Ukranian', 'Georgian', 'Latvian', 'Ruthenian', 'Azerbaijani', 'Tajik', 'Turkmen', 'Vietnamese'), paste0(lang, '*'), lang),
     lang = ifelse(between(start, 1917, 1991) & lang %in% c('Russian'), paste0(lang, '*'), lang),
   )
+
+df2
+
+date_ranges <- df2 %>% count(date_range) %>% 
+  pull(date_range) %>% as.character()
+
+for (.date_range in date_ranges) {
+  print(.date_range)
+  csv <- sprintf('data_raw/jokai/jokai-langs-%s.csv', .date_range)
+  df2 %>% filter(date_range == .date_range) %>% 
+    rename(language = lang) %>% 
+    select(-date_range) %>% 
+    write_csv(csv)
+}
 
 if (deadline != FALSE) {
   df2 <- df2 %>% 
@@ -199,7 +215,9 @@ p1 <- clustered_titles %>%
     theme_void() +
     theme(plot.background = element_rect(fill = "white"))
 
+
 limit <- 0.2
+lang_clusters
 p2 <- lang_clusters %>% 
   pivot_longer(1:4) %>% 
   mutate(
@@ -239,7 +257,28 @@ df_langs %>% filter(title == 'Az arany ember') %>%
   pivot_longer(-title) %>% 
   arrange(desc(value))
 
-langs_matrix = as.matrix(df_langs %>% select(-title))
+
+
+df_langs
+without_german <- TRUE
+if (without_german == TRUE) {
+  print('without')
+  germans <- df_langs%>% 
+    pivot_longer(-title) %>% 
+    arrange(desc(value)) %>% 
+    filter(grepl('German', name)) %>% 
+    count(name) %>% 
+    select(name) %>% pull()
+  print(germans)
+  filtered = df_langs %>% 
+    select(-germans)
+} else {
+  print('with')
+  filtered = df_langs
+}
+langs_matrix = as.matrix(filtered %>% select(-title))
+langs_matrix
+
 hparty <- skmeans(langs_matrix, cluster_count,
                   control = list(verbose = FALSE))
 
@@ -302,9 +341,10 @@ pcommon <- ggarrange(p1, p2, ncol = 2, nrow = 1)
 annotate_figure(pcommon, top = text_grob(title, face = "bold", size = 14))
 ggsave(
   sprintf(
-    'images/jokai/clusters-by-language-%d%s.png',
+    'images/jokai/clusters-by-language-%d%s-%s.png',
     cluster_count,
-    ifelse(deadline != FALSE, paste0('-', deadline), '')
+    ifelse(deadline != FALSE, paste0('-', deadline), ''),
+    ifelse(without_german == TRUE, 'without-german', 'with-german')
   ),
   width = 12, height = calculateHeight(12),
   units = 'in', dpi = 300)

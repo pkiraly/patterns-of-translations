@@ -5,7 +5,7 @@ library(tidyverse)
 # library(paletteer)
 library(RColorBrewer)
 
-df <- readRDS('data_raw/merged-Demeter-and-IT-(books-only)-v4-2025-09-23.rds')
+df <- readRDS('data_raw/merged-Demeter-and-IT-(books-only)-v4-2026-06-16.rds')
 
 postwar <- df %>% 
   # filter(year_n >= 1947 & year_n <= 1989) %>% 
