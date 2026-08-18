@@ -13,6 +13,7 @@ navbarPage(
       fluidRow(
         column(3,
           h4("Connections between regions"),
+          radioButtons('tab', label="node type", selected="authors", choices=c('authors' = 'authors', 'works' = 'works'), inline=TRUE),
           radioButtons(
             "minmax",
             label = "criterium",
@@ -70,7 +71,6 @@ navbarPage(
             choices = NULL,
           ),
           checkboxInput("level", "show 2 levels for a region"),
-          radioButtons('tab', label="tab", selected="authors", choices=c('authors' = 'authors', 'works' = 'works'), inline=TRUE),
         ),
         column(9,
           fluidRow(
