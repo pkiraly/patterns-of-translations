@@ -29,3 +29,8 @@ h3.metrics {
   padding-left: 5px;
   width: 10%;
 }
+
+#network_edges table.dataTable tbody tr td {
+  padding: 2px;
+  vertical-align: top;
+}

@@ -8,7 +8,7 @@ navbarPage(
     "Network Analysis",
     fluidPage(
       tags$head(
-        tags$link(rel = "stylesheet", type = "text/css", href = "style.css")
+        tags$link(rel="stylesheet", type="text/css", href="style.css")
       ),
       fluidRow(
         column(3,
@@ -17,11 +17,11 @@ navbarPage(
             "minmax",
             label = "criterium",
             choices = c(
-              "Minimum number of authors" = "min",
-              "Maximum number of authors" = "max"
+              "Minimum number of authors/works" = "min",
+              "Maximum number of authors/works" = "max"
             )),
           sliderInput("limit",
-            label = "number of authors",
+            label = "number of authors/works",
             min = 1,
             max = 100,
             value = 10,
@@ -29,7 +29,7 @@ navbarPage(
             width = '100%'),
           radioButtons(
             "world",
-            label = "based on authors published in",
+            label = "based on authors/works published in",
             choices = c(
               "de-sovjetized Europe + 1st world" = "de-sovjetized-Europe",
               "eastern block" = "eastern-block",
@@ -70,12 +70,13 @@ navbarPage(
             choices = NULL,
           ),
           checkboxInput("level", "show 2 levels for a region"),
+          radioButtons('tab', label="tab", selected="authors", choices=c('authors' = 'authors', 'works' = 'works'), inline=TRUE),
         ),
         column(9,
           fluidRow(
             column(9,
               p("The network edges represent the number of authors translated in both regions. The direction represents the chronological order."),
-              plotOutput(outputId = "network_plot", width = "100%", height = '600px'),
+              plotOutput(outputId = "author_network_plot", width = "100%", height = '600px'),
             ),
             column(3,
               h3('Edges in the network', class = "metrics"),

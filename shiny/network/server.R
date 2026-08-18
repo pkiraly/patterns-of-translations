@@ -2,14 +2,15 @@ library(tidyverse)
 library(igraph)
 library(DT)
 
-dataDir <- 'data2025'
+dataDir <- 'authors' # 'data2025
+hikDir <- 'hik'
 
 prepare_base_df <- function(df) {
   df2 <- df %>%
     distinct() %>%
     # filter(region1 != 'Hungary' & region2 != 'Hungary') %>%
     filter(!is.na(ratio)) %>% 
-    # filter(common_authors > common_authors_limit) %>% 
+    # filter(common > common_authors_limit) %>% 
     left_join(regions, join_by(region1 == region)) %>% 
     rename(from = id) %>% 
     left_join(regions, join_by(region2 == region)) %>% 
@@ -25,9 +26,9 @@ extractNodes <- function(df) {
 
 edges_for_all <- function(df, common_authors_limit, minmax) {
   if (minmax == "min") {
-    df2 <- df %>% filter(common_authors >= common_authors_limit) 
+    df2 <- df %>% filter(common >= common_authors_limit) 
   } else if (minmax == "max") {
-    df2 <- df %>% filter(common_authors <= common_authors_limit) 
+    df2 <- df %>% filter(common <= common_authors_limit) 
   }
   df2 %>% 
     filter(first > 0) %>% 
@@ -49,9 +50,9 @@ edges_for_country <- function(df, country, common_authors_limit, minmax, level =
       filter(first > 0)
     
     if (minmax == "min") {
-      df2 <- df2 %>% filter(common_authors >= common_authors_limit) 
+      df2 <- df2 %>% filter(common >= common_authors_limit) 
     } else if (minmax == "max") {
-      df2 <- df2 %>% filter(common_authors <= common_authors_limit) 
+      df2 <- df2 %>% filter(common <= common_authors_limit) 
     }
     ids <- extractNodes(df2) %>% pull(id)
 
@@ -61,7 +62,7 @@ edges_for_country <- function(df, country, common_authors_limit, minmax, level =
     } else {
       df %>% 
         filter(from %in% ids | to %in% ids) %>% 
-        filter(common_authors >= common_authors_limit) %>% 
+        filter(common >= common_authors_limit) %>% 
         filter(first > 0) %>% 
         rename(weight = first) %>% 
         select(from, to, weight)
@@ -69,7 +70,7 @@ edges_for_country <- function(df, country, common_authors_limit, minmax, level =
   } else {
     df %>% 
       filter(from == country | to == country) %>% 
-      filter(common_authors >= common_authors_limit) %>% 
+      filter(common >= common_authors_limit) %>% 
       filter(first > 0) %>% 
       rename(weight = first) %>% 
       select(from, to, weight)
@@ -85,22 +86,26 @@ getNetworkForCountry <- function(df, country, common_authors_limit, minmax, leve
 regions <- read_csv(paste0(dataDir, '/regions.csv'), show_col_types = FALSE) %>% 
   arrange(id)
 
-readWorldFile <- function(world) {
+readWorldFile <- function(dataDir, world) {
   file_name <- paste0(dataDir, '/ratios-by-regions-', world, '.csv')
+  print(file_name)
   raw_df <- read_csv(file_name, show_col_types = FALSE)
   base_df <- prepare_base_df(raw_df)
   base_df
 }
 
 function(input, output, session) {
+  
   ids <- c("all", regions$id)
   names <- c("all regions", regions$region)
   readData <- reactive({
-    readWorldFile(input$world)
+    # dataDir = input$tab == 'authors'
+    print(paste('tab:', input$tab))
+    readWorldFile(input$tab, input$world)
   })
 
   readAuthorRegionPairs <- reactive({
-    file_name <- paste0(dataDir, '/author-region-pairs-', input$world, '.csv')
+    file_name <- paste0(input$tab, '/author-region-pairs-', input$world, '.csv')
     read_csv(file_name, show_col_types = FALSE)
   })
 
@@ -109,7 +114,7 @@ function(input, output, session) {
     choices = setNames(ids, names)
   )
   
-  output$network_plot <- renderPlot({
+  output$author_network_plot <- renderPlot({
     df <- readData()
     if (input$country == "all" || input$country == "") {
       net <- getNetwork(df, input$limit, input$minmax)
@@ -271,6 +276,7 @@ function(input, output, session) {
   
   output$diameter <- renderText({
     df <- readData()
+    head(df)
     if (input$country == "all" || input$country == "") {
       edges <- edges_for_all(df, input$limit, input$minmax)
     } else {
