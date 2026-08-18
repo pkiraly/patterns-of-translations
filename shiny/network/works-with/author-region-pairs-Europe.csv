@@ -9,6 +9,9 @@ PETŐFI Sándor: Források:,Albania,Bulgaria
 JÓZSEF Attila: Források:,Albania,Bulgaria
 MÓRICZ Zsigmond: Források:,Albania,Bulgaria
 MOLNÁR Ferenc: A Pál utcai fiúk,Albania,Bulgaria
+PETŐFI Sándor: Források:,Albania,China
+JÓZSEF Attila: Források:,Albania,China
+MÓRICZ Zsigmond: Források:,Albania,China
 MOLNÁR Ferenc: A Pál utcai fiúk,Albania,Colombia
 PETŐFI Sándor: Források:,Albania,Cuba
 NÉMETH László: Iszony,Albania,Cuba
@@ -68,9 +71,6 @@ PETŐFI Sándor: Források:,Albania,North Korea
 PETŐFI Sándor: Források:,Albania,Norway
 NÉMETH László: Iszony,Albania,Norway
 JÓZSEF Attila: Források:,Albania,Norway
-PETŐFI Sándor: Források:,Albania,PR China
-JÓZSEF Attila: Források:,Albania,PR China
-MÓRICZ Zsigmond: Források:,Albania,PR China
 PETŐFI Sándor: Források:,Albania,Poland
 NÉMETH László: Iszony,Albania,Poland
 JÓZSEF Attila: Források:,Albania,Poland
@@ -140,6 +140,8 @@ JÓZSEF Attila: Források:,Argentina,Belgium
 DÉRY Tibor: Niki,Argentina,Belgium
 JÓKAI Mór: Sárga rózsa,Argentina,Bulgaria
 JÓZSEF Attila: Források:,Argentina,Bulgaria
+JÓKAI Mór: Sárga rózsa,Argentina,China
+JÓZSEF Attila: Források:,Argentina,China
 JÓZSEF Attila: Források:,Argentina,Cuba
 JÓKAI Mór: Sárga rózsa,Argentina,Czechoslovakia-cseh
 JÓZSEF Attila: Források:,Argentina,Czechoslovakia-cseh
@@ -163,8 +165,6 @@ JÓKAI Mór: Sárga rózsa,Argentina,Mexico
 KÖRMENDI Ferenc: Bűnösök,Argentina,Netherlands
 JÓZSEF Attila: Források:,Argentina,Norway
 DÉRY Tibor: Niki,Argentina,Norway
-JÓKAI Mór: Sárga rózsa,Argentina,PR China
-JÓZSEF Attila: Források:,Argentina,PR China
 JÓZSEF Attila: Források:,Argentina,Poland
 DÉRY Tibor: Niki,Argentina,Poland
 JÓZSEF Attila: Források:,Argentina,Portugal
@@ -237,6 +237,9 @@ KRÚDY Gyula: A vörös postakocsi,Austria,Bulgaria
 PETŐFI Sándor: Források:,Austria,Bulgaria
 MOLNÁR Ferenc: A Pál utcai fiúk,Austria,Bulgaria
 ZILAHY Lajos: A lélek kialszik,Austria,Chile
+ILLÉS Béla: Kárpáti rapszódia,Austria,China
+MIKSZÁTH Kálmán: Szent Péter esernyője,Austria,China
+PETŐFI Sándor: Források:,Austria,China
 MOLNÁR Ferenc: A Pál utcai fiúk,Austria,Colombia
 PETŐFI Sándor: Források:,Austria,Cuba
 DÉRY Tibor: A befejezetlen mondat,Austria,Czechoslovakia-cseh
@@ -375,9 +378,6 @@ HARSÁNYI Zsolt: Whisky szódával,Austria,Netherlands
 PETŐFI Sándor: Források:,Austria,North Korea
 HARSÁNYI Zsolt: Magyar rapszódia: Liszt életének regénye,Austria,Norway
 PETŐFI Sándor: Források:,Austria,Norway
-ILLÉS Béla: Kárpáti rapszódia,Austria,PR China
-MIKSZÁTH Kálmán: Szent Péter esernyője,Austria,PR China
-PETŐFI Sándor: Források:,Austria,PR China
 HÁY Gyula: A sevcsenkoi hullámvadász,Austria,Poland
 ILLÉS Béla: Kárpáti rapszódia,Austria,Poland
 ILLÉS Béla: Szkipetárok,Austria,Poland
@@ -519,6 +519,8 @@ SÁNTA Ferenc: Az ötödik pecsét,Belgium,Bulgaria
 GÁRDONYI Géza: Egri csillagok,Belgium,Bulgaria
 JÓZSEF Attila: Források:,Belgium,Bulgaria
 MIKSZÁTH Kálmán: Különös házasság,Belgium,Bulgaria
+MIKSZÁTH Kálmán: Szent Péter esernyője,Belgium,China
+JÓZSEF Attila: Források:,Belgium,China
 GÁRDONYI Géza: A láthatatlan ember,Belgium,Cuba
 JÓZSEF Attila: Források:,Belgium,Cuba
 MIKSZÁTH Kálmán: Beszterce ostroma,Belgium,Czechoslovakia-cseh
@@ -620,8 +622,6 @@ DÉRY Tibor: Niki,Belgium,Norway
 KARDOS G. György: Avraham Bogatir hét napja,Belgium,Norway
 JÓZSEF Attila: Források:,Belgium,Norway
 HARSÁNYI Zsolt: Magyar rapszódia: Liszt életének regénye,Belgium,Norway
-MIKSZÁTH Kálmán: Szent Péter esernyője,Belgium,PR China
-JÓZSEF Attila: Források:,Belgium,PR China
 MIKSZÁTH Kálmán: Beszterce ostroma,Belgium,Poland
 JUST Béla: Az eszelősök,Belgium,Poland
 FÖLDES Jolán: A halászó macska uccája,Belgium,Poland
@@ -715,6 +715,7 @@ JÓZSEF Attila: Források:,Belgium,Yugoslavia
 MIKSZÁTH Kálmán: Különös házasság,Belgium,Yugoslavia
 HARSÁNYI Zsolt: Magyar rapszódia: Liszt életének regénye,Belgium,Yugoslavia
 MOLNÁR Ferenc: A Pál utcai fiúk,Brasil,Bulgaria
+MÓRICZ Zsigmond: Árvácska,Brasil,China
 MOLNÁR Ferenc: A Pál utcai fiúk,Brasil,Colombia
 MOLNÁR Ferenc: A Pál utcai fiúk,Brasil,Czechoslovakia-cseh
 MÓRICZ Zsigmond: Árvácska,Brasil,Czechoslovakia-cseh
@@ -737,7 +738,6 @@ MOLNÁR Ferenc: A Pál utcai fiúk,Brasil,Italy
 PASSUTH László: Esőisten siratja Mexikót,Brasil,Mexico
 HARSÁNYI Zsolt: Magyar rapszódia: Liszt életének regénye,Brasil,Netherlands
 HARSÁNYI Zsolt: Magyar rapszódia: Liszt életének regénye,Brasil,Norway
-MÓRICZ Zsigmond: Árvácska,Brasil,PR China
 MOLNÁR Ferenc: A Pál utcai fiúk,Brasil,Poland
 MOLNÁR Ferenc: A Pál utcai fiúk,Brasil,Romania
 MOLNÁR Ferenc: A Pál utcai fiúk,Brasil,Spain
@@ -761,6 +761,19 @@ MOLNÁR Ferenc: A Pál utcai fiúk,Brasil,Yugoslavia
 PASSUTH László: Esőisten siratja Mexikót,Brasil,Yugoslavia
 HARSÁNYI Zsolt: Magyar rapszódia: Liszt életének regénye,Brasil,Yugoslavia
 ILLÉS Béla: Fegyvert s vitézt éneklek,Bulgaria,Chile
+ACZÉL Tamás: A szabadság árnyékában,Bulgaria,China
+ILLÉS Béla: Kárpáti rapszódia,Bulgaria,China
+JÓZSEF Attila: Források:,Bulgaria,China
+MÓRICZ Zsigmond: Források:,Bulgaria,China
+PETŐFI Sándor: Források:,Bulgaria,China
+PETŐFI Sándor: János vitéz,Bulgaria,China
+SZABÓ Pál: Talpalatnyi föld,Bulgaria,China
+VERES Péter: Próbatétel,Bulgaria,China
+ILLÉS Béla: Ég a Tisza,Bulgaria,China
+MIKSZÁTH Kálmán: Szent Péter esernyője,Bulgaria,China
+PETŐFI Sándor: Az apostol,Bulgaria,China
+JÓKAI Mór: Sárga rózsa,Bulgaria,China
+JÓKAI Mór: Egy magyar nábob,Bulgaria,China
 MOLNÁR Ferenc: A Pál utcai fiúk,Bulgaria,Colombia
 JÓZSEF Attila: Források:,Bulgaria,Cuba
 PETŐFI Sándor: Források:,Bulgaria,Cuba
@@ -1074,19 +1087,6 @@ ZILAHY Lajos: Ararát,Bulgaria,Norway
 KOSZTOLÁNYI Dezső: Édes Anna,Bulgaria,Norway
 ÖRKÉNY István: Rózsakiállítás,Bulgaria,Norway
 KARINTHY Ferenc: Epepe,Bulgaria,Norway
-ACZÉL Tamás: A szabadság árnyékában,Bulgaria,PR China
-ILLÉS Béla: Kárpáti rapszódia,Bulgaria,PR China
-JÓZSEF Attila: Források:,Bulgaria,PR China
-MÓRICZ Zsigmond: Források:,Bulgaria,PR China
-PETŐFI Sándor: Források:,Bulgaria,PR China
-PETŐFI Sándor: János vitéz,Bulgaria,PR China
-SZABÓ Pál: Talpalatnyi föld,Bulgaria,PR China
-VERES Péter: Próbatétel,Bulgaria,PR China
-ILLÉS Béla: Ég a Tisza,Bulgaria,PR China
-MIKSZÁTH Kálmán: Szent Péter esernyője,Bulgaria,PR China
-PETŐFI Sándor: Az apostol,Bulgaria,PR China
-JÓKAI Mór: Sárga rózsa,Bulgaria,PR China
-JÓKAI Mór: Egy magyar nábob,Bulgaria,PR China
 ILLÉS Béla: Kárpáti rapszódia,Bulgaria,Poland
 ILLÉS Béla: Szkipetárok,Bulgaria,Poland
 ILLYÉS Gyula: Puszták népe,Bulgaria,Poland
@@ -1441,6 +1441,215 @@ ILLÉS Béla: Fegyvert s vitézt éneklek,Chile,Poland
 ILLÉS Béla: Fegyvert s vitézt éneklek,Chile,Romania
 ZILAHY Lajos: A lélek kialszik,Chile,Spain
 ZILAHY Lajos: A lélek kialszik,Chile,Yugoslavia
+PETŐFI Sándor: Források:,China,Cuba
+JÓZSEF Attila: Források:,China,Cuba
+ACZÉL Tamás: A szabadság árnyékában,China,Czechoslovakia-cseh
+FAZEKAS Mihály: Lúdas Matyi,China,Czechoslovakia-cseh
+MIKSZÁTH Kálmán: Szent Péter esernyője,China,Czechoslovakia-cseh
+MÓRICZ Zsigmond: Források:,China,Czechoslovakia-cseh
+NAGY Sándor: Megbékélés,China,Czechoslovakia-cseh
+PETŐFI Sándor: Források:,China,Czechoslovakia-cseh
+PETŐFI Sándor: János vitéz,China,Czechoslovakia-cseh
+SZABÓ Pál: Talpalatnyi föld,China,Czechoslovakia-cseh
+VERES Péter: Próbatétel,China,Czechoslovakia-cseh
+JÓZSEF Attila: Források:,China,Czechoslovakia-cseh
+MÓRICZ Zsigmond: Árvácska,China,Czechoslovakia-cseh
+MÓRICZ Virág−THURZÓ Gábor(-MÓRICZ Zsigmond): Rokonok,China,Czechoslovakia-cseh
+JÓKAI Mór: Sárga rózsa,China,Czechoslovakia-cseh
+ILLÉS Béla: Ég a Tisza,China,Czechoslovakia-cseh
+ILLÉS Béla: Honfoglalás,China,Czechoslovakia-cseh
+ILLÉS Béla: Kárpáti rapszódia,China,Czechoslovakia-cseh
+VÖRÖSMARTY Mihály: Csongor és Tünde,China,Czechoslovakia-cseh
+ACZÉL Tamás: A szabadság árnyékában,China,Czechoslovakia-szlovák
+FAZEKAS Mihály: Lúdas Matyi,China,Czechoslovakia-szlovák
+MIKSZÁTH Kálmán: Szent Péter esernyője,China,Czechoslovakia-szlovák
+PETŐFI Sándor: Források:,China,Czechoslovakia-szlovák
+SZABÓ Pál: Talpalatnyi föld,China,Czechoslovakia-szlovák
+VERES Péter: Próbatétel,China,Czechoslovakia-szlovák
+JÓKAI Mór: Egy magyar nábob,China,Czechoslovakia-szlovák
+JÓZSEF Attila: Források:,China,Czechoslovakia-szlovák
+MÓRICZ Zsigmond: Árvácska,China,Czechoslovakia-szlovák
+JÓKAI Mór: Források:,China,Czechoslovakia-szlovák
+KARINTHY Frigyes: Források:,China,Czechoslovakia-szlovák
+PETŐFI Sándor: Az apostol,China,Czechoslovakia-szlovák
+ILLÉS Béla: Honfoglalás,China,Czechoslovakia-szlovák
+ILLÉS Béla: Kárpáti rapszódia,China,Czechoslovakia-szlovák
+VÖRÖSMARTY Mihály: Csongor és Tünde,China,Czechoslovakia-szlovák
+Hajnal Anna: Előre,China,Czechoslovakia-szlovák
+JÓZSEF Attila: Források:,China,Denmark
+PETŐFI Sándor: Források:,China,Egypt
+ARANY János: Toldi,China,Egypt
+MÓRICZ Zsigmond: Források:,China,Federal Republic of Germany
+MÓRICZ Zsigmond: Források:,China,Finland
+PETŐFI Sándor: Források:,China,Finland
+VERES Péter: Próbatétel,China,Finland
+PETŐFI Sándor: Források:,China,France
+PETŐFI Sándor: János vitéz,China,France
+VERES Péter: Próbatétel,China,France
+JÓZSEF Attila: Források:,China,France
+VÖRÖSMARTY Mihály: Csongor és Tünde,China,France
+MIKSZÁTH Kálmán: Szent Péter esernyője,China,GDR
+MÓRICZ Zsigmond: Források:,China,GDR
+NAGY Sándor: Megbékélés,China,GDR
+PETŐFI Sándor: Források:,China,GDR
+PETŐFI Sándor: János vitéz,China,GDR
+SZABÓ Pál: Talpalatnyi föld,China,GDR
+VERES Péter: Próbatétel,China,GDR
+HÁY Gyula: Erő,China,GDR
+JÓZSEF Attila: Források:,China,GDR
+JÓKAI Mór: Források:,China,GDR
+JÓKAI Mór: Sárga rózsa,China,GDR
+KARINTHY Frigyes: Források:,China,GDR
+ILLÉS Béla: Ég a Tisza,China,GDR
+ILLÉS Béla: Honfoglalás,China,GDR
+ILLÉS Béla: Kárpáti rapszódia,China,GDR
+VÖRÖSMARTY Mihály: Csongor és Tünde,China,GDR
+MIKSZÁTH Kálmán: Szent Péter esernyője,China,Hungary
+MÓRICZ Zsigmond: Források:,China,Hungary
+PETŐFI Sándor: Források:,China,Hungary
+PETŐFI Sándor: János vitéz,China,Hungary
+JÓZSEF Attila: Források:,China,Hungary
+TÖMÖRKÉNY István: Források:,China,Hungary
+KARINTHY Frigyes: Források:,China,Hungary
+PETŐFI Sándor: Az apostol,China,Hungary
+ILLÉS Béla: Kárpáti rapszódia,China,Hungary
+PETŐFI Sándor: Források:,China,India
+MÓRICZ Zsigmond: Források:,China,Iran
+PETŐFI Sándor: Források:,China,Iran
+VERES Péter: Próbatétel,China,Iran
+PETŐFI Sándor: Források:,China,Israel
+PETŐFI Sándor: Az apostol,China,Israel
+ILLÉS Béla: Kárpáti rapszódia,China,Israel
+ACZÉL Tamás: A szabadság árnyékában,China,Italy
+MIKSZÁTH Kálmán: Szent Péter esernyője,China,Italy
+PETŐFI Sándor: Források:,China,Italy
+VERES Péter: Próbatétel,China,Italy
+HÁY Gyula: Erő,China,Italy
+JÓZSEF Attila: Források:,China,Italy
+JÓKAI Mór: Sárga rózsa,China,Italy
+PETŐFI Sándor: Források:,China,Japan
+JÓKAI Mór: Sárga rózsa,China,Mexico
+NAGY Sándor: Megbékélés,China,Mongolia
+PETŐFI Sándor: Források:,China,Mongolia
+MIKSZÁTH Kálmán: Szent Péter esernyője,China,Netherlands
+ILLÉS Béla: Kárpáti rapszódia,China,Netherlands
+PETŐFI Sándor: Források:,China,North Korea
+PETŐFI Sándor: Források:,China,Norway
+JÓZSEF Attila: Források:,China,Norway
+HÁY Gyula: Az élet hídja,China,Poland
+MIKSZÁTH Kálmán: Szent Péter esernyője,China,Poland
+MÓRICZ Zsigmond: Források:,China,Poland
+PETŐFI Sándor: Források:,China,Poland
+VERES Péter: Próbatétel,China,Poland
+JÓKAI Mór: Egy magyar nábob,China,Poland
+JÓZSEF Attila: Források:,China,Poland
+KARINTHY Frigyes: Források:,China,Poland
+ILLÉS Béla: Ég a Tisza,China,Poland
+ILLÉS Béla: Kárpáti rapszódia,China,Poland
+JÓZSEF Attila: Források:,China,Portugal
+ACZÉL Tamás: A szabadság árnyékában,China,Romania
+FAZEKAS Mihály: Lúdas Matyi,China,Romania
+MARKOVITS Rodion: Szibériai garnizon,China,Romania
+MIKSZÁTH Kálmán: Szent Péter esernyője,China,Romania
+MÓRICZ Zsigmond: Források:,China,Romania
+PETŐFI Sándor: Források:,China,Romania
+PETŐFI Sándor: János vitéz,China,Romania
+VERES Péter: Próbatétel,China,Romania
+JÓZSEF Attila: Források:,China,Romania
+KARINTHY Frigyes: Források:,China,Romania
+PETŐFI Sándor: Az apostol,China,Romania
+ILLÉS Béla: Ég a Tisza,China,Romania
+ILLÉS Béla: Honfoglalás,China,Romania
+ILLÉS Béla: Kárpáti rapszódia,China,Romania
+MIKSZÁTH Kálmán: Szent Péter esernyője,China,Spain
+JÓZSEF Attila: Források:,China,Spain
+PETŐFI Sándor: Források:,China,Sweden
+MIKSZÁTH Kálmán: Szent Péter esernyője,China,Switzerland
+JÓZSEF Attila: Források:,China,Switzerland
+MÓRICZ Zsigmond: Árvácska,China,Switzerland
+JÓKAI Mór: Források:,China,Switzerland
+KARINTHY Frigyes: Források:,China,Switzerland
+MÓRICZ Zsigmond: Források:,China,Turkey
+PETŐFI Sándor: Források:,China,Turkey
+MIKSZÁTH Kálmán: Szent Péter esernyője,China,UK
+JÓZSEF Attila: Források:,China,UK
+PETŐFI Sándor: Források:,China,USA
+JÓZSEF Attila: Források:,China,USA
+NAGY Sándor: Megbékélés,China,USSR-altaji
+NAGY Sándor: Megbékélés,China,USSR-azerbajdzsán
+PETŐFI Sándor: Források:,China,USSR-azerbajdzsán
+JÓKAI Mór: Sárga rózsa,China,USSR-azerbajdzsán
+PETŐFI Sándor: Források:,China,USSR-baskir
+NAGY Sándor: Megbékélés,China,USSR-csuvas
+NAGY Sándor: Megbékélés,China,USSR-fehérorosz
+PETŐFI Sándor: Források:,China,USSR-fehérorosz
+NAGY Sándor: Megbékélés,China,USSR-finn
+MIKSZÁTH Kálmán: Szent Péter esernyője,China,USSR-grúz
+NAGY Sándor: Megbékélés,China,USSR-grúz
+PETŐFI Sándor: Források:,China,USSR-grúz
+PETŐFI Sándor: János vitéz,China,USSR-grúz
+ACZÉL Tamás: A szabadság árnyékában,China,USSR-kazah
+MIKSZÁTH Kálmán: Szent Péter esernyője,China,USSR-kazah
+NAGY Sándor: Megbékélés,China,USSR-kazah
+PETŐFI Sándor: Források:,China,USSR-kazah
+PETŐFI Sándor: Források:,China,USSR-kirgiz
+MIKSZÁTH Kálmán: Szent Péter esernyője,China,USSR-lett
+PETŐFI Sándor: Források:,China,USSR-lett
+JÓZSEF Attila: Források:,China,USSR-lett
+ILLÉS Béla: Kárpáti rapszódia,China,USSR-lett
+PETŐFI Sándor: Források:,China,USSR-litván
+JÓKAI Mór: Egy magyar nábob,China,USSR-litván
+JÓKAI Mór: Sárga rózsa,China,USSR-litván
+ILLÉS Béla: Kárpáti rapszódia,China,USSR-litván
+NAGY Sándor: Megbékélés,China,USSR-moldva
+PETŐFI Sándor: Források:,China,USSR-moldva
+ACZÉL Tamás: A szabadság árnyékában,China,USSR-orosz
+HÁY Gyula: Az élet hídja,China,USSR-orosz
+MÁNDI Éva: Hétköznapok hősei,China,USSR-orosz
+MIKSZÁTH Kálmán: Szent Péter esernyője,China,USSR-orosz
+MÓRICZ Zsigmond: Források:,China,USSR-orosz
+NAGY Sándor: Megbékélés,China,USSR-orosz
+PETŐFI Sándor: Források:,China,USSR-orosz
+PETŐFI Sándor: János vitéz,China,USSR-orosz
+SZABÓ Pál: Talpalatnyi föld,China,USSR-orosz
+VERES Péter: Próbatétel,China,USSR-orosz
+JÓKAI Mór: Egy magyar nábob,China,USSR-orosz
+JÓZSEF Attila: Források:,China,USSR-orosz
+TÖMÖRKÉNY István: Források:,China,USSR-orosz
+JÓKAI Mór: Sárga rózsa,China,USSR-orosz
+KARINTHY Frigyes: Források:,China,USSR-orosz
+ILLÉS Béla: Ég a Tisza,China,USSR-orosz
+ILLÉS Béla: Honfoglalás,China,USSR-orosz
+ILLÉS Béla: Kárpáti rapszódia,China,USSR-orosz
+VÖRÖSMARTY Mihály: Csongor és Tünde,China,USSR-orosz
+PETŐFI Sándor: Források:,China,USSR-tadzsik
+JÓKAI Mór: Sárga rózsa,China,USSR-tadzsik
+PETŐFI Sándor: Források:,China,USSR-türkmén
+JÓKAI Mór: Sárga rózsa,China,USSR-türkmén
+NAGY Sándor: Megbékélés,China,USSR-udmurt
+PETŐFI Sándor: Források:,China,USSR-udmurt
+ACZÉL Tamás: A szabadság árnyékában,China,USSR-ukrán
+MIKSZÁTH Kálmán: Szent Péter esernyője,China,USSR-ukrán
+MÓRICZ Zsigmond: Források:,China,USSR-ukrán
+PETŐFI Sándor: Források:,China,USSR-ukrán
+PETŐFI Sándor: János vitéz,China,USSR-ukrán
+JÓZSEF Attila: Források:,China,USSR-ukrán
+JÓKAI Mór: Sárga rózsa,China,USSR-ukrán
+PETŐFI Sándor: Az apostol,China,USSR-ukrán
+ILLÉS Béla: Kárpáti rapszódia,China,USSR-ukrán
+MIKSZÁTH Kálmán: Szent Péter esernyője,China,USSR-észt
+MÓRICZ Zsigmond: Források:,China,USSR-észt
+PETŐFI Sándor: Források:,China,USSR-észt
+PETŐFI Sándor: Források:,China,USSR-örmény
+PETŐFI Sándor: János vitéz,China,USSR-üzbég
+ILLÉS Béla: Kárpáti rapszódia,China,USSR-üzbég
+PETŐFI Sándor: Források:,China,Vietnam
+JÓZSEF Attila: Források:,China,Vietnam
+MIKSZÁTH Kálmán: Szent Péter esernyője,China,Yugoslavia
+PETŐFI Sándor: Források:,China,Yugoslavia
+JÓKAI Mór: Egy magyar nábob,China,Yugoslavia
+JÓZSEF Attila: Források:,China,Yugoslavia
+ILLÉS Béla: Kárpáti rapszódia,China,Yugoslavia
 MOLNÁR Ferenc: A Pál utcai fiúk,Colombia,Czechoslovakia-cseh
 MOLNÁR Ferenc: A Pál utcai fiúk,Colombia,Czechoslovakia-szlovák
 MOLNÁR Ferenc: A Pál utcai fiúk,Colombia,Federal Republic of Germany
@@ -1512,8 +1721,6 @@ JÓZSEF Attila: Források:,Cuba,Norway
 PETŐFI Sándor: Források:,Cuba,Norway
 KARINTHY Ferenc: Epepe,Cuba,Norway
 NÉMETH László: Iszony,Cuba,Norway
-JÓZSEF Attila: Források:,Cuba,PR China
-PETŐFI Sándor: Források:,Cuba,PR China
 JÓZSEF Attila: Források:,Cuba,Poland
 GÁRDONYI Géza: A láthatatlan ember,Cuba,Poland
 NÉMETH László: Bűn,Cuba,Poland
@@ -2000,23 +2207,6 @@ PETŐFI Sándor: Források:,Czechoslovakia-cseh,Norway
 HALASI Mária: Az utolsó padban,Czechoslovakia-cseh,Norway
 KARINTHY Ferenc: Epepe,Czechoslovakia-cseh,Norway
 Tóth Judith: Kifutópálya,Czechoslovakia-cseh,Norway
-ACZÉL Tamás: A szabadság árnyékában,Czechoslovakia-cseh,PR China
-FAZEKAS Mihály: Lúdas Matyi,Czechoslovakia-cseh,PR China
-MÓRICZ Zsigmond: Források:,Czechoslovakia-cseh,PR China
-NAGY Sándor: Megbékélés,Czechoslovakia-cseh,PR China
-PETŐFI Sándor: János vitéz,Czechoslovakia-cseh,PR China
-SZABÓ Pál: Talpalatnyi föld,Czechoslovakia-cseh,PR China
-VERES Péter: Próbatétel,Czechoslovakia-cseh,PR China
-ILLÉS Béla: Honfoglalás,Czechoslovakia-cseh,PR China
-JÓZSEF Attila: Források:,Czechoslovakia-cseh,PR China
-MÓRICZ Zsigmond: Árvácska,Czechoslovakia-cseh,PR China
-ILLÉS Béla: Ég a Tisza,Czechoslovakia-cseh,PR China
-MIKSZÁTH Kálmán: Szent Péter esernyője,Czechoslovakia-cseh,PR China
-ILLÉS Béla: Kárpáti rapszódia,Czechoslovakia-cseh,PR China
-JÓKAI Mór: Sárga rózsa,Czechoslovakia-cseh,PR China
-PETŐFI Sándor: Források:,Czechoslovakia-cseh,PR China
-MÓRICZ Virág−THURZÓ Gábor(-MÓRICZ Zsigmond): Rokonok,Czechoslovakia-cseh,PR China
-VÖRÖSMARTY Mihály: Csongor és Tünde,Czechoslovakia-cseh,PR China
 ADY Endre: Források:,Czechoslovakia-cseh,Poland
 BALÁZS Anna: Mire megjönnek a fecskék,Czechoslovakia-cseh,Poland
 BALÁZS Anna: Névtelen hősök,Czechoslovakia-cseh,Poland
@@ -2817,22 +3007,6 @@ PETŐFI Sándor: Források:,Czechoslovakia-szlovák,Norway
 NÉMETH László: Iszony,Czechoslovakia-szlovák,Norway
 KOSZTOLÁNYI Dezső: Édes Anna,Czechoslovakia-szlovák,Norway
 HALASI Mária: Az utolsó padban,Czechoslovakia-szlovák,Norway
-ACZÉL Tamás: A szabadság árnyékában,Czechoslovakia-szlovák,PR China
-FAZEKAS Mihály: Lúdas Matyi,Czechoslovakia-szlovák,PR China
-JÓZSEF Attila: Források:,Czechoslovakia-szlovák,PR China
-MIKSZÁTH Kálmán: Szent Péter esernyője,Czechoslovakia-szlovák,PR China
-PETŐFI Sándor: Források:,Czechoslovakia-szlovák,PR China
-PETŐFI Sándor: Az apostol,Czechoslovakia-szlovák,PR China
-SZABÓ Pál: Talpalatnyi föld,Czechoslovakia-szlovák,PR China
-VERES Péter: Próbatétel,Czechoslovakia-szlovák,PR China
-ILLÉS Béla: Honfoglalás,Czechoslovakia-szlovák,PR China
-MÓRICZ Zsigmond: Árvácska,Czechoslovakia-szlovák,PR China
-KARINTHY Frigyes: Források:,Czechoslovakia-szlovák,PR China
-VÖRÖSMARTY Mihály: Csongor és Tünde,Czechoslovakia-szlovák,PR China
-JÓKAI Mór: Források:,Czechoslovakia-szlovák,PR China
-JÓKAI Mór: Egy magyar nábob,Czechoslovakia-szlovák,PR China
-ILLÉS Béla: Kárpáti rapszódia,Czechoslovakia-szlovák,PR China
-Hajnal Anna: Előre,Czechoslovakia-szlovák,PR China
 ADY Endre: Források:,Czechoslovakia-szlovák,Poland
 FÖLDES Jolán: A halászó macska uccája,Czechoslovakia-szlovák,Poland
 GERGELY Sándor: Farkasok*,Czechoslovakia-szlovák,Poland
@@ -3329,7 +3503,6 @@ JÓZSEF Attila: Források:,Denmark,Norway
 KONRÁD György: A látogató,Denmark,Norway
 VÁMOS Miklós: Zenga Zének,Denmark,Norway
 NÁDAS Péter: Egy családregény vége,Denmark,Norway
-JÓZSEF Attila: Források:,Denmark,PR China
 DÉRY Tibor: Niki,Denmark,Poland
 SZABÓ Magda: Az őz,Denmark,Poland
 JÓZSEF Attila: Források:,Denmark,Poland
@@ -3402,8 +3575,6 @@ PETŐFI Sándor: Források:,Egypt,Mongolia
 VASZARY Gábor: Monpti,Egypt,Netherlands
 PETŐFI Sándor: Források:,Egypt,North Korea
 PETŐFI Sándor: Források:,Egypt,Norway
-PETŐFI Sándor: Források:,Egypt,PR China
-ARANY János: Toldi,Egypt,PR China
 PETŐFI Sándor: Források:,Egypt,Poland
 PETŐFI Sándor: Források:,Egypt,Romania
 VASZARY Gábor: Monpti,Egypt,South Korea
@@ -3646,7 +3817,6 @@ HARSÁNYI Zsolt: Magyar rapszódia: Liszt életének regénye,Federal Republic o
 ÖRKÉNY István: Rózsakiállítás,Federal Republic of Germany,Norway
 DÉRY Tibor: Niki,Federal Republic of Germany,Norway
 KOSZTOLÁNYI Dezső: Édes Anna,Federal Republic of Germany,Norway
-MÓRICZ Zsigmond: Források:,Federal Republic of Germany,PR China
 MOLNÁR Ferenc: A Pál utcai fiúk,Federal Republic of Germany,Poland
 JUST Béla: Az eszelősök,Federal Republic of Germany,Poland
 GÁRDONYI Géza: A láthatatlan ember,Federal Republic of Germany,Poland
@@ -4040,9 +4210,6 @@ HALASI Mária: Az utolsó padban,Finland,Norway
 KONRÁD György: A látogató,Finland,Norway
 ILLYÉS Gyula: Források:,Finland,Norway
 KARINTHY Ferenc: Epepe,Finland,Norway
-MÓRICZ Zsigmond: Források:,Finland,PR China
-VERES Péter: Próbatétel,Finland,PR China
-PETŐFI Sándor: Források:,Finland,PR China
 ADY Endre: Források:,Finland,Poland
 MOLNÁR Ferenc: A Pál utcai fiúk,Finland,Poland
 MÓRICZ Zsigmond: Források:,Finland,Poland
@@ -4347,11 +4514,6 @@ KARDOS G. György: Avraham Bogatir hét napja,France,Norway
 KONRÁD György: A látogató,France,Norway
 ÖRKÉNY István: Rózsakiállítás,France,Norway
 RÓNAY György: A párduc és a gödölye,France,Norway
-JÓZSEF Attila: Források:,France,PR China
-PETŐFI Sándor: Források:,France,PR China
-PETŐFI Sándor: János vitéz,France,PR China
-VERES Péter: Próbatétel,France,PR China
-VÖRÖSMARTY Mihály: Csongor és Tünde,France,PR China
 JÓZSEF Attila: Források:,France,Poland
 JUST Béla: Az eszelősök,France,Poland
 PETŐFI Sándor: Források:,France,Poland
@@ -4768,22 +4930,6 @@ KARDOS G. György: Avraham Bogatir hét napja,GDR,Norway
 ÖRKÉNY István: Rózsakiállítás,GDR,Norway
 NÉMETH László: Iszony,GDR,Norway
 Tóth Judith: Kifutópálya,GDR,Norway
-HÁY Gyula: Erő,GDR,PR China
-ILLÉS Béla: Kárpáti rapszódia,GDR,PR China
-MÓRICZ Zsigmond: Források:,GDR,PR China
-NAGY Sándor: Megbékélés,GDR,PR China
-PETŐFI Sándor: Források:,GDR,PR China
-SZABÓ Pál: Talpalatnyi föld,GDR,PR China
-VERES Péter: Próbatétel,GDR,PR China
-VÖRÖSMARTY Mihály: Csongor és Tünde,GDR,PR China
-ILLÉS Béla: Ég a Tisza,GDR,PR China
-ILLÉS Béla: Honfoglalás,GDR,PR China
-JÓKAI Mór: Források:,GDR,PR China
-JÓKAI Mór: Sárga rózsa,GDR,PR China
-PETŐFI Sándor: János vitéz,GDR,PR China
-JÓZSEF Attila: Források:,GDR,PR China
-MIKSZÁTH Kálmán: Szent Péter esernyője,GDR,PR China
-KARINTHY Frigyes: Források:,GDR,PR China
 ASZTALOS István: Szél fúvatlan nem indul,GDR,Poland
 DÉRY Tibor: Felelet,GDR,Poland
 HÁY Gyula: Tiszazug,GDR,Poland
@@ -5354,15 +5500,6 @@ MADÁCH Imre: Az ember tragédiája,Hungary,Norway
 PETŐFI Sándor: Források:,Hungary,Norway
 KOSZTOLÁNYI Dezső: Édes Anna,Hungary,Norway
 GYÁRFÁS Miklós: Mesterfogás,Hungary,Norway
-JÓZSEF Attila: Források:,Hungary,PR China
-PETŐFI Sándor: Források:,Hungary,PR China
-PETŐFI Sándor: János vitéz,Hungary,PR China
-TÖMÖRKÉNY István: Források:,Hungary,PR China
-MIKSZÁTH Kálmán: Szent Péter esernyője,Hungary,PR China
-PETŐFI Sándor: Az apostol,Hungary,PR China
-ILLÉS Béla: Kárpáti rapszódia,Hungary,PR China
-KARINTHY Frigyes: Források:,Hungary,PR China
-MÓRICZ Zsigmond: Források:,Hungary,PR China
 ADY Endre: Források:,Hungary,Poland
 JÓZSEF Attila: Források:,Hungary,Poland
 MADÁCH Imre: Az ember tragédiája,Hungary,Poland
@@ -5693,7 +5830,6 @@ PETŐFI Sándor: Források:,India,Japan
 PETŐFI Sándor: Források:,India,Mongolia
 PETŐFI Sándor: Források:,India,North Korea
 PETŐFI Sándor: Források:,India,Norway
-PETŐFI Sándor: Források:,India,PR China
 ADY Endre: Források:,India,Poland
 PETŐFI Sándor: Források:,India,Poland
 ADY Endre: Források:,India,Romania
@@ -5735,9 +5871,6 @@ PETŐFI Sándor: Források:,Iran,Japan
 PETŐFI Sándor: Források:,Iran,Mongolia
 PETŐFI Sándor: Források:,Iran,North Korea
 PETŐFI Sándor: Források:,Iran,Norway
-MÓRICZ Zsigmond: Források:,Iran,PR China
-PETŐFI Sándor: Források:,Iran,PR China
-VERES Péter: Próbatétel,Iran,PR China
 MÓRICZ Zsigmond: Források:,Iran,Poland
 PETŐFI Sándor: Források:,Iran,Poland
 VERES Péter: Próbatétel,Iran,Poland
@@ -5786,9 +5919,6 @@ PETŐFI Sándor: Források:,Israel,North Korea
 PETŐFI Sándor: Források:,Israel,Norway
 HARSÁNYI Zsolt: Magyar rapszódia: Liszt életének regénye,Israel,Norway
 KARDOS G. György: Avraham Bogatir hét napja,Israel,Norway
-PETŐFI Sándor: Források:,Israel,PR China
-PETŐFI Sándor: Az apostol,Israel,PR China
-ILLÉS Béla: Kárpáti rapszódia,Israel,PR China
 PETŐFI Sándor: Források:,Israel,Poland
 ADY Endre: Források:,Israel,Poland
 ILLÉS Béla: Kárpáti rapszódia,Israel,Poland
@@ -5913,13 +6043,6 @@ ILLYÉS Gyula: Források:,Italy,Norway
 HALASI Mária: Az utolsó padban,Italy,Norway
 KONRÁD György: A látogató,Italy,Norway
 KARDOS G. György: Avraham Bogatir hét napja,Italy,Norway
-ACZÉL Tamás: A szabadság árnyékában,Italy,PR China
-HÁY Gyula: Erő,Italy,PR China
-JÓKAI Mór: Sárga rózsa,Italy,PR China
-JÓZSEF Attila: Források:,Italy,PR China
-MIKSZÁTH Kálmán: Szent Péter esernyője,Italy,PR China
-VERES Péter: Próbatétel,Italy,PR China
-PETŐFI Sándor: Források:,Italy,PR China
 JÓZSEF Attila: Források:,Italy,Poland
 MIKSZÁTH Kálmán: Szent Péter esernyője,Italy,Poland
 MOLNÁR Ferenc: A Pál utcai fiúk,Italy,Poland
@@ -6144,7 +6267,6 @@ MADÁCH Imre: Az ember tragédiája,Japan,Norway
 PETŐFI Sándor: Források:,Japan,Norway
 KONRÁD György: A látogató,Japan,Norway
 KARINTHY Ferenc: Epepe,Japan,Norway
-PETŐFI Sándor: Források:,Japan,PR China
 MADÁCH Imre: Az ember tragédiája,Japan,Poland
 ILLYÉS Gyula: Puszták népe,Japan,Poland
 PETŐFI Sándor: Források:,Japan,Poland
@@ -6211,7 +6333,6 @@ MOLNÁR Ferenc: Források:,Liechtenstein,USA
 MOLNÁR Ferenc: Források:,Liechtenstein,USSR-orosz
 SZÉKELY László: Őserdőktől ültetvényekig,Malaysia,Singapore
 DÉRY Tibor: Források:,Mexico,Netherlands
-JÓKAI Mór: Sárga rózsa,Mexico,PR China
 DÉRY Tibor: Források:,Mexico,Poland
 DÉRY Tibor: Források:,Mexico,Portugal
 DÉRY Tibor: Források:,Mexico,Romania
@@ -6233,8 +6354,6 @@ PASSUTH László: Esőisten siratja Mexikót,Mexico,Yugoslavia
 DÉRY Tibor: Források:,Mexico,Yugoslavia
 PETŐFI Sándor: Források:,Mongolia,North Korea
 PETŐFI Sándor: Források:,Mongolia,Norway
-PETŐFI Sándor: Források:,Mongolia,PR China
-NAGY Sándor: Megbékélés,Mongolia,PR China
 PETŐFI Sándor: Források:,Mongolia,Poland
 KARINTHY Ferenc: Budapesti tavasz,Mongolia,Poland
 KARINTHY Ferenc: Budapesti tavasz,Mongolia,Portugal
@@ -6278,8 +6397,6 @@ HARSÁNYI Zsolt: Magyar rapszódia: Liszt életének regénye,Netherlands,Norway
 NÉMETH László: Iszony,Netherlands,Norway
 KONRÁD György: A látogató,Netherlands,Norway
 NÁDAS Péter: Egy családregény vége,Netherlands,Norway
-ILLÉS Béla: Kárpáti rapszódia,Netherlands,PR China
-MIKSZÁTH Kálmán: Szent Péter esernyője,Netherlands,PR China
 ILLÉS Béla: Fegyvert s vitézt éneklek,Netherlands,Poland
 ILLÉS Béla: Kárpáti rapszódia,Netherlands,Poland
 FÖLDES Jolán: A halászó macska uccája,Netherlands,Poland
@@ -6385,7 +6502,6 @@ ILLYÉS Gyula: Ebéd a kastélyban,Netherlands,Yugoslavia
 HARSÁNYI Zsolt: És mégis mozog a föld,Netherlands,Yugoslavia
 GÁRDONYI Géza: Egri csillagok,Netherlands,Yugoslavia
 PETŐFI Sándor: Források:,North Korea,Norway
-PETŐFI Sándor: Források:,North Korea,PR China
 PETŐFI Sándor: Források:,North Korea,Poland
 PETŐFI Sándor: Források:,North Korea,Romania
 PETŐFI Sándor: Források:,North Korea,Sweden
@@ -6409,8 +6525,6 @@ PETŐFI Sándor: Források:,North Korea,USSR-észt
 PETŐFI Sándor: Források:,North Korea,USSR-örmény
 PETŐFI Sándor: Források:,North Korea,Vietnam
 PETŐFI Sándor: Források:,North Korea,Yugoslavia
-PETŐFI Sándor: Források:,Norway,PR China
-JÓZSEF Attila: Források:,Norway,PR China
 DÉRY Tibor: Niki,Norway,Poland
 NÉMETH László: Iszony,Norway,Poland
 PETŐFI Sándor: Források:,Norway,Poland
@@ -6503,120 +6617,6 @@ NÁDAS Péter: Egy családregény vége,Norway,Yugoslavia
 JÓZSEF Attila: Források:,Norway,Yugoslavia
 KARDOS G. György: Avraham Bogatir hét napja,Norway,Yugoslavia
 KARINTHY Ferenc: Hangok az űrben,Norway,Yugoslavia
-HÁY Gyula: Az élet hídja,PR China,Poland
-MIKSZÁTH Kálmán: Szent Péter esernyője,PR China,Poland
-MÓRICZ Zsigmond: Források:,PR China,Poland
-PETŐFI Sándor: Források:,PR China,Poland
-VERES Péter: Próbatétel,PR China,Poland
-JÓKAI Mór: Egy magyar nábob,PR China,Poland
-JÓZSEF Attila: Források:,PR China,Poland
-KARINTHY Frigyes: Források:,PR China,Poland
-ILLÉS Béla: Ég a Tisza,PR China,Poland
-ILLÉS Béla: Kárpáti rapszódia,PR China,Poland
-JÓZSEF Attila: Források:,PR China,Portugal
-ACZÉL Tamás: A szabadság árnyékában,PR China,Romania
-FAZEKAS Mihály: Lúdas Matyi,PR China,Romania
-MARKOVITS Rodion: Szibériai garnizon,PR China,Romania
-MIKSZÁTH Kálmán: Szent Péter esernyője,PR China,Romania
-MÓRICZ Zsigmond: Források:,PR China,Romania
-PETŐFI Sándor: Források:,PR China,Romania
-PETŐFI Sándor: János vitéz,PR China,Romania
-VERES Péter: Próbatétel,PR China,Romania
-JÓZSEF Attila: Források:,PR China,Romania
-KARINTHY Frigyes: Források:,PR China,Romania
-PETŐFI Sándor: Az apostol,PR China,Romania
-ILLÉS Béla: Ég a Tisza,PR China,Romania
-ILLÉS Béla: Honfoglalás,PR China,Romania
-ILLÉS Béla: Kárpáti rapszódia,PR China,Romania
-MIKSZÁTH Kálmán: Szent Péter esernyője,PR China,Spain
-JÓZSEF Attila: Források:,PR China,Spain
-PETŐFI Sándor: Források:,PR China,Sweden
-MIKSZÁTH Kálmán: Szent Péter esernyője,PR China,Switzerland
-JÓZSEF Attila: Források:,PR China,Switzerland
-MÓRICZ Zsigmond: Árvácska,PR China,Switzerland
-JÓKAI Mór: Források:,PR China,Switzerland
-KARINTHY Frigyes: Források:,PR China,Switzerland
-MÓRICZ Zsigmond: Források:,PR China,Turkey
-PETŐFI Sándor: Források:,PR China,Turkey
-MIKSZÁTH Kálmán: Szent Péter esernyője,PR China,UK
-JÓZSEF Attila: Források:,PR China,UK
-PETŐFI Sándor: Források:,PR China,USA
-JÓZSEF Attila: Források:,PR China,USA
-NAGY Sándor: Megbékélés,PR China,USSR-altaji
-NAGY Sándor: Megbékélés,PR China,USSR-azerbajdzsán
-PETŐFI Sándor: Források:,PR China,USSR-azerbajdzsán
-JÓKAI Mór: Sárga rózsa,PR China,USSR-azerbajdzsán
-PETŐFI Sándor: Források:,PR China,USSR-baskir
-NAGY Sándor: Megbékélés,PR China,USSR-csuvas
-NAGY Sándor: Megbékélés,PR China,USSR-fehérorosz
-PETŐFI Sándor: Források:,PR China,USSR-fehérorosz
-NAGY Sándor: Megbékélés,PR China,USSR-finn
-MIKSZÁTH Kálmán: Szent Péter esernyője,PR China,USSR-grúz
-NAGY Sándor: Megbékélés,PR China,USSR-grúz
-PETŐFI Sándor: Források:,PR China,USSR-grúz
-PETŐFI Sándor: János vitéz,PR China,USSR-grúz
-ACZÉL Tamás: A szabadság árnyékában,PR China,USSR-kazah
-MIKSZÁTH Kálmán: Szent Péter esernyője,PR China,USSR-kazah
-NAGY Sándor: Megbékélés,PR China,USSR-kazah
-PETŐFI Sándor: Források:,PR China,USSR-kazah
-PETŐFI Sándor: Források:,PR China,USSR-kirgiz
-MIKSZÁTH Kálmán: Szent Péter esernyője,PR China,USSR-lett
-PETŐFI Sándor: Források:,PR China,USSR-lett
-JÓZSEF Attila: Források:,PR China,USSR-lett
-ILLÉS Béla: Kárpáti rapszódia,PR China,USSR-lett
-PETŐFI Sándor: Források:,PR China,USSR-litván
-JÓKAI Mór: Egy magyar nábob,PR China,USSR-litván
-JÓKAI Mór: Sárga rózsa,PR China,USSR-litván
-ILLÉS Béla: Kárpáti rapszódia,PR China,USSR-litván
-NAGY Sándor: Megbékélés,PR China,USSR-moldva
-PETŐFI Sándor: Források:,PR China,USSR-moldva
-ACZÉL Tamás: A szabadság árnyékában,PR China,USSR-orosz
-HÁY Gyula: Az élet hídja,PR China,USSR-orosz
-MÁNDI Éva: Hétköznapok hősei,PR China,USSR-orosz
-MIKSZÁTH Kálmán: Szent Péter esernyője,PR China,USSR-orosz
-MÓRICZ Zsigmond: Források:,PR China,USSR-orosz
-NAGY Sándor: Megbékélés,PR China,USSR-orosz
-PETŐFI Sándor: Források:,PR China,USSR-orosz
-PETŐFI Sándor: János vitéz,PR China,USSR-orosz
-SZABÓ Pál: Talpalatnyi föld,PR China,USSR-orosz
-VERES Péter: Próbatétel,PR China,USSR-orosz
-JÓKAI Mór: Egy magyar nábob,PR China,USSR-orosz
-JÓZSEF Attila: Források:,PR China,USSR-orosz
-TÖMÖRKÉNY István: Források:,PR China,USSR-orosz
-JÓKAI Mór: Sárga rózsa,PR China,USSR-orosz
-KARINTHY Frigyes: Források:,PR China,USSR-orosz
-ILLÉS Béla: Ég a Tisza,PR China,USSR-orosz
-ILLÉS Béla: Honfoglalás,PR China,USSR-orosz
-ILLÉS Béla: Kárpáti rapszódia,PR China,USSR-orosz
-VÖRÖSMARTY Mihály: Csongor és Tünde,PR China,USSR-orosz
-PETŐFI Sándor: Források:,PR China,USSR-tadzsik
-JÓKAI Mór: Sárga rózsa,PR China,USSR-tadzsik
-PETŐFI Sándor: Források:,PR China,USSR-türkmén
-JÓKAI Mór: Sárga rózsa,PR China,USSR-türkmén
-NAGY Sándor: Megbékélés,PR China,USSR-udmurt
-PETŐFI Sándor: Források:,PR China,USSR-udmurt
-ACZÉL Tamás: A szabadság árnyékában,PR China,USSR-ukrán
-MIKSZÁTH Kálmán: Szent Péter esernyője,PR China,USSR-ukrán
-MÓRICZ Zsigmond: Források:,PR China,USSR-ukrán
-PETŐFI Sándor: Források:,PR China,USSR-ukrán
-PETŐFI Sándor: János vitéz,PR China,USSR-ukrán
-JÓZSEF Attila: Források:,PR China,USSR-ukrán
-JÓKAI Mór: Sárga rózsa,PR China,USSR-ukrán
-PETŐFI Sándor: Az apostol,PR China,USSR-ukrán
-ILLÉS Béla: Kárpáti rapszódia,PR China,USSR-ukrán
-MIKSZÁTH Kálmán: Szent Péter esernyője,PR China,USSR-észt
-MÓRICZ Zsigmond: Források:,PR China,USSR-észt
-PETŐFI Sándor: Források:,PR China,USSR-észt
-PETŐFI Sándor: Források:,PR China,USSR-örmény
-PETŐFI Sándor: János vitéz,PR China,USSR-üzbég
-ILLÉS Béla: Kárpáti rapszódia,PR China,USSR-üzbég
-PETŐFI Sándor: Források:,PR China,Vietnam
-JÓZSEF Attila: Források:,PR China,Vietnam
-MIKSZÁTH Kálmán: Szent Péter esernyője,PR China,Yugoslavia
-PETŐFI Sándor: Források:,PR China,Yugoslavia
-JÓKAI Mór: Egy magyar nábob,PR China,Yugoslavia
-JÓZSEF Attila: Források:,PR China,Yugoslavia
-ILLÉS Béla: Kárpáti rapszódia,PR China,Yugoslavia
 FÖLDES Jolán: A halászó macska uccája,Poland,Portugal
 JÓZSEF Attila: Források:,Poland,Portugal
 DÉRY Tibor: Források:,Poland,Portugal

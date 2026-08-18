@@ -16,6 +16,8 @@ Albania,Canada,0,0,0
 Canada,Albania,0,0,0
 Albania,Chile,0,0,0
 Chile,Albania,0,0,0
+Albania,China,0,0,0
+China,Albania,0,0,0
 Albania,Colombia,0,0,0
 Colombia,Albania,0,0,0
 Albania,Cuba,0,0,0
@@ -60,8 +62,6 @@ Albania,Netherlands,0,0,0
 Netherlands,Albania,0,0,0
 Albania,Norway,0,0,0
 Norway,Albania,0,0,0
-Albania,PR China,0,0,0
-PR China,Albania,0,0,0
 Albania,Poland,0,0,0
 Poland,Albania,0,0,0
 Albania,Portugal,0,0,0
@@ -143,6 +143,8 @@ Argentina,Canada,0,0,0
 Canada,Argentina,0,0,0
 Argentina,Chile,0,0,0
 Chile,Argentina,0,0,0
+Argentina,China,0,0,0
+China,Argentina,0,0,0
 Argentina,Colombia,0,0,0
 Colombia,Argentina,0,0,0
 Argentina,Cuba,0,0,0
@@ -187,8 +189,6 @@ Argentina,Netherlands,0.14285714285714285,1,1
 Netherlands,Argentina,0.022727272727272728,1,0
 Argentina,Norway,0.14285714285714285,1,1
 Norway,Argentina,0.05,1,0
-Argentina,PR China,0,0,0
-PR China,Argentina,0,0,0
 Argentina,Poland,0.14285714285714285,1,1
 Poland,Argentina,0.0043859649122807015,1,0
 Argentina,Portugal,0,0,0
@@ -268,6 +268,8 @@ Australia,Canada,0,0,0
 Canada,Australia,0,0,0
 Australia,Chile,0,0,0
 Chile,Australia,0,0,0
+Australia,China,0,0,0
+China,Australia,0,0,0
 Australia,Colombia,0,0,0
 Colombia,Australia,0,0,0
 Australia,Cuba,0,0,0
@@ -312,8 +314,6 @@ Australia,Netherlands,0.2,1,1
 Netherlands,Australia,0.022727272727272728,1,0
 Australia,Norway,0.2,1,1
 Norway,Australia,0.05,1,0
-Australia,PR China,0,0,0
-PR China,Australia,0,0,0
 Australia,Poland,0,0,0
 Poland,Australia,0,0,0
 Australia,Portugal,0,0,0
@@ -391,6 +391,8 @@ Austria,Canada,0,0,0
 Canada,Austria,0,0,0
 Austria,Chile,0.014492753623188406,1,1
 Chile,Austria,0.5,1,0
+Austria,China,0,0,0
+China,Austria,0,0,0
 Austria,Colombia,0,0,0
 Colombia,Austria,0,0,0
 Austria,Cuba,0,0,0
@@ -435,8 +437,6 @@ Austria,Netherlands,0.10144927536231885,7,3
 Netherlands,Austria,0.1590909090909091,7,4
 Austria,Norway,0.014492753623188406,1,0
 Norway,Austria,0.05,1,1
-Austria,PR China,0,0,0
-PR China,Austria,0,0,0
 Austria,Poland,0.11594202898550725,8,6
 Poland,Austria,0.03508771929824561,8,2
 Austria,Portugal,0,0,0
@@ -512,6 +512,8 @@ Belgium,Canada,0,0,0
 Canada,Belgium,0,0,0
 Belgium,Chile,0,0,0
 Chile,Belgium,0,0,0
+Belgium,China,0,0,0
+China,Belgium,0,0,0
 Belgium,Colombia,0,0,0
 Colombia,Belgium,0,0,0
 Belgium,Cuba,0,0,0
@@ -556,8 +558,6 @@ Belgium,Netherlands,0.23076923076923078,6,4.5
 Netherlands,Belgium,0.13636363636363635,6,1.5
 Belgium,Norway,0.11538461538461539,3,2
 Norway,Belgium,0.15,3,1
-Belgium,PR China,0,0,0
-PR China,Belgium,0,0,0
 Belgium,Poland,0.11538461538461539,3,3
 Poland,Belgium,0.013157894736842105,3,0
 Belgium,Portugal,0.038461538461538464,1,1
@@ -631,6 +631,8 @@ Brasil,Canada,0,0,0
 Canada,Brasil,0,0,0
 Brasil,Chile,0,0,0
 Chile,Brasil,0,0,0
+Brasil,China,0.16666666666666666,1,0
+China,Brasil,0.03571428571428571,1,1
 Brasil,Colombia,0,0,0
 Colombia,Brasil,0,0,0
 Brasil,Cuba,0,0,0
@@ -675,8 +677,6 @@ Brasil,Netherlands,0.16666666666666666,1,1
 Netherlands,Brasil,0.022727272727272728,1,0
 Brasil,Norway,0.16666666666666666,1,1
 Norway,Brasil,0.05,1,0
-Brasil,PR China,0.16666666666666666,1,0
-PR China,Brasil,0.03571428571428571,1,1
 Brasil,Poland,0,0,0
 Poland,Brasil,0,0,0
 Brasil,Portugal,0,0,0
@@ -748,6 +748,8 @@ Bulgaria,Canada,0,0,0
 Canada,Bulgaria,0,0,0
 Bulgaria,Chile,0.009259259259259259,1,1
 Chile,Bulgaria,0.5,1,0
+Bulgaria,China,0,0,0
+China,Bulgaria,0,0,0
 Bulgaria,Colombia,0,0,0
 Colombia,Bulgaria,0,0,0
 Bulgaria,Cuba,0.009259259259259259,1,0
@@ -792,8 +794,6 @@ Bulgaria,Netherlands,0.018518518518518517,2,0
 Netherlands,Bulgaria,0.045454545454545456,2,2
 Bulgaria,Norway,0.018518518518518517,2,1
 Norway,Bulgaria,0.1,2,1
-Bulgaria,PR China,0,0,0
-PR China,Bulgaria,0,0,0
 Bulgaria,Poland,0.1388888888888889,15,7
 Poland,Bulgaria,0.06578947368421052,15,8
 Bulgaria,Portugal,0,0,0
@@ -863,6 +863,8 @@ Yugoslavia,Bulgaria,0.046875,6,4
 Canada,Canada,NA,NA,NA
 Canada,Chile,0,0,0
 Chile,Canada,0,0,0
+Canada,China,0,0,0
+China,Canada,0,0,0
 Canada,Colombia,0,0,0
 Colombia,Canada,0,0,0
 Canada,Cuba,0,0,0
@@ -907,8 +909,6 @@ Canada,Netherlands,0,0,0
 Netherlands,Canada,0,0,0
 Canada,Norway,0,0,0
 Norway,Canada,0,0,0
-Canada,PR China,0,0,0
-PR China,Canada,0,0,0
 Canada,Poland,0.3333333333333333,1,0
 Poland,Canada,0.0043859649122807015,1,1
 Canada,Portugal,0,0,0
@@ -976,6 +976,8 @@ Vietnam,Canada,0,0,0
 Canada,Yugoslavia,0,0,0
 Yugoslavia,Canada,0,0,0
 Chile,Chile,NA,NA,NA
+Chile,China,0,0,0
+China,Chile,0,0,0
 Chile,Colombia,0,0,0
 Colombia,Chile,0,0,0
 Chile,Cuba,0,0,0
@@ -1020,8 +1022,6 @@ Chile,Netherlands,0.5,1,0
 Netherlands,Chile,0.022727272727272728,1,1
 Chile,Norway,0,0,0
 Norway,Chile,0,0,0
-Chile,PR China,0,0,0
-PR China,Chile,0,0,0
 Chile,Poland,0.5,1,0
 Poland,Chile,0.0043859649122807015,1,1
 Chile,Portugal,0,0,0
@@ -1088,6 +1088,117 @@ Chile,Vietnam,0,0,0
 Vietnam,Chile,0,0,0
 Chile,Yugoslavia,0.5,1,0
 Yugoslavia,Chile,0.0078125,1,1
+China,China,NA,NA,NA
+China,Colombia,0,0,0
+Colombia,China,0,0,0
+China,Cuba,0,0,0
+Cuba,China,0,0,0
+China,Czechoslovakia-cseh,0.10714285714285714,3,2.5
+Czechoslovakia-cseh,China,0.012605042016806723,3,0.5
+China,Czechoslovakia-szlovák,0.10714285714285714,3,1.5
+Czechoslovakia-szlovák,China,0.010452961672473868,3,1.5
+China,Denmark,0,0,0
+Denmark,China,0,0,0
+China,Egypt,0.03571428571428571,1,0
+Egypt,China,0.25,1,1
+China,Federal Republic of Germany,0,0,0
+Federal Republic of Germany,China,0,0,0
+China,Finland,0,0,0
+Finland,China,0,0,0
+China,France,0,0,0
+France,China,0,0,0
+China,GDR,0.03571428571428571,1,0
+GDR,China,0.00398406374501992,1,1
+China,Greece,0,0,0
+Greece,China,0,0,0
+China,Hungary,0,0,0
+Hungary,China,0,0,0
+China,India,0,0,0
+India,China,0,0,0
+China,Iran,0,0,0
+Iran,China,0,0,0
+China,Israel,0,0,0
+Israel,China,0,0,0
+China,Italy,0.03571428571428571,1,0
+Italy,China,0.016666666666666666,1,1
+China,Japan,0,0,0
+Japan,China,0,0,0
+China,Malaysia,0,0,0
+Malaysia,China,0,0,0
+China,Mexico,0,0,0
+Mexico,China,0,0,0
+China,Mongolia,0,0,0
+Mongolia,China,0,0,0
+China,Netherlands,0,0,0
+Netherlands,China,0,0,0
+China,Norway,0,0,0
+Norway,China,0,0,0
+China,Poland,0,0,0
+Poland,China,0,0,0
+China,Portugal,0,0,0
+Portugal,China,0,0,0
+China,Romania,0.07142857142857142,2,2
+Romania,China,0.012578616352201259,2,0
+China,Singapore,0,0,0
+Singapore,China,0,0,0
+China,South Korea,0,0,0
+South Korea,China,0,0,0
+China,Spain,0,0,0
+Spain,China,0,0,0
+China,Sweden,0,0,0
+Sweden,China,0,0,0
+China,Switzerland,0.03571428571428571,1,0
+Switzerland,China,0.043478260869565216,1,1
+China,Turkey,0,0,0
+Turkey,China,0,0,0
+China,UK,0,0,0
+UK,China,0,0,0
+China,USA,0,0,0
+USA,China,0,0,0
+China,USSR-altaji,0,0,0
+USSR-altaji,China,0,0,0
+China,USSR-azerbajdzsán,0,0,0
+USSR-azerbajdzsán,China,0,0,0
+China,USSR-csuvas,0,0,0
+USSR-csuvas,China,0,0,0
+China,USSR-fehérorosz,0,0,0
+USSR-fehérorosz,China,0,0,0
+China,USSR-finn,0,0,0
+USSR-finn,China,0,0,0
+China,USSR-grúz,0,0,0
+USSR-grúz,China,0,0,0
+China,USSR-kazah,0,0,0
+USSR-kazah,China,0,0,0
+China,USSR-kirgiz,0,0,0
+USSR-kirgiz,China,0,0,0
+China,USSR-lett,0,0,0
+USSR-lett,China,0,0,0
+China,USSR-litván,0,0,0
+USSR-litván,China,0,0,0
+China,USSR-moldva,0,0,0
+USSR-moldva,China,0,0,0
+China,USSR-orosz,0,0,0
+USSR-orosz,China,0,0,0
+China,USSR-tadzsik,0,0,0
+USSR-tadzsik,China,0,0,0
+China,USSR-türkmén,0,0,0
+USSR-türkmén,China,0,0,0
+China,USSR-udmurt,0,0,0
+USSR-udmurt,China,0,0,0
+China,USSR-ukrán,0,0,0
+USSR-ukrán,China,0,0,0
+China,USSR-észt,0,0,0
+USSR-észt,China,0,0,0
+China,USSR-örmény,0,0,0
+USSR-örmény,China,0,0,0
+China,USSR-üzbég,0,0,0
+USSR-üzbég,China,0,0,0
+China,Venezuela,0,0,0
+Venezuela,China,0,0,0
+China,Vietnam,0,0,0
+Vietnam,China,0,0,0
+China,Yugoslavia,0,0,0
+Yugoslavia,China,0,0,0
 Colombia,Colombia,NA,NA,NA
 Colombia,Cuba,0,0,0
 Cuba,Colombia,0,0,0
@@ -1131,8 +1242,6 @@ Colombia,Netherlands,0,0,0
 Netherlands,Colombia,0,0,0
 Colombia,Norway,0,0,0
 Norway,Colombia,0,0,0
-Colombia,PR China,0,0,0
-PR China,Colombia,0,0,0
 Colombia,Poland,0,0,0
 Poland,Colombia,0,0,0
 Colombia,Portugal,0,0,0
@@ -1240,8 +1349,6 @@ Cuba,Netherlands,0,0,0
 Netherlands,Cuba,0,0,0
 Cuba,Norway,0.2,1,1
 Norway,Cuba,0.05,1,0
-Cuba,PR China,0,0,0
-PR China,Cuba,0,0,0
 Cuba,Poland,0.2,1,0
 Poland,Cuba,0.0043859649122807015,1,1
 Cuba,Portugal,0,0,0
@@ -1347,8 +1454,6 @@ Czechoslovakia-cseh,Netherlands,0.012605042016806723,3,0
 Netherlands,Czechoslovakia-cseh,0.06818181818181818,3,3
 Czechoslovakia-cseh,Norway,0.012605042016806723,3,1
 Norway,Czechoslovakia-cseh,0.15,3,2
-Czechoslovakia-cseh,PR China,0.012605042016806723,3,0.5
-PR China,Czechoslovakia-cseh,0.10714285714285714,3,2.5
 Czechoslovakia-cseh,Poland,0.1638655462184874,39,22
 Poland,Czechoslovakia-cseh,0.17105263157894737,39,17
 Czechoslovakia-cseh,Portugal,0,0,0
@@ -1452,8 +1557,6 @@ Czechoslovakia-szlovák,Netherlands,0.010452961672473868,3,3
 Netherlands,Czechoslovakia-szlovák,0.06818181818181818,3,0
 Czechoslovakia-szlovák,Norway,0,0,0
 Norway,Czechoslovakia-szlovák,0,0,0
-Czechoslovakia-szlovák,PR China,0.010452961672473868,3,1.5
-PR China,Czechoslovakia-szlovák,0.10714285714285714,3,1.5
 Czechoslovakia-szlovák,Poland,0.10801393728222997,31,14.5
 Poland,Czechoslovakia-szlovák,0.13596491228070176,31,16.5
 Czechoslovakia-szlovák,Portugal,0.003484320557491289,1,1
@@ -1555,8 +1658,6 @@ Denmark,Netherlands,0.3125,5,1.5
 Netherlands,Denmark,0.11363636363636363,5,3.5
 Denmark,Norway,0.3125,5,2
 Norway,Denmark,0.25,5,3
-Denmark,PR China,0,0,0
-PR China,Denmark,0,0,0
 Denmark,Poland,0.25,4,2
 Poland,Denmark,0.017543859649122806,4,2
 Denmark,Portugal,0,0,0
@@ -1656,8 +1757,6 @@ Egypt,Netherlands,0.25,1,0
 Netherlands,Egypt,0.022727272727272728,1,1
 Egypt,Norway,0,0,0
 Norway,Egypt,0,0,0
-Egypt,PR China,0.25,1,1
-PR China,Egypt,0.03571428571428571,1,0
 Egypt,Poland,0,0,0
 Poland,Egypt,0,0,0
 Egypt,Portugal,0,0,0
@@ -1755,8 +1854,6 @@ Federal Republic of Germany,Netherlands,0.10365853658536585,17,13
 Netherlands,Federal Republic of Germany,0.38636363636363635,17,4
 Federal Republic of Germany,Norway,0.03048780487804878,5,5
 Norway,Federal Republic of Germany,0.25,5,0
-Federal Republic of Germany,PR China,0,0,0
-PR China,Federal Republic of Germany,0,0,0
 Federal Republic of Germany,Poland,0.12195121951219512,20,14.5
 Poland,Federal Republic of Germany,0.08771929824561403,20,5.5
 Federal Republic of Germany,Portugal,0.006097560975609756,1,1
@@ -1852,8 +1949,6 @@ Finland,Netherlands,0.11363636363636363,5,4
 Netherlands,Finland,0.11363636363636363,5,1
 Finland,Norway,0.11363636363636363,5,3
 Norway,Finland,0.25,5,2
-Finland,PR China,0,0,0
-PR China,Finland,0,0,0
 Finland,Poland,0.25,11,6
 Poland,Finland,0.04824561403508772,11,5
 Finland,Portugal,0,0,0
@@ -1947,8 +2042,6 @@ France,Netherlands,0.07526881720430108,7,5.5
 Netherlands,France,0.1590909090909091,7,1.5
 France,Norway,0.06451612903225806,6,4
 Norway,France,0.3,6,2
-France,PR China,0,0,0
-PR China,France,0,0,0
 France,Poland,0.16129032258064516,15,9
 Poland,France,0.06578947368421052,15,6
 France,Portugal,0.010752688172043012,1,1
@@ -2040,8 +2133,6 @@ GDR,Netherlands,0.01593625498007968,4,2
 Netherlands,GDR,0.09090909090909091,4,2
 GDR,Norway,0.00796812749003984,2,0
 Norway,GDR,0.1,2,2
-GDR,PR China,0.00398406374501992,1,1
-PR China,GDR,0.03571428571428571,1,0
 GDR,Poland,0.13545816733067728,34,16
 Poland,GDR,0.14912280701754385,34,18
 GDR,Portugal,0,0,0
@@ -2131,8 +2222,6 @@ Greece,Netherlands,0,0,0
 Netherlands,Greece,0,0,0
 Greece,Norway,0,0,0
 Norway,Greece,0,0,0
-Greece,PR China,0,0,0
-PR China,Greece,0,0,0
 Greece,Poland,0,0,0
 Poland,Greece,0,0,0
 Greece,Portugal,0,0,0
@@ -2220,8 +2309,6 @@ Hungary,Netherlands,0.006896551724137931,1,1
 Netherlands,Hungary,0.022727272727272728,1,0
 Hungary,Norway,0.006896551724137931,1,1
 Norway,Hungary,0.05,1,0
-Hungary,PR China,0,0,0
-PR China,Hungary,0,0,0
 Hungary,Poland,0.10344827586206896,15,11
 Poland,Hungary,0.06578947368421052,15,4
 Hungary,Portugal,0,0,0
@@ -2307,8 +2394,6 @@ India,Netherlands,0,0,0
 Netherlands,India,0,0,0
 India,Norway,0,0,0
 Norway,India,0,0,0
-India,PR China,0,0,0
-PR China,India,0,0,0
 India,Poland,0,0,0
 Poland,India,0,0,0
 India,Portugal,0,0,0
@@ -2392,8 +2477,6 @@ Iran,Netherlands,0,0,0
 Netherlands,Iran,0,0,0
 Iran,Norway,0,0,0
 Norway,Iran,0,0,0
-Iran,PR China,0,0,0
-PR China,Iran,0,0,0
 Iran,Poland,0,0,0
 Poland,Iran,0,0,0
 Iran,Portugal,0,0,0
@@ -2475,8 +2558,6 @@ Israel,Netherlands,0.07142857142857142,2,1
 Netherlands,Israel,0.045454545454545456,2,1
 Israel,Norway,0.07142857142857142,2,1
 Norway,Israel,0.1,2,1
-Israel,PR China,0,0,0
-PR China,Israel,0,0,0
 Israel,Poland,0.07142857142857142,2,0
 Poland,Israel,0.008771929824561403,2,2
 Israel,Portugal,0,0,0
@@ -2556,8 +2637,6 @@ Italy,Netherlands,0.1,6,1.5
 Netherlands,Italy,0.13636363636363635,6,4.5
 Italy,Norway,0.05,3,1.5
 Norway,Italy,0.15,3,1.5
-Italy,PR China,0.016666666666666666,1,1
-PR China,Italy,0.03571428571428571,1,0
 Italy,Poland,0.16666666666666666,10,7
 Poland,Italy,0.043859649122807015,10,3
 Italy,Portugal,0,0,0
@@ -2635,8 +2714,6 @@ Japan,Netherlands,0.11764705882352941,2,0
 Netherlands,Japan,0.045454545454545456,2,2
 Japan,Norway,0.11764705882352941,2,1
 Norway,Japan,0.1,2,1
-Japan,PR China,0,0,0
-PR China,Japan,0,0,0
 Japan,Poland,0.17647058823529413,3,1
 Poland,Japan,0.013157894736842105,3,2
 Japan,Portugal,0,0,0
@@ -2712,8 +2789,6 @@ Malaysia,Netherlands,0,0,0
 Netherlands,Malaysia,0,0,0
 Malaysia,Norway,0,0,0
 Norway,Malaysia,0,0,0
-Malaysia,PR China,0,0,0
-PR China,Malaysia,0,0,0
 Malaysia,Poland,0,0,0
 Poland,Malaysia,0,0,0
 Malaysia,Portugal,0,0,0
@@ -2787,8 +2862,6 @@ Mexico,Netherlands,0,0,0
 Netherlands,Mexico,0,0,0
 Mexico,Norway,0,0,0
 Norway,Mexico,0,0,0
-Mexico,PR China,0,0,0
-PR China,Mexico,0,0,0
 Mexico,Poland,0,0,0
 Poland,Mexico,0,0,0
 Mexico,Portugal,0,0,0
@@ -2860,8 +2933,6 @@ Mongolia,Netherlands,0,0,0
 Netherlands,Mongolia,0,0,0
 Mongolia,Norway,0,0,0
 Norway,Mongolia,0,0,0
-Mongolia,PR China,0,0,0
-PR China,Mongolia,0,0,0
 Mongolia,Poland,0,0,0
 Poland,Mongolia,0,0,0
 Mongolia,Portugal,0,0,0
@@ -2931,8 +3002,6 @@ Yugoslavia,Mongolia,0,0,0
 Netherlands,Netherlands,NA,NA,NA
 Netherlands,Norway,0.06818181818181818,3,0
 Norway,Netherlands,0.15,3,3
-Netherlands,PR China,0,0,0
-PR China,Netherlands,0,0,0
 Netherlands,Poland,0.13636363636363635,6,0
 Poland,Netherlands,0.02631578947368421,6,6
 Netherlands,Portugal,0.022727272727272728,1,0
@@ -3000,8 +3069,6 @@ Vietnam,Netherlands,0,0,0
 Netherlands,Yugoslavia,0.1590909090909091,7,5
 Yugoslavia,Netherlands,0.0546875,7,2
 Norway,Norway,NA,NA,NA
-Norway,PR China,0,0,0
-PR China,Norway,0,0,0
 Norway,Poland,0.2,4,2.5
 Poland,Norway,0.017543859649122806,4,1.5
 Norway,Portugal,0,0,0
@@ -3068,73 +3135,6 @@ Norway,Vietnam,0,0,0
 Vietnam,Norway,0,0,0
 Norway,Yugoslavia,0.3,6,4.5
 Yugoslavia,Norway,0.046875,6,1.5
-PR China,PR China,NA,NA,NA
-PR China,Poland,0,0,0
-Poland,PR China,0,0,0
-PR China,Portugal,0,0,0
-Portugal,PR China,0,0,0
-PR China,Romania,0.07142857142857142,2,2
-Romania,PR China,0.012578616352201259,2,0
-PR China,Singapore,0,0,0
-Singapore,PR China,0,0,0
-PR China,South Korea,0,0,0
-South Korea,PR China,0,0,0
-PR China,Spain,0,0,0
-Spain,PR China,0,0,0
-PR China,Sweden,0,0,0
-Sweden,PR China,0,0,0
-PR China,Switzerland,0.03571428571428571,1,0
-Switzerland,PR China,0.043478260869565216,1,1
-PR China,Turkey,0,0,0
-Turkey,PR China,0,0,0
-PR China,UK,0,0,0
-UK,PR China,0,0,0
-PR China,USA,0,0,0
-USA,PR China,0,0,0
-PR China,USSR-altaji,0,0,0
-USSR-altaji,PR China,0,0,0
-PR China,USSR-azerbajdzsán,0,0,0
-USSR-azerbajdzsán,PR China,0,0,0
-PR China,USSR-csuvas,0,0,0
-USSR-csuvas,PR China,0,0,0
-PR China,USSR-fehérorosz,0,0,0
-USSR-fehérorosz,PR China,0,0,0
-PR China,USSR-finn,0,0,0
-USSR-finn,PR China,0,0,0
-PR China,USSR-grúz,0,0,0
-USSR-grúz,PR China,0,0,0
-PR China,USSR-kazah,0,0,0
-USSR-kazah,PR China,0,0,0
-PR China,USSR-kirgiz,0,0,0
-USSR-kirgiz,PR China,0,0,0
-PR China,USSR-lett,0,0,0
-USSR-lett,PR China,0,0,0
-PR China,USSR-litván,0,0,0
-USSR-litván,PR China,0,0,0
-PR China,USSR-moldva,0,0,0
-USSR-moldva,PR China,0,0,0
-PR China,USSR-orosz,0,0,0
-USSR-orosz,PR China,0,0,0
-PR China,USSR-tadzsik,0,0,0
-USSR-tadzsik,PR China,0,0,0
-PR China,USSR-türkmén,0,0,0
-USSR-türkmén,PR China,0,0,0
-PR China,USSR-udmurt,0,0,0
-USSR-udmurt,PR China,0,0,0
-PR China,USSR-ukrán,0,0,0
-USSR-ukrán,PR China,0,0,0
-PR China,USSR-észt,0,0,0
-USSR-észt,PR China,0,0,0
-PR China,USSR-örmény,0,0,0
-USSR-örmény,PR China,0,0,0
-PR China,USSR-üzbég,0,0,0
-USSR-üzbég,PR China,0,0,0
-PR China,Venezuela,0,0,0
-Venezuela,PR China,0,0,0
-PR China,Vietnam,0,0,0
-Vietnam,PR China,0,0,0
-PR China,Yugoslavia,0,0,0
-Yugoslavia,PR China,0,0,0
 Poland,Poland,NA,NA,NA
 Poland,Portugal,0.0043859649122807015,1,1
 Portugal,Poland,0.25,1,0

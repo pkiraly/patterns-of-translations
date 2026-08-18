@@ -43,7 +43,8 @@ getNetwork <- function(df, common_authors_limit, minmax) {
   graph_from_data_frame(d=edges, vertices=nodes, directed=TRUE)
 }
 
-edges_for_country <- function(df, country, common_authors_limit, minmax, level = FALSE) {
+edges_for_country <- function(df, country, common_authors_limit, minmax,
+                              level = FALSE) {
   if (level == TRUE) {
     df2 <- df %>% 
       filter(from == country | to == country) %>% 
@@ -77,7 +78,8 @@ edges_for_country <- function(df, country, common_authors_limit, minmax, level =
   }
 }
 
-getNetworkForCountry <- function(df, country, common_authors_limit, minmax, level) {
+getNetworkForCountry <- function(df, country, common_authors_limit, minmax,
+                                 level) {
   edges <- edges_for_country(df, country, common_authors_limit, minmax, level)
   nodes <- extractNodes(edges)
   graph_from_data_frame(d=edges, vertices=nodes, directed=TRUE)

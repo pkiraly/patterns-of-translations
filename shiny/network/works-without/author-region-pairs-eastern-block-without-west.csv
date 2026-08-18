@@ -1,4 +1,7 @@
 author,region1,region2
+SZABÓ Pál: Talpalatnyi föld,Bulgaria,China
+ILLÉS Béla: Ég a Tisza,Bulgaria,China
+JÓKAI Mór: Egy magyar nábob,Bulgaria,China
 ACZÉL Tamás: Vihar és napsütés,Bulgaria,Czechoslovakia-cseh
 SZABÓ Pál: Talpalatnyi föld,Bulgaria,Czechoslovakia-cseh
 SZABÓ Pál: Isten malmai,Bulgaria,Czechoslovakia-cseh
@@ -77,9 +80,6 @@ KESZI Imre: A végtelen dallam: Wagner életregénye,Bulgaria,Hungary
 SZABÓ Magda: Régimódi történet,Bulgaria,Hungary
 JÓKAI Mór: Fekete gyémántok,Bulgaria,Hungary
 SZABÓ Magda: Álarcosbál,Bulgaria,Hungary
-SZABÓ Pál: Talpalatnyi föld,Bulgaria,PR China
-ILLÉS Béla: Ég a Tisza,Bulgaria,PR China
-JÓKAI Mór: Egy magyar nábob,Bulgaria,PR China
 VERES Péter: Pályamunkások,Bulgaria,Poland
 ILLÉS Béla: Ég a Tisza,Bulgaria,Poland
 SÓS György: Pettyes kalandjai,Bulgaria,Poland
@@ -171,6 +171,48 @@ SZABÓ Magda: Régimódi történet,Bulgaria,Yugoslavia
 JÓKAI Mór: Fekete gyémántok,Bulgaria,Yugoslavia
 SZABÓ Magda: Álarcosbál,Bulgaria,Yugoslavia
 JÓKAI Mór: Egy magyar nábob,Bulgaria,Yugoslavia
+FAZEKAS Mihály: Lúdas Matyi,China,Czechoslovakia-cseh
+NAGY Sándor: Megbékélés,China,Czechoslovakia-cseh
+SZABÓ Pál: Talpalatnyi föld,China,Czechoslovakia-cseh
+MÓRICZ Virág−THURZÓ Gábor(-MÓRICZ Zsigmond): Rokonok,China,Czechoslovakia-cseh
+ILLÉS Béla: Ég a Tisza,China,Czechoslovakia-cseh
+ILLÉS Béla: Honfoglalás,China,Czechoslovakia-cseh
+FAZEKAS Mihály: Lúdas Matyi,China,Czechoslovakia-szlovák
+SZABÓ Pál: Talpalatnyi föld,China,Czechoslovakia-szlovák
+JÓKAI Mór: Egy magyar nábob,China,Czechoslovakia-szlovák
+ILLÉS Béla: Honfoglalás,China,Czechoslovakia-szlovák
+Hajnal Anna: Előre,China,Czechoslovakia-szlovák
+ARANY János: Toldi,China,Egypt
+NAGY Sándor: Megbékélés,China,GDR
+SZABÓ Pál: Talpalatnyi föld,China,GDR
+ILLÉS Béla: Ég a Tisza,China,GDR
+ILLÉS Béla: Honfoglalás,China,GDR
+NAGY Sándor: Megbékélés,China,Mongolia
+HÁY Gyula: Az élet hídja,China,Poland
+JÓKAI Mór: Egy magyar nábob,China,Poland
+ILLÉS Béla: Ég a Tisza,China,Poland
+FAZEKAS Mihály: Lúdas Matyi,China,Romania
+MARKOVITS Rodion: Szibériai garnizon,China,Romania
+ILLÉS Béla: Ég a Tisza,China,Romania
+ILLÉS Béla: Honfoglalás,China,Romania
+NAGY Sándor: Megbékélés,China,USSR-altaji
+NAGY Sándor: Megbékélés,China,USSR-azerbajdzsán
+NAGY Sándor: Megbékélés,China,USSR-csuvas
+NAGY Sándor: Megbékélés,China,USSR-fehérorosz
+NAGY Sándor: Megbékélés,China,USSR-finn
+NAGY Sándor: Megbékélés,China,USSR-grúz
+NAGY Sándor: Megbékélés,China,USSR-kazah
+JÓKAI Mór: Egy magyar nábob,China,USSR-litván
+NAGY Sándor: Megbékélés,China,USSR-moldva
+HÁY Gyula: Az élet hídja,China,USSR-orosz
+MÁNDI Éva: Hétköznapok hősei,China,USSR-orosz
+NAGY Sándor: Megbékélés,China,USSR-orosz
+SZABÓ Pál: Talpalatnyi föld,China,USSR-orosz
+JÓKAI Mór: Egy magyar nábob,China,USSR-orosz
+ILLÉS Béla: Ég a Tisza,China,USSR-orosz
+ILLÉS Béla: Honfoglalás,China,USSR-orosz
+NAGY Sándor: Megbékélés,China,USSR-udmurt
+JÓKAI Mór: Egy magyar nábob,China,Yugoslavia
 ACZÉL Tamás: Vihar és napsütés,Czechoslovakia-cseh,Czechoslovakia-szlovák
 BOLDIZSÁR Iván: Fortocska,Czechoslovakia-cseh,Czechoslovakia-szlovák
 DARVAS József: Város az ingoványon,Czechoslovakia-cseh,Czechoslovakia-szlovák
@@ -274,12 +316,6 @@ MÓRICZ Zsigmond: A nap árnyéka,Czechoslovakia-cseh,Hungary
 "TERSÁNSZKY Józsi Jenő: Viszontlátásra, drága",Czechoslovakia-cseh,Hungary
 CSIKY Gergely: A proletárok,Czechoslovakia-cseh,Iran
 NAGY Sándor: Megbékélés,Czechoslovakia-cseh,Mongolia
-FAZEKAS Mihály: Lúdas Matyi,Czechoslovakia-cseh,PR China
-NAGY Sándor: Megbékélés,Czechoslovakia-cseh,PR China
-SZABÓ Pál: Talpalatnyi föld,Czechoslovakia-cseh,PR China
-ILLÉS Béla: Honfoglalás,Czechoslovakia-cseh,PR China
-ILLÉS Béla: Ég a Tisza,Czechoslovakia-cseh,PR China
-MÓRICZ Virág−THURZÓ Gábor(-MÓRICZ Zsigmond): Rokonok,Czechoslovakia-cseh,PR China
 BALÁZS Anna: Mire megjönnek a fecskék,Czechoslovakia-cseh,Poland
 BALÁZS Anna: Névtelen hősök,Czechoslovakia-cseh,Poland
 DARVAS József: Fekete kenyér,Czechoslovakia-cseh,Poland
@@ -483,11 +519,6 @@ DÉKÁNY András: S.O.S. Titanic!,Czechoslovakia-szlovák,Hungary
 CSURKA István: Eredeti helyszin,Czechoslovakia-szlovák,Hungary
 REJTŐ Jenő: A tizennégykarátos autó,Czechoslovakia-szlovák,Hungary
 CSIKY Gergely: A proletárok,Czechoslovakia-szlovák,Iran
-FAZEKAS Mihály: Lúdas Matyi,Czechoslovakia-szlovák,PR China
-SZABÓ Pál: Talpalatnyi föld,Czechoslovakia-szlovák,PR China
-ILLÉS Béla: Honfoglalás,Czechoslovakia-szlovák,PR China
-JÓKAI Mór: Egy magyar nábob,Czechoslovakia-szlovák,PR China
-Hajnal Anna: Előre,Czechoslovakia-szlovák,PR China
 GERGELY Sándor: Farkasok*,Czechoslovakia-szlovák,Poland
 HELTAI Jenő: Álmokháza,Czechoslovakia-szlovák,Poland
 MIKSZÁTH Kálmán: A gavallérok,Czechoslovakia-szlovák,Poland
@@ -621,7 +652,6 @@ SZERB Antal: A Pendragon legenda,Czechoslovakia-szlovák,Yugoslavia
 GÁL György Sándor−SOMOGYI Vilmos: Mesél a bécsi erdő,Czechoslovakia-szlovák,Yugoslavia
 SZABÓ Magda: Születésnap,Czechoslovakia-szlovák,Yugoslavia
 JÓKAI Anna: Jákob lajtorjája,Czechoslovakia-szlovák,Yugoslavia
-ARANY János: Toldi,Egypt,PR China
 MIKSZÁTH Kálmán: A fekete város,GDR,Hungary
 TAMÁSI Áron: Ábel a rengetegben,GDR,Hungary
 MÓRA Ferenc: Kincskereső kisködmön,GDR,Hungary
@@ -641,10 +671,6 @@ SZABÓ Magda: Abigél,GDR,Hungary
 SZABÓ Magda: Régimódi történet,GDR,Hungary
 CSIKY Gergely: A proletárok,GDR,Iran
 NAGY Sándor: Megbékélés,GDR,Mongolia
-NAGY Sándor: Megbékélés,GDR,PR China
-SZABÓ Pál: Talpalatnyi föld,GDR,PR China
-ILLÉS Béla: Ég a Tisza,GDR,PR China
-ILLÉS Béla: Honfoglalás,GDR,PR China
 ASZTALOS István: Szél fúvatlan nem indul,GDR,Poland
 DÉRY Tibor: Felelet,GDR,Poland
 MIKSZÁTH Kálmán: A fekete város,GDR,Poland
@@ -830,7 +856,6 @@ SZABÓ Magda: Álarcosbál,Hungary,Yugoslavia
 SZERB Antal: A Pendragon legenda,Hungary,Yugoslavia
 JÓKAI Mór: Szegény gazdagok,Hungary,Yugoslavia
 SZABÓ Magda: Régimódi történet,Hungary,Yugoslavia
-NAGY Sándor: Megbékélés,Mongolia,PR China
 NAGY Sándor: Megbékélés,Mongolia,USSR-altaji
 NAGY Sándor: Megbékélés,Mongolia,USSR-azerbajdzsán
 NAGY Sándor: Megbékélés,Mongolia,USSR-csuvas
@@ -841,31 +866,6 @@ NAGY Sándor: Megbékélés,Mongolia,USSR-kazah
 NAGY Sándor: Megbékélés,Mongolia,USSR-moldva
 NAGY Sándor: Megbékélés,Mongolia,USSR-orosz
 NAGY Sándor: Megbékélés,Mongolia,USSR-udmurt
-HÁY Gyula: Az élet hídja,PR China,Poland
-JÓKAI Mór: Egy magyar nábob,PR China,Poland
-ILLÉS Béla: Ég a Tisza,PR China,Poland
-FAZEKAS Mihály: Lúdas Matyi,PR China,Romania
-MARKOVITS Rodion: Szibériai garnizon,PR China,Romania
-ILLÉS Béla: Ég a Tisza,PR China,Romania
-ILLÉS Béla: Honfoglalás,PR China,Romania
-NAGY Sándor: Megbékélés,PR China,USSR-altaji
-NAGY Sándor: Megbékélés,PR China,USSR-azerbajdzsán
-NAGY Sándor: Megbékélés,PR China,USSR-csuvas
-NAGY Sándor: Megbékélés,PR China,USSR-fehérorosz
-NAGY Sándor: Megbékélés,PR China,USSR-finn
-NAGY Sándor: Megbékélés,PR China,USSR-grúz
-NAGY Sándor: Megbékélés,PR China,USSR-kazah
-JÓKAI Mór: Egy magyar nábob,PR China,USSR-litván
-NAGY Sándor: Megbékélés,PR China,USSR-moldva
-HÁY Gyula: Az élet hídja,PR China,USSR-orosz
-MÁNDI Éva: Hétköznapok hősei,PR China,USSR-orosz
-NAGY Sándor: Megbékélés,PR China,USSR-orosz
-SZABÓ Pál: Talpalatnyi föld,PR China,USSR-orosz
-JÓKAI Mór: Egy magyar nábob,PR China,USSR-orosz
-ILLÉS Béla: Ég a Tisza,PR China,USSR-orosz
-ILLÉS Béla: Honfoglalás,PR China,USSR-orosz
-NAGY Sándor: Megbékélés,PR China,USSR-udmurt
-JÓKAI Mór: Egy magyar nábob,PR China,Yugoslavia
 ASZTALOS István: Szél fúvatlan nem indul,Poland,Romania
 GERGELY Sándor: Farkasok*,Poland,Romania
 GERGELY Sándor: Vitézek és hősök,Poland,Romania

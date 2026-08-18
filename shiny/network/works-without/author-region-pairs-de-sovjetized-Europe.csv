@@ -250,6 +250,7 @@ PASSUTH László: Esőisten siratja Mexikót,Belgium,Yugoslavia
 DÉRY Tibor: Niki,Belgium,Yugoslavia
 KARDOS G. György: Avraham Bogatir hét napja,Belgium,Yugoslavia
 HARSÁNYI Zsolt: Magyar rapszódia: Liszt életének regénye,Belgium,Yugoslavia
+MÓRICZ Zsigmond: Árvácska,Brasil,China
 MÓRICZ Zsigmond: Árvácska,Brasil,Czechoslovakia-cseh
 PASSUTH László: Esőisten siratja Mexikót,Brasil,Czechoslovakia-cseh
 MÓRICZ Zsigmond: Árvácska,Brasil,Czechoslovakia-szlovák
@@ -263,7 +264,6 @@ KÖRMENDI Ferenc: Napfogyatkozás,Brasil,Italy
 PASSUTH László: Esőisten siratja Mexikót,Brasil,Mexico
 HARSÁNYI Zsolt: Magyar rapszódia: Liszt életének regénye,Brasil,Netherlands
 HARSÁNYI Zsolt: Magyar rapszódia: Liszt életének regénye,Brasil,Norway
-MÓRICZ Zsigmond: Árvácska,Brasil,PR China
 PASSUTH László: Esőisten siratja Mexikót,Brasil,Spain
 HARSÁNYI Zsolt: Magyar rapszódia: Liszt életének regénye,Brasil,Sweden
 MÓRICZ Zsigmond: Árvácska,Brasil,Switzerland
@@ -399,6 +399,18 @@ ILLÉS Béla: Fegyvert s vitézt éneklek,Chile,Poland
 ILLÉS Béla: Fegyvert s vitézt éneklek,Chile,Romania
 ZILAHY Lajos: A lélek kialszik,Chile,Spain
 ZILAHY Lajos: A lélek kialszik,Chile,Yugoslavia
+FAZEKAS Mihály: Lúdas Matyi,China,Czechoslovakia-cseh
+MÓRICZ Zsigmond: Árvácska,China,Czechoslovakia-cseh
+MÓRICZ Virág−THURZÓ Gábor(-MÓRICZ Zsigmond): Rokonok,China,Czechoslovakia-cseh
+FAZEKAS Mihály: Lúdas Matyi,China,Czechoslovakia-szlovák
+MÓRICZ Zsigmond: Árvácska,China,Czechoslovakia-szlovák
+Hajnal Anna: Előre,China,Czechoslovakia-szlovák
+ARANY János: Toldi,China,Egypt
+HÁY Gyula: Erő,China,GDR
+HÁY Gyula: Erő,China,Italy
+FAZEKAS Mihály: Lúdas Matyi,China,Romania
+MARKOVITS Rodion: Szibériai garnizon,China,Romania
+MÓRICZ Zsigmond: Árvácska,China,Switzerland
 KARINTHY Ferenc: Epepe,Cuba,Czechoslovakia-cseh
 KARINTHY Ferenc: Epepe,Cuba,Finland
 KARINTHY Ferenc: Epepe,Cuba,Japan
@@ -534,9 +546,6 @@ HEVESI Lajos: Jelky András kalandjai,Czechoslovakia-cseh,Netherlands
 DÉRY Tibor: Niki,Czechoslovakia-cseh,Norway
 KARINTHY Ferenc: Epepe,Czechoslovakia-cseh,Norway
 Tóth Judith: Kifutópálya,Czechoslovakia-cseh,Norway
-FAZEKAS Mihály: Lúdas Matyi,Czechoslovakia-cseh,PR China
-MÓRICZ Zsigmond: Árvácska,Czechoslovakia-cseh,PR China
-MÓRICZ Virág−THURZÓ Gábor(-MÓRICZ Zsigmond): Rokonok,Czechoslovakia-cseh,PR China
 BALÁZS Anna: Mire megjönnek a fecskék,Czechoslovakia-cseh,Poland
 BALÁZS Anna: Névtelen hősök,Czechoslovakia-cseh,Poland
 DARVAS József: Fekete kenyér,Czechoslovakia-cseh,Poland
@@ -710,9 +719,6 @@ PASSUTH László: Esőisten siratja Mexikót,Czechoslovakia-szlovák,Mexico
 FÖLDES Jolán: A halászó macska uccája,Czechoslovakia-szlovák,Netherlands
 ILLÉS Béla: Fegyvert s vitézt éneklek,Czechoslovakia-szlovák,Netherlands
 ILLYÉS Gyula: Ebéd a kastélyban,Czechoslovakia-szlovák,Netherlands
-FAZEKAS Mihály: Lúdas Matyi,Czechoslovakia-szlovák,PR China
-MÓRICZ Zsigmond: Árvácska,Czechoslovakia-szlovák,PR China
-Hajnal Anna: Előre,Czechoslovakia-szlovák,PR China
 FÖLDES Jolán: A halászó macska uccája,Czechoslovakia-szlovák,Poland
 GERGELY Sándor: Farkasok*,Czechoslovakia-szlovák,Poland
 HELTAI Jenő: Álmokháza,Czechoslovakia-szlovák,Poland
@@ -856,7 +862,6 @@ ESTERHÁZY Péter: A szív segédigéi,Denmark,Yugoslavia
 NÁDAS Péter: Egy családregény vége,Denmark,Yugoslavia
 VASZARY Gábor: Monpti,Egypt,Federal Republic of Germany
 VASZARY Gábor: Monpti,Egypt,Netherlands
-ARANY János: Toldi,Egypt,PR China
 VASZARY Gábor: Monpti,Egypt,South Korea
 VASZARY Gábor: Monpti,Egypt,Spain
 MÁRAI Sándor: Az igazi,Federal Republic of Germany,Finland
@@ -1325,7 +1330,6 @@ DÉRY Tibor: Ítélet nincs,GDR,Netherlands
 HEVESI Lajos: Jelky András kalandjai,GDR,Netherlands
 KARDOS G. György: Avraham Bogatir hét napja,GDR,Norway
 Tóth Judith: Kifutópálya,GDR,Norway
-HÁY Gyula: Erő,GDR,PR China
 ASZTALOS István: Szél fúvatlan nem indul,GDR,Poland
 HÁY Gyula: Tiszazug,GDR,Poland
 MIKSZÁTH Kálmán: A Noszty fiú esete Tóth Marival,GDR,Poland
@@ -1472,7 +1476,6 @@ HARSÁNYI Zsolt: És mégis mozog a föld,Italy,Netherlands
 DÉRY Tibor: Niki,Italy,Norway
 KONRÁD György: A látogató,Italy,Norway
 KARDOS G. György: Avraham Bogatir hét napja,Italy,Norway
-HÁY Gyula: Erő,Italy,PR China
 JUST Béla: Az eszelősök,Italy,Poland
 GÁRDONYI Géza: Isten rabjai,Italy,Poland
 SZABÓ Magda: Az őz,Italy,Poland
@@ -1619,9 +1622,6 @@ DÉRY Tibor: Niki,Norway,Yugoslavia
 NÁDAS Péter: Egy családregény vége,Norway,Yugoslavia
 KARDOS G. György: Avraham Bogatir hét napja,Norway,Yugoslavia
 KARINTHY Ferenc: Hangok az űrben,Norway,Yugoslavia
-FAZEKAS Mihály: Lúdas Matyi,PR China,Romania
-MARKOVITS Rodion: Szibériai garnizon,PR China,Romania
-MÓRICZ Zsigmond: Árvácska,PR China,Switzerland
 FÖLDES Jolán: A halászó macska uccája,Poland,Portugal
 ASZTALOS István: Szél fúvatlan nem indul,Poland,Romania
 GERGELY Sándor: Farkasok*,Poland,Romania

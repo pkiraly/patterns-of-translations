@@ -57,6 +57,7 @@ NÉMETH László: Iszony,Albania,Yugoslavia
 MOLNÁR Ferenc: A Pál utcai fiúk,Albania,Yugoslavia
 DÉRY Tibor: Niki,Argentina,Belgium
 JÓKAI Mór: Sárga rózsa,Argentina,Bulgaria
+JÓKAI Mór: Sárga rózsa,Argentina,China
 JÓKAI Mór: Sárga rózsa,Argentina,Czechoslovakia-cseh
 DÉRY Tibor: Niki,Argentina,Czechoslovakia-cseh
 DÉRY Tibor: Niki,Argentina,Denmark
@@ -71,7 +72,6 @@ DÉRY Tibor: Niki,Argentina,Italy
 JÓKAI Mór: Sárga rózsa,Argentina,Mexico
 KÖRMENDI Ferenc: Bűnösök,Argentina,Netherlands
 DÉRY Tibor: Niki,Argentina,Norway
-JÓKAI Mór: Sárga rózsa,Argentina,PR China
 DÉRY Tibor: Niki,Argentina,Poland
 DÉRY Tibor: Niki,Argentina,Sweden
 DÉRY Tibor: Niki,Argentina,Turkey
@@ -131,6 +131,8 @@ GÁRDONYI Géza: Egri csillagok,Austria,Bulgaria
 KRÚDY Gyula: A vörös postakocsi,Austria,Bulgaria
 MOLNÁR Ferenc: A Pál utcai fiúk,Austria,Bulgaria
 ZILAHY Lajos: A lélek kialszik,Austria,Chile
+ILLÉS Béla: Kárpáti rapszódia,Austria,China
+MIKSZÁTH Kálmán: Szent Péter esernyője,Austria,China
 MOLNÁR Ferenc: A Pál utcai fiúk,Austria,Colombia
 DÉRY Tibor: A befejezetlen mondat,Austria,Czechoslovakia-cseh
 ILLÉS Béla: Kárpáti rapszódia,Austria,Czechoslovakia-cseh
@@ -234,8 +236,6 @@ HARSÁNYI Zsolt: Élni jó. Rubens életének regénye,Austria,Netherlands
 HARSÁNYI Zsolt: Életre-halálra,Austria,Netherlands
 HARSÁNYI Zsolt: Whisky szódával,Austria,Netherlands
 HARSÁNYI Zsolt: Magyar rapszódia: Liszt életének regénye,Austria,Norway
-ILLÉS Béla: Kárpáti rapszódia,Austria,PR China
-MIKSZÁTH Kálmán: Szent Péter esernyője,Austria,PR China
 HÁY Gyula: A sevcsenkoi hullámvadász,Austria,Poland
 ILLÉS Béla: Kárpáti rapszódia,Austria,Poland
 ILLÉS Béla: Szkipetárok,Austria,Poland
@@ -341,6 +341,7 @@ MIKSZÁTH Kálmán: Szent Péter esernyője,Belgium,Bulgaria
 SÁNTA Ferenc: Az ötödik pecsét,Belgium,Bulgaria
 GÁRDONYI Géza: Egri csillagok,Belgium,Bulgaria
 MIKSZÁTH Kálmán: Különös házasság,Belgium,Bulgaria
+MIKSZÁTH Kálmán: Szent Péter esernyője,Belgium,China
 GÁRDONYI Géza: A láthatatlan ember,Belgium,Cuba
 MIKSZÁTH Kálmán: Beszterce ostroma,Belgium,Czechoslovakia-cseh
 PASSUTH László: Esőisten siratja Mexikót,Belgium,Czechoslovakia-cseh
@@ -431,7 +432,6 @@ HARSÁNYI Zsolt: Magyar rapszódia: Liszt életének regénye,Belgium,Netherland
 DÉRY Tibor: Niki,Belgium,Norway
 KARDOS G. György: Avraham Bogatir hét napja,Belgium,Norway
 HARSÁNYI Zsolt: Magyar rapszódia: Liszt életének regénye,Belgium,Norway
-MIKSZÁTH Kálmán: Szent Péter esernyője,Belgium,PR China
 MIKSZÁTH Kálmán: Beszterce ostroma,Belgium,Poland
 JUST Béla: Az eszelősök,Belgium,Poland
 FÖLDES Jolán: A halászó macska uccája,Belgium,Poland
@@ -510,6 +510,7 @@ GÁRDONYI Géza: Egri csillagok,Belgium,Yugoslavia
 MIKSZÁTH Kálmán: Különös házasság,Belgium,Yugoslavia
 HARSÁNYI Zsolt: Magyar rapszódia: Liszt életének regénye,Belgium,Yugoslavia
 MOLNÁR Ferenc: A Pál utcai fiúk,Brasil,Bulgaria
+MÓRICZ Zsigmond: Árvácska,Brasil,China
 MOLNÁR Ferenc: A Pál utcai fiúk,Brasil,Colombia
 MOLNÁR Ferenc: A Pál utcai fiúk,Brasil,Czechoslovakia-cseh
 MÓRICZ Zsigmond: Árvácska,Brasil,Czechoslovakia-cseh
@@ -532,7 +533,6 @@ MOLNÁR Ferenc: A Pál utcai fiúk,Brasil,Italy
 PASSUTH László: Esőisten siratja Mexikót,Brasil,Mexico
 HARSÁNYI Zsolt: Magyar rapszódia: Liszt életének regénye,Brasil,Netherlands
 HARSÁNYI Zsolt: Magyar rapszódia: Liszt életének regénye,Brasil,Norway
-MÓRICZ Zsigmond: Árvácska,Brasil,PR China
 MOLNÁR Ferenc: A Pál utcai fiúk,Brasil,Poland
 MOLNÁR Ferenc: A Pál utcai fiúk,Brasil,Romania
 MOLNÁR Ferenc: A Pál utcai fiúk,Brasil,Spain
@@ -556,6 +556,16 @@ MOLNÁR Ferenc: A Pál utcai fiúk,Brasil,Yugoslavia
 PASSUTH László: Esőisten siratja Mexikót,Brasil,Yugoslavia
 HARSÁNYI Zsolt: Magyar rapszódia: Liszt életének regénye,Brasil,Yugoslavia
 ILLÉS Béla: Fegyvert s vitézt éneklek,Bulgaria,Chile
+ACZÉL Tamás: A szabadság árnyékában,Bulgaria,China
+ILLÉS Béla: Kárpáti rapszódia,Bulgaria,China
+PETŐFI Sándor: János vitéz,Bulgaria,China
+SZABÓ Pál: Talpalatnyi föld,Bulgaria,China
+VERES Péter: Próbatétel,Bulgaria,China
+ILLÉS Béla: Ég a Tisza,Bulgaria,China
+MIKSZÁTH Kálmán: Szent Péter esernyője,Bulgaria,China
+PETŐFI Sándor: Az apostol,Bulgaria,China
+JÓKAI Mór: Sárga rózsa,Bulgaria,China
+JÓKAI Mór: Egy magyar nábob,Bulgaria,China
 MOLNÁR Ferenc: A Pál utcai fiúk,Bulgaria,Colombia
 KARINTHY Ferenc: Epepe,Bulgaria,Cuba
 KARINTHY Ferenc: Budapesti tavasz,Bulgaria,Cuba
@@ -815,16 +825,6 @@ ZILAHY Lajos: Ararát,Bulgaria,Norway
 KOSZTOLÁNYI Dezső: Édes Anna,Bulgaria,Norway
 ÖRKÉNY István: Rózsakiállítás,Bulgaria,Norway
 KARINTHY Ferenc: Epepe,Bulgaria,Norway
-ACZÉL Tamás: A szabadság árnyékában,Bulgaria,PR China
-ILLÉS Béla: Kárpáti rapszódia,Bulgaria,PR China
-PETŐFI Sándor: János vitéz,Bulgaria,PR China
-SZABÓ Pál: Talpalatnyi föld,Bulgaria,PR China
-VERES Péter: Próbatétel,Bulgaria,PR China
-ILLÉS Béla: Ég a Tisza,Bulgaria,PR China
-MIKSZÁTH Kálmán: Szent Péter esernyője,Bulgaria,PR China
-PETŐFI Sándor: Az apostol,Bulgaria,PR China
-JÓKAI Mór: Sárga rózsa,Bulgaria,PR China
-JÓKAI Mór: Egy magyar nábob,Bulgaria,PR China
 ILLÉS Béla: Kárpáti rapszódia,Bulgaria,Poland
 ILLÉS Béla: Szkipetárok,Bulgaria,Poland
 ILLYÉS Gyula: Puszták népe,Bulgaria,Poland
@@ -1114,6 +1114,131 @@ ILLÉS Béla: Fegyvert s vitézt éneklek,Chile,Poland
 ILLÉS Béla: Fegyvert s vitézt éneklek,Chile,Romania
 ZILAHY Lajos: A lélek kialszik,Chile,Spain
 ZILAHY Lajos: A lélek kialszik,Chile,Yugoslavia
+ACZÉL Tamás: A szabadság árnyékában,China,Czechoslovakia-cseh
+FAZEKAS Mihály: Lúdas Matyi,China,Czechoslovakia-cseh
+MIKSZÁTH Kálmán: Szent Péter esernyője,China,Czechoslovakia-cseh
+NAGY Sándor: Megbékélés,China,Czechoslovakia-cseh
+PETŐFI Sándor: János vitéz,China,Czechoslovakia-cseh
+SZABÓ Pál: Talpalatnyi föld,China,Czechoslovakia-cseh
+VERES Péter: Próbatétel,China,Czechoslovakia-cseh
+MÓRICZ Zsigmond: Árvácska,China,Czechoslovakia-cseh
+MÓRICZ Virág−THURZÓ Gábor(-MÓRICZ Zsigmond): Rokonok,China,Czechoslovakia-cseh
+JÓKAI Mór: Sárga rózsa,China,Czechoslovakia-cseh
+ILLÉS Béla: Ég a Tisza,China,Czechoslovakia-cseh
+ILLÉS Béla: Honfoglalás,China,Czechoslovakia-cseh
+ILLÉS Béla: Kárpáti rapszódia,China,Czechoslovakia-cseh
+VÖRÖSMARTY Mihály: Csongor és Tünde,China,Czechoslovakia-cseh
+ACZÉL Tamás: A szabadság árnyékában,China,Czechoslovakia-szlovák
+FAZEKAS Mihály: Lúdas Matyi,China,Czechoslovakia-szlovák
+MIKSZÁTH Kálmán: Szent Péter esernyője,China,Czechoslovakia-szlovák
+SZABÓ Pál: Talpalatnyi föld,China,Czechoslovakia-szlovák
+VERES Péter: Próbatétel,China,Czechoslovakia-szlovák
+JÓKAI Mór: Egy magyar nábob,China,Czechoslovakia-szlovák
+MÓRICZ Zsigmond: Árvácska,China,Czechoslovakia-szlovák
+PETŐFI Sándor: Az apostol,China,Czechoslovakia-szlovák
+ILLÉS Béla: Honfoglalás,China,Czechoslovakia-szlovák
+ILLÉS Béla: Kárpáti rapszódia,China,Czechoslovakia-szlovák
+VÖRÖSMARTY Mihály: Csongor és Tünde,China,Czechoslovakia-szlovák
+Hajnal Anna: Előre,China,Czechoslovakia-szlovák
+ARANY János: Toldi,China,Egypt
+VERES Péter: Próbatétel,China,Finland
+PETŐFI Sándor: János vitéz,China,France
+VERES Péter: Próbatétel,China,France
+VÖRÖSMARTY Mihály: Csongor és Tünde,China,France
+MIKSZÁTH Kálmán: Szent Péter esernyője,China,GDR
+NAGY Sándor: Megbékélés,China,GDR
+PETŐFI Sándor: János vitéz,China,GDR
+SZABÓ Pál: Talpalatnyi föld,China,GDR
+VERES Péter: Próbatétel,China,GDR
+HÁY Gyula: Erő,China,GDR
+JÓKAI Mór: Sárga rózsa,China,GDR
+ILLÉS Béla: Ég a Tisza,China,GDR
+ILLÉS Béla: Honfoglalás,China,GDR
+ILLÉS Béla: Kárpáti rapszódia,China,GDR
+VÖRÖSMARTY Mihály: Csongor és Tünde,China,GDR
+MIKSZÁTH Kálmán: Szent Péter esernyője,China,Hungary
+PETŐFI Sándor: János vitéz,China,Hungary
+PETŐFI Sándor: Az apostol,China,Hungary
+ILLÉS Béla: Kárpáti rapszódia,China,Hungary
+VERES Péter: Próbatétel,China,Iran
+PETŐFI Sándor: Az apostol,China,Israel
+ILLÉS Béla: Kárpáti rapszódia,China,Israel
+ACZÉL Tamás: A szabadság árnyékában,China,Italy
+MIKSZÁTH Kálmán: Szent Péter esernyője,China,Italy
+VERES Péter: Próbatétel,China,Italy
+HÁY Gyula: Erő,China,Italy
+JÓKAI Mór: Sárga rózsa,China,Italy
+JÓKAI Mór: Sárga rózsa,China,Mexico
+NAGY Sándor: Megbékélés,China,Mongolia
+MIKSZÁTH Kálmán: Szent Péter esernyője,China,Netherlands
+ILLÉS Béla: Kárpáti rapszódia,China,Netherlands
+HÁY Gyula: Az élet hídja,China,Poland
+MIKSZÁTH Kálmán: Szent Péter esernyője,China,Poland
+VERES Péter: Próbatétel,China,Poland
+JÓKAI Mór: Egy magyar nábob,China,Poland
+ILLÉS Béla: Ég a Tisza,China,Poland
+ILLÉS Béla: Kárpáti rapszódia,China,Poland
+ACZÉL Tamás: A szabadság árnyékában,China,Romania
+FAZEKAS Mihály: Lúdas Matyi,China,Romania
+MARKOVITS Rodion: Szibériai garnizon,China,Romania
+MIKSZÁTH Kálmán: Szent Péter esernyője,China,Romania
+PETŐFI Sándor: János vitéz,China,Romania
+VERES Péter: Próbatétel,China,Romania
+PETŐFI Sándor: Az apostol,China,Romania
+ILLÉS Béla: Ég a Tisza,China,Romania
+ILLÉS Béla: Honfoglalás,China,Romania
+ILLÉS Béla: Kárpáti rapszódia,China,Romania
+MIKSZÁTH Kálmán: Szent Péter esernyője,China,Spain
+MIKSZÁTH Kálmán: Szent Péter esernyője,China,Switzerland
+MÓRICZ Zsigmond: Árvácska,China,Switzerland
+MIKSZÁTH Kálmán: Szent Péter esernyője,China,UK
+NAGY Sándor: Megbékélés,China,USSR-altaji
+NAGY Sándor: Megbékélés,China,USSR-azerbajdzsán
+JÓKAI Mór: Sárga rózsa,China,USSR-azerbajdzsán
+NAGY Sándor: Megbékélés,China,USSR-csuvas
+NAGY Sándor: Megbékélés,China,USSR-fehérorosz
+NAGY Sándor: Megbékélés,China,USSR-finn
+MIKSZÁTH Kálmán: Szent Péter esernyője,China,USSR-grúz
+NAGY Sándor: Megbékélés,China,USSR-grúz
+PETŐFI Sándor: János vitéz,China,USSR-grúz
+ACZÉL Tamás: A szabadság árnyékában,China,USSR-kazah
+MIKSZÁTH Kálmán: Szent Péter esernyője,China,USSR-kazah
+NAGY Sándor: Megbékélés,China,USSR-kazah
+MIKSZÁTH Kálmán: Szent Péter esernyője,China,USSR-lett
+ILLÉS Béla: Kárpáti rapszódia,China,USSR-lett
+JÓKAI Mór: Egy magyar nábob,China,USSR-litván
+JÓKAI Mór: Sárga rózsa,China,USSR-litván
+ILLÉS Béla: Kárpáti rapszódia,China,USSR-litván
+NAGY Sándor: Megbékélés,China,USSR-moldva
+ACZÉL Tamás: A szabadság árnyékában,China,USSR-orosz
+HÁY Gyula: Az élet hídja,China,USSR-orosz
+MÁNDI Éva: Hétköznapok hősei,China,USSR-orosz
+MIKSZÁTH Kálmán: Szent Péter esernyője,China,USSR-orosz
+NAGY Sándor: Megbékélés,China,USSR-orosz
+PETŐFI Sándor: János vitéz,China,USSR-orosz
+SZABÓ Pál: Talpalatnyi föld,China,USSR-orosz
+VERES Péter: Próbatétel,China,USSR-orosz
+JÓKAI Mór: Egy magyar nábob,China,USSR-orosz
+JÓKAI Mór: Sárga rózsa,China,USSR-orosz
+ILLÉS Béla: Ég a Tisza,China,USSR-orosz
+ILLÉS Béla: Honfoglalás,China,USSR-orosz
+ILLÉS Béla: Kárpáti rapszódia,China,USSR-orosz
+VÖRÖSMARTY Mihály: Csongor és Tünde,China,USSR-orosz
+JÓKAI Mór: Sárga rózsa,China,USSR-tadzsik
+JÓKAI Mór: Sárga rózsa,China,USSR-türkmén
+NAGY Sándor: Megbékélés,China,USSR-udmurt
+ACZÉL Tamás: A szabadság árnyékában,China,USSR-ukrán
+MIKSZÁTH Kálmán: Szent Péter esernyője,China,USSR-ukrán
+PETŐFI Sándor: János vitéz,China,USSR-ukrán
+JÓKAI Mór: Sárga rózsa,China,USSR-ukrán
+PETŐFI Sándor: Az apostol,China,USSR-ukrán
+ILLÉS Béla: Kárpáti rapszódia,China,USSR-ukrán
+MIKSZÁTH Kálmán: Szent Péter esernyője,China,USSR-észt
+PETŐFI Sándor: János vitéz,China,USSR-üzbég
+ILLÉS Béla: Kárpáti rapszódia,China,USSR-üzbég
+MIKSZÁTH Kálmán: Szent Péter esernyője,China,Yugoslavia
+JÓKAI Mór: Egy magyar nábob,China,Yugoslavia
+ILLÉS Béla: Kárpáti rapszódia,China,Yugoslavia
 MOLNÁR Ferenc: A Pál utcai fiúk,Colombia,Czechoslovakia-cseh
 MOLNÁR Ferenc: A Pál utcai fiúk,Colombia,Czechoslovakia-szlovák
 MOLNÁR Ferenc: A Pál utcai fiúk,Colombia,Federal Republic of Germany
@@ -1524,20 +1649,6 @@ DÉRY Tibor: Niki,Czechoslovakia-cseh,Norway
 HALASI Mária: Az utolsó padban,Czechoslovakia-cseh,Norway
 KARINTHY Ferenc: Epepe,Czechoslovakia-cseh,Norway
 Tóth Judith: Kifutópálya,Czechoslovakia-cseh,Norway
-ACZÉL Tamás: A szabadság árnyékában,Czechoslovakia-cseh,PR China
-FAZEKAS Mihály: Lúdas Matyi,Czechoslovakia-cseh,PR China
-NAGY Sándor: Megbékélés,Czechoslovakia-cseh,PR China
-PETŐFI Sándor: János vitéz,Czechoslovakia-cseh,PR China
-SZABÓ Pál: Talpalatnyi föld,Czechoslovakia-cseh,PR China
-VERES Péter: Próbatétel,Czechoslovakia-cseh,PR China
-ILLÉS Béla: Honfoglalás,Czechoslovakia-cseh,PR China
-MÓRICZ Zsigmond: Árvácska,Czechoslovakia-cseh,PR China
-ILLÉS Béla: Ég a Tisza,Czechoslovakia-cseh,PR China
-MIKSZÁTH Kálmán: Szent Péter esernyője,Czechoslovakia-cseh,PR China
-ILLÉS Béla: Kárpáti rapszódia,Czechoslovakia-cseh,PR China
-JÓKAI Mór: Sárga rózsa,Czechoslovakia-cseh,PR China
-MÓRICZ Virág−THURZÓ Gábor(-MÓRICZ Zsigmond): Rokonok,Czechoslovakia-cseh,PR China
-VÖRÖSMARTY Mihály: Csongor és Tünde,Czechoslovakia-cseh,PR China
 BALÁZS Anna: Mire megjönnek a fecskék,Czechoslovakia-cseh,Poland
 BALÁZS Anna: Névtelen hősök,Czechoslovakia-cseh,Poland
 DARVAS József: Fekete kenyér,Czechoslovakia-cseh,Poland
@@ -2164,18 +2275,6 @@ MADÁCH Imre: Az ember tragédiája,Czechoslovakia-szlovák,Norway
 NÉMETH László: Iszony,Czechoslovakia-szlovák,Norway
 KOSZTOLÁNYI Dezső: Édes Anna,Czechoslovakia-szlovák,Norway
 HALASI Mária: Az utolsó padban,Czechoslovakia-szlovák,Norway
-ACZÉL Tamás: A szabadság árnyékában,Czechoslovakia-szlovák,PR China
-FAZEKAS Mihály: Lúdas Matyi,Czechoslovakia-szlovák,PR China
-MIKSZÁTH Kálmán: Szent Péter esernyője,Czechoslovakia-szlovák,PR China
-PETŐFI Sándor: Az apostol,Czechoslovakia-szlovák,PR China
-SZABÓ Pál: Talpalatnyi föld,Czechoslovakia-szlovák,PR China
-VERES Péter: Próbatétel,Czechoslovakia-szlovák,PR China
-ILLÉS Béla: Honfoglalás,Czechoslovakia-szlovák,PR China
-MÓRICZ Zsigmond: Árvácska,Czechoslovakia-szlovák,PR China
-VÖRÖSMARTY Mihály: Csongor és Tünde,Czechoslovakia-szlovák,PR China
-JÓKAI Mór: Egy magyar nábob,Czechoslovakia-szlovák,PR China
-ILLÉS Béla: Kárpáti rapszódia,Czechoslovakia-szlovák,PR China
-Hajnal Anna: Előre,Czechoslovakia-szlovák,PR China
 FÖLDES Jolán: A halászó macska uccája,Czechoslovakia-szlovák,Poland
 GERGELY Sándor: Farkasok*,Czechoslovakia-szlovák,Poland
 HELTAI Jenő: Álmokháza,Czechoslovakia-szlovák,Poland
@@ -2628,7 +2727,6 @@ VASZARY Gábor: Monpti,Egypt,Federal Republic of Germany
 ÖRKÉNY István: Tóték,Egypt,France
 ÖRKÉNY István: Tóték,Egypt,Japan
 VASZARY Gábor: Monpti,Egypt,Netherlands
-ARANY János: Toldi,Egypt,PR China
 VASZARY Gábor: Monpti,Egypt,South Korea
 VASZARY Gábor: Monpti,Egypt,Spain
 ÖRKÉNY István: Tóték,Egypt,USSR-kirgiz
@@ -3094,7 +3192,6 @@ DÉRY Tibor: Niki,Finland,Norway
 HALASI Mária: Az utolsó padban,Finland,Norway
 KONRÁD György: A látogató,Finland,Norway
 KARINTHY Ferenc: Epepe,Finland,Norway
-VERES Péter: Próbatétel,Finland,PR China
 MOLNÁR Ferenc: A Pál utcai fiúk,Finland,Poland
 VERES Péter: Próbatétel,Finland,Poland
 NÉMETH László: Iszony,Finland,Poland
@@ -3301,9 +3398,6 @@ KARDOS G. György: Avraham Bogatir hét napja,France,Norway
 KONRÁD György: A látogató,France,Norway
 ÖRKÉNY István: Rózsakiállítás,France,Norway
 RÓNAY György: A párduc és a gödölye,France,Norway
-PETŐFI Sándor: János vitéz,France,PR China
-VERES Péter: Próbatétel,France,PR China
-VÖRÖSMARTY Mihály: Csongor és Tünde,France,PR China
 JUST Béla: Az eszelősök,France,Poland
 VERES Péter: Próbatétel,France,Poland
 FÖLDES Jolán: A halászó macska uccája,France,Poland
@@ -3599,17 +3693,6 @@ KARDOS G. György: Avraham Bogatir hét napja,GDR,Norway
 ÖRKÉNY István: Rózsakiállítás,GDR,Norway
 NÉMETH László: Iszony,GDR,Norway
 Tóth Judith: Kifutópálya,GDR,Norway
-HÁY Gyula: Erő,GDR,PR China
-ILLÉS Béla: Kárpáti rapszódia,GDR,PR China
-NAGY Sándor: Megbékélés,GDR,PR China
-SZABÓ Pál: Talpalatnyi föld,GDR,PR China
-VERES Péter: Próbatétel,GDR,PR China
-VÖRÖSMARTY Mihály: Csongor és Tünde,GDR,PR China
-ILLÉS Béla: Ég a Tisza,GDR,PR China
-ILLÉS Béla: Honfoglalás,GDR,PR China
-JÓKAI Mór: Sárga rózsa,GDR,PR China
-PETŐFI Sándor: János vitéz,GDR,PR China
-MIKSZÁTH Kálmán: Szent Péter esernyője,GDR,PR China
 ASZTALOS István: Szél fúvatlan nem indul,GDR,Poland
 DÉRY Tibor: Felelet,GDR,Poland
 HÁY Gyula: Tiszazug,GDR,Poland
@@ -4042,10 +4125,6 @@ FÜST Milán: A feleségem története,Hungary,Netherlands
 MADÁCH Imre: Az ember tragédiája,Hungary,Norway
 KOSZTOLÁNYI Dezső: Édes Anna,Hungary,Norway
 GYÁRFÁS Miklós: Mesterfogás,Hungary,Norway
-PETŐFI Sándor: János vitéz,Hungary,PR China
-MIKSZÁTH Kálmán: Szent Péter esernyője,Hungary,PR China
-PETŐFI Sándor: Az apostol,Hungary,PR China
-ILLÉS Béla: Kárpáti rapszódia,Hungary,PR China
 MADÁCH Imre: Az ember tragédiája,Hungary,Poland
 GÁRDONYI Géza: A láthatatlan ember,Hungary,Poland
 HEGEDŰS Géza: A milétoszi hajós,Hungary,Poland
@@ -4274,7 +4353,6 @@ NÉMETH László: Gyász,Hungary,Yugoslavia
 KARINTHY Ferenc: Bösendorfer,India,USA
 KARINTHY Ferenc: Bösendorfer,India,Yugoslavia
 VERES Péter: Próbatétel,Iran,Italy
-VERES Péter: Próbatétel,Iran,PR China
 VERES Péter: Próbatétel,Iran,Poland
 VERES Péter: Próbatétel,Iran,Romania
 VERES Péter: Próbatétel,Iran,USSR-orosz
@@ -4287,8 +4365,6 @@ HARSÁNYI Zsolt: Magyar rapszódia: Liszt életének regénye,Israel,Netherlands
 KONRÁD György: A cinkos,Israel,Netherlands
 HARSÁNYI Zsolt: Magyar rapszódia: Liszt életének regénye,Israel,Norway
 KARDOS G. György: Avraham Bogatir hét napja,Israel,Norway
-PETŐFI Sándor: Az apostol,Israel,PR China
-ILLÉS Béla: Kárpáti rapszódia,Israel,PR China
 ILLÉS Béla: Kárpáti rapszódia,Israel,Poland
 MOLNÁR Ferenc: A Pál utcai fiúk,Israel,Poland
 MÓRICZ Zsigmond: Légy jó mindhalálig,Israel,Poland
@@ -4366,11 +4442,6 @@ DÉRY Tibor: Niki,Italy,Norway
 HALASI Mária: Az utolsó padban,Italy,Norway
 KONRÁD György: A látogató,Italy,Norway
 KARDOS G. György: Avraham Bogatir hét napja,Italy,Norway
-ACZÉL Tamás: A szabadság árnyékában,Italy,PR China
-HÁY Gyula: Erő,Italy,PR China
-JÓKAI Mór: Sárga rózsa,Italy,PR China
-MIKSZÁTH Kálmán: Szent Péter esernyője,Italy,PR China
-VERES Péter: Próbatétel,Italy,PR China
 MIKSZÁTH Kálmán: Szent Péter esernyője,Italy,Poland
 MOLNÁR Ferenc: A Pál utcai fiúk,Italy,Poland
 VERES Péter: Próbatétel,Italy,Poland
@@ -4553,7 +4624,6 @@ ILLYÉS Gyula: Puszták népe,Japan,Yugoslavia
 KARINTHY Ferenc: Budapesti tavasz,Japan,Yugoslavia
 KERTÉSZ Ákos: Makra,Japan,Yugoslavia
 SZÉKELY László: Őserdőktől ültetvényekig,Malaysia,Singapore
-JÓKAI Mór: Sárga rózsa,Mexico,PR China
 PASSUTH László: Esőisten siratja Mexikót,Mexico,Spain
 PASSUTH László: Esőisten siratja Mexikót,Mexico,UK
 PASSUTH László: Esőisten siratja Mexikót,Mexico,USA
@@ -4564,7 +4634,6 @@ JÓKAI Mór: Sárga rózsa,Mexico,USSR-tadzsik
 JÓKAI Mór: Sárga rózsa,Mexico,USSR-türkmén
 JÓKAI Mór: Sárga rózsa,Mexico,USSR-ukrán
 PASSUTH László: Esőisten siratja Mexikót,Mexico,Yugoslavia
-NAGY Sándor: Megbékélés,Mongolia,PR China
 KARINTHY Ferenc: Budapesti tavasz,Mongolia,Poland
 KARINTHY Ferenc: Budapesti tavasz,Mongolia,Portugal
 KARINTHY Ferenc: Budapesti tavasz,Mongolia,Turkey
@@ -4584,8 +4653,6 @@ HARSÁNYI Zsolt: Magyar rapszódia: Liszt életének regénye,Netherlands,Norway
 NÉMETH László: Iszony,Netherlands,Norway
 KONRÁD György: A látogató,Netherlands,Norway
 NÁDAS Péter: Egy családregény vége,Netherlands,Norway
-ILLÉS Béla: Kárpáti rapszódia,Netherlands,PR China
-MIKSZÁTH Kálmán: Szent Péter esernyője,Netherlands,PR China
 ILLÉS Béla: Fegyvert s vitézt éneklek,Netherlands,Poland
 ILLÉS Béla: Kárpáti rapszódia,Netherlands,Poland
 FÖLDES Jolán: A halászó macska uccája,Netherlands,Poland
@@ -4731,73 +4798,6 @@ NÉMETH László: Iszony,Norway,Yugoslavia
 NÁDAS Péter: Egy családregény vége,Norway,Yugoslavia
 KARDOS G. György: Avraham Bogatir hét napja,Norway,Yugoslavia
 KARINTHY Ferenc: Hangok az űrben,Norway,Yugoslavia
-HÁY Gyula: Az élet hídja,PR China,Poland
-MIKSZÁTH Kálmán: Szent Péter esernyője,PR China,Poland
-VERES Péter: Próbatétel,PR China,Poland
-JÓKAI Mór: Egy magyar nábob,PR China,Poland
-ILLÉS Béla: Ég a Tisza,PR China,Poland
-ILLÉS Béla: Kárpáti rapszódia,PR China,Poland
-ACZÉL Tamás: A szabadság árnyékában,PR China,Romania
-FAZEKAS Mihály: Lúdas Matyi,PR China,Romania
-MARKOVITS Rodion: Szibériai garnizon,PR China,Romania
-MIKSZÁTH Kálmán: Szent Péter esernyője,PR China,Romania
-PETŐFI Sándor: János vitéz,PR China,Romania
-VERES Péter: Próbatétel,PR China,Romania
-PETŐFI Sándor: Az apostol,PR China,Romania
-ILLÉS Béla: Ég a Tisza,PR China,Romania
-ILLÉS Béla: Honfoglalás,PR China,Romania
-ILLÉS Béla: Kárpáti rapszódia,PR China,Romania
-MIKSZÁTH Kálmán: Szent Péter esernyője,PR China,Spain
-MIKSZÁTH Kálmán: Szent Péter esernyője,PR China,Switzerland
-MÓRICZ Zsigmond: Árvácska,PR China,Switzerland
-MIKSZÁTH Kálmán: Szent Péter esernyője,PR China,UK
-NAGY Sándor: Megbékélés,PR China,USSR-altaji
-NAGY Sándor: Megbékélés,PR China,USSR-azerbajdzsán
-JÓKAI Mór: Sárga rózsa,PR China,USSR-azerbajdzsán
-NAGY Sándor: Megbékélés,PR China,USSR-csuvas
-NAGY Sándor: Megbékélés,PR China,USSR-fehérorosz
-NAGY Sándor: Megbékélés,PR China,USSR-finn
-MIKSZÁTH Kálmán: Szent Péter esernyője,PR China,USSR-grúz
-NAGY Sándor: Megbékélés,PR China,USSR-grúz
-PETŐFI Sándor: János vitéz,PR China,USSR-grúz
-ACZÉL Tamás: A szabadság árnyékában,PR China,USSR-kazah
-MIKSZÁTH Kálmán: Szent Péter esernyője,PR China,USSR-kazah
-NAGY Sándor: Megbékélés,PR China,USSR-kazah
-MIKSZÁTH Kálmán: Szent Péter esernyője,PR China,USSR-lett
-ILLÉS Béla: Kárpáti rapszódia,PR China,USSR-lett
-JÓKAI Mór: Egy magyar nábob,PR China,USSR-litván
-JÓKAI Mór: Sárga rózsa,PR China,USSR-litván
-ILLÉS Béla: Kárpáti rapszódia,PR China,USSR-litván
-NAGY Sándor: Megbékélés,PR China,USSR-moldva
-ACZÉL Tamás: A szabadság árnyékában,PR China,USSR-orosz
-HÁY Gyula: Az élet hídja,PR China,USSR-orosz
-MÁNDI Éva: Hétköznapok hősei,PR China,USSR-orosz
-MIKSZÁTH Kálmán: Szent Péter esernyője,PR China,USSR-orosz
-NAGY Sándor: Megbékélés,PR China,USSR-orosz
-PETŐFI Sándor: János vitéz,PR China,USSR-orosz
-SZABÓ Pál: Talpalatnyi föld,PR China,USSR-orosz
-VERES Péter: Próbatétel,PR China,USSR-orosz
-JÓKAI Mór: Egy magyar nábob,PR China,USSR-orosz
-JÓKAI Mór: Sárga rózsa,PR China,USSR-orosz
-ILLÉS Béla: Ég a Tisza,PR China,USSR-orosz
-ILLÉS Béla: Honfoglalás,PR China,USSR-orosz
-ILLÉS Béla: Kárpáti rapszódia,PR China,USSR-orosz
-VÖRÖSMARTY Mihály: Csongor és Tünde,PR China,USSR-orosz
-JÓKAI Mór: Sárga rózsa,PR China,USSR-tadzsik
-JÓKAI Mór: Sárga rózsa,PR China,USSR-türkmén
-NAGY Sándor: Megbékélés,PR China,USSR-udmurt
-ACZÉL Tamás: A szabadság árnyékában,PR China,USSR-ukrán
-MIKSZÁTH Kálmán: Szent Péter esernyője,PR China,USSR-ukrán
-PETŐFI Sándor: János vitéz,PR China,USSR-ukrán
-JÓKAI Mór: Sárga rózsa,PR China,USSR-ukrán
-PETŐFI Sándor: Az apostol,PR China,USSR-ukrán
-ILLÉS Béla: Kárpáti rapszódia,PR China,USSR-ukrán
-MIKSZÁTH Kálmán: Szent Péter esernyője,PR China,USSR-észt
-PETŐFI Sándor: János vitéz,PR China,USSR-üzbég
-ILLÉS Béla: Kárpáti rapszódia,PR China,USSR-üzbég
-MIKSZÁTH Kálmán: Szent Péter esernyője,PR China,Yugoslavia
-JÓKAI Mór: Egy magyar nábob,PR China,Yugoslavia
-ILLÉS Béla: Kárpáti rapszódia,PR China,Yugoslavia
 FÖLDES Jolán: A halászó macska uccája,Poland,Portugal
 KARINTHY Ferenc: Budapesti tavasz,Poland,Portugal
 ASZTALOS István: Szél fúvatlan nem indul,Poland,Romania
