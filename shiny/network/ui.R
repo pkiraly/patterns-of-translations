@@ -13,7 +13,11 @@ navbarPage(
       fluidRow(
         column(3,
           h4("Connections between regions"),
-          radioButtons('tab', label="node type", selected="authors", choices=c('authors' = 'authors', 'works' = 'works'), inline=TRUE),
+          radioButtons('tab', label="node type", selected="authors", choices=c(
+            'authors' = 'authors',
+            'works (with "Források")' = 'works-with',
+            'works (without "Források")' = 'works-without'
+          )),
           radioButtons(
             "minmax",
             label = "criterium",
